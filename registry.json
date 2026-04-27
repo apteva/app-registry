@@ -24,7 +24,7 @@
       "description": "Mission board for an Apteva instance. Agents create and complete tasks via MCP tools; the dashboard tracks progress live.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/app-tasks",
-      "manifest_url": "http://localhost:8123/app-tasks/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/app-tasks/main/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/app-tasks/main/icon.png",
       "tags": ["productivity", "agent", "mission-board"],
       "official": true,
@@ -37,24 +37,11 @@
       "description": "Per-instance status line. Agent writes 'what I'm on right now' via MCP; dashboard reads it live. Short-horizon counterpart to the long-lived directive.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/app-status",
-      "manifest_url": "http://localhost:8123/app-status/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/app-status/main/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/app-status/main/icon.png",
       "tags": ["observability", "agent", "telemetry"],
       "official": true,
       "category": "observability"
-    },
-    {
-      "name": "channelchat",
-      "display_name": "Channel Chat",
-      "version": "1.0.0",
-      "description": "Chat bridge between the agent and the dashboard / external channels. Persists messages with monotonic ids for clean reconnect.",
-      "author": "Apteva",
-      "repo": "https://github.com/apteva/app-channelchat",
-      "manifest_url": "http://localhost:8123/app-channelchat/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/app-channelchat/main/icon.png",
-      "tags": ["channel", "chat", "agent"],
-      "official": true,
-      "category": "channels"
     }
   ]
 }
