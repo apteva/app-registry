@@ -42,6 +42,19 @@
       "tags": ["observability", "agent", "telemetry"],
       "official": true,
       "category": "observability"
+    },
+    {
+      "name": "channel-chat",
+      "display_name": "Channel Chat",
+      "version": "1.0.0",
+      "description": "Chat bridge between the agent and the dashboard / external channels. Persists messages with monotonic ids for clean reconnect. Currently bundled with apteva-server as a built-in framework app; will be extracted to a standalone installable app in a future release.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/server",
+      "manifest_url": "",
+      "icon": "",
+      "tags": ["channel", "chat", "agent"],
+      "official": true,
+      "category": "channels"
     }
   ]
 }
