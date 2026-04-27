@@ -6,14 +6,14 @@
   "apps": [
     {
       "name": "simple",
-      "display_name": "Client Watch",
+      "display_name": "Simple",
       "version": "0.1.0",
-      "description": "Read-only kiosk view of an Apteva agent — for client-facing deployments. Same-origin, path-mounted SPA; no sidecar.",
+      "description": "Minimal read-only UI for watching an Apteva agent — embed anywhere on the same host. Same-origin, path-mounted SPA; no sidecar.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/simple",
       "manifest_url": "https://raw.githubusercontent.com/apteva/simple/main/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/simple/main/icon.png",
-      "tags": ["ui", "client", "kiosk", "observability"],
+      "tags": ["ui", "observability", "read-only"],
       "official": true,
       "category": "ui"
     },
