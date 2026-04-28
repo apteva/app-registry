@@ -8,12 +8,16 @@
       "name": "simple",
       "display_name": "Simple",
       "version": "0.1.0",
-      "description": "Minimal read-only UI for watching an Apteva agent — embed anywhere on the same host. Same-origin, path-mounted SPA; no sidecar.",
+      "description": "Minimal read-only UI for watching an Apteva agent \u2014 embed anywhere on the same host. Same-origin, path-mounted SPA; no sidecar.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/simple",
       "manifest_url": "https://raw.githubusercontent.com/apteva/simple/main/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/simple/main/icon.png",
-      "tags": ["ui", "observability", "read-only"],
+      "tags": [
+        "ui",
+        "observability",
+        "read-only"
+      ],
       "official": true,
       "category": "ui"
     },
@@ -26,7 +30,11 @@
       "repo": "https://github.com/apteva/app-tasks",
       "manifest_url": "https://raw.githubusercontent.com/apteva/app-tasks/main/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/app-tasks/main/icon.png",
-      "tags": ["productivity", "agent", "mission-board"],
+      "tags": [
+        "productivity",
+        "agent",
+        "mission-board"
+      ],
       "official": true,
       "category": "productivity"
     },
@@ -39,7 +47,11 @@
       "repo": "https://github.com/apteva/app-status",
       "manifest_url": "https://raw.githubusercontent.com/apteva/app-status/main/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/app-status/main/icon.png",
-      "tags": ["observability", "agent", "telemetry"],
+      "tags": [
+        "observability",
+        "agent",
+        "telemetry"
+      ],
       "official": true,
       "category": "observability"
     },
@@ -52,9 +64,31 @@
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/icon.png",
-      "tags": ["crm", "contacts", "productivity"],
+      "tags": [
+        "crm",
+        "contacts",
+        "productivity"
+      ],
       "official": true,
       "category": "productivity"
+    },
+    {
+      "name": "storage",
+      "display_name": "Storage",
+      "version": "0.1.0",
+      "description": "File storage with virtual folders, signed URLs, dedup. Local-disk backend, pluggable cloud backend slot for v0.2.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/icon.png",
+      "tags": [
+        "storage",
+        "files",
+        "cdn",
+        "upload"
+      ],
+      "official": true,
+      "category": "storage"
     },
     {
       "name": "channel-chat",
@@ -65,7 +99,11 @@
       "repo": "https://github.com/apteva/server",
       "manifest_url": "",
       "icon": "",
-      "tags": ["channel", "chat", "agent"],
+      "tags": [
+        "channel",
+        "chat",
+        "agent"
+      ],
       "official": true,
       "category": "channels"
     }
