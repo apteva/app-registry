@@ -44,6 +44,19 @@
       "category": "observability"
     },
     {
+      "name": "crm",
+      "display_name": "CRM",
+      "version": "0.1.0",
+      "description": "Contacts store for Apteva agents and human teams. Multi-value channels, typed custom attributes with provenance, append-only activity log, soft-delete + merge.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/icon.png",
+      "tags": ["crm", "contacts", "productivity"],
+      "official": true,
+      "category": "productivity"
+    },
+    {
       "name": "channel-chat",
       "display_name": "Channel Chat",
       "version": "1.0.0",
