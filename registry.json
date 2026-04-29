@@ -91,6 +91,25 @@
       "category": "storage"
     },
     {
+      "name": "media",
+      "display_name": "Media",
+      "version": "0.1.0",
+      "description": "Catalog + cheap derivations for audio/video/image files in storage. Probes uploads with ffprobe, generates thumbnails for video/image and waveform images for audio.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media/icon.png",
+      "tags": [
+        "media",
+        "video",
+        "audio",
+        "ffmpeg",
+        "catalog"
+      ],
+      "official": true,
+      "category": "media"
+    },
+    {
       "name": "channel-chat",
       "display_name": "Channel Chat",
       "version": "1.0.0",
