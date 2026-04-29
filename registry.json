@@ -91,6 +91,42 @@
       "category": "storage"
     },
     {
+      "name": "jobs",
+      "display_name": "Jobs",
+      "version": "0.1.0",
+      "description": "Scheduled-job runner. Other apps (and agents) enqueue work to be delivered later — once at a future time, on an interval, or on a cron expression. At-least-once delivery with idempotency keys, exponential backoff, and a runs log.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/jobs",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/jobs/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/jobs/icon.png",
+      "tags": [
+        "jobs",
+        "scheduling",
+        "cron",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
+      "name": "code",
+      "display_name": "Apteva Code",
+      "version": "0.1.0",
+      "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/icon.png",
+      "tags": [
+        "code",
+        "editor",
+        "repositories",
+        "agent"
+      ],
+      "official": true,
+      "category": "developer"
+    },
+    {
       "name": "media",
       "display_name": "Media",
       "version": "0.1.0",
