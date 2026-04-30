@@ -146,6 +146,23 @@
       "category": "media"
     },
     {
+      "name": "image-studio",
+      "display_name": "Image Studio",
+      "version": "0.1.0",
+      "description": "Generate images via any compatible provider (OpenAI today; Replicate / Stability / Fal as the catalog learns them). Optionally saves outputs to the Storage app for permanent, shareable references.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/image-studio",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/image-studio/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/image-studio/icon.png",
+      "tags": [
+        "ai",
+        "image-generation",
+        "productivity"
+      ],
+      "official": true,
+      "category": "ai"
+    },
+    {
       "name": "channel-chat",
       "display_name": "Channel Chat",
       "version": "1.0.0",
