@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-01T07:30:00Z",
+  "updated_at": "2026-05-01T18:30:00Z",
   "apps": [
     {
       "name": "simple",
@@ -93,7 +93,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.1.0",
+      "version": "0.1.6",
       "description": "File storage with virtual folders, signed URLs, dedup. Local-disk backend, pluggable cloud backend slot for v0.2.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
@@ -147,8 +147,8 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.1.0",
-      "description": "Catalog + cheap derivations for audio/video/image files in storage. Probes uploads with ffprobe, generates thumbnails for video/image and waveform images for audio.",
+      "version": "0.2.0",
+      "description": "Catalog + cheap derivations + parameterised renders for audio/video/image files in storage. Probes uploads with ffprobe, generates canonical thumbnails/waveforms, and runs on-demand edits (trim, resize, transcode, concat, crop, extract_frame, audio_extract). Render outputs land back in storage with their own signed-URL machinery.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media/apteva.yaml",
@@ -158,7 +158,9 @@
         "video",
         "audio",
         "ffmpeg",
-        "catalog"
+        "catalog",
+        "edit",
+        "render"
       ],
       "official": true,
       "category": "media"
@@ -201,7 +203,7 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Schedule and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
