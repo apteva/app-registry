@@ -163,6 +163,24 @@
       "category": "ai"
     },
     {
+      "name": "calendar",
+      "display_name": "Calendar",
+      "version": "0.1.0",
+      "description": "Self-contained calendar — multiple calendars per project, events with recurrence (rrule), holidays helper. Agents read + write via MCP tools; the panel renders week / day / agenda views with click-to-create. v0.2 will add public sharing + booking links + Google/Outlook sync.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/calendar",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calendar/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calendar/icon.png",
+      "tags": [
+        "calendar",
+        "scheduling",
+        "productivity",
+        "time"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
       "name": "social",
       "display_name": "Social",
       "version": "0.2.0",
