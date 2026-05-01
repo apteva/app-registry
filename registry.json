@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-01T00:00:00Z",
+  "updated_at": "2026-05-01T07:30:00Z",
   "apps": [
     {
       "name": "simple",
@@ -17,6 +17,24 @@
         "ui",
         "observability",
         "read-only"
+      ],
+      "official": true,
+      "category": "ui"
+    },
+    {
+      "name": "demo",
+      "display_name": "Demo Runner",
+      "version": "0.1.0",
+      "description": "Client-facing demo runner. State board with live MCP-polled scenario cards, control rail with seed/reset recipes + scripted scenario triggers, chat dock for natural-language Q&A with the agent. Designed as a kiosk surface for client meetings.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/demo",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/demo/main/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/demo/main/icon.png",
+      "tags": [
+        "ui",
+        "demo",
+        "kiosk",
+        "sales"
       ],
       "official": true,
       "category": "ui"
