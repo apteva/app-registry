@@ -221,7 +221,7 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Send and receive messages across channels. v0.2 adds senders management — verify SES email/domain identities (with DKIM CNAME helper), pick From per send, no defaults. v0.1 contract: channel-agnostic API (URI-based addresses), SNS webhooks for bounce/complaint and inbound mail, cross-app dispatcher routes inbound to other apps' HTTP routes by recipient pattern. Per-channel suppression list, local templates with {{var}} substitution. SMS and push reserved as future channels.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
