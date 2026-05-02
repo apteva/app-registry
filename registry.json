@@ -111,7 +111,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "description": "File storage with virtual folders, signed URLs, dedup. Local-disk backend, pluggable cloud backend slot for v0.2.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
@@ -239,7 +239,7 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "description": "Send and receive messages across channels. v0.3 adds explicit channel arg (email|sms|whatsapp) and SMS/WhatsApp dispatch via Twilio. Plain addresses everywhere — no URI scheme prefixes. v0.2 senders management (verify SES identities with DKIM helper) still works for email; phone senders coming in v0.3.x once platform-side Twilio fixes ship. Per-channel suppression, local {{var}} templates, channel-aware inbound routing via SES + Twilio webhooks.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
