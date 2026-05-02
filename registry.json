@@ -165,8 +165,8 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.2.2",
-      "description": "Catalog + cheap derivations + parameterised renders for audio/video/image files in storage. Probes uploads with ffprobe, generates canonical thumbnails/waveforms, and runs on-demand edits (trim, resize, transcode, concat, crop, extract_frame, audio_extract). Render outputs land back in storage with their own signed-URL machinery.",
+      "version": "0.5.1",
+      "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Probes uploads with ffprobe, generates canonical thumbnails/waveforms, runs on-demand edits (trim/resize/transcode/concat/crop/extract_frame/audio_extract), auto-transcribes via Deepgram, and auto-generates descriptions via OpenCode Go (Kimi K2.6).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media/apteva.yaml",
