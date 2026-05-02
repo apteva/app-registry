@@ -238,6 +238,25 @@
       "category": "messaging"
     },
     {
+      "name": "deploy",
+      "display_name": "Deploy",
+      "version": "0.1.0",
+      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. No Docker required for v0.1; future runtimes (Docker, SSH-to-VPS) plug in behind the same Runtime interface.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/icon.png",
+      "tags": [
+        "deploy",
+        "build",
+        "runtime",
+        "developer",
+        "agent"
+      ],
+      "official": true,
+      "category": "developer"
+    },
+    {
       "name": "channel-chat",
       "display_name": "Channel Chat",
       "version": "1.0.0",
