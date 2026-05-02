@@ -221,8 +221,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.2.3",
-      "description": "Send and receive messages across channels. v0.2 adds senders management — verify SES email/domain identities (with DKIM CNAME helper), pick From per send, no defaults. v0.1 contract: channel-agnostic API (URI-based addresses), SNS webhooks for bounce/complaint and inbound mail, cross-app dispatcher routes inbound to other apps' HTTP routes by recipient pattern. Per-channel suppression list, local templates with {{var}} substitution. SMS and push reserved as future channels.",
+      "version": "0.3.0",
+      "description": "Send and receive messages across channels. v0.3 adds explicit channel arg (email|sms|whatsapp) and SMS/WhatsApp dispatch via Twilio. Plain addresses everywhere — no URI scheme prefixes. v0.2 senders management (verify SES identities with DKIM helper) still works for email; phone senders coming in v0.3.x once platform-side Twilio fixes ship. Per-channel suppression, local {{var}} templates, channel-aware inbound routing via SES + Twilio webhooks.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
