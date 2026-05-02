@@ -129,7 +129,7 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
