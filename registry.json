@@ -93,7 +93,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "File storage with virtual folders, signed URLs, dedup. Local-disk backend, pluggable cloud backend slot for v0.2.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
