@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-01T18:30:00Z",
+  "updated_at": "2026-05-02T00:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -217,6 +217,25 @@
       ],
       "official": true,
       "category": "productivity"
+    },
+    {
+      "name": "messaging",
+      "display_name": "Messaging",
+      "version": "0.1.0",
+      "description": "Send and receive messages across channels. v0.1 ships email via AWS SES — channel-agnostic API (URI-based addresses), SNS webhooks for bounce/complaint and inbound mail, cross-app dispatcher routes inbound to other apps' HTTP routes by recipient pattern. Per-channel suppression list, local templates with {{var}} substitution. SMS and push reserved as future channels.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/icon.png",
+      "tags": [
+        "messaging",
+        "email",
+        "ses",
+        "transactional",
+        "inbox"
+      ],
+      "official": true,
+      "category": "messaging"
     },
     {
       "name": "channel-chat",
