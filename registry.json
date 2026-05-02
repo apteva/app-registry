@@ -93,7 +93,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "File storage with virtual folders, signed URLs, dedup. Local-disk backend, pluggable cloud backend slot for v0.2.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
@@ -203,7 +203,7 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "description": "Schedule and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
