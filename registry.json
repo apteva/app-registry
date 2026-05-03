@@ -75,6 +75,25 @@
       "category": "productivity"
     },
     {
+      "name": "health",
+      "display_name": "Health",
+      "version": "0.1.0",
+      "description": "Personal health log — weight, sleep, mood, heart rate, blood pressure, workouts. One flexible time-series table for any numeric metric plus a workouts list. Agent ingests natural-language one-liners ('weight 78.4', 'ran 5k 26min', 'bp 122/78') via health_log; the panel charts pinned kinds and lists recent sessions. v0.2 will add device sync (Apple Health, Oura, Garmin).",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/health",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/health/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/health/icon.png",
+      "tags": [
+        "health",
+        "fitness",
+        "personal",
+        "metrics",
+        "workouts"
+      ],
+      "official": true,
+      "category": "personal"
+    },
+    {
       "name": "status",
       "display_name": "Status",
       "version": "1.0.0",
@@ -239,7 +258,7 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.4.2",
+      "version": "0.5.0",
       "description": "Send and receive messages across channels. v0.3 adds explicit channel arg (email|sms|whatsapp) and SMS/WhatsApp dispatch via Twilio. Plain addresses everywhere \u2014 no URI scheme prefixes. v0.2 senders management (verify SES identities with DKIM helper) still works for email; phone senders coming in v0.3.x once platform-side Twilio fixes ship. Per-channel suppression, local {{var}} templates, channel-aware inbound routing via SES + Twilio webhooks.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
