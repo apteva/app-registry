@@ -165,7 +165,7 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.5.1",
+      "version": "0.5.3",
       "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Probes uploads with ffprobe, generates canonical thumbnails/waveforms, runs on-demand edits (trim/resize/transcode/concat/crop/extract_frame/audio_extract), auto-transcribes via Deepgram, and auto-generates descriptions via OpenCode Go (Kimi K2.6).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
