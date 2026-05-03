@@ -258,8 +258,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.5.0",
-      "description": "Send and receive messages across channels. v0.3 adds explicit channel arg (email|sms|whatsapp) and SMS/WhatsApp dispatch via Twilio. Plain addresses everywhere \u2014 no URI scheme prefixes. v0.2 senders management (verify SES identities with DKIM helper) still works for email; phone senders coming in v0.3.x once platform-side Twilio fixes ship. Per-channel suppression, local {{var}} templates, channel-aware inbound routing via SES + Twilio webhooks.",
+      "version": "0.6.0",
+      "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). v0.6 wires cross-app DNS automation: install the domains app + bind a registrar (Porkbun/Namecheap) \u2192 click 'Setup DNS' on a verified sender \u2192 DKIM CNAMEs + SES inbound MX + SPF are published automatically. v0.5 added full inbound (Twilio + SES verdicts/S3 + STOP suppression). Channel-agnostic addresses, per-channel suppression, local + provider-mirrored templates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
