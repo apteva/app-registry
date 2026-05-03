@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-02T00:00:00Z",
+  "updated_at": "2026-05-03T00:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -327,6 +327,26 @@
       ],
       "official": true,
       "category": "channels"
+    },
+    {
+      "name": "trading",
+      "display_name": "Trading",
+      "version": "0.2.0",
+      "description": "Trading desk for Apteva agents. Multi-portfolio, multi-asset (equity, crypto, polymarket). Each portfolio runs in paper mode (deterministic in-process engine) or live mode (orders route through a bound broker integration; v0.2 ships Binance only). Mandate, allowed asset classes, and daily-loss halt enforced server-side; halt cancels working broker orders upstream. Approval policy lives in the agent's directive, not the platform.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/icon.png",
+      "tags": [
+        "trading",
+        "finance",
+        "agent",
+        "crypto",
+        "polymarket",
+        "binance"
+      ],
+      "official": true,
+      "category": "finance"
     }
   ]
 }
