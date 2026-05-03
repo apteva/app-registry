@@ -275,6 +275,24 @@
       "category": "messaging"
     },
     {
+      "name": "domains",
+      "display_name": "Domains",
+      "version": "0.1.0",
+      "description": "DNS + domain inventory for Apteva projects. Other apps (messaging for SES MX/DKIM, storage for CDN CNAMEs) call this app for DNS record CRUD instead of speaking each registrar's API directly. v0.1 supports Porkbun end-to-end; Namecheap is declared compatible but blocked on XML response parsing in the platform runner.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/icon.png",
+      "tags": [
+        "domains",
+        "dns",
+        "infrastructure",
+        "registrar"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "deploy",
       "display_name": "Deploy",
       "version": "0.1.0",
