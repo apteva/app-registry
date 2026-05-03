@@ -184,8 +184,8 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.5.8",
-      "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Subscribes to storage events for instant indexing on upload + cascade cleanup on delete; falls back to a 30s safety-net poll. Smart video thumbnails skip black/fade openings.",
+      "version": "0.6.0",
+      "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Pluggable render backend: ffmpeg by default, Cloudinary when bound (offload trim/resize/transcode/crop/extract_frame). Subscribes to storage events for instant indexing on upload + cascade cleanup on delete; falls back to a 30s safety-net poll. Smart video thumbnails skip black/fade openings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media/apteva.yaml",
