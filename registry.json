@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-03T00:00:00Z",
+  "updated_at": "2026-05-04T00:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -347,6 +347,46 @@
       ],
       "official": true,
       "category": "finance"
+    },
+    {
+      "name": "torrent",
+      "display_name": "Torrent",
+      "version": "0.1.0",
+      "description": "BitTorrent client + indexer-search frontend. Search across configured Jackett / Prowlarr / RSS sources, add downloads by magnet or .torrent URL; on completion the resulting files are uploaded to the storage app and probed by media. Generic — ships with no indexers preconfigured; the user supplies sources and is responsible for what they download.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/torrent",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/torrent/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/torrent/icon.png",
+      "tags": [
+        "torrent",
+        "bittorrent",
+        "downloads",
+        "media",
+        "search",
+        "jackett"
+      ],
+      "official": true,
+      "category": "media"
+    },
+    {
+      "name": "dlna",
+      "display_name": "DLNA Server",
+      "version": "0.1.0",
+      "description": "Publishes a UPnP/DLNA MediaServer on the LAN. Smart TVs, game consoles, Sonos, VLC, and other AV clients discover the server via SSDP and browse a virtual library backed by the storage app for bytes + folder structure, and the media app for duration / codec / resolution metadata. No transcoding in v0.1: clients that can't decode the source codec see the file in the listing but won't play it.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/dlna",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/dlna/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/dlna/icon.png",
+      "tags": [
+        "dlna",
+        "upnp",
+        "media",
+        "lan",
+        "tv",
+        "streaming"
+      ],
+      "official": true,
+      "category": "media"
     }
   ]
 }
