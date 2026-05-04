@@ -24,7 +24,7 @@
     {
       "name": "demo",
       "display_name": "Demo Runner",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Client-facing demo runner. State board with live MCP-polled scenario cards, control rail with seed/reset recipes + scripted scenario triggers, chat dock for natural-language Q&A with the agent. Designed as a kiosk surface for client meetings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/demo",
@@ -351,7 +351,7 @@
     {
       "name": "torrent",
       "display_name": "Torrent",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "BitTorrent client + indexer-search frontend. Search across configured Jackett / Prowlarr / RSS sources, add downloads by magnet or .torrent URL; on completion the resulting files are uploaded to the storage app and probed by media. Generic — ships with no indexers preconfigured; the user supplies sources and is responsible for what they download.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/torrent",
