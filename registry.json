@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-04T18:30:00Z",
+  "updated_at": "2026-05-05T12:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -410,7 +410,7 @@
     {
       "name": "live-link",
       "display_name": "Live Link",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "One-click public HTTPS URL for a locally-installed Apteva instance, via Cloudflare Quick Tunnels — anonymous, free, no account required. Spawns cloudflared, parses the assigned trycloudflare.com URL, and surfaces it in the dashboard with copy/stop controls plus a runs history. Three MCP tools (expose_start/stop/status) let agents bring the tunnel up and down. Auto-installs cloudflared on first use for linux/{amd64,arm64,arm,386} and darwin/{amd64,arm64}; falls back to PATH or a config-pinned binary on other hosts. Named tunnels, ngrok, tailscale-funnel, and PUBLIC_URL auto-rewrite arrive in v0.2/v0.3.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
@@ -426,6 +426,46 @@
       ],
       "official": true,
       "category": "infrastructure"
+    },
+    {
+      "name": "billing",
+      "display_name": "Billing",
+      "version": "0.1.0",
+      "description": "Customers, invoices, and payments for Apteva agents. Per-invoice provider field — local for record-only / wire / cash, stripe for card-payable hosted invoices (v0.1.1+) — chosen at create time and frozen for the invoice's lifetime. Lifecycle: draft → open → paid / void / uncollectible. Server-side PDF rendering via gofpdf plus a self-contained HTML print view; agents can render bytes inline via invoices_render_pdf or save to the storage app for chat-attached file-cards. SQLite-backed; one currency per invoice; tax in basis points.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/icon.png",
+      "tags": [
+        "billing",
+        "invoices",
+        "payments",
+        "finance",
+        "ar"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
+      "name": "bills",
+      "display_name": "Bills",
+      "version": "0.1.2",
+      "description": "Vendors, bills, and outbound payments — the AP mirror of billing. Lifecycle (received → approved → scheduled → paid) plus disputed / void; reject and void are deliberately distinct primitives. Per-bill provider field stays local in v0.1.x; bank-rail providers (Mercury / Wise / Bill.com) land in v0.2. PDF voucher rendering for filing/audit. v0.1.1 added attachments via the storage app — drop-zone in the panel + bills_create_from_file MCP tool. v0.1.2 adds inline OCR auto-fill: set ocr_provider (e.g. mindee) and bills_create_from_file extracts vendor + line items + dates + totals automatically. Caller args always win; vendor auto-matches by extracted email or unique name.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/bills",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/bills/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/bills/icon.png",
+      "tags": [
+        "bills",
+        "vendors",
+        "ap",
+        "accounts-payable",
+        "finance",
+        "ocr",
+        "mindee"
+      ],
+      "official": true,
+      "category": "finance"
     }
   ]
 }
