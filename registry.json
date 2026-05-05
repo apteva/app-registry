@@ -405,7 +405,7 @@
     {
       "name": "dlna",
       "display_name": "DLNA Server",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "description": "Publishes a UPnP/DLNA MediaServer on the LAN. Smart TVs, game consoles, Sonos, VLC, and other AV clients discover the server via SSDP and browse a virtual library backed by the storage app for bytes + folder structure, and the media app for duration / codec / resolution metadata. No transcoding in v0.1: clients that can't decode the source codec see the file in the listing but won't play it.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/dlna",
