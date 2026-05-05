@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-04T16:55:00Z",
+  "updated_at": "2026-05-04T18:30:00Z",
   "apps": [
     {
       "name": "simple",
@@ -403,6 +403,26 @@
         "ops",
         "snapshot",
         "restore"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
+      "name": "live-link",
+      "display_name": "Live Link",
+      "version": "0.1.0",
+      "description": "One-click public HTTPS URL for a locally-installed Apteva instance, via Cloudflare Quick Tunnels — anonymous, free, no account required. Spawns cloudflared, parses the assigned trycloudflare.com URL, and surfaces it in the dashboard with copy/stop controls plus a runs history. Three MCP tools (expose_start/stop/status) let agents bring the tunnel up and down. Auto-installs cloudflared on first use for linux/{amd64,arm64,arm,386} and darwin/{amd64,arm64}; falls back to PATH or a config-pinned binary on other hosts. Named tunnels, ngrok, tailscale-funnel, and PUBLIC_URL auto-rewrite arrive in v0.2/v0.3.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/icon.png",
+      "tags": [
+        "tunnel",
+        "expose",
+        "public-url",
+        "cloudflared",
+        "infrastructure",
+        "dev"
       ],
       "official": true,
       "category": "infrastructure"
