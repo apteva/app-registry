@@ -482,6 +482,25 @@
       ],
       "official": true,
       "category": "finance"
+    },
+    {
+      "name": "mqtt",
+      "display_name": "MQTT Broker",
+      "version": "0.1.0",
+      "description": "Embedded MQTT broker for Apteva. Acts as the LAN message bus for smart-home devices (ESP32, Zigbee2MQTT, Tasmota, anything that speaks MQTT 3.1.1 or 5.0). Every published message is mirrored onto the platform event bus as `mqtt.message` so sibling apps (messaging, jobs, calendar) can react without speaking MQTT themselves; per-pattern subscriptions promote interesting topics to named bus events. Auto-discovers Home Assistant-convention devices by parsing `homeassistant/+/+/config`. Username/password auth + per-user topic ACL; an `apteva-default` user is seeded with a random password on first install (logged once).",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/icon.png",
+      "tags": [
+        "mqtt",
+        "iot",
+        "home-automation",
+        "broker",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
     }
   ]
 }
