@@ -128,6 +128,22 @@
       "category": "productivity"
     },
     {
+      "name": "computer",
+      "display_name": "Computer",
+      "version": "0.1.0",
+      "description": "Watch and steer the agent's browser. Operator panel for browsing live sessions, taking control of one, and reading the agent's chat. Inline chat components the agent attaches after browser actions so its work surfaces visually instead of as plain text. UI-only in v0.1; backend tools land in a later release.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
+      "tags": [
+        "browser",
+        "observability",
+        "ui"
+      ],
+      "official": true,
+      "category": "ui"
+    },
+    {
       "name": "storage",
       "display_name": "Storage",
       "version": "0.6.0",
