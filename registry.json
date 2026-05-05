@@ -410,8 +410,8 @@
     {
       "name": "live-link",
       "display_name": "Live Link",
-      "version": "0.1.1",
-      "description": "One-click public HTTPS URL for a locally-installed Apteva instance, via Cloudflare Quick Tunnels — anonymous, free, no account required. Spawns cloudflared, parses the assigned trycloudflare.com URL, and surfaces it in the dashboard with copy/stop controls plus a runs history. Three MCP tools (expose_start/stop/status) let agents bring the tunnel up and down. Auto-installs cloudflared on first use for linux/{amd64,arm64,arm,386} and darwin/{amd64,arm64}; falls back to PATH or a config-pinned binary on other hosts. Named tunnels, ngrok, tailscale-funnel, and PUBLIC_URL auto-rewrite arrive in v0.2/v0.3.",
+      "version": "0.2.0",
+      "description": "Public HTTPS URL for a locally-installed Apteva instance. Two modes: quick (default) spawns a Cloudflare Quick Tunnel for an anonymous trycloudflare.com URL on every start — zero config, no account; named uses a Cloudflare API token + account/zone IDs to give a stable URL on a hostname you own (e.g. tunnel.example.com), creating-or-adopting a cfd_tunnel, configuring its ingress via the API, and upserting a proxied CNAME — restarts reuse the same URL. Surfaces in the project page with copy/stop/destroy controls and a runs history tagged by mode. Four MCP tools (expose_start/stop/status/destroy) let agents drive both modes. Auto-installs cloudflared on first use for linux/{amd64,arm64,arm,386} and darwin/{amd64,arm64}; falls back to PATH or a config-pinned binary on other hosts. ngrok, tailscale-funnel, and PUBLIC_URL auto-rewrite arrive in v0.3+.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/apteva.yaml",
