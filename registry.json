@@ -218,7 +218,7 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.6.0",
+      "version": "0.8.2",
       "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Pluggable render backend: ffmpeg by default, Cloudinary when bound (offload trim/resize/transcode/crop/extract_frame). Subscribes to storage events for instant indexing on upload + cascade cleanup on delete; falls back to a 30s safety-net poll. Smart video thumbnails skip black/fade openings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
@@ -385,7 +385,7 @@
     {
       "name": "torrent",
       "display_name": "Torrent",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "description": "BitTorrent client + indexer-search frontend. Search across configured Jackett / Prowlarr / RSS sources, add downloads by magnet or .torrent URL; on completion the resulting files are uploaded to the storage app and probed by media. Generic — ships with no indexers preconfigured; the user supplies sources and is responsible for what they download.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/torrent",
