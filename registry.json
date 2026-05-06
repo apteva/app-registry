@@ -425,7 +425,7 @@
     {
       "name": "backup",
       "display_name": "Backup",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Periodic backups of your Apteva instance — server DB plus every installed app's data. Captured via the platform snapshot endpoint (online, consistent, non-blocking) and shipped to a destination of your choice: local disk for self-hosters, or any S3-compatible bucket (AWS, Cloudflare R2, Backblaze B2, Wasabi, MinIO). Schedules are driven by the jobs app so cron behaviour, retries, and run history all live in one familiar place. Restores stream back through /api/platform/restore — app DBs are swapped live; the platform DB is staged and applied on the next server boot.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/backup",
