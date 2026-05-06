@@ -164,7 +164,7 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Typed-row database for Apteva agents and human teams. The row-shaped sibling to storage: define typed tables (text, number, bool, datetime, json, file_id), insert rows with strict validation, query with typed predicates, paginate. Read-only SELECT escape hatch with {table_name} placeholders for aggregations the named tools can't express. Project-scoped by default; opt-in global tables for shared lookup data.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
