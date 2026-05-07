@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-07T09:14:54Z",
+  "updated_at": "2026-05-07T09:36:15Z",
   "apps": [
     {
       "name": "simple",
@@ -562,7 +562,7 @@
     {
       "name": "docs",
       "display_name": "Documents",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Generate client-facing PDFs from markdown templates and store them in storage. Pure-Go render pipeline (no Chromium): markdown body + Go-template placeholders, rendered via maroto. Audit trail on every render — who rendered what template with which data — for compliance use cases (invoices, contracts, NDAs). Past renders keep working even after a template is edited because the output is a stable storage file_id.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/docs",
