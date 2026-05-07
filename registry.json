@@ -59,7 +59,7 @@
     {
       "name": "todo",
       "display_name": "Todo",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Personal todo list \u2014 human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/todo",
