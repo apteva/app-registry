@@ -198,6 +198,25 @@
       "category": "infrastructure"
     },
     {
+      "name": "functions",
+      "display_name": "Functions",
+      "version": "0.1.0",
+      "description": "Lambda-style serverless functions. Each function gets an auto-routed HTTP endpoint at /fn/<name>; the dispatcher spawns the runtime per invocation with stdin=event JSON, captures stdout as response, kills on timeout. Pair with the Jobs app for cron-fired schedules; stand-alone for HTTP webhooks. Runtimes: bun, node, python, sh.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/icon.png",
+      "tags": [
+        "functions",
+        "faas",
+        "serverless",
+        "scripts",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "code",
       "display_name": "Apteva Code",
       "version": "0.1.2",
