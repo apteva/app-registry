@@ -146,7 +146,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.9.2",
+      "version": "0.9.3",
       "description": "File storage with virtual folders, signed URLs, dedup. Pluggable backend: local disk by default, S3-compatible (AWS / R2 / B2 / Wasabi / MinIO) when configured. On S3, presigned upload + download URLs let clients transfer bytes directly to the bucket \u2014 bytes never proxy through this container.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
@@ -237,7 +237,7 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.8.9",
+      "version": "0.9.0",
       "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Pluggable render backend: ffmpeg by default, Cloudinary when bound (offload trim/resize/transcode/crop/extract_frame). Subscribes to storage events for instant indexing on upload + cascade cleanup on delete; falls back to a 30s safety-net poll. Smart video thumbnails skip black/fade openings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
