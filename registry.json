@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-09T17:00:00Z",
+  "updated_at": "2026-05-09T18:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -146,8 +146,8 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.9.4",
-      "description": "File storage with virtual folders, signed URLs, dedup. Pluggable backend: local disk by default, S3-compatible (AWS / R2 / B2 / Wasabi / MinIO) when configured. On S3, presigned upload + download URLs let clients transfer bytes directly to the bucket \u2014 bytes never proxy through this container.",
+      "version": "0.9.5",
+      "description": "File storage with virtual folders, signed URLs, dedup. Pluggable backend: local disk by default, S3-compatible (AWS / R2 / B2 / Wasabi / MinIO) when configured. On S3, presigned upload + download URLs let clients transfer bytes directly to the bucket \u2014 bytes never proxy through this container. v0.9.5 adds files_get_content for inline byte fetch via CallAppResult \u2014 fixes the multi-storage-install case where signed URLs route to the wrong instance.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/apteva.yaml",
@@ -483,7 +483,7 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Customers, invoices, and payments for Apteva agents. Per-invoice provider field \u2014 local for record-only / wire / cash, stripe for card-payable hosted invoices (v0.1.1+) \u2014 chosen at create time and frozen for the invoice's lifetime. Lifecycle: draft \u2192 open \u2192 paid / void / uncollectible. Server-side PDF rendering via gofpdf plus a self-contained HTML print view; agents can render bytes inline via invoices_render_pdf or save to the storage app for chat-attached file-cards. SQLite-backed; one currency per invoice; tax in basis points.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
@@ -502,7 +502,7 @@
     {
       "name": "bills",
       "display_name": "Bills",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "description": "Vendors, bills, and outbound payments \u2014 the AP mirror of billing. Lifecycle (received \u2192 approved \u2192 scheduled \u2192 paid) plus disputed / void. Per-bill provider field stays local in v0.1.x; bank-rail providers (Mercury / Wise / Bill.com) land in v0.2. PDF voucher rendering for filing/audit. Drop a PDF on the bills tab and it's uploaded straight away \u2014 bind OpenCode Go (Kimi K2.6 default, vision-capable) in the Bindings tab and OCR auto-fills vendor + line items + dates + totals automatically (binding IS the on switch as of v0.1.5; no separate config flip required). Caller args always win. PDF rendering via embedded PDFium-WASM (no CGO, no system deps). Storage app is a declared dep so it auto-installs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bills",
