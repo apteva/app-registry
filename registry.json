@@ -146,7 +146,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.9.6",
+      "version": "0.9.7",
       "description": "File storage with virtual folders, signed URLs, dedup. Pluggable backend: local disk by default, S3-compatible (AWS / R2 / B2 / Wasabi / MinIO) when configured. On S3, presigned upload + download URLs let clients transfer bytes directly to the bucket \u2014 bytes never proxy through this container. v0.9.5 adds files_get_content for inline byte fetch via CallAppResult \u2014 fixes the multi-storage-install case where signed URLs route to the wrong instance.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
