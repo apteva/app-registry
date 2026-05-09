@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-09T01:00:00Z",
+  "updated_at": "2026-05-09T02:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -622,7 +622,7 @@
     {
       "name": "robot",
       "display_name": "Robot",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Agent navigation eval sandbox. 2D grid worlds the agent perceives partially (radius=2 default) and moves through one cardinal cell at a time. Episodes terminate via the harness — success on goal-reach or timeout at max_steps; the agent has no quit tool. A* baseline computed at scenario load powers an optimality_ratio metric on every successful run. Five gameplay tools (observe / move / pick / drop / no-give-up) plus three control tools (list_scenarios / start_episode / episode_status). pick + drop are reserved in the contract for v0.2 items. Three starter scenarios: empty_room, corridor (S-shape), warehouse_01 (three shelves).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/robot",
