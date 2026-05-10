@@ -502,7 +502,7 @@
     {
       "name": "bills",
       "display_name": "Bills",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "description": "Vendors, bills, and outbound payments \u2014 the AP mirror of billing. Lifecycle (received \u2192 approved \u2192 scheduled \u2192 paid) plus disputed / void. Per-bill provider field stays local in v0.1.x; bank-rail providers (Mercury / Wise / Bill.com) land in v0.2. PDF voucher rendering for filing/audit. Drop a PDF on the bills tab and it's uploaded straight away \u2014 bind OpenCode Go (Kimi K2.6 default, vision-capable) in the Bindings tab and OCR auto-fills vendor + line items + dates + totals automatically (binding IS the on switch as of v0.1.5; no separate config flip required). Caller args always win. PDF rendering via embedded PDFium-WASM (no CGO, no system deps). Storage app is a declared dep so it auto-installs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bills",
