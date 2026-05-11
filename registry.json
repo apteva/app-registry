@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-09T20:00:00Z",
+  "updated_at": "2026-05-11T00:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -636,6 +636,23 @@
       ],
       "official": true,
       "category": "developer"
+    },
+    {
+      "name": "vpn",
+      "display_name": "VPN",
+      "version": "0.1.0",
+      "description": "Backend-agnostic VPN orchestrator. Provisions a VPN server on an Instances host (local id 0 or a Hetzner VPS), generates keys, uploads daemon config, brings the interface up, and polls peer statistics on a timer. v0.1 ships WireGuard with native client support on macOS, iOS, Windows, Android, and Linux — the .conf returned by vpn_peer_add imports unchanged into every platform's official WG app. The internal Backend interface accommodates OpenVPN / IKEv2 later without changes to the MCP tool surface; tool names are protocol-neutral (vpn_peer_add, not wg_peer_add). Peers are created and revoked exclusively via MCP tools; the panel is monitor-only.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/vpn",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/vpn/apteva.yaml",
+      "tags": [
+        "vpn",
+        "wireguard",
+        "network",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
     }
   ]
 }
