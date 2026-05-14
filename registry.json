@@ -696,7 +696,7 @@
     {
       "name": "routes",
       "display_name": "Routes",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Hostname-based routing for Apteva — owns the table mapping public hostnames (blog.example.com) to local backend targets (http://127.0.0.1:7100). Apps register routes via routes_register; apteva-server reads the table and reverse-proxies inbound traffic. Optional: uninstall and the platform falls back to path-based routing. Works the same for cloud installs (browser → public IP → apteva-server) and tunnel installs (cloudflared etc).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/routes",
