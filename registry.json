@@ -130,7 +130,7 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.2.2",
+      "version": "0.2.1",
       "description": "Watch and steer the agent's browser. Operator panel for browsing live sessions and reading the agent's chat. Inline chat components the agent attaches after browser actions so its work surfaces visually. Ships a how-to-use-computer skill covering SoM badge colors and common web-browsing patterns (cookie banners, login forms, modal dialogs, inline pickers, search auto-suggest, lazy-load, form errors) plus composer-specific guidance. UI + skill only; backend MCP tools land in a later release.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
@@ -543,7 +543,7 @@
     {
       "name": "tapo",
       "display_name": "Tapo Cameras",
-      "version": "0.2.2",
+      "version": "0.2.1",
       "description": "Local-LAN control of TP-Link Tapo cameras. Pan/tilt/zoom, snapshots, RTSP stream URLs, motion events, privacy + LED + night-mode toggles, presets. Talks the camera's HTTPS JSON-RPC directly with the secure_passthrough auth flow shipped on every internet-connected Tapo camera since TP-Link's Sept-2023 security patch. No cloud round-trips; everything goes peer-to-peer over the LAN. Setup requires enabling Third-Party Compatibility in the Tapo app (Me \u2192 Tapo Lab) on app version >= 3.8.103.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tapo",
