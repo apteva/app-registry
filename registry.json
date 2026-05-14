@@ -677,7 +677,7 @@
     {
       "name": "certs",
       "display_name": "Certs",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "TLS certificate issuance for Apteva projects via Let's Encrypt (or any RFC 8555 ACME directory). Two challenge types: DNS-01 routes TXT writes through the Domains app (no registrar credentials held here); HTTP-01 uses the webroot pattern (writes /.well-known/acme-challenge/<token> to a directory served by whatever reverse proxy is on :80 — Caddy, nginx, traefik). Async issuance, daily renewal worker, privileged cert_material tool gated to the server's TLS cache.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/certs",
