@@ -205,7 +205,6 @@
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/icon.svg",
       "tags": [
         "functions",
         "faas",
