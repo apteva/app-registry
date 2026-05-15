@@ -726,6 +726,24 @@
       ],
       "official": true,
       "category": "infrastructure"
+    },
+    {
+      "name": "content",
+      "display_name": "Content",
+      "version": "1.0.0",
+      "description": "Block-based CMS. Posts and pages with hierarchy, media, taxonomies, menus, revisions, redirects. Canonical body is a JSON block tree with stable per-block ids the agent targets across edits; 16 core block types shipped (heading, paragraph, image, gallery, list, quote, code, embed, separator, columns, group, html, markdown, table, button, cta). Renders themed HTML at /, /posts/:slug, /:nested-page, term archives, feed.xml, and sitemap.xml against an embedded default theme — and exposes the same data as REST under /api/* so external frontends share the database without touching the theme path. Optional bindings for storage (media + theme bundles), image-studio, social, messaging+crm (newsletter), seo, and analytics; the agent is the intended primary author via the blocks_* MCP tools.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/icon.png",
+      "tags": [
+        "content",
+        "cms",
+        "blog",
+        "website"
+      ],
+      "official": true,
+      "category": "productivity"
     }
   ]
 }
