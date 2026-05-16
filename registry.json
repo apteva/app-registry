@@ -218,7 +218,7 @@
     {
       "name": "workflows",
       "display_name": "Workflows",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
@@ -619,7 +619,7 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "description": "Compute-host inventory + lifecycle for Apteva. Manages the local Apteva machine and remote VPS instances under one MCP/REST surface so other apps (Live Link self-vps, Deploy SSHRuntime, Backup off-host, future Containers/Database/MQTT/game-server apps) bind a single \"compute\" dependency instead of each speaking VPS-provider APIs directly. The local machine is auto-seeded as instance id=0 and is always 'ready' — cannot be created or destroyed via the public API. Remote instances in v0.1 are provisioned via Hetzner Cloud (DigitalOcean / Vultr / AWS EC2 in v0.2). Per-instance Ed25519 SSH keypair seeded into the box via cloud-init authorized_keys; background readiness probe flips status='provisioning' → 'ready' once SSH accepts the key. Eight MCP tools: instance_create / _get / _list / _destroy / _run_command / _upload_file / _wait_ready / _metrics. Vitals (CPU / mem / disk / net / load / uptime) via gopsutil locally and a /proc-parsing bash script over SSH remotely, cached 5s per host.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
