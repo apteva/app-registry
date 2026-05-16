@@ -218,8 +218,8 @@
     {
       "name": "workflows",
       "display_name": "Workflows",
-      "version": "0.2.1",
-      "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP or manual invocation; pair with the Jobs app for cron schedules. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends.",
+      "version": "0.3.0",
+      "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); pair with the Jobs app for cron schedules. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workflows/apteva.yaml",
