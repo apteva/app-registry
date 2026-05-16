@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-11T00:00:00Z",
+  "updated_at": "2026-05-16T00:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -308,6 +308,26 @@
       "category": "productivity"
     },
     {
+      "name": "trips",
+      "display_name": "Trips",
+      "version": "0.1.0",
+      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Each trip owns a dedicated calendar (kind=custom) that mirrors its itinerary — transport legs, stays and activities become events that stay in step as items are added, moved, or removed; sync_calendar=false silences the mirror per-trip for scratch plans. Itemized planned/actual cost with a fixed 6-bucket budget summary (transport, lodging, food, activities, shopping, other) and optional per-category caps. Calendar is a hard dep; v0.2 layers optional finance (actual-spend via tagged transactions) + storage (attach passport/ticket PDFs).",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/icon.png",
+      "tags": [
+        "trips",
+        "travel",
+        "itinerary",
+        "planning",
+        "budget",
+        "calendar"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
       "name": "social",
       "display_name": "Social",
       "version": "0.6.1",
@@ -534,6 +554,27 @@
         "ocr",
         "kimi",
         "opencode-go"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
+      "name": "finance",
+      "display_name": "Finance",
+      "version": "0.1.0",
+      "description": "Unified personal-wealth tracker — cash, brokerage positions, P2P loans, crypto, real estate, vehicles, pensions, loans, all in one ledger. Three nouns model everything: accounts (a place that holds value), instruments (the thing held — AAPL, BTC, EUR, your house), holdings (account × instrument → quantity + cost basis). Money in signed integer minor units; avg-cost accounting with cost_basis_delta on every txn so realised P&L is one column sum. Convenience tools for buy/sell/dividend/interest/transfer/valuation. Reports: net worth (point or monthly series, by account/kind/currency), allocation, performance (realised + unrealised P&L), cashflow (income vs expense per period). Per-category monthly budgets with hierarchical rollup. CSV import. v0.1 is manual entry; v0.2 plugs in integrations (Trading 212 first, then Plaid / Mintos / Binance) via the platform integrations engine — manual and integrated rows are indistinguishable downstream.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/finance",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/finance/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/finance/icon.png",
+      "tags": [
+        "finance",
+        "wealth",
+        "portfolio",
+        "net-worth",
+        "investing",
+        "budget",
+        "personal-finance"
       ],
       "official": true,
       "category": "finance"
