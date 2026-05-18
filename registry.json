@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-18T09:00:00Z",
+  "updated_at": "2026-05-18T16:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -824,6 +824,26 @@
       ],
       "official": true,
       "category": "productivity"
+    },
+    {
+      "name": "auth",
+      "display_name": "Auth",
+      "version": "0.2.0",
+      "description": "Identity layer for Apteva-deployed SaaS: email + password signup/login, EdDSA JWT issuance with JWKS, refresh-token rotation, OAuth client registry (one user pool, many clients), email verification, password reset, magic links, and TOTP MFA. Agents administer the user pool via MCP tools; the deployed frontend hits the public HTTP routes; the dashboard renders a consolidated Auth panel (Overview / Users / Clients / Endpoints). Messaging is an optional dependency for transactional email.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/icon.png",
+      "tags": [
+        "auth",
+        "identity",
+        "jwt",
+        "oauth",
+        "mfa",
+        "saas"
+      ],
+      "official": true,
+      "category": "developer"
     }
   ]
 }
