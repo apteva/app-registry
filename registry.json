@@ -273,17 +273,20 @@
       "category": "media"
     },
     {
-      "name": "image-studio",
-      "display_name": "Image Studio",
-      "version": "0.2.2",
-      "description": "Generate images via any compatible provider (OpenAI today; Replicate / Stability / Fal as the catalog learns them). Optionally saves outputs to the Storage app for permanent, shareable references.",
+      "name": "media-studio",
+      "display_name": "Media Studio",
+      "version": "0.3.0",
+      "description": "Generate images, video, audio, and music via any compatible provider (OpenAI for image + TTS today; Replicate / ElevenLabs / Suno / Runway / Pika as the integration catalog learns them). Optionally saves outputs to the Storage app for permanent, shareable references.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/image-studio",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/image-studio/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/image-studio/icon.png",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/icon.png",
       "tags": [
         "ai",
         "image-generation",
+        "video-generation",
+        "audio",
+        "music",
         "productivity"
       ],
       "official": true,
