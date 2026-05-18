@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-16T12:00:00Z",
+  "updated_at": "2026-05-18T09:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -800,6 +800,24 @@
         "cms",
         "blog",
         "website"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
+      "name": "gigs",
+      "display_name": "Gigs",
+      "version": "0.1.0",
+      "description": "Agents delegate atomic work to human workers (CRM contacts) by composing reusable multi-modal instructions — text, audio, video, images, documents, checklists, confirmations, and the full input_* family. Templates are saved instruction sets; gigs are dispatched snapshots whose result schema, media manifest, and checklist are derived from the composition (never hand-authored). Workers receive a magic-link page via crm.contacts_send_message, read/watch the instructions, fill the form, upload attachments through storage, and submit. Yes/no and short-text gigs also accept thread replies via the CRM conversation. workers_create upserts a CRM contact and promotes it to a worker in one MCP call. CRM and storage are required dependencies; messaging is reached indirectly through CRM.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/gigs",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/gigs/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/gigs/icon.png",
+      "tags": [
+        "gigs",
+        "workers",
+        "delegation",
+        "productivity"
       ],
       "official": true,
       "category": "productivity"
