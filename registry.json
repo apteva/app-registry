@@ -275,8 +275,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.3.0",
-      "description": "Generate images, video, audio, and music via any compatible provider (OpenAI for image + TTS today; Replicate / ElevenLabs / Suno / Runway / Pika as the integration catalog learns them). Optionally saves outputs to the Storage app for permanent, shareable references.",
+      "version": "0.4.0",
+      "description": "Generate or edit images, plus video / audio / music (stubs) via any compatible provider. media_generate(kind, prompt, source_image?) — pass source_image (storage:N, URL, or base64) to switch into Venice's prompt-driven edit flow. Today: OpenAI + Venice AI for image generate; Venice for image edit. Optionally saves outputs to the Storage app for permanent, shareable references.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
