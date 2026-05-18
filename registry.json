@@ -96,8 +96,8 @@
     {
       "name": "status",
       "display_name": "Status",
-      "version": "2.0.0",
-      "description": "Per-agent status line. Agent writes 'what I'm on right now' via MCP; dashboard reads it live. Short-horizon counterpart to the long-lived directive. Includes a panel for operators to view, set, and clear the line.",
+      "version": "2.0.1",
+      "description": "Per-agent status line. Agent writes 'what I'm on right now' via MCP; dashboard reads it live. Short-horizon counterpart to the long-lived directive. Includes a panel for operators to view, set, and clear the line, plus a /status skill teaching the cadence + tone protocol.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/status",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/status/apteva.yaml",
