@@ -130,8 +130,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.3.1",
-      "description": "Watch and steer the agent's browser. v0.3 adds the first MCP tools — browser_open / browser_list / browser_screenshot / browser_close — so sibling apps can drive sessions through this sidecar instead of through core. Sessions are owned by the sidecar with a 30-min idle reaper; backend choice (local / browserbase / steel) per-call or via APTEVA_BROWSER_BACKEND env. v0.3.1 ships browser_list + a /api/sessions HTTP route the operator panel reads to render the live session set with an Open-in-DevTools deep-link. Operator panel and four chat-attachable cards (browser-card, screenshot-with-som, live-view, navigation-timeline) ship alongside. Click/type/scroll, SoM overlay, and session-attach (so callers can shoot a session the agent already opened) come in later releases.",
+      "version": "0.3.2",
+      "description": "Watch and steer the agent's browser. v0.3 adds the first MCP tools — browser_open / browser_list / browser_screenshot / browser_close — so sibling apps can drive sessions through this sidecar instead of through core. Sessions are owned by the sidecar with a 30-min idle reaper; backend choice (local / browserbase / steel) per-call or via APTEVA_BROWSER_BACKEND env. v0.3.2 ships browser_list + a /sessions HTTP route (proxied as /api/apps/computer/sessions) the operator panel reads to render the live session set with an Open-in-DevTools deep-link. Operator panel and four chat-attachable cards (browser-card, screenshot-with-som, live-view, navigation-timeline) ship alongside. Click/type/scroll, SoM overlay, and session-attach (so callers can shoot a session the agent already opened) come in later releases.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -146,7 +146,7 @@
     {
       "name": "screenshots",
       "display_name": "Screenshots",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Capture browser screenshots from a URL, save them to storage, and browse them in a gallery. Built on the `computer` app for the browser session and `storage` for the bytes — this app owns no browser plumbing itself. Four MCP tools (capture / list / get / delete) plus a gallery panel and a chat-attachable screenshot-card the agent posts after a successful capture. Idempotency_key on capture deduplicates retries within a 10-minute window. v0.1 supports URL-driven capture only; attaching to a session the agent already opened lands when computer exposes session resume.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/screenshots",
