@@ -146,7 +146,7 @@
     {
       "name": "screenshots",
       "display_name": "Screenshots",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Capture browser screenshots from a URL, save them to storage, and browse them in a gallery. Built on the `computer` app for the browser session and `storage` for the bytes — this app owns no browser plumbing itself. Four MCP tools (capture / list / get / delete) plus a gallery panel and a chat-attachable screenshot-card the agent posts after a successful capture. Idempotency_key on capture deduplicates retries within a 10-minute window. v0.1 supports URL-driven capture only; attaching to a session the agent already opened lands when computer exposes session resume.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/screenshots",
