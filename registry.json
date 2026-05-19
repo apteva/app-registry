@@ -130,8 +130,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.3.2",
-      "description": "Watch and steer the agent's browser. v0.3 adds the first MCP tools — browser_open / browser_list / browser_screenshot / browser_close — so sibling apps can drive sessions through this sidecar instead of through core. Sessions are owned by the sidecar with a 30-min idle reaper; backend choice (local / browserbase / steel) per-call or via APTEVA_BROWSER_BACKEND env. v0.3.2 ships browser_list + a /sessions HTTP route (proxied as /api/apps/computer/sessions) the operator panel reads to render the live session set with an Open-in-DevTools deep-link. Operator panel and four chat-attachable cards (browser-card, screenshot-with-som, live-view, navigation-timeline) ship alongside. Click/type/scroll, SoM overlay, and session-attach (so callers can shoot a session the agent already opened) come in later releases.",
+      "version": "0.3.3",
+      "description": "Watch and steer the agent's browser. v0.3 adds the first MCP tools — browser_open / browser_list / browser_screenshot / browser_close — so sibling apps can drive sessions through this sidecar instead of through core. Sessions are owned by the sidecar with a 30-min idle reaper; backend choice (local / browserbase / steel) per-call or via APTEVA_BROWSER_BACKEND env. v0.3.3 makes the operator panel interactive: a New-session button (URL + backend modal) and per-row close buttons drive POST/DELETE /sessions on the sidecar, alongside the existing browser_list view + Open-in-DevTools deep-link. Four chat-attachable cards (browser-card, screenshot-with-som, live-view, navigation-timeline) ship alongside. Click/type/scroll, SoM overlay, and session-attach (so callers can shoot a session the agent already opened) come in later releases.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
