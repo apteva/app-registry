@@ -293,6 +293,25 @@
       "category": "ai"
     },
     {
+      "name": "composer",
+      "display_name": "Composer",
+      "version": "0.1.0",
+      "description": "Multi-clip video composition. Stitch generated or uploaded assets into a single video — clips on a track, optional soundtrack, text overlays. v0.1 renders locally via the sidecar's bundled ffmpeg or on a render host via instances. v0.2 adds SaaS render backends (Shotstack et al) via the render_executor integration role.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/icon.png",
+      "tags": [
+        "video",
+        "composition",
+        "render",
+        "ffmpeg",
+        "timeline"
+      ],
+      "official": true,
+      "category": "ai"
+    },
+    {
       "name": "calendar",
       "display_name": "Calendar",
       "version": "0.2.2",
