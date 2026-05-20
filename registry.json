@@ -24,7 +24,7 @@
     {
       "name": "demo",
       "display_name": "Demo Runner",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Client-facing demo runner. State board with live MCP-polled scenario cards, control rail with seed/reset recipes + scripted scenario triggers, chat dock for natural-language Q&A with the agent. Designed as a kiosk surface for client meetings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/demo",
@@ -146,7 +146,7 @@
     {
       "name": "screenshots",
       "display_name": "Screenshots",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Capture browser screenshots from a URL, save them to storage, and browse them in a gallery. Built on the `computer` app for the browser session and `storage` for the bytes — this app owns no browser plumbing itself. Four MCP tools (capture / list / get / delete) plus a gallery panel and a chat-attachable screenshot-card the agent posts after a successful capture. Idempotency_key on capture deduplicates retries within a 10-minute window. v0.1 supports URL-driven capture only; attaching to a session the agent already opened lands when computer exposes session resume.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/screenshots",
@@ -252,7 +252,7 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
@@ -459,7 +459,7 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Trading desk for Apteva agents. Multi-portfolio, multi-asset (equity, crypto, polymarket). Each portfolio runs in paper mode (deterministic in-process engine) or live mode (orders route through a bound broker integration; v0.2 ships Binance only). Mandate, allowed asset classes, and daily-loss halt enforced server-side; halt cancels working broker orders upstream. Approval policy lives in the agent's directive, not the platform.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
@@ -679,7 +679,7 @@
     {
       "name": "tapo",
       "display_name": "Tapo Cameras",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Local-LAN control of TP-Link Tapo cameras. Pan/tilt/zoom, snapshots, RTSP stream URLs, motion events, privacy + LED + night-mode toggles, presets. Talks the camera's HTTPS JSON-RPC directly with the secure_passthrough auth flow shipped on every internet-connected Tapo camera since TP-Link's Sept-2023 security patch. No cloud round-trips; everything goes peer-to-peer over the LAN. Setup requires enabling Third-Party Compatibility in the Tapo app (Me → Tapo Lab) on app version >= 3.8.103.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tapo",
@@ -850,7 +850,7 @@
     {
       "name": "redirects",
       "display_name": "Redirects",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Branded short links and domain redirects. Each rule maps a (hostname, path) pair to an external URL and answers with a 301/302/307/308 + Location header. Think Bitly on your own domain, or EasyRedir for post-rebrand migrations. Composes on top of Routes (claims the public hostname so apteva-server reverse-proxies inbound traffic here) and optionally Domains (upserts a CNAME pointing at the platform when the apex is managed there). Match modes: exact and prefix (longest wins, segment-boundary safe); preserve_path forwards the leftover path on prefix rules, preserve_query merges inbound query strings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/redirects",
@@ -903,7 +903,7 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Identity layer for Apteva-deployed SaaS: email + password signup/login, EdDSA JWT issuance with JWKS, refresh-token rotation, OAuth client registry (one user pool, many clients), email verification, password reset, magic links, and TOTP MFA. Agents administer the user pool via MCP tools; the deployed frontend hits the public HTTP routes; the dashboard renders a consolidated Auth panel (Overview / Users / Clients / Endpoints). Messaging is an optional dependency for transactional email.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
