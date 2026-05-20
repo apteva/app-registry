@@ -291,8 +291,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.5.5",
-      "description": "Generate or edit images and video (audio/music stubs) via any compatible provider. media_generate(kind, prompt, source_image?) — pass source_image (storage:N, URL, or base64) to switch into edit flow (images) or image-to-video (video). Async kinds queue + poll automatically. Today: OpenAI + Venice AI for image generate; Venice for image edit + text/image-to-video. Live-loaded model dropdown per provider. Optionally saves outputs to the Storage app for permanent, shareable references.",
+      "version": "0.6.0",
+      "description": "Generate or edit images, video, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, …) — image / video / audio / music / avatar. source_image switches images into edit and video into image-to-video; kind=avatar makes a replica speak a script (Tavus). Async kinds queue + poll automatically. Today: OpenAI + Venice for image; Venice for image edit + text/image-to-video; Tavus for avatars. Live-loaded model + constraint-aware composer. Optionally saves outputs to the Storage app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
