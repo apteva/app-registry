@@ -330,8 +330,8 @@
     {
       "name": "calendar",
       "display_name": "Calendar",
-      "version": "0.3.2",
-      "description": "Self-contained calendar — multiple calendars per project, events with recurrence (rrule), holidays helper. Agents read + write via MCP tools; the panel renders day / week / month / year / agenda views with click-to-create and drag-to-move. v0.3.2 renders multi-day + all-day events clearly: continuous spanning bars in month view, a dedicated all-day strip above the week/day timed grid, and full-span dots in the year mini-calendar.",
+      "version": "0.3.3",
+      "description": "Self-contained calendar — multiple calendars per project, events with recurrence (rrule), holidays helper. Agents read + write via MCP tools; the panel renders day / week / month / year / agenda views with click-to-create and drag-to-move. Multi-day + all-day events render clearly across views: truly continuous spanning bars in month view (per-week overlay), a dedicated all-day strip above the week/day timed grid, and connected span bars in the larger year mini-calendars.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/calendar",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calendar/apteva.yaml",
