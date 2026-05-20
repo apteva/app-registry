@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-19T10:00:00Z",
+  "updated_at": "2026-05-20T08:51:06Z",
   "apps": [
     {
       "name": "simple",
@@ -919,6 +919,26 @@
       ],
       "official": true,
       "category": "developer"
+    },
+    {
+      "name": "market-intel",
+      "display_name": "Market Intelligence",
+      "version": "0.1.0",
+      "description": "Cross-source market-intelligence gateway for trading agents. Ask in domain language (\"Alcaraz clay H2H\", \"current Fed-cut probability\", \"enrich this Polymarket market\") and market-intel fans out to the right bound data sources — prediction markets, sportsbook odds, macro, news, crypto — normalizes, de-vigs, and returns one consistent result. Read-only: it reads prices/stats/history; the agent decides; the trading app executes. v0.1 ships the unified query gateway; the background signal engine (arbitrage detection + events) lands in v0.2.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/market-intel/icon.png",
+      "tags": [
+        "trading",
+        "intelligence",
+        "prediction-markets",
+        "polymarket",
+        "sports",
+        "macro",
+        "signals",
+        "gateway"
+      ]
     }
   ]
 }
