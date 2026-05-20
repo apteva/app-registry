@@ -146,7 +146,7 @@
     {
       "name": "screenshots",
       "display_name": "Screenshots",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Capture browser screenshots from a URL, save them to storage, and browse them in a gallery. Built on the `computer` app for the browser session and `storage` for the bytes — this app owns no browser plumbing itself. Four MCP tools (capture / list / get / delete) plus a gallery panel and a chat-attachable screenshot-card the agent posts after a successful capture. Idempotency_key on capture deduplicates retries within a 10-minute window. v0.1 supports URL-driven capture only; attaching to a session the agent already opened lands when computer exposes session resume.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/screenshots",
@@ -252,7 +252,7 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
@@ -850,7 +850,7 @@
     {
       "name": "redirects",
       "display_name": "Redirects",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Branded short links and domain redirects. Each rule maps a (hostname, path) pair to an external URL and answers with a 301/302/307/308 + Location header. Think Bitly on your own domain, or EasyRedir for post-rebrand migrations. Composes on top of Routes (claims the public hostname so apteva-server reverse-proxies inbound traffic here) and optionally Domains (upserts a CNAME pointing at the platform when the apex is managed there). Match modes: exact and prefix (longest wins, segment-boundary safe); preserve_path forwards the leftover path on prefix rules, preserve_query merges inbound query strings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/redirects",
