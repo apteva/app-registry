@@ -963,7 +963,7 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "description": "Generic event analytics for Apteva apps. Other apps call analytics_track to record typed events; analytics_query / count / top / topics surface aggregates over JSON props. Each track emits an \"event.recorded\" bus event, so the dashboard panel is real-time (overview tiles, events-per-day chart, top values, live event feed, filters by event type / app / props). v0.4 adds static-site tracking: mint a public write key from the panel's Tracking tab, drop the hosted tag.js <script> on any website, and page views + custom events flow into GET /collect (anonymous, key-gated, origin-allowlisted, rate-limited). The write key is write-only and project-bound; the platform API key never touches the browser. Auto-capture from the platform event firehose is deferred to a later release.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
