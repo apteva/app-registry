@@ -887,7 +887,7 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.6.3",
+      "version": "2.7.0",
       "description": "Multi-site block-based CMS. One project hosts 1..N sites — each with its own posts, pages, terms, menus, settings, theme, and optional hostname. Per-site templates (Finance Blog, SaaS Marketing, Docs Site bundled). Posts and pages with hierarchy, media, taxonomies, menus, revisions, redirects. Canonical body is a JSON block tree; 16 core block types shipped. Dashboard panel includes a Content tab (list + block editor), Templates tab (one-click site scaffolds), and a site switcher that auto-hides on single-site installs. Renders themed HTML at /, /posts/:slug, /:nested-page, term archives, feed.xml, and sitemap.xml; host-based dispatch routes domain-linked traffic to the right site automatically. Same data exposed as REST under /api/apps/content/admin/* so external frontends share the database without touching the theme path.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
