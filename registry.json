@@ -963,8 +963,8 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.2.0",
-      "description": "Generic event analytics for Apteva apps. Other apps call analytics_track to record typed events; analytics_query / count / top / topics surface aggregates over JSON props. Soft dependency: if analytics is uninstalled, callers' track calls fail silently and the rest of their flow continues. Explicit-tracking only — apps opt in by calling analytics_track. v0.2 adds a read-only dashboard panel (overview tiles, an events-per-day chart, top values for a props key, and a topics table); auto-capture from the platform event firehose is deferred to a later release.",
+      "version": "0.3.0",
+      "description": "Generic event analytics for Apteva apps. Other apps call analytics_track to record typed events; analytics_query / count / top / topics surface aggregates over JSON props. Soft dependency: if analytics is uninstalled, callers' track calls fail silently and the rest of their flow continues. Explicit-tracking only — apps opt in by calling analytics_track. Each track emits an \"event.recorded\" event on the app bus (project-scoped), so live panels and other apps can react. v0.3 ships a real-time dashboard panel (subscribes via useAppEvents): overview tiles, an events-per-day chart, top values for a props key, a live event feed, and filters by event type / app / props dimension. Auto-capture from the platform event firehose is deferred to a later release.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/apteva.yaml",
