@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-20T10:09:28Z",
+  "updated_at": "2026-05-21T00:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -263,6 +263,26 @@
         "editor",
         "repositories",
         "agent"
+      ],
+      "official": true,
+      "category": "developer"
+    },
+    {
+      "name": "simulator",
+      "display_name": "Apteva Simulator",
+      "version": "0.1.0",
+      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/simulator",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/simulator/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/simulator/icon.png",
+      "tags": [
+        "mobile",
+        "simulator",
+        "emulator",
+        "ios",
+        "android",
+        "dev"
       ],
       "official": true,
       "category": "developer"
