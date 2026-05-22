@@ -887,6 +887,24 @@
       "category": "infrastructure"
     },
     {
+      "name": "cdn",
+      "display_name": "CDN",
+      "version": "0.1.0",
+      "description": "Public-facing edge for apps that emit URLs. Composes Domains (DNS), Certs (TLS), and Routes (host-based reverse-proxy) into one capability: given an origin URL and a hostname, expose that origin publicly on the hostname. v0.1 is local-mode only — apteva-server itself is the origin (no third-party CDN, edge caching, or edge nodes); the hostname is registered with Routes, the cert issued via Certs, the DNS record written via Domains, and apteva-server's HostRouter serves the traffic. Domains and Certs are optional (skip_dns / allow_http). Consumers (storage today, media-studio and podcast later) call cdn_url_for to mint URLs on a linked zone.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/cdn",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/cdn/apteva.yaml",
+      "tags": [
+        "cdn",
+        "edge",
+        "hostname",
+        "routing",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "redirects",
       "display_name": "Redirects",
       "version": "0.3.1",
