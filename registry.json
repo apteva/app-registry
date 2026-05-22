@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-21T00:00:00Z",
+  "updated_at": "2026-05-22T10:00:00Z",
   "apps": [
     {
       "name": "simple",
@@ -578,7 +578,7 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "description": "Customers, invoices, and payments — the AR core. Issuer settings (your legal entity) + EU reverse-charge auto-detection + country-name rendering on the PDF. Stripe enters as the `payment_processor` integration role (v0.8.0+): bind a Stripe connection once and agents call invoices_send_payment_link(invoice_id) to share a Stripe Checkout URL with the customer. The /webhooks/stripe endpoint verifies the signature via the integration's process_webhook tool and records payments idempotently on the (method, external_id) unique index. When no Stripe is bound, degrades cleanly to manual wire / cash / check / other recording. Catalog optional dep: invoice line items can reference a catalog price_id to snapshot description + unit_price, with FKs preserved for revenue-by-product analytics. Lifecycle: draft → open → paid / void / uncollectible. PDF + HTML print views render from line item snapshots so historical invoices stay stable even when catalog prices change. SQLite-backed; one currency per invoice; tax in basis points.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
@@ -598,7 +598,7 @@
     {
       "name": "catalog",
       "display_name": "Catalog",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Products and prices — the source-of-truth app for what your business sells. Modelled after Stripe's Product + Price split: one product, many prices (different currencies, intervals, tiers). Lower-layer commerce app — catalog calls nothing; downstream apps (billing, future subscriptions/checkout) call here. Prices are effectively immutable for financial fields after create (unit_amount_cents, currency, interval) — to change pricing, create a new price and archive the old one. Same rule Stripe enforces. Soft-delete only so invoice/subscription references always resolve. 11 MCP tools across products + prices CRUD. Two-column panel with list + detail and 4 form modals (Create/Edit Product, Create/Edit Price). Chat-attachable product-card and price-card components. Forward-compat Stripe mirroring columns (external_id) on both tables — populated when billing's Stripe integration mirror lands.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/catalog",
@@ -618,7 +618,7 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Cart + buy flow — the orchestrator that turns a customer's intent into a real billing invoice. Three tables (carts, cart_items, checkout_sessions) implement the full state machine: open → checkout (locked while a session is awaiting payment) → converted (terminal, linked to billing invoice) or abandoned (TTL). Sits between content (storefront rendering) and billing (order ledger). Cart items snapshot from catalog prices at add-time so totals stay stable even if catalog pricing changes mid-session. On pay, calls billing.customers_upsert_by_email + invoices_create + invoices_finalize to mint a real invoice (idempotent + auditable). v0.1.0 ships the manual-payment path — agent/customer records the wire transfer in billing once received. v0.2.0 adds Stripe Checkout Session via the same payment_processor integration billing uses, with webhook-driven auto-paid flow. 9 MCP tools across cart_* and checkout_*. Admin panel with Carts + Sessions tabs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
