@@ -2,13 +2,13 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-22T20:00:00Z",
+  "updated_at": "2026-05-22T21:00:00Z",
   "apps": [
     {
       "name": "stocks",
       "display_name": "Stocks",
-      "version": "0.5.0",
-      "description": "Explore + screen the S&P 1500 (every Dividend Aristocrat & King) backed by Yahoo Finance. Min/max filters on dividend yield, payout ratio, P/E, and 5-year dividend growth; smart watchlists (rule-driven, manual, or hybrid) with live membership; per-stock quote, price chart, dividend history. Read-only: never places orders, holds no ledger. Free Yahoo public endpoints, no API key.",
+      "version": "0.6.0",
+      "description": "Explore + screen the S&P 1500 (every Dividend Aristocrat & King) backed by Yahoo Finance. Min/max filters on market cap, dividend yield, payout ratio, P/E, and 5-year dividend growth; smart watchlists (rule-driven, manual, or hybrid) with live membership; per-stock quote, price chart, dividend history. Read-only: never places orders, holds no ledger. Free Yahoo public endpoints, no API key.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/stocks",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/stocks/apteva.yaml",
