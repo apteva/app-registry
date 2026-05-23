@@ -425,7 +425,7 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.2",
+      "version": "0.13.3",
       "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). Tracks SES/SNS delivery events including delivered, opened, clicked, bounced, complaints, delays, rejects, and rendering failures; mirrors them into Apteva message events and the operator panel. Sender setup can be rechecked idempotently to refresh SES identity, DNS, inbound receiving, SNS notifications, and delivery event wiring.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
