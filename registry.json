@@ -816,7 +816,7 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "description": "Control plane for a fleet of client apteva instances. Spawns each tenant as a local apteva process on the parent host with its own data dir and port, supervised by fleet. Admin-driven bootstrap: tenant_create mints a setup token + returns the setup URL; the operator finishes admin registration in the browser and pastes the resulting api_key back via tenant_attach_key. Encrypted api_key keyring (AES-GCM, master key from FLEET_MASTER_KEY env or auto-generated on first boot). Nine MCP tools: tenant_create / _attach_key / _connect / _list / _get / _start / _stop / _delete / _support_login / _run_remote. Health poller every 60s with 5-failure disconnect threshold; boot reconciler reattaches surviving children after parent restart. Zero cross-app deps. Forward-compatible kind enum (local / remote today; docker / vps coming) means future provisioners drop in without breaking the registry.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
