@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-22T21:00:00Z",
+  "updated_at": "2026-05-23T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -440,6 +440,25 @@
       ],
       "official": true,
       "category": "messaging"
+    },
+    {
+      "name": "email-checker",
+      "display_name": "Email Checker",
+      "version": "0.1.0",
+      "description": "Stateless email validation — no DB, every call resolves fresh. email_check returns RFC 5322 syntax, DNS MX records, and list-based classification (disposable provider, free provider, role account) with a combined valid verdict. email_check_smtp runs an EHLO + MAIL FROM <> + RCPT TO probe against the domain's MX, flagging informative=false for Google/Microsoft (which accept every RCPT) and for blocked or greylisted responses. Also exposes a REST mirror at /check?email=.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/email-checker",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/email-checker/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/email-checker/icon.png",
+      "tags": [
+        "email",
+        "validation",
+        "deliverability",
+        "smtp",
+        "productivity"
+      ],
+      "official": true,
+      "category": "productivity"
     },
     {
       "name": "domains",
