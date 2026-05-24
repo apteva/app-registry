@@ -697,7 +697,7 @@
     {
       "name": "finance",
       "display_name": "Finance",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "description": "Unified personal-wealth tracker — cash, brokerage positions, P2P loans, crypto, real estate, vehicles, pensions, loans, all in one ledger. Three nouns model everything: accounts (a place that holds value), instruments (the thing held — AAPL, BTC, EUR, your house), holdings (account × instrument → quantity + cost basis). Money in signed integer minor units; avg-cost accounting with cost_basis_delta on every txn so realised P&L is one column sum. Convenience tools for buy/sell/dividend/interest/transfer/valuation. Reports: net worth (point or monthly series, by account/kind/currency), allocation, performance (realised + unrealised P&L), cashflow (income vs expense per period). Per-category monthly budgets with hierarchical rollup. CSV import. v0.1 is manual entry; v0.2 plugs in integrations (Trading 212 first, then Plaid / Mintos / Binance) via the platform integrations engine — manual and integrated rows are indistinguishable downstream.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/finance",
