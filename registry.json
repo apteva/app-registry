@@ -26,7 +26,7 @@
     {
       "name": "simple",
       "display_name": "Simple",
-      "version": "0.1.2",
+      "version": "0.1.1",
       "description": "Minimal read-only UI for watching an Apteva agent — embed anywhere on the same host. Same-origin, path-mounted SPA; no sidecar.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/simple",
@@ -697,7 +697,7 @@
     {
       "name": "finance",
       "display_name": "Finance",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Unified personal-wealth tracker — cash, brokerage positions, P2P loans, crypto, real estate, vehicles, pensions, loans, all in one ledger. Three nouns model everything: accounts (a place that holds value), instruments (the thing held — AAPL, BTC, EUR, your house), holdings (account × instrument → quantity + cost basis). Money in signed integer minor units; avg-cost accounting with cost_basis_delta on every txn so realised P&L is one column sum. Convenience tools for buy/sell/dividend/interest/transfer/valuation. Reports: net worth (point or monthly series, by account/kind/currency), allocation, performance (realised + unrealised P&L), cashflow (income vs expense per period). Per-category monthly budgets with hierarchical rollup. CSV import. v0.1 is manual entry; v0.2 plugs in integrations (Trading 212 first, then Plaid / Mintos / Binance) via the platform integrations engine — manual and integrated rows are indistinguishable downstream.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/finance",
@@ -796,7 +796,7 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.4.8",
+      "version": "0.4.7",
       "description": "Compute-host inventory + lifecycle for Apteva. Manages the local Apteva machine and remote VPS instances under one MCP/REST surface so other apps (Live Link self-vps, Deploy SSHRuntime, Backup off-host, future Containers/Database/MQTT/game-server apps) bind a single \"compute\" dependency instead of each speaking VPS-provider APIs directly. The local machine is auto-seeded as instance id=0 and is always 'ready' — cannot be created or destroyed via the public API. Remote instances in v0.1 are provisioned via Hetzner Cloud (DigitalOcean / Vultr / AWS EC2 in v0.2). Per-instance Ed25519 SSH keypair seeded into the box via cloud-init authorized_keys; background readiness probe flips status='provisioning' → 'ready' once SSH accepts the key. Eight MCP tools: instance_create / _get / _list / _destroy / _run_command / _upload_file / _wait_ready / _metrics. Vitals (CPU / mem / disk / net / load / uptime) via gopsutil locally and a /proc-parsing bash script over SSH remotely, cached 5s per host.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
