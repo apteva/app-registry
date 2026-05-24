@@ -387,8 +387,8 @@
     {
       "name": "trips",
       "display_name": "Trips",
-      "version": "0.4.0",
-      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Each trip owns a dedicated calendar (kind=custom) that mirrors its itinerary — transport legs, stays and activities become events that stay in step as items are added, moved, or removed; sync_calendar=false silences the mirror per-trip for scratch plans. Itemized planned/actual cost with a fixed 6-bucket budget summary (transport, lodging, food, activities, shopping, other) and optional per-category caps. Calendar is a hard dep; v0.2 layers optional finance (actual-spend via tagged transactions) + storage (attach passport/ticket PDFs).",
+      "version": "0.6.2",
+      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps trip, transport, stay, and activity events in step as items are added, moved, or removed. Optional Duffel and Google Places integrations power flight and place search; itemized planned/actual cost tracking keeps the six budget buckets visible.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/apteva.yaml",
