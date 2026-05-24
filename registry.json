@@ -908,8 +908,8 @@
     {
       "name": "cdn",
       "display_name": "CDN",
-      "version": "0.2.1",
-      "description": "Public-facing edge for apps that emit URLs. Composes Domains (DNS), Certs (TLS), and Routes (host-based reverse-proxy) into one capability: given an origin and a hostname, expose it publicly. Origin can be a static URL or an installed app by name (origin_app / cdn_link_app) — apteva-server resolves the app's live sidecar per request, so the zone survives restarts. apteva-server fronts it with an in-process edge cache for public assets (honors Cache-Control/ETag). Domains and Certs are optional (skip_dns / allow_http). Consumers (storage today, media-studio and podcast later) call cdn_url_for to mint URLs on a linked zone.",
+      "version": "0.2.2",
+      "description": "Public-facing edge for apps that emit URLs. Composes Domains (DNS), Certs (TLS), and Routes (host-based reverse-proxy) into one capability: given an origin and a hostname, expose it publicly. The CDN panel can now create managed hostnames by picking a Domains inventory domain plus subdomain, and app origins by selecting a running project/global app. Origin can still be a static URL or an installed app by name (origin_app / cdn_link_app) — apteva-server resolves the app's live sidecar per request, so the zone survives restarts. apteva-server fronts it with an in-process edge cache for public assets (honors Cache-Control/ETag). Domains and Certs are optional (skip_dns / allow_http). Consumers (storage today, media-studio and podcast later) call cdn_url_for to mint URLs on a linked zone.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/cdn",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/cdn/apteva.yaml",
