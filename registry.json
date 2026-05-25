@@ -149,8 +149,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.1",
-      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.1 expands the desktop session panel so the live browser viewport uses the available space, while retaining app-managed browser contexts, provider-linked context ids, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
+      "version": "0.7.2",
+      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.2 lets the desktop panel span the available viewport width for a larger browser view, while retaining app-managed browser contexts, provider-linked context ids, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
