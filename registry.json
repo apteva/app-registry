@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-23T00:00:00Z",
+  "updated_at": "2026-05-25T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -149,8 +149,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.3.4",
-      "description": "Watch and steer the agent's browser. v0.3 adds the first MCP tools — browser_open / browser_list / browser_screenshot / browser_close — so sibling apps can drive sessions through this sidecar instead of through core. Sessions are owned by the sidecar with a 30-min idle reaper; backend choice (local / browserbase / steel) per-call or via APTEVA_BROWSER_BACKEND env. v0.3.4 adds a polled-screenshot live preview to the operator panel (GET /sessions/{id}/screenshot streams PNG bytes inline at ~1 fps), alongside the existing New-session modal, per-row close, and Open-in-DevTools deep-link. Four chat-attachable cards (browser-card, screenshot-with-som, live-view, navigation-timeline) ship alongside. Click/type into the live view, SoM overlay, and session-attach come in later releases.",
+      "version": "0.4.0",
+      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.4 makes the app independent from the legacy computer package, owns local / Browserbase / Steel / Browser Engine / service backends directly, supports context_id, session resume, proxy controls, screenshots, clicks, typing, keys, scrolling, and an operator panel with live previews.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
