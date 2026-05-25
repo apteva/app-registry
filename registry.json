@@ -94,6 +94,25 @@
       "category": "productivity"
     },
     {
+      "name": "events",
+      "display_name": "Events",
+      "version": "0.1.0",
+      "description": "Create shows, collect performer applications, curate lineups, issue simple tickets, and run check-in. Built for small events and comedy-style performer intake: applications can be shortlisted, accepted, rejected, then scheduled into performance slots. Free/manual ticketing in v0.1; paid checkout can be delegated to an external URL.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/events",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/events/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/events/icon.svg",
+      "tags": [
+        "events",
+        "ticketing",
+        "performers",
+        "applications",
+        "scheduling"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
       "name": "health",
       "display_name": "Health",
       "version": "0.1.0",
