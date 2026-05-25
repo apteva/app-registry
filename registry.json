@@ -149,8 +149,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.5.0",
-      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.5 upgrades the operator panel to use the same tool surface as agents: advanced open/resume/context fields, persist/proxy/viewport controls, provider live links, direct screenshot clicking, typing, keys, scrolling, waiting, and manual coordinate actions.",
+      "version": "0.5.1",
+      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.5.1 replaces browser-native panel confirmations with app-rendered modals while keeping advanced open/resume/context fields, provider live links, direct screenshot clicking, typing, keys, scrolling, waiting, and manual coordinate actions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
