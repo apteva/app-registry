@@ -149,8 +149,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.5",
-      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.5 keeps the enlarged browser viewport stable while action status changes, while retaining fixed click coordinates, full-width dashboard cards, app-managed browser contexts, provider-linked context ids, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
+      "version": "0.7.6",
+      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.6 adds app-owned provider settings so Browserbase, Steel, local Chrome, Browser Engine, or service can be selected as the default provider and optionally enforced for agents, while retaining the enlarged stable viewport, fixed click coordinates, app-managed contexts, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
