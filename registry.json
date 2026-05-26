@@ -835,8 +835,8 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.8.3",
-      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup: per-tenant backup planning, local tenant data-dir snapshots, and local tenant restore. Admin-driven bootstrap, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools are included.",
+      "version": "0.8.4",
+      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools. Client-managed DNS domain attachments now force Certs HTTP-01 so externally owned hostnames can issue without registrar access.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/apteva.yaml",
@@ -890,8 +890,8 @@
     {
       "name": "certs",
       "display_name": "Certs",
-      "version": "0.5.1",
-      "description": "TLS certificate issuance for Apteva projects via Let's Encrypt (or any RFC 8555 ACME directory). Two challenge types: DNS-01 routes TXT writes through the Domains app (no registrar credentials held here); HTTP-01 uses the webroot pattern (writes /.well-known/acme-challenge/<token> to a directory served by whatever reverse proxy is on :80 — Caddy, nginx, traefik). Async issuance, daily renewal worker, privileged cert_material tool gated to the server's TLS cache.",
+      "version": "0.5.2",
+      "description": "TLS certificate issuance for Apteva projects via Let's Encrypt (or any RFC 8555 ACME directory). Two challenge types: DNS-01 routes TXT writes through the Domains app (no registrar credentials held here); HTTP-01 uses the webroot pattern (writes /.well-known/acme-challenge/<token> to a directory served by whatever reverse proxy is on :80 — Caddy, nginx, traefik). cert_issue accepts a per-request challenge_type override and remembers it for renewal. Async issuance, daily renewal worker, privileged cert_material tool gated to the server's TLS cache.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/certs",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/certs/apteva.yaml",
