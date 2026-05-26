@@ -596,8 +596,8 @@
     {
       "name": "backup",
       "display_name": "Backup",
-      "version": "0.2.4",
-      "description": "Periodic backups of your Apteva instance — server DB plus every installed app's data. Captured via the platform snapshot endpoint (online, consistent, non-blocking) and shipped to a destination of your choice: local disk for self-hosters, or any S3-compatible bucket (AWS, Cloudflare R2, Backblaze B2, Wasabi, MinIO). Schedules are driven by the jobs app so cron behaviour, retries, and run history all live in one familiar place. Restores stream back through /api/platform/restore — app DBs are swapped live; the platform DB is staged and applied on the next server boot.",
+      "version": "0.3.0",
+      "description": "Backup engine for Apteva platform snapshots and app-provided scoped backups. Platform runs capture the server DB plus running sidecar app DBs through /api/platform/snapshot; app-scoped runs let providers such as Fleet hand Backup a per-resource snapshot for destination upload, scheduling, retention, history, and restore. Destinations support local disk and S3-compatible buckets (AWS, Cloudflare R2, Backblaze B2, Wasabi, MinIO). Schedules are driven by the Jobs app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/backup",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/backup/apteva.yaml",
@@ -835,8 +835,8 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.8.2",
-      "description": "Control plane for a fleet of client apteva instances. Spawns each tenant as a local apteva process on the parent host with its own data dir and port, supervised by fleet. Admin-driven bootstrap: tenant_create mints a setup token + returns the setup URL; the operator finishes admin registration in the browser and pastes the resulting api_key back via tenant_attach_key. Encrypted api_key keyring (AES-GCM, master key from FLEET_MASTER_KEY env or auto-generated on first boot). Nine MCP tools: tenant_create / _attach_key / _connect / _list / _get / _start / _stop / _delete / _support_login / _run_remote. Health poller every 60s with 5-failure disconnect threshold; boot reconciler reattaches surviving children after parent restart. Zero cross-app deps. Forward-compatible kind enum (local / remote today; docker / vps coming) means future provisioners drop in without breaking the registry.",
+      "version": "0.8.3",
+      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup: per-tenant backup planning, local tenant data-dir snapshots, and local tenant restore. Admin-driven bootstrap, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools are included.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/apteva.yaml",
