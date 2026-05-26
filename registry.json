@@ -835,8 +835,8 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.8.4",
-      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools. Client-managed DNS domain attachments now force Certs HTTP-01 so externally owned hostnames can issue without registrar access.",
+      "version": "0.8.5",
+      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools. Client-managed DNS domain attachments now skip Certs-app issuance and rely on the parent edge proxy for automatic HTTPS.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/apteva.yaml",
