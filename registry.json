@@ -168,8 +168,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.8",
-      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.8 keeps provider settings panel-only so agents see browser/session/context tools but cannot read or change the app default provider, while retaining Browserbase context synchronization on close, provider enforcement, stable enlarged viewport, fixed click coordinates, app-managed contexts, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
+      "version": "0.7.9",
+      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.9 makes provider lock coerce agent backend hints to the app default instead of failing, while retaining panel-only provider settings, Browserbase context synchronization on close, stable enlarged viewport, fixed click coordinates, app-managed contexts, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
