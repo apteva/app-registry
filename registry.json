@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-25T00:00:00Z",
+  "updated_at": "2026-05-28T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -1071,6 +1071,26 @@
       ],
       "official": true,
       "category": "observability"
+    },
+    {
+      "name": "calls",
+      "display_name": "Calls",
+      "version": "0.1.0",
+      "description": "Standalone realtime audio/video calls with WebRTC-ready rooms, join tokens, unified human/agent/service participants, chat, transcripts, and app-bus lifecycle events. Agents join with the same participant primitives as humans; no dependency on streaming.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/calls",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calls/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calls/icon.png",
+      "tags": [
+        "calls",
+        "video",
+        "audio",
+        "webrtc",
+        "rooms",
+        "agents"
+      ],
+      "official": true,
+      "category": "media"
     }
   ]
 }
