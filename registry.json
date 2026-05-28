@@ -218,8 +218,8 @@
     {
       "name": "embed",
       "display_name": "Embed",
-      "version": "0.1.0",
-      "description": "Create shareable viewer links and oEmbed-compatible responses for storage-backed files and media. Storage owns bytes and signed URLs; Embed owns public viewer pages, iframe HTML, and oEmbed JSON.",
+      "version": "0.1.1",
+      "description": "Create shareable viewer links and oEmbed-compatible responses for storage-backed files and media. Storage owns bytes and signed URLs; Embed owns public viewer pages, iframe HTML, oEmbed JSON, and a dashboard panel for creating and copying embed URLs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/embed",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/embed/apteva.yaml",
