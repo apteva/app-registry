@@ -500,8 +500,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.14.1",
-      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. No Docker required for v0.1; future runtimes (Docker, SSH-to-VPS) plug in behind the same Runtime interface.",
+      "version": "0.14.2",
+      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. Includes an explicit per-deployment public IP:port exposure option; default releases remain loopback-only behind routes/domains.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
