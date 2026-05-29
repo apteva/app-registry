@@ -1115,7 +1115,7 @@
     {
       "name": "calls",
       "display_name": "Calls",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Standalone realtime audio/video calls with WebRTC-ready rooms, join tokens, unified human/agent/service participants, chat, transcripts, and app-bus lifecycle events. Agents join with the same participant primitives as humans; no dependency on streaming.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/calls",
