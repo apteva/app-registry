@@ -369,8 +369,8 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.5",
-      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.5 auto-selects linked image references for image generation so Persona Studio enters Media Studio edit mode by default when references exist.",
+      "version": "0.1.6",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.6 sends all linked persona and selected item image references through Media Studio source_images by default, up to the selected model limit, with no single-reference picker.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
