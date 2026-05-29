@@ -96,7 +96,7 @@
     {
       "name": "events",
       "display_name": "Events",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Create shows, collect performer applications, curate lineups, issue simple tickets, and run check-in. Built for small events and comedy-style performer intake: applications can be shortlisted, accepted, rejected, then scheduled into performance slots. Free/manual ticketing in v0.1; paid checkout can be delegated to an external URL.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/events",
@@ -694,7 +694,7 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Patreon-like memberships for creators and communities. Manage tiers, members, gated posts, protected file drops, billing payment links, optional CRM contact sync, and member announcements through Messaging. Storage holds gated files; Billing owns customers/invoices/payments; Creators owns entitlements and the member portal.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
