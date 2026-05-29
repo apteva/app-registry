@@ -694,7 +694,7 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Patreon-like memberships for creators and communities. Manage tiers, members, gated posts, protected file drops, billing payment links, optional CRM contact sync, and member announcements through Messaging. Storage holds gated files; Billing owns customers/invoices/payments; Creators owns entitlements and the member portal.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
