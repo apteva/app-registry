@@ -168,8 +168,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.10",
-      "description": "Watch and steer browser sessions through the generic browser_session and computer_use MCP tools. v0.7.10 enables Set-of-Mark label badges by default, strengthens label-first computer_use guidance, and rejects click actions without either a label or coordinate, while retaining panel-only provider settings, Browserbase context synchronization on close, stable enlarged viewport, app-managed contexts, save/open/restore panel controls, provider live links, and direct computer_use interactions.",
+      "version": "0.3.4",
+      "description": "Watch and steer the agent's browser. v0.3 adds the first MCP tools — browser_open / browser_list / browser_screenshot / browser_close — so sibling apps can drive sessions through this sidecar instead of through core. Sessions are owned by the sidecar with a 30-min idle reaper; backend choice (local / browserbase / steel) per-call or via APTEVA_BROWSER_BACKEND env. v0.3.4 adds a polled-screenshot live preview to the operator panel (GET /sessions/{id}/screenshot streams PNG bytes inline at ~1 fps), alongside the existing New-session modal, per-row close, and Open-in-DevTools deep-link. Four chat-attachable cards (browser-card, screenshot-with-som, live-view, navigation-timeline) ship alongside. Click/type into the live view, SoM overlay, and session-attach come in later releases.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -211,24 +211,6 @@
         "files",
         "cdn",
         "upload"
-      ],
-      "official": true,
-      "category": "storage"
-    },
-    {
-      "name": "embed",
-      "display_name": "Embed",
-      "version": "0.1.2",
-      "description": "Create shareable viewer links and oEmbed-compatible responses for storage-backed files and media. Storage owns bytes and signed URLs; Embed owns public viewer pages, iframe HTML, oEmbed JSON, and a dashboard panel for creating and copying embed URLs.",
-      "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/embed",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/embed/apteva.yaml",
-      "tags": [
-        "embed",
-        "oembed",
-        "media",
-        "storage",
-        "sharing"
       ],
       "official": true,
       "category": "storage"
@@ -387,8 +369,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.3.0",
-      "description": "Multi-clip video composition. Stitch generated or uploaded assets into a single video with a structured timeline panel, empty first-run state, Storage file browser, AI-backed clip and soundtrack sources via Media Studio, live preview, clip inspector controls, optional soundtrack, text overlays, and storage-aware render saves. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
+      "version": "0.2.0",
+      "description": "Multi-clip video composition. Stitch generated or uploaded assets into a single video with a structured timeline panel, live preview, clip inspector controls, optional soundtrack, text overlays, and storage-aware render saves. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
@@ -462,7 +444,7 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.12",
+      "version": "0.13.6",
       "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). Tracks SES/SNS delivery events including delivered, opened, clicked, bounced, complaints, delays, rejects, and rendering failures; mirrors them into Apteva message events and the operator panel. Sender setup can be rechecked idempotently to refresh SES identity, DNS, inbound receiving, SNS notifications, and delivery event wiring.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
@@ -518,8 +500,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.14.3",
-      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. Code-app deployments stream repository exports over HTTP instead of base64 MCP payloads; default releases remain loopback-only behind routes/domains unless public IP:port exposure is explicitly enabled.",
+      "version": "0.14.1",
+      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. No Docker required for v0.1; future runtimes (Docker, SSH-to-VPS) plug in behind the same Runtime interface.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
@@ -710,6 +692,26 @@
       "category": "finance"
     },
     {
+      "name": "creators",
+      "display_name": "Creators",
+      "version": "0.1.0",
+      "description": "Patreon-like memberships for creators and communities. Manage tiers, members, gated posts, protected file drops, billing payment links, optional CRM contact sync, and member announcements through Messaging. Storage holds gated files; Billing owns customers/invoices/payments; Creators owns entitlements and the member portal.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/creators/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/creators/icon.svg",
+      "tags": [
+        "creators",
+        "memberships",
+        "paid-content",
+        "community",
+        "files",
+        "billing"
+      ],
+      "official": true,
+      "category": "commerce"
+    },
+    {
       "name": "bills",
       "display_name": "Bills",
       "version": "0.1.19",
@@ -853,8 +855,8 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.8.5",
-      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools. Client-managed DNS domain attachments now skip Certs-app issuance and rely on the parent edge proxy for automatic HTTPS.",
+      "version": "0.8.3",
+      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup: per-tenant backup planning, local tenant data-dir snapshots, and local tenant restore. Admin-driven bootstrap, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools are included.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/apteva.yaml",
@@ -995,7 +997,7 @@
         "stats"
       ],
       "official": true,
-      "category": "productivity"
+      "category": "marketing"
     },
     {
       "name": "content",
