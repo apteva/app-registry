@@ -369,8 +369,8 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.1",
-      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.1 adds direct Storage browsing in the panel for persona reference pictures and item reference files.",
+      "version": "0.1.2",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.2 hides app-owned dot folders like /.generated/ and /.composer/ from the panel Storage browser.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
