@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-28T00:00:00Z",
+  "updated_at": "2026-05-29T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -290,8 +290,8 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.3.1",
-      "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob.",
+      "version": "0.5.7",
+      "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob, and ZIP import for repository initialization or overlay updates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
