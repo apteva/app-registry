@@ -369,8 +369,8 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.13",
-      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.13 sends all linked persona and selected item image references through Media Studio source_images by default, asks Media Studio for provider-specific image.edit model lists when references exist, requires Media Studio v0.10.8+ for output folder support, previews ready generated Storage outputs directly in Recent Assets, exposes Storage-backed output folder selection during generation, and lets the UI unlink persona references, item files, and items.",
+      "version": "0.1.14",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.14 adds a Media Identity UI for voice/avatar defaults, loads available Media Studio voice/avatar catalogs when present, previews linked voice/avatar references, and keeps voice/avatar references out of image source_images while visual references and selected item images continue through Media Studio's multi-reference path.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
