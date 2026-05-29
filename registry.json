@@ -367,6 +367,26 @@
       "category": "ai"
     },
     {
+      "name": "persona-studio",
+      "display_name": "Persona Studio",
+      "version": "0.1.0",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator for images, video, audio, music, and avatars.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/icon.svg",
+      "tags": [
+        "ai",
+        "persona",
+        "virtual-influencer",
+        "ugc",
+        "media",
+        "content"
+      ],
+      "official": true,
+      "category": "ai"
+    },
+    {
       "name": "composer",
       "display_name": "Composer",
       "version": "0.2.0",
