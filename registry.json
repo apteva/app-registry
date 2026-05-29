@@ -873,6 +873,25 @@
       "category": "infrastructure"
     },
     {
+      "name": "containers",
+      "display_name": "Containers",
+      "version": "0.1.0",
+      "description": "Generic Docker workload runtime for Apteva. Runs arbitrary container images on the local Docker host, managing isolated networks, named volumes, port bindings, health checks, logs, lifecycle actions, and built-in blueprints. Designed as the base layer for SaaS tenant instances, Fleet, Deploy, and future remote-host scaling through Instances.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/containers",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/icon.png",
+      "tags": [
+        "containers",
+        "docker",
+        "runtime",
+        "workloads",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "fleet",
       "display_name": "Fleet",
       "version": "0.8.3",
