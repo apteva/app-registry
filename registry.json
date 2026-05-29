@@ -880,7 +880,7 @@
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/containers",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/icon.png",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/icon.svg",
       "tags": [
         "containers",
         "docker",
