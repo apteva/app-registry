@@ -349,8 +349,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.0",
-      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, …) — image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; kind=avatar makes a replica/avatar speak a script (Tavus or HeyGen). Async video/avatar jobs queue + poll automatically. Today: OpenAI + Venice for image; Venice for image edit + text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. Live-loaded model + constraint-aware composer with avatar/voice pickers. v0.10.0 adds cache_key reuse and media_get for app-to-app generated asset workflows. Optionally saves outputs to the Storage app.",
+      "version": "0.10.1",
+      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, …) — image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; kind=avatar makes a replica/avatar speak a script (Tavus or HeyGen). Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, and Venice for image; Venice for image edit + text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. Live-loaded model + constraint-aware composer with avatar/voice pickers. v0.10.1 adds Codex as a subscription-backed image provider option. Optionally saves outputs to the Storage app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
