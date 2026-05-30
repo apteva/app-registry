@@ -308,8 +308,8 @@
     {
       "name": "simulator",
       "display_name": "Apteva Simulator",
-      "version": "0.1.17",
-      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.17 makes iOS native live view smoother by streaming JPEG frames faster instead of large low-frequency PNG screenshots.",
+      "version": "0.1.18",
+      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.18 uses idb's raw BGRA framebuffer stream for iOS live view when available, JPEG-encodes frames in-process, and falls back to simctl screenshots if idb raw streaming fails.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/simulator",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/simulator/apteva.yaml",
