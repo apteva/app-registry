@@ -308,8 +308,8 @@
     {
       "name": "simulator",
       "display_name": "Apteva Simulator",
-      "version": "0.1.13",
-      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.13 keeps iOS display on the reliable native simctl PNG stream while using idb only for input, avoiding black screens when idb video-stream produces no frames.",
+      "version": "0.1.14",
+      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.14 adds a standalone panel run flow for Android and iOS source archives: upload .zip/.tar.gz, build, install, launch, then open live view.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/simulator",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/simulator/apteva.yaml",
