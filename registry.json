@@ -308,8 +308,8 @@
     {
       "name": "simulator",
       "display_name": "Apteva Simulator",
-      "version": "0.1.4",
-      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.4 requires the idb CLI during iOS capability checks so streaming cannot fail later from a missing command.",
+      "version": "0.1.5",
+      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.5 separates iOS boot capability from live streaming capability and lets a selected shutdown sim be booted again from the panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/simulator",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/simulator/apteva.yaml",
