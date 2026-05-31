@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-29T00:00:00Z",
+  "updated_at": "2026-05-31T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -1034,6 +1034,26 @@
         "links",
         "offers",
         "stats"
+      ],
+      "official": true,
+      "category": "marketing"
+    },
+    {
+      "name": "ads",
+      "display_name": "Ads",
+      "version": "0.1.0",
+      "description": "Paid advertising control plane for Apteva. Manage ad accounts, campaigns, ad sets, ads, creatives, and audiences behind one MCP surface. v0.1 supports Meta Ads (Facebook + Instagram) through the Facebook Ads integration, with OAuth account connection handled at runtime. Reporting is intentionally not in v1; this is a control plane only.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/ads/apteva.yaml",
+      "tags": [
+        "advertising",
+        "ads",
+        "marketing",
+        "campaigns",
+        "meta",
+        "facebook",
+        "instagram"
       ],
       "official": true,
       "category": "marketing"
