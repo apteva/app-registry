@@ -151,8 +151,8 @@
     {
       "name": "channels",
       "display_name": "Channels",
-      "version": "0.1.0",
-      "description": "Standalone agent-facing channel router with dashboard chat. Agents reply via respond(channel=\"chat\", ...); the app owns chat history, read state, REST/SSE streaming, and the Channels MCP surface.",
+      "version": "0.2.0",
+      "description": "Standalone agent-facing channel router with dashboard chat and ntfy-compatible notification topics. Agents use the unified respond tool with channel=\"chat\" or an ntfy channel id from list_channels.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/apteva.yaml",
