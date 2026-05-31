@@ -502,8 +502,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "0.4.0",
-      "description": "DNS + domain inventory and registrar workflows for Apteva projects. Other apps call this app for DNS record CRUD instead of speaking each registrar's API directly. v0.4 adds Porkbun domain availability checks, pricing lookup, and registration from the Domains panel while keeping domain_add as existing-domain inventory tracking.",
+      "version": "0.4.1",
+      "description": "DNS + domain inventory and registrar workflows for Apteva projects. Other apps call this app for DNS record CRUD instead of speaking each registrar's API directly. v0.4 adds Porkbun domain availability checks, pricing lookup, and registration from the Domains panel while keeping domain_add as existing-domain inventory tracking. v0.4.1 adds public RDAP fallback for availability checks when the registrar check is rate limited or unavailable.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
