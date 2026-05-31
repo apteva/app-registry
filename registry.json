@@ -750,6 +750,25 @@
       "category": "commerce"
     },
     {
+      "name": "community",
+      "display_name": "Community",
+      "version": "0.2.0",
+      "description": "Circle/Skool-shaped community platform. Multiple communities per install, each with spaces (feed/forum/chat/course), member directory, posts and reactions, in-app DMs, and courses with sections, lessons, comments, and progress. Panel updates live via the platform event bus. Storage and ffmpeg bindings are optional for lesson videos and duration probing.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/icon.svg",
+      "tags": [
+        "community",
+        "courses",
+        "membership",
+        "forum",
+        "dms"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
       "name": "bills",
       "display_name": "Bills",
       "version": "0.1.19",
