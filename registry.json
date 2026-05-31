@@ -151,8 +151,8 @@
     {
       "name": "channels",
       "display_name": "Channels",
-      "version": "0.2.0",
-      "description": "Standalone agent-facing channel router with dashboard chat and ntfy-compatible notification topics. Agents use the unified respond tool with channel=\"chat\" or an ntfy channel id from list_channels.",
+      "version": "0.3.0",
+      "description": "Standalone agent-facing channel router with dashboard chat, ntfy-compatible notification topics, and a Channels dashboard panel for creating topics, copying subscribe URLs, and sending test notifications.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/apteva.yaml",
