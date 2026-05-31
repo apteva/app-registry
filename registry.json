@@ -149,6 +149,24 @@
       "category": "observability"
     },
     {
+      "name": "channels",
+      "display_name": "Channels",
+      "version": "0.1.0",
+      "description": "Standalone agent-facing channel router with dashboard chat. Agents reply via respond(channel=\"chat\", ...); the app owns chat history, read state, REST/SSE streaming, and the Channels MCP surface.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/icon.svg",
+      "tags": [
+        "channels",
+        "chat",
+        "messaging",
+        "agent"
+      ],
+      "official": true,
+      "category": "channels"
+    },
+    {
       "name": "crm",
       "display_name": "CRM",
       "version": "0.1.0",
