@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-05-31T00:00:00Z",
+  "updated_at": "2026-06-01T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -367,8 +367,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.8",
-      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, …) — image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.8 adds storage_folder output targeting to MCP tools and the panel, including Storage-backed folder suggestions, while keeping Venice edit/multi-edit payload normalization. Optionally saves outputs to the Storage app.",
+      "version": "0.10.10",
+      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, ...) - image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.10 improves HeyGen avatar discovery with private avatars first, paginated avatar looks, image/video thumbnail rendering, grouped avatar sections, and API-key cost estimates for Avatar IV/V renders. Optionally saves outputs to the Storage app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
