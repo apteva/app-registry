@@ -151,8 +151,8 @@
     {
       "name": "channels",
       "display_name": "Channels",
-      "version": "0.4.0",
-      "description": "Standalone agent-facing channel router with dashboard chat, a visible Inbox for conversations/messages, ntfy-compatible project channels, and optional inbound agent routing.",
+      "version": "0.4.1",
+      "description": "Standalone agent-facing channel router with dashboard chat, a visible Inbox, ntfy-compatible project channels, optional inbound routing, and generic app-bus events for channels, conversations, and messages.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/apteva.yaml",
