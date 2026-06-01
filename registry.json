@@ -367,8 +367,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.11",
-      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, ...) - image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.11 makes generation loading cards uniform across image, video, audio, music, and avatar tabs, keeps async avatar/video jobs visible in the gallery immediately, and removes provider polling copy from the UI. Optionally saves outputs to the Storage app.",
+      "version": "0.10.12",
+      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, ...) - image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.12 adds generic reusable avatar creation with avatar_create_jobs, a media_avatar_create tool, avatar creation HTTP endpoints, a provider-neutral Avatar tab creator, and HeyGen photo/prompt avatar creation support. Optionally saves outputs to the Storage app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
