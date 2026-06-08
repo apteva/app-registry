@@ -272,7 +272,7 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
