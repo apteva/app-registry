@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-05T00:00:00Z",
+  "updated_at": "2026-06-08T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -494,6 +494,24 @@
         "ses",
         "transactional",
         "inbox"
+      ],
+      "official": true,
+      "category": "messaging"
+    },
+    {
+      "name": "whatsapp-web",
+      "display_name": "WhatsApp Web",
+      "version": "0.1.0",
+      "description": "Linked-device WhatsApp provider for WhatsApp and WhatsApp Business app accounts. Pair with a QR code, send and receive text messages through WhatsApp Web, and expose provider-shaped tools for Messaging integration. This is not the official WhatsApp Business Platform API.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/whatsapp-web",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/whatsapp-web/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/whatsapp-web/icon.svg",
+      "tags": [
+        "whatsapp",
+        "whatsapp-web",
+        "messaging",
+        "linked-device"
       ],
       "official": true,
       "category": "messaging"
