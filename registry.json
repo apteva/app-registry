@@ -78,7 +78,7 @@
     {
       "name": "todo",
       "display_name": "Todo",
-      "version": "0.3.2",
+      "version": "0.4.7",
       "description": "Personal todo list — human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/todo",
@@ -151,7 +151,7 @@
     {
       "name": "channels",
       "display_name": "Channels",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "description": "Standalone agent-facing channel router with dashboard chat, a visible Inbox, ntfy-compatible project channels, optional inbound routing, generic app-bus events, and channel deletion from the panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
@@ -254,7 +254,7 @@
     {
       "name": "jobs",
       "display_name": "Jobs",
-      "version": "0.1.7",
+      "version": "0.1.10",
       "description": "Scheduled-job runner. Other apps (and agents) enqueue work to be delivered later — once at a future time, on an interval, or on a cron expression. At-least-once delivery with idempotency keys, exponential backoff, and a runs log.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/jobs",
@@ -346,7 +346,7 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.13.31",
+      "version": "0.13.36",
       "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Pluggable render backend: ffmpeg by default, Cloudinary when bound (offload trim/resize/transcode/crop/extract_frame). Subscribes to storage events for instant indexing on upload + cascade cleanup on delete; falls back to a 30s safety-net poll. Smart video thumbnails skip black/fade openings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
@@ -360,6 +360,24 @@
         "catalog",
         "edit",
         "render"
+      ],
+      "official": true,
+      "category": "media"
+    },
+    {
+      "name": "embed",
+      "display_name": "Embed",
+      "version": "0.1.3",
+      "description": "Create shareable viewer links and oEmbed-compatible responses for storage-backed files and media. Embed keeps publishing concerns out of storage: storage owns bytes and signed URLs; media can enrich thumbnails and dimensions; Embed owns the public viewer, iframe HTML, and oEmbed JSON.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/embed",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/embed/apteva.yaml",
+      "tags": [
+        "embed",
+        "oembed",
+        "media",
+        "storage",
+        "sharing"
       ],
       "official": true,
       "category": "media"
@@ -409,7 +427,7 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.14 adds a Media Identity UI for voice/avatar defaults, loads available Media Studio voice/avatar catalogs when present, previews linked voice/avatar references, and keeps voice/avatar references out of image source_images while visual references and selected item images continue through Media Studio's multi-reference path.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
@@ -466,7 +484,7 @@
     {
       "name": "trips",
       "display_name": "Trips",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
@@ -486,7 +504,7 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.14.43",
+      "version": "0.14.44",
       "description": "Schedule and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
@@ -772,7 +790,7 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Patreon-like memberships for creators and communities. Manage tiers, members, gated posts, protected file drops, billing payment links, optional CRM contact sync, and member announcements through Messaging. Storage holds gated files; Billing owns customers/invoices/payments; Creators owns entitlements and the member portal.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
@@ -833,7 +851,7 @@
     {
       "name": "finance",
       "display_name": "Finance",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "description": "Unified personal-wealth tracker — cash, brokerage positions, P2P loans, crypto, real estate, vehicles, pensions, loans, all in one ledger. Three nouns model everything: accounts (a place that holds value), instruments (the thing held — AAPL, BTC, EUR, your house), holdings (account × instrument → quantity + cost basis). Money in signed integer minor units; avg-cost accounting with cost_basis_delta on every txn so realised P&L is one column sum. Convenience tools for buy/sell/dividend/interest/transfer/valuation. Reports: net worth (point or monthly series, by account/kind/currency), allocation, performance (realised + unrealised P&L), cashflow (income vs expense per period). Per-category monthly budgets with hierarchical rollup. CSV import. v0.1 is manual entry; v0.2 plugs in integrations (Trading 212 first, then Plaid / Mintos / Binance) via the platform integrations engine — manual and integrated rows are indistinguishable downstream.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/finance",
@@ -932,7 +950,7 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.4.10",
+      "version": "0.4.11",
       "description": "Compute-host inventory + lifecycle for Apteva. Manages the local Apteva machine and remote VPS instances under one MCP/REST surface so other apps (Live Link self-vps, Deploy SSHRuntime, Backup off-host, future Containers/Database/MQTT/game-server apps) bind a single \"compute\" dependency instead of each speaking VPS-provider APIs directly. The local machine is auto-seeded as instance id=0 and is always 'ready' — cannot be created or destroyed via the public API. Remote instances in v0.1 are provisioned via Hetzner Cloud (DigitalOcean / Vultr / AWS EC2 in v0.2). Per-instance Ed25519 SSH keypair seeded into the box via cloud-init authorized_keys; background readiness probe flips status='provisioning' → 'ready' once SSH accepts the key. Eight MCP tools: instance_create / _get / _list / _destroy / _run_command / _upload_file / _wait_ready / _metrics. Vitals (CPU / mem / disk / net / load / uptime) via gopsutil locally and a /proc-parsing bash script over SSH remotely, cached 5s per host.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
@@ -952,7 +970,7 @@
     {
       "name": "containers",
       "display_name": "Containers",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "description": "Generic Docker workload runtime for Apteva. Runs arbitrary container images on the local Docker host, managing isolated networks, named volumes, port bindings, health checks, logs, lifecycle actions, and built-in blueprints. Designed as the base layer for SaaS tenant instances, Fleet, Deploy, and future remote-host scaling through Instances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/containers",
@@ -1098,7 +1116,7 @@
     {
       "name": "affiliate",
       "display_name": "Affiliate",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "description": "Publisher-side affiliate manager. Connect affiliate networks, refresh offers and performance stats, create monetized links, and optionally wrap them with branded redirects. Normalizes networks, offers, links, and daily stats across Target Circle/Circlewise, Impact, Awin, CJ Affiliate, Amazon Associates, Skimlinks, Sovrn, PartnerStack, and ShareASale integrations.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/affiliate",
@@ -1156,7 +1174,7 @@
     {
       "name": "gigs",
       "display_name": "Gigs",
-      "version": "0.1.0",
+      "version": "0.1.14",
       "description": "Agents delegate atomic work to human workers (CRM contacts) by composing reusable multi-modal instructions — text, audio, video, images, documents, checklists, confirmations, and the full input_* family. Templates are saved instruction sets; gigs are dispatched snapshots whose result schema, media manifest, and checklist are derived from the composition (never hand-authored). Workers receive a magic-link page via crm.contacts_send_message, read/watch the instructions, fill the form, upload attachments through storage, and submit. Yes/no and short-text gigs also accept thread replies via the CRM conversation. workers_create upserts a CRM contact and promotes it to a worker in one MCP call. CRM and storage are required dependencies; messaging is reached indirectly through CRM.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/gigs",
