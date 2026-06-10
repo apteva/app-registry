@@ -428,8 +428,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.2.0",
-      "description": "Multi-clip video composition. Stitch generated or uploaded assets into a single video with a structured timeline panel, live preview, clip inspector controls, optional soundtrack, text overlays, and storage-aware render saves. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
+      "version": "0.3.1",
+      "description": "Multi-clip video composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, text overlays, and storage-aware render saves. Media Studio generation intent can be stored directly on clips or as generated asset shorthand for video, images, music, voice, sound effects, and avatar video. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
