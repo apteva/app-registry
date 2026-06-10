@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-09T00:00:00Z",
+  "updated_at": "2026-06-10T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -367,8 +367,8 @@
     {
       "name": "media-downloader",
       "display_name": "Media Downloader",
-      "version": "0.2.0",
-      "description": "yt-dlp-backed media download sidecar for Apteva. Probes supported media URLs, runs async video or audio downloads, uploads completed files into Storage, and supports private or age-restricted YouTube videos through encrypted Netscape cookie source profiles. v0.2 includes job status/cancel/list tools, public HTTP read endpoints, URL safety checks, configurable domain allow/block lists, storage visibility controls, and a default 512 MB upload cap.",
+      "version": "0.2.1",
+      "description": "yt-dlp-backed media download sidecar for Apteva. Probes supported media URLs, runs async video or audio downloads, uploads completed files into Storage, and supports private or age-restricted YouTube videos through encrypted Netscape cookie source profiles. v0.2.1 adds a project dashboard panel for starting downloads, monitoring progress, canceling jobs, and managing source profiles, alongside URL safety checks, configurable domain allow/block lists, storage visibility controls, and a default 512 MB upload cap.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-downloader",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-downloader/apteva.yaml",
