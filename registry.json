@@ -367,8 +367,8 @@
     {
       "name": "media-downloader",
       "display_name": "Media Downloader",
-      "version": "0.2.2",
-      "description": "yt-dlp-backed media download sidecar for Apteva. Probes supported media URLs, runs async video or audio downloads, uploads completed files into Storage, and supports private or age-restricted YouTube videos through encrypted Netscape cookie source profiles. v0.2.2 defaults YouTube downloads to yt-dlp's Android player client to avoid current web-client SABR/HTTP 403 failures, while retaining the project dashboard panel for starting downloads, monitoring progress, canceling jobs, and managing source profiles.",
+      "version": "0.2.3",
+      "description": "yt-dlp-backed media download sidecar for Apteva. Probes supported media URLs, runs async video or audio downloads, uploads completed files into Storage, and supports private or age-restricted YouTube videos through encrypted Netscape cookie source profiles. v0.2.3 emits app-bus events for download/profile lifecycle changes and the project dashboard panel subscribes to those events for live updates, while retaining the Android YouTube player-client default that avoids current web-client SABR/HTTP 403 failures.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-downloader",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-downloader/apteva.yaml",
