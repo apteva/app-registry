@@ -989,8 +989,8 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.8.3",
-      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes provider hooks for Backup: per-tenant backup planning, local tenant data-dir snapshots, and local tenant restore. Admin-driven bootstrap, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools are included.",
+      "version": "0.8.6",
+      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant as a local Apteva process on the parent host with its own data dir and port, supervised by Fleet; hosted tenants can run on VPS instances. Includes tenant_clone for read-only local tenant cloning with consistent SQLite snapshots, provider hooks for Backup, admin-driven bootstrap, encrypted api_key keyring, domain/route/cert integrations, health polling, boot reconciliation, tenant updates, and support-login tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/apteva.yaml",
