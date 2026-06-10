@@ -407,8 +407,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.13",
-      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, ...) - image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.12 adds generic reusable avatar creation with avatar_create_jobs, a media_avatar_create tool, avatar creation HTTP endpoints, a provider-neutral Avatar tab creator, and HeyGen photo/prompt avatar creation support. Optionally saves outputs to the Storage app.",
+      "version": "0.10.14",
+      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, ...) - image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.14 adds estimated_duration_seconds and actual_duration_seconds metadata for generated audio/video/avatar assets so composers can lay out AI placeholders before generation and adjust to completed media. Optionally saves outputs to the Storage app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
@@ -447,8 +447,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.3.5",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, text overlays, and storage-aware render saves, or render audio-only timelines to mp3/wav/m4a/aac with silence gaps from clip start offsets. The panel has a universal timeline with visual and audio rows; AI image, video, avatar, and audio clips can be added directly, then edited in a modal for Storage/URL source, Media Studio prompt/settings, timing, generation, and deletion. Media Studio generation intent can also be stored directly on clips or as generated asset shorthand for video, images, music, voice, sound effects, and avatar video. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
+      "version": "0.3.6",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, text overlays, and storage-aware render saves, or render audio-only timelines to mp3/wav/m4a/aac with silence gaps from clip start offsets. The panel has a universal timeline with visual and audio rows; AI image, video, avatar, and audio clips can be added directly, then edited in a modal for Storage/URL source, Media Studio prompt/settings, timing, generation, and deletion. v0.3.6 adds AI placeholder duration metadata, duration modes for fit-generated voice/avatar clips versus fixed trim/pad slots, render-time Media Studio materialization, and cleaner waiting_ai status for async generated assets. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
