@@ -61,7 +61,7 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "description": "Mission board for an Apteva agent. Agents create and complete tasks via MCP tools; the dashboard tracks progress live. Tasks can be created in 'planning' mode for the agent to draft a proposal first.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
@@ -96,7 +96,7 @@
     {
       "name": "events",
       "display_name": "Events",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Create shows, collect performer applications, curate lineups, issue simple tickets, and run check-in. Built for small events and comedy-style performer intake: applications can be shortlisted, accepted, rejected, then scheduled into performance slots. Free/manual ticketing in v0.1; paid checkout can be delegated to an external URL.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/events",
@@ -169,7 +169,7 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.1.0",
+      "version": "0.8.18",
       "description": "Contacts store for Apteva agents and human teams. Multi-value channels, typed custom attributes with provenance, append-only activity log, soft-delete + merge.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
@@ -218,7 +218,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.9.7",
+      "version": "0.10.14",
       "description": "File storage with virtual folders, signed URLs, dedup. Pluggable backend: local disk by default, S3-compatible (AWS / R2 / B2 / Wasabi / MinIO) when configured. On S3, presigned upload + download URLs let clients transfer bytes directly to the bucket — bytes never proxy through this container. v0.9.5 adds files_get_content for inline byte fetch via CallAppResult — fixes the multi-storage-install case where signed URLs route to the wrong instance.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
@@ -290,7 +290,7 @@
     {
       "name": "workflows",
       "display_name": "Workflows",
-      "version": "0.4.4",
+      "version": "0.4.5",
       "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
@@ -385,7 +385,7 @@
     {
       "name": "media-downloader",
       "display_name": "Media Downloader",
-      "version": "0.2.9",
+      "version": "0.2.10",
       "description": "yt-dlp-backed media download sidecar for Apteva. Probes supported media URLs, runs async video or audio downloads, uploads completed files into Storage, and supports private, age-restricted, or member-only downloads through encrypted YouTube and Patreon Netscape cookie source profiles. v0.2.9 adds configurable extra yt-dlp arguments so installs can enable JavaScript challenge solving, e.g. --js-runtimes node:/path/to/node for current YouTube media 403 cases.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-downloader",
@@ -407,7 +407,7 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.12",
+      "version": "0.10.13",
       "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via any compatible provider. media_generate(kind, prompt, ...) - image / video / audio_tts / audio_sfx / music / avatar. source_image switches images into edit and video into image-to-video; source_images supports multi-reference image edits with model source-image limit validation. Async video/avatar jobs queue + poll automatically. Today: OpenAI API, OpenAI Codex, Venice, and Gemini for image; OpenAI API, Gemini, and Venice for reference-image edit; Venice for text/image-to-video; ElevenLabs for TTS, SFX, and music; Tavus + HeyGen for avatars. v0.10.12 adds generic reusable avatar creation with avatar_create_jobs, a media_avatar_create tool, avatar creation HTTP endpoints, a provider-neutral Avatar tab creator, and HeyGen photo/prompt avatar creation support. Optionally saves outputs to the Storage app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
@@ -447,7 +447,7 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, text overlays, and storage-aware render saves, or render audio-only timelines to mp3/wav/m4a/aac with silence gaps from clip start offsets. Media Studio generation intent can be stored directly on clips or as generated asset shorthand for video, images, music, voice, sound effects, and avatar video. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
@@ -466,7 +466,7 @@
     {
       "name": "calendar",
       "display_name": "Calendar",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "description": "Self-contained calendar — multiple calendars per project, events with recurrence (rrule), holidays helper. Agents read + write via MCP tools; the panel renders day / week / month / year / agenda views with click-to-create and drag-to-move. Multi-day + all-day events render clearly across views: truly continuous spanning bars in month view (per-week overlay), a dedicated all-day strip above the week/day timed grid, and connected span bars in the larger year mini-calendars.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/calendar",
@@ -522,7 +522,7 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.6",
+      "version": "0.13.33",
       "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). Tracks SES/SNS delivery events including delivered, opened, clicked, bounced, complaints, delays, rejects, and rendering failures; mirrors them into Apteva message events and the operator panel. Sender setup can be rechecked idempotently to refresh SES identity, DNS, inbound receiving, SNS notifications, and delivery event wiring.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
@@ -810,7 +810,7 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Circle/Skool-shaped community platform. Multiple communities per install, each with spaces (feed/forum/chat/course), member directory, posts and reactions, in-app DMs, and courses with sections, lessons, comments, and progress. Panel updates live via the platform event bus. Storage and ffmpeg bindings are optional for lesson videos and duration probing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
@@ -1136,7 +1136,7 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Paid advertising control plane for Apteva. Manage ad accounts, campaigns, ad sets, ads, creatives, and audiences behind one MCP surface. v0.1 supports Meta Ads (Facebook + Instagram) through the Facebook Ads integration, with OAuth account connection handled at runtime. Reporting is intentionally not in v1; this is a control plane only.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
@@ -1156,7 +1156,7 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.10.1",
+      "version": "2.10.6",
       "description": "Multi-site block-based CMS. One project hosts 1..N sites — each with its own posts, pages, terms, menus, settings, theme, and optional hostname. Per-site templates (Finance Blog, SaaS Marketing, Docs Site bundled). Posts and pages with hierarchy, media, taxonomies, menus, revisions, redirects. Canonical body is a JSON block tree; 16 core block types shipped. Dashboard panel includes a Content tab (list + block editor), Templates tab (one-click site scaffolds), and a site switcher that auto-hides on single-site installs. Renders themed HTML at /, /posts/:slug, /:nested-page, term archives, feed.xml, and sitemap.xml; host-based dispatch routes domain-linked traffic to the right site automatically. Same data exposed as REST under /api/apps/content/admin/* so external frontends share the database without touching the theme path.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
@@ -1232,7 +1232,7 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "description": "Generic event analytics for Apteva apps. Three ingest paths: (1) bus auto-capture — opt-in, records what every app already emits on the platform event bus, so no app needs a dependency on analytics; (2) analytics_track — explicit/typed events from apps that want them; (3) a static-site tag (public write key + hosted tag.js + GET /collect) for any website, like a classic analytics snippet. analytics_query / count / top / topics surface aggregates over JSON props. The dashboard panel is real-time (overview tiles, events-per-day chart, top values, live event feed, filters by event type / app / props), with Tracking (write keys + snippet), Capture (auto-capture toggle: mode / topic patterns / sample rate), and Dashboards tabs. Dashboards persist project-scoped widget layouts for live page views, active sessions, top pages, devices, and recent activity. Write keys are write-only + project-bound; the platform API key never touches the browser.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
