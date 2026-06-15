@@ -26,7 +26,7 @@
     {
       "name": "taxes",
       "display_name": "Taxes",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Business tax profiles, VAT/IVA/TVA estimates, corporate and income tax estimates, social contribution obligations, filing status, payment tracking, and links to billing and bills for source data and outbound tax payments.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/taxes",
