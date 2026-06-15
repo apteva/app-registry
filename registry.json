@@ -1230,7 +1230,7 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "description": "Identity layer for Apteva-deployed SaaS: email + password signup/login, EdDSA JWT issuance with JWKS, refresh-token rotation, OAuth client registry (one user pool, many clients), email verification, password reset, magic links, and TOTP MFA. Agents administer the user pool via MCP tools; the deployed frontend hits the public HTTP routes; the dashboard renders a consolidated Auth panel (Overview / Users / Clients / Endpoints). Messaging is an optional dependency for transactional email.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
