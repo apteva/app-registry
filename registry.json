@@ -24,6 +24,26 @@
       "category": "finance"
     },
     {
+      "name": "taxes",
+      "display_name": "Taxes",
+      "version": "1.0.0",
+      "description": "Business tax profiles, VAT/IVA/TVA estimates, corporate and income tax estimates, social contribution obligations, filing status, payment tracking, and links to billing and bills for source data and outbound tax payments.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/taxes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/taxes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/taxes/icon.svg",
+      "tags": [
+        "finance",
+        "taxes",
+        "vat",
+        "iva",
+        "corporate-tax",
+        "social-security"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
       "name": "simple",
       "display_name": "Simple",
       "version": "0.1.1",
