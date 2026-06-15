@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-10T00:00:00Z",
+  "updated_at": "2026-06-15T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -74,6 +74,24 @@
       ],
       "official": true,
       "category": "productivity"
+    },
+    {
+      "name": "fetch",
+      "display_name": "Fetch",
+      "version": "0.1.0",
+      "description": "Controlled HTTP client for agents and operators. Agents get one fetch_request MCP tool for GET/POST/PUT/PATCH/DELETE-style requests with timeouts, size caps, redirect limits, header redaction, and private-network blocking. The dashboard panel provides saved requests, environments, and redacted history.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/fetch",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fetch/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fetch/icon.svg",
+      "tags": [
+        "http",
+        "api",
+        "fetch",
+        "tools"
+      ],
+      "official": true,
+      "category": "tools"
     },
     {
       "name": "todo",
