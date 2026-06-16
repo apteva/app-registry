@@ -1270,8 +1270,8 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.8.1",
-      "description": "Generic event analytics for Apteva apps. Three ingest paths: bus auto-capture, analytics_track, and static-site tag collection. analytics_query / count / top / topics / sum surface aggregates over JSON props. The dashboard panel is real-time, with Overview, Dashboards, Catalog, Tracking, and Capture tabs. v0.8 adds an event catalog / tracking plan: event specs, typed property specs, validation modes, violation reporting, and spec-driven auto upsert / rollup policies for imported daily metrics and live counters. v0.8.1 fixes Catalog loading under the SDK's single SQLite connection runtime. Dashboards persist project-scoped widget layouts for live page views, active sessions, top pages, devices, and recent activity.",
+      "version": "0.8.2",
+      "description": "Generic event analytics for Apteva apps. Three ingest paths: bus auto-capture, analytics_track, and static-site tag collection. analytics_query / count / top / topics / sum surface aggregates over JSON props. The dashboard panel is real-time, with Overview, Dashboards, Catalog, Tracking, and Capture tabs. v0.8 adds an event catalog / tracking plan: event specs, typed property specs, validation modes, violation reporting, and spec-driven auto upsert / rollup policies for imported daily metrics and live counters. v0.8.1 fixes Catalog loading under the SDK's single SQLite connection runtime. v0.8.2 lets dashboard stat and timeseries widgets sum numeric event fields, so aggregate observations such as Patreon daily post views can chart total views per day instead of observation row counts. Dashboards persist project-scoped widget layouts for live page views, active sessions, top pages, devices, and recent activity.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/apteva.yaml",
