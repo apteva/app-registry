@@ -848,7 +848,7 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Circle/Skool-shaped community platform. Multiple communities per install, each with spaces (feed/forum/chat/course), member directory, posts and reactions, in-app DMs, and courses with sections, lessons, comments, and progress. Panel updates live via the platform event bus. Storage and ffmpeg bindings are optional for lesson videos and duration probing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
