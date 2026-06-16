@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-15T00:00:00Z",
+  "updated_at": "2026-06-16T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -1270,8 +1270,8 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.7.1",
-      "description": "Generic event analytics for Apteva apps. Three ingest paths: (1) bus auto-capture — opt-in, records what every app already emits on the platform event bus, so no app needs a dependency on analytics; (2) analytics_track — explicit/typed events from apps that want them; (3) a static-site tag (public write key + hosted tag.js + GET /collect) for any website, like a classic analytics snippet. analytics_query / count / top / topics surface aggregates over JSON props. The dashboard panel is real-time (overview tiles, events-per-day chart, top values, live event feed, filters by event type / app / props), with Tracking (write keys + snippet), Capture (auto-capture toggle: mode / topic patterns / sample rate), and Dashboards tabs. Dashboards persist project-scoped widget layouts for live page views, active sessions, top pages, devices, and recent activity. Write keys are write-only + project-bound; the platform API key never touches the browser.",
+      "version": "0.8.0",
+      "description": "Generic event analytics for Apteva apps. Three ingest paths: bus auto-capture, analytics_track, and static-site tag collection. analytics_query / count / top / topics / sum surface aggregates over JSON props. The dashboard panel is real-time, with Overview, Dashboards, Catalog, Tracking, and Capture tabs. v0.8 adds an event catalog / tracking plan: event specs, typed property specs, validation modes, violation reporting, and spec-driven auto upsert / rollup policies for imported daily metrics and live counters. Dashboards persist project-scoped widget layouts for live page views, active sessions, top pages, devices, and recent activity.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/apteva.yaml",
