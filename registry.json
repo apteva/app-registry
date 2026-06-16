@@ -189,8 +189,8 @@
     {
       "name": "channels",
       "display_name": "Channels",
-      "version": "0.5.2",
-      "description": "Global agent-facing channel router with explicit channels, conversations, and messages tables; Dashboard Chat as a project channel, full-width panel, Inbox, ntfy-compatible project channels, optional inbound routing, generic app-bus events, and channel deletion from the panel.",
+      "version": "0.5.3",
+      "description": "Global agent-facing channel router with explicit channels, conversations, and messages tables; Dashboard Chat as a project channel, full-width panel, Inbox, ntfy-compatible project channels with public URLs from platform settings, optional inbound routing, generic app-bus events, and channel deletion from the panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/apteva.yaml",
