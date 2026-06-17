@@ -193,7 +193,7 @@
       "description": "Global agent-facing channel router with explicit channels, conversations, and messages tables; Dashboard Chat as a project channel, full-width panel, Inbox, ntfy.sh project channels with direct provider delivery, optional inbound routing, generic app-bus events, and channel deletion from the panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/channels",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/channels/v0.5.8/mcp/channels/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/channels/icon.svg",
       "tags": [
         "channels",
