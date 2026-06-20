@@ -522,7 +522,7 @@
     {
       "name": "bookings",
       "display_name": "Bookings",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Calendly-style booking links for human and AI-agent meetings. Booking types define availability, duration, intake fields, routing target, and meeting location. Bookings reads free slots from Calendar, creates the booked Calendar event, optionally creates a Calls room, and can attach invitees and booking activity to CRM.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bookings",
