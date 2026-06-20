@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-19T00:00:00Z",
+  "updated_at": "2026-06-20T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -1323,6 +1323,25 @@
       ],
       "official": true,
       "category": "media"
+    },
+    {
+      "name": "telephony",
+      "display_name": "Telephony",
+      "version": "0.1.1",
+      "description": "Outbound voice calls via Twilio. Each call runs as a realtime sub-thread in core, with carrier audio bridged through Twilio Media Streams. Includes MCP tools for placing, hanging up, and listing calls, plus a dashboard panel for active and recent call operations.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/icon.svg",
+      "tags": [
+        "voice",
+        "telephony",
+        "twilio",
+        "calls",
+        "communication"
+      ],
+      "official": true,
+      "category": "channels"
     }
   ]
 }
