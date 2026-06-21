@@ -1253,8 +1253,8 @@
     {
       "name": "seo",
       "display_name": "SEO",
-      "version": "0.3.2",
-      "description": "Locale-aware SEO research workbench for domains, keywords, rankings, backlinks, and cached provider metrics. Includes a dashboard panel for interactive seeding, DataForSEO location sync, and human-triggered paid refreshes. v0.3.2 fixes DataForSEO keyword search-volume response parsing; MCP tools stay read/write for tracked entities and read-only for cached SEO data.",
+      "version": "0.3.3",
+      "description": "Locale-aware SEO research workbench for domains, keywords, rankings, backlinks, and cached provider metrics. Includes a dashboard panel for interactive seeding, DataForSEO location sync, human-triggered paid refreshes, and a domain page-ranking drill-down. v0.3.3 adds page-level ranking exploration from cached SERP data; MCP tools stay read/write for tracked entities and read-only for cached SEO data.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/seo",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/apteva.yaml",
