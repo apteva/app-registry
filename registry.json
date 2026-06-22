@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-21T00:00:00Z",
+  "updated_at": "2026-06-22T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -672,8 +672,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.14.4",
-      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. Code-app deployments stream repository exports over HTTP instead of base64 MCP payloads, boot recovery restarts orphaned live releases from their saved build, and default releases remain loopback-only behind routes/domains unless public IP:port exposure is explicitly enabled.",
+      "version": "0.14.5",
+      "description": "Local-first builds and runtime supervision for Apteva projects. Pluggable source kinds (code, local) and frameworks (go, static, blank) — fetches source, runs the framework toolchain, supervises the result as a child process bound to a local port. Code-app deployments stream repository exports over HTTP instead of base64 MCP payloads, boot recovery restarts orphaned live releases from their saved build, and custom domains now register through server-native ingress/cert management instead of requiring the Routes or Certs apps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
