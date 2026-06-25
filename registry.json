@@ -242,8 +242,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.35",
-      "description": "Watch and steer browser sessions through browser_session and computer_use MCP tools. v0.7.35 improves Browserbase image uploads, including hidden file-input flows on ImgBB-style uploaders, and keeps Set-of-Mark label targeting for visible upload controls.",
+      "version": "0.7.36",
+      "description": "Watch and steer browser sessions through browser_session and computer_use MCP tools. v0.7.36 improves source URL DNS fallback for temporary upload URLs while retaining Browserbase image upload fixes and Set-of-Mark label targeting for visible upload controls.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
