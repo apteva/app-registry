@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-24T00:00:00Z",
+  "updated_at": "2026-06-26T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -845,7 +845,7 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.8.4",
+      "version": "0.8.5",
       "description": "Customers, invoices, and payments — the AR core. Issuer settings (your legal entity) + EU reverse-charge auto-detection + country-name rendering on the PDF. Stripe enters as the `payment_processor` integration role (v0.8.0+): bind a Stripe connection once and agents call invoices_send_payment_link(invoice_id) to share a Stripe Checkout URL with the customer. The /webhooks/stripe endpoint verifies the signature via the integration's process_webhook tool and records payments idempotently on the (method, external_id) unique index. When no Stripe is bound, degrades cleanly to manual wire / cash / check / other recording. Catalog optional dep: invoice line items can reference a catalog price_id to snapshot description + unit_price, with FKs preserved for revenue-by-product analytics. Lifecycle: draft → open → paid / void / uncollectible. PDF + HTML print views render from line item snapshots so historical invoices stay stable even when catalog prices change. SQLite-backed; one currency per invoice; tax in basis points.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
