@@ -1102,6 +1102,25 @@
       "category": "infrastructure"
     },
     {
+      "name": "compute",
+      "display_name": "Compute",
+      "version": "0.1.0",
+      "description": "Shared transient compute queue for Apteva apps. Apps submit short-lived resource-heavy jobs, and Compute serializes them across local or remote hosts with priority, ownership, timeout, cancellation, and run history. It is the resource scheduler layer between high-level apps such as Media/Composer and low-level host providers such as Instances.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/compute",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/compute/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/compute/icon.svg",
+      "tags": [
+        "compute",
+        "queue",
+        "workloads",
+        "render",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "containers",
       "display_name": "Containers",
       "version": "0.1.16",
