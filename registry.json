@@ -1183,8 +1183,8 @@
     {
       "name": "hosting",
       "display_name": "Hosting",
-      "version": "1.2.0",
-      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.2.0 adds Orders-backed fulfillment support: hosting_fulfillment_provision provisions tenants for generic Orders fulfillments and reports the tenant id/status back to Orders, while direct/free tenant creation still works without Billing, Orders, Subscriptions, or Entitlements.",
+      "version": "1.3.0",
+      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.3.0 makes Hosting the sale-flow driver: hosting_paid_invoice_provision starts from a paid Billing invoice, creates or claims the generic Orders record, provisions the tenant, and reports fulfillment completion back to Orders. Direct/free tenant creation still works without Billing, Orders, Subscriptions, or Entitlements.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/hosting",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/hosting/apteva.yaml",
