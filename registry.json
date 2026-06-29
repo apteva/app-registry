@@ -905,8 +905,8 @@
     {
       "name": "orders",
       "display_name": "Orders",
-      "version": "0.2.0",
-      "description": "Generic commerce fulfillment ledger for physical, hosting, SaaS, digital, and service products. Orders records durable paid/unpaid order state, line items, customer snapshots, fulfillment submissions, external fulfillment refs, retries/errors, shipment tracking, returns, and an append-only event log. v0.2.0 adds order_type, generic fulfillment_app/fulfillment_type fields, idempotent orders_create_from_invoice, and fulfillments_update for product apps such as Hosting.",
+      "version": "0.2.1",
+      "description": "Generic commerce fulfillment ledger for physical, hosting, SaaS, digital, and service products. Orders records durable paid/unpaid order state, line items, customer snapshots, fulfillment submissions, external fulfillment refs, retries/errors, shipment tracking, returns, and an append-only event log. v0.2.1 fixes Billing invoice lookup for orders_create_from_invoice while keeping the v0.2 generic order_type and fulfillment_app/fulfillment_type support.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/orders",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/orders/apteva.yaml",
