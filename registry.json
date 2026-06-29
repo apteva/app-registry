@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-28T00:00:00Z",
+  "updated_at": "2026-06-29T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -883,6 +883,26 @@
       "category": "finance"
     },
     {
+      "name": "entitlements",
+      "display_name": "Entitlements",
+      "version": "0.1.0",
+      "description": "Shared access-control and usage layer. Grants, revokes, checks, and meters access for SaaS plans, courses, memberships, digital downloads, paid content, manual grants, trials, promos, and usage quotas.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/entitlements",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/entitlements/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/entitlements/icon.svg",
+      "tags": [
+        "entitlements",
+        "access",
+        "usage",
+        "quotas",
+        "saas",
+        "memberships"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
       "name": "orders",
       "display_name": "Orders",
       "version": "0.1.0",
@@ -898,6 +918,25 @@
         "ecommerce",
         "shipping",
         "inventory"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
+      "name": "subscriptions",
+      "display_name": "Subscriptions",
+      "version": "0.1.0",
+      "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, subscription status, current periods, renewal cycles, and references to invoice, order, or entitlement outputs.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/subscriptions",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/subscriptions/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/subscriptions/icon.svg",
+      "tags": [
+        "subscriptions",
+        "recurring",
+        "commerce",
+        "saas",
+        "memberships"
       ],
       "official": true,
       "category": "finance"
