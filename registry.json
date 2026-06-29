@@ -905,8 +905,8 @@
     {
       "name": "orders",
       "display_name": "Orders",
-      "version": "0.1.0",
-      "description": "Physical commerce order ledger for fulfillment operations. Orders records durable paid/unpaid order state, line items, customer and address snapshots, fulfillment submissions, shipment tracking, returns, and an append-only event log. It sits after Billing/Checkout and before warehouse fulfillment, with Catalog as the required product/price dependency and Billing/Checkout as optional upstreams.",
+      "version": "0.2.0",
+      "description": "Generic commerce fulfillment ledger for physical, hosting, SaaS, digital, and service products. Orders records durable paid/unpaid order state, line items, customer snapshots, fulfillment submissions, external fulfillment refs, retries/errors, shipment tracking, returns, and an append-only event log. v0.2.0 adds order_type, generic fulfillment_app/fulfillment_type fields, idempotent orders_create_from_invoice, and fulfillments_update for product apps such as Hosting.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/orders",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/orders/apteva.yaml",
@@ -916,6 +916,8 @@
         "fulfillment",
         "commerce",
         "ecommerce",
+        "hosting",
+        "saas",
         "shipping",
         "inventory"
       ],
@@ -1181,8 +1183,8 @@
     {
       "name": "hosting",
       "display_name": "Hosting",
-      "version": "1.1.1",
-      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.1.1 adds catalog-backed hosting products, product versions, plan bindings, free and paid plans per product, runtime_config-driven image/port/env/health overrides, and product-aware tenant provisioning through Containers. Billing, Subscriptions, and Entitlements remain optional so free plans work without payment setup.",
+      "version": "1.2.0",
+      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.2.0 adds Orders-backed fulfillment support: hosting_fulfillment_provision provisions tenants for generic Orders fulfillments and reports the tenant id/status back to Orders, while direct/free tenant creation still works without Billing, Orders, Subscriptions, or Entitlements.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/hosting",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/hosting/apteva.yaml",
