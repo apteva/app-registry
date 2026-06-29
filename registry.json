@@ -1181,8 +1181,8 @@
     {
       "name": "hosting",
       "display_name": "Hosting",
-      "version": "1.1.0",
-      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.1 adds catalog-backed hosting products, product versions, plan bindings, free and paid plans per product, runtime_config-driven image/port/env/health overrides, and product-aware tenant provisioning through Containers. Billing, Subscriptions, and Entitlements remain optional so free plans work without payment setup.",
+      "version": "1.1.1",
+      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.1.1 adds catalog-backed hosting products, product versions, plan bindings, free and paid plans per product, runtime_config-driven image/port/env/health overrides, and product-aware tenant provisioning through Containers. Billing, Subscriptions, and Entitlements remain optional so free plans work without payment setup.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/hosting",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/hosting/apteva.yaml",
