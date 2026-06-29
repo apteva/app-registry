@@ -1181,7 +1181,7 @@
     {
       "name": "hosting",
       "display_name": "Hosting",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Managed container-backed hosting control plane for Apteva tenants. Provisions tenant containers through the Containers app, enforces free and paid plan limits, tracks basic usage, exposes default hostnames through server-native ingress, and ships an operator panel for tenant lifecycle, health, and logs. Billing, Subscriptions, and Entitlements are optional for v1, so free plans work without payment setup.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/hosting",
