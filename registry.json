@@ -1183,8 +1183,8 @@
     {
       "name": "hosting",
       "display_name": "Hosting",
-      "version": "1.4.0",
-      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. v1.4.0 adds manifest-declared Billing and Subscriptions event handling so invoice.paid and subscription lifecycle events can automatically drive Hosting provisioning and suspension/resume. Direct/free tenant creation still works without Billing, Orders, Subscriptions, or Entitlements.",
+      "version": "1.8.0",
+      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. Hosting provisions containers, exposes default hostnames through platform ingress, tracks generic runtime usage for plan enforcement, orchestrates Catalog, Billing, Subscriptions, Orders, and Entitlements for paid/free hosting sale flows, and can optionally provision Auth org/user/client records for hosted admin panels.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/hosting",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/hosting/apteva.yaml",
