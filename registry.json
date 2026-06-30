@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-29T00:00:00Z",
+  "updated_at": "2026-06-30T00:00:00Z",
   "apps": [
     {
       "name": "stocks",
@@ -1202,7 +1202,7 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.8.8",
+      "version": "0.8.9",
       "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant with its own data dir and port, supervised by Fleet; hosted tenants can run on the parent server or on VPS instances. Includes tenant_clone and tenant_migrate for local/remote host-to-host transfer, read-only cloning with consistent SQLite snapshots, cold moves with rollback, provider hooks for Backup, admin-driven bootstrap, encrypted api_key keyring, server-native ingress/cert registration for tenant hostnames, delegated DNS/domain grants, generic provider grants for sharing parent integrations into tenants, health polling, boot reconciliation, tenant updates, and support-login tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
