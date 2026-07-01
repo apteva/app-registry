@@ -864,8 +864,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.8.11",
-      "description": "Customers, invoices, and payments — the AR core. Invoice UI defaults to latest due-date sorting so recent invoices appear first while undated invoices stay last. Issuer settings (your legal entity) + EU reverse-charge auto-detection + country-name rendering on the PDF. Stripe Checkout payment links now only require stripe_secret_key in Billing config: Billing creates its own Stripe webhook endpoint, stores the returned signing secret, verifies /webhooks/stripe locally, and records payments idempotently on the (method, external_id) unique index. A bound payment_processor integration remains a legacy fallback. When Stripe is not configured, Billing degrades cleanly to manual wire / cash / check / other recording. Catalog optional dep: invoice line items can reference a catalog price_id to snapshot description + unit_price, with FKs preserved for revenue-by-product analytics. Lifecycle: draft → open → paid / void / uncollectible. PDF + HTML print views render from line item snapshots so historical invoices stay stable even when catalog prices change. SQLite-backed; one currency per invoice; tax in basis points.",
+      "version": "0.8.13",
+      "description": "Customers, invoices, and payments — the AR core. Invoice UI defaults to latest due-date sorting so recent invoices appear first while undated invoices stay last. Issuer settings (your legal entity) + EU reverse-charge auto-detection + country-name rendering on the PDF. Stripe Checkout payment links only require stripe_secret_key in Billing config; Billing creates its own Stripe webhook endpoint, verifies /webhooks/stripe locally, and records payments idempotently. Catalog optional dep: invoice line items can reference a catalog price_id to snapshot description + unit_price. v0.8.13 adds invoices_create_from_prepared_lines so upstream apps such as Subscriptions can create invoices from generic prepared lines while Billing stays product-agnostic. Lifecycle: draft → open → paid / void / uncollectible. PDF + HTML print views render from line item snapshots.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -946,8 +946,8 @@
     {
       "name": "subscriptions",
       "display_name": "Subscriptions",
-      "version": "0.1.1",
-      "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, subscription status, current periods, renewal cycles, and references to invoice, order, or entitlement outputs. v0.1.1 emits specific lifecycle events such as subscription.active, subscription.past_due, subscription.paused, and subscription.ended when status changes.",
+      "version": "0.2.0",
+      "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, subscription status, current periods, renewal cycles, and references to invoice, order, or entitlement outputs. v0.2.0 adds generic flat and metered subscription items, idempotent usage records, period usage summaries, prepared invoice lines, and subscription invoice creation through Billing. Emits specific lifecycle events such as subscription.active, subscription.past_due, subscription.paused, subscription.ended, subscription.item.created, subscription.usage.recorded, and subscription.invoice.requested.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/subscriptions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/subscriptions/apteva.yaml",
@@ -1202,8 +1202,8 @@
     {
       "name": "hosting",
       "display_name": "Hosting",
-      "version": "1.9.0",
-      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. Hosting provisions containers, exposes default hostnames through platform ingress, tracks generic runtime usage for plan enforcement, orchestrates Catalog, Billing, Subscriptions, Orders, and Entitlements for paid/free hosting sale flows, and can optionally provision Auth org/user/client records for hosted admin panels. v1.9.0 adds generic tenant add-ons, optional LLM subject/token orchestration, llm.usage.recorded ingestion, included-usage tracking, and metered overage invoice creation through Billing.",
+      "version": "1.10.0",
+      "description": "Managed container-backed hosting control plane for Apteva tenants, arbitrary Docker images, and starter WordPress hosting products. Hosting provisions containers, exposes default hostnames through platform ingress, tracks generic runtime usage for plan enforcement, orchestrates Catalog, Billing, Subscriptions, Orders, and Entitlements for paid/free hosting sale flows, and can optionally provision Auth org/user/client records for hosted admin panels. v1.10.0 keeps Hosting as the product orchestrator while wiring tenant add-ons into generic Subscriptions items/usage, optional LLM subject/token orchestration, llm.usage.recorded ingestion, included-usage tracking, and subscription-backed metered overage invoicing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/hosting",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/hosting/apteva.yaml",
