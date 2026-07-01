@@ -522,8 +522,8 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.15",
-      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.14 adds a Media Identity UI for voice/avatar defaults, loads available Media Studio voice/avatar catalogs when present, previews linked voice/avatar references, and keeps voice/avatar references out of image source_images while visual references and selected item images continue through Media Studio's multi-reference path.",
+      "version": "0.1.19",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.19 sends persona and item visual references as source_images for image, video, and avatar generation, including persona-owned Composer composition AI clips.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
@@ -542,8 +542,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.3.46",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, storage-aware render saves, and first-class overlay/text tracks. Composer supports AI image, video, avatar, background music, timed audio clips, audio-only renders, generated-asset timing/reflow, remote instance rendering, reusable looped video clips, and animated text overlays with typography, stroke, shadow, alignment, timeline editing, and ffmpeg rendering after visual concatenation.",
+      "version": "0.3.47",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, storage-aware render saves, and first-class overlay/text tracks. Composer supports AI image, video, avatar, background music, timed audio clips, audio-only renders, generated-asset timing/reflow, remote instance rendering, reusable looped video clips, animated text overlays, and provider-neutral multi-reference AI clips through source_images.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
