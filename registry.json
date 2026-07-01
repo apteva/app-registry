@@ -2,8 +2,28 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-06-30T00:00:00Z",
+  "updated_at": "2026-07-01T00:00:00Z",
   "apps": [
+    {
+      "name": "llm",
+      "display_name": "LLM Gateway",
+      "version": "0.1.0",
+      "description": "Managed AI API access for Apteva-hosted apps and agents. OpenAI-compatible tenant-safe gateway with provider routing, project policy, usage tracking, spend caps, app-issued bearer tokens, and billable usage events for Billing and Entitlements.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/llm",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/llm/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/llm/icon.svg",
+      "tags": [
+        "llm",
+        "ai",
+        "gateway",
+        "openai-compatible",
+        "usage",
+        "billing"
+      ],
+      "official": true,
+      "category": "tools"
+    },
     {
       "name": "stocks",
       "display_name": "Stocks",
@@ -1294,8 +1314,8 @@
     {
       "name": "cdn",
       "display_name": "CDN",
-      "version": "0.2.2",
-      "description": "Public-facing edge for apps that emit URLs. Composes Domains (DNS), Certs (TLS), and Routes (host-based reverse-proxy) into one capability: given an origin and a hostname, expose it publicly. The CDN panel can now create managed hostnames by picking a Domains inventory domain plus subdomain, and app origins by selecting a running project/global app. Origin can still be a static URL or an installed app by name (origin_app / cdn_link_app) — apteva-server resolves the app's live sidecar per request, so the zone survives restarts. apteva-server fronts it with an in-process edge cache for public assets (honors Cache-Control/ETag). Domains and Certs are optional (skip_dns / allow_http). Consumers (storage today, media-studio and podcast later) call cdn_url_for to mint URLs on a linked zone.",
+      "version": "0.4.0",
+      "description": "Public-facing edge for apps that emit URLs. Composes optional Domains-managed DNS with apteva-server native ingress/TLS into one capability: given an origin and a hostname, expose it publicly. Passive zones route directly to an origin URL or installed app. Active zones route traffic through CDN itself; for Storage, origin_auth=signed_url lets CDN serve private files on a public hostname by minting short Storage signed URLs server-side and streaming the bytes back. Consumers call cdn_url_for_app to mint URLs through CDN binding policy, while cdn_url_for remains available for explicit zone-id URL assembly. The deprecated Certs and Routes apps are no longer CDN dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/cdn",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/cdn/apteva.yaml",
@@ -1383,6 +1403,25 @@
         "rankings",
         "backlinks",
         "dataforseo"
+      ],
+      "official": true,
+      "category": "marketing"
+    },
+    {
+      "name": "seo",
+      "display_name": "SEO",
+      "version": "0.3.2",
+      "description": "Locale-aware SEO research workbench. Track domains and keywords, sync DataForSEO locations, trigger paid metric refreshes from the UI/HTTP routes, and expose cached read-only MCP tools for agents. Refresh actions stay off the MCP surface so agents cannot spend credits automatically.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/seo",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/icon.svg",
+      "tags": [
+        "seo",
+        "marketing",
+        "keywords",
+        "rankings",
+        "backlinks"
       ],
       "official": true,
       "category": "marketing"
