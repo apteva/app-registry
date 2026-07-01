@@ -542,8 +542,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.3.8",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, text overlays, and storage-aware render saves, or render audio-only timelines to mp3/wav/m4a/aac with silence gaps from clip start offsets. The panel has a universal timeline with visual and audio rows; AI image, video, avatar, background music soundtracks, and timed audio clips can be added directly, then edited for Storage/URL source, Media Studio prompt/settings, timing, generation, and deletion. v0.3.8 adds a first-class AI music quick-add for background soundtracks so Media Studio music works like AI image/video/avatar creation while timed AI audio remains available for explicit timeline clips. AI placeholder duration metadata, duration modes, render-time Media Studio materialization, and waiting_ai status are supported. Renders locally via the sidecar's bundled ffmpeg or on a render host via instances.",
+      "version": "0.3.45",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, storage-aware render saves, and first-class overlay/text tracks. Composer supports AI image, video, avatar, background music, timed audio clips, audio-only renders, generated-asset timing/reflow, remote instance rendering, reusable looped video clips, and animated text overlays with typography, stroke, shadow, alignment, timeline editing, and ffmpeg rendering after visual concatenation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
