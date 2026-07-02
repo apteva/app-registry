@@ -151,6 +151,25 @@
       "category": "productivity"
     },
     {
+      "name": "voice-notes",
+      "display_name": "Voice Notes",
+      "version": "0.1.0",
+      "description": "Lightweight audio notes for Apteva projects. Record voice memos from the browser, store the raw audio in Storage, and optionally transcribe through a bound Deepgram connection. Standalone by default so simple recording does not require CRM, Tasks, or meeting workflows.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/voice-notes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/voice-notes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/voice-notes/icon.svg",
+      "tags": [
+        "audio",
+        "notes",
+        "voice",
+        "transcription",
+        "deepgram"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
       "name": "books",
       "display_name": "Books",
       "version": "0.1.0",
@@ -674,7 +693,7 @@
     {
       "name": "campaigns",
       "display_name": "Campaigns",
-      "version": "0.2.8",
+      "version": "0.2.9",
       "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and track per-recipient campaign status.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/campaigns",
