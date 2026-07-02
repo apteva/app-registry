@@ -674,8 +674,8 @@
     {
       "name": "campaigns",
       "display_name": "Campaigns",
-      "version": "0.2.0",
-      "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and reconcile delivery/bounce/complaint/open events back to per-recipient campaign status.",
+      "version": "0.2.1",
+      "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and reconcile delivery/bounce/complaint/open events back to per-recipient campaign status through the same Messaging app-role dependency.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/campaigns",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/campaigns/apteva.yaml",
