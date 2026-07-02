@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-01T00:00:00Z",
+  "updated_at": "2026-07-02T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -670,6 +670,26 @@
       ],
       "official": true,
       "category": "messaging"
+    },
+    {
+      "name": "campaigns",
+      "display_name": "Campaigns",
+      "version": "0.2.0",
+      "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and reconcile delivery/bounce/complaint/open events back to per-recipient campaign status.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/campaigns",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/campaigns/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/campaigns/icon.svg",
+      "tags": [
+        "campaigns",
+        "marketing",
+        "broadcast",
+        "email",
+        "sms",
+        "crm"
+      ],
+      "official": true,
+      "category": "marketing"
     },
     {
       "name": "whatsapp-web",
