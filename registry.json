@@ -1427,25 +1427,6 @@
       "category": "marketing"
     },
     {
-      "name": "seo",
-      "display_name": "SEO",
-      "version": "0.3.2",
-      "description": "Locale-aware SEO research workbench. Track domains and keywords, sync DataForSEO locations, trigger paid metric refreshes from the UI/HTTP routes, and expose cached read-only MCP tools for agents. Refresh actions stay off the MCP surface so agents cannot spend credits automatically.",
-      "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/seo",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/icon.svg",
-      "tags": [
-        "seo",
-        "marketing",
-        "keywords",
-        "rankings",
-        "backlinks"
-      ],
-      "official": true,
-      "category": "marketing"
-    },
-    {
       "name": "content",
       "display_name": "Content",
       "version": "2.10.6",
