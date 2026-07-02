@@ -693,7 +693,7 @@
     {
       "name": "campaigns",
       "display_name": "Campaigns",
-      "version": "0.2.9",
+      "version": "0.2.10",
       "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and track per-recipient campaign status.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/campaigns",
