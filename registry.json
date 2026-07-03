@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-02T00:00:00Z",
+  "updated_at": "2026-07-03T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -22,6 +22,25 @@
       ],
       "official": true,
       "category": "tools"
+    },
+    {
+      "name": "api",
+      "display_name": "API Gateway",
+      "version": "0.1.1",
+      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, method/path routes, simple API keys, CORS policy, request logs, dashboard operations, and dispatch to Functions, installed app HTTP surfaces, or plain HTTP origins.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/apteva.yaml",
+      "tags": [
+        "api",
+        "gateway",
+        "rest",
+        "graphql",
+        "routing",
+        "saas"
+      ],
+      "official": true,
+      "category": "infrastructure"
     },
     {
       "name": "stocks",
