@@ -43,6 +43,25 @@
       "category": "infrastructure"
     },
     {
+      "name": "saas",
+      "display_name": "SaaS",
+      "version": "0.1.0",
+      "description": "Shared SaaS access control for Apteva apps. Packages installed apps into sellable plans, creates customer accounts backed by Auth organizations, grants Entitlements, stores live usage gauges from participating apps, and applies subscription lifecycle state without owning containers or invoices directly.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/icon.svg",
+      "tags": [
+        "saas",
+        "access",
+        "subscriptions",
+        "entitlements",
+        "usage"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "stocks",
       "display_name": "Stocks",
       "version": "0.6.0",
