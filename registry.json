@@ -191,7 +191,7 @@
     {
       "name": "voice-notes",
       "display_name": "Voice Notes",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Lightweight audio notes for Apteva projects. Record voice memos from the browser, store the raw audio in Storage, and optionally transcribe through a bound Deepgram connection. Standalone by default so simple recording does not require CRM, Tasks, or meeting workflows.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/voice-notes",
