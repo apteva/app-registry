@@ -45,7 +45,7 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "description": "Shared SaaS access control, checkout orchestration, and generic fulfillment for Apteva apps. Packages installed apps into sellable plans, creates or links Billing customers, creates Subscriptions and invoices, provisions Auth organizations and Entitlements, runs lifecycle actions against other apps such as Containers, stores live usage gauges from existing app tools, and applies subscription lifecycle state.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
