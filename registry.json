@@ -559,8 +559,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.32",
-      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via compatible providers. media_generate supports image / video / audio_tts / audio_sfx / music / avatar; media_estimate estimates generation cost; media_delete removes generations and linked files. source_image switches images into edit and video into image-to-video; source_images supports multi-reference Venice reference-to-video models such as Seedance, with model-aware limits and lineage metadata. v0.10.32 forwards provider consent objects for face-bearing Seedance reference jobs. Async video/avatar jobs queue + poll automatically. Optionally saves outputs to Storage.",
+      "version": "0.10.33",
+      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via compatible providers. media_generate supports image / video / audio_tts / audio_sfx / music / avatar; media_estimate estimates generation cost; media_delete removes generations and linked files. source_image switches images into edit and video into image-to-video; source_images supports multi-reference Venice reference-to-video models such as Seedance, with model-aware limits and lineage metadata. v0.10.33 filters Venice image-edit options per model so Flux and Qwen edits no longer receive unsupported resolution tiers. Async video/avatar jobs queue + poll automatically. Optionally saves outputs to Storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
