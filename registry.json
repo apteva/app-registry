@@ -318,8 +318,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.36",
-      "description": "Watch and steer browser sessions through browser_session and computer_use MCP tools. v0.7.36 improves source URL DNS fallback for temporary upload URLs while retaining Browserbase image upload fixes and Set-of-Mark label targeting for visible upload controls.",
+      "version": "0.7.40",
+      "description": "Watch and steer browser sessions, with rendered DOM extraction for higher-level web tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -329,7 +329,8 @@
         "ui"
       ],
       "official": true,
-      "category": "ui"
+      "category": "ui",
+      "updated_at": "2026-07-04T00:00:00Z"
     },
     {
       "name": "screenshots",
@@ -350,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.0",
-      "description": "Browser-native web intelligence for agents. Provides JSON-first search, extraction, crawl, map, research, and snapshot tools using the computer app as the browser/session backend, with storage for durable artifacts.",
+      "version": "0.1.1",
+      "description": "Browser-native web intelligence with search, extract, crawl, map, research, snapshots, and rendered DOM extraction through Computer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
@@ -363,7 +364,8 @@
         "observability"
       ],
       "official": true,
-      "category": "productivity"
+      "category": "productivity",
+      "updated_at": "2026-07-04T00:00:00Z"
     },
     {
       "name": "storage",
