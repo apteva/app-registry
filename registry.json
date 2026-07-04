@@ -318,8 +318,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.42",
-      "description": "Watch and steer browser sessions, with cleaner rendered text, markdown, and structured-data extraction.",
+      "version": "0.7.43",
+      "description": "Watch and steer browser sessions, with cleaner rendered text block spacing, markdown, and structured-data extraction.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
