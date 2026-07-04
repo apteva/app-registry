@@ -318,8 +318,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.41",
-      "description": "Watch and steer browser sessions, with rendered DOM extraction for advanced browser integrations.",
+      "version": "0.7.42",
+      "description": "Watch and steer browser sessions, with cleaner rendered text, markdown, and structured-data extraction.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -351,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.1",
-      "description": "Browser-native web intelligence with search, extract, crawl, map, research, snapshots, and rendered DOM extraction through Computer.",
+      "version": "0.1.2",
+      "description": "Browser-native web intelligence with search, extract, crawl, map, research, snapshots, markdown, and structured page data.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
