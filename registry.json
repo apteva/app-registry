@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-03T00:00:00Z",
+  "updated_at": "2026-07-04T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -346,6 +346,24 @@
       ],
       "official": true,
       "category": "ui"
+    },
+    {
+      "name": "web",
+      "display_name": "Web",
+      "version": "0.1.0",
+      "description": "Browser-native web intelligence for agents. Provides JSON-first search, extraction, crawl, map, research, and snapshot tools using the computer app as the browser/session backend, with storage for durable artifacts.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
+      "tags": [
+        "browser",
+        "search",
+        "research",
+        "crawl",
+        "observability"
+      ],
+      "official": true,
+      "category": "productivity"
     },
     {
       "name": "storage",
