@@ -318,8 +318,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.40",
-      "description": "Watch and steer browser sessions, with rendered DOM extraction for higher-level web tools.",
+      "version": "0.7.41",
+      "description": "Watch and steer browser sessions, with rendered DOM extraction for advanced browser integrations.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
