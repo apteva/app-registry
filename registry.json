@@ -519,7 +519,7 @@
     {
       "name": "podcast",
       "display_name": "Podcast",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "description": "Podcast hosting and RSS feed management for Apteva projects. Create shows and episodes, attach Storage-hosted audio, probe durations through Media, publish valid RSS/iTunes XML feeds, track downloads, and expose custom feed domains through platform ingress with optional DNS writes via the Domains app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/podcast",
