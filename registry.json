@@ -351,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.4",
-      "description": "Browser-native web intelligence with search, extract, crawl, map, research, snapshots, markdown, structured page data, explicit response caching controls, and live browser-DOM search parsing with challenge detection.",
+      "version": "0.1.5",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, snapshots, markdown, structured page data, explicit response caching controls, and live browser-DOM search parsing with challenge detection.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
