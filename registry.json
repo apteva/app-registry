@@ -1203,7 +1203,7 @@
     {
       "name": "ffmpeg",
       "display_name": "FFmpeg",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Stateless ffmpeg-as-a-service for sibling Apteva apps. Three sync MCP tools — ffmpeg_grab_frame, ffmpeg_probe, ffmpeg_version — that wrap the local ffmpeg/ffprobe binaries. tapo's snapshot_capture is the v0.1 use case: grab one frame from a camera's RTSP stream without forcing every camera-y app to bundle its own ffmpeg. No DB, no panel, no async tools — minimal shape. Requires ffmpeg + ffprobe on PATH; OnMount refuses to start with a clear 'install ffmpeg' error if either is missing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ffmpeg",
