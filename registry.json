@@ -1182,7 +1182,7 @@
     {
       "name": "tapo",
       "display_name": "Tapo Cameras",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Local-LAN control of TP-Link Tapo cameras. Pan/tilt/zoom, snapshots, RTSP stream URLs, motion events, privacy + LED + night-mode toggles, presets. Talks the camera's HTTPS JSON-RPC directly with the secure_passthrough auth flow shipped on every internet-connected Tapo camera since TP-Link's Sept-2023 security patch. No cloud round-trips; everything goes peer-to-peer over the LAN. Setup requires enabling Third-Party Compatibility in the Tapo app (Me → Tapo Lab) on app version >= 3.8.103.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tapo",
