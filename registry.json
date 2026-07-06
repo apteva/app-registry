@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-06T07:44:38Z",
+  "updated_at": "2026-07-06T08:14:50Z",
   "apps": [
     {
       "name": "llm",
@@ -318,8 +318,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.44",
-      "description": "Watch and steer browser sessions, with rendered DOM extraction for text, markdown, structured data, links, images, and query-rankable regions with browser coordinates for smart screenshots.",
+      "version": "0.7.45",
+      "description": "Watch and steer browser sessions, with rendered DOM extraction and Set-of-Mark label clicking. v0.7.45 adds opt-in structured Set-of-Mark targets in screenshot responses via include_som=true while keeping default MCP payloads small.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -330,7 +330,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-07-06T07:14:36Z"
+      "updated_at": "2026-07-06T08:14:50Z"
     },
     {
       "name": "screenshots",
@@ -351,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.9",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.9 auto-dismisses common cookie banners before smart captures and prevents footer/navigation containers from outranking content sections.",
+      "version": "0.1.10",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.10 uses Computer's opt-in structured Set-of-Mark targets to dismiss generic cookie accept banners that are visible but not exposed as DOM regions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
@@ -365,7 +365,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-06T07:44:38Z"
+      "updated_at": "2026-07-06T08:14:50Z"
     },
     {
       "name": "storage",
