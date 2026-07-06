@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-05T00:00:00Z",
+  "updated_at": "2026-07-06T07:14:36Z",
   "apps": [
     {
       "name": "llm",
@@ -318,8 +318,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.43",
-      "description": "Watch and steer browser sessions, with cleaner rendered text block spacing, markdown, and structured-data extraction.",
+      "version": "0.7.44",
+      "description": "Watch and steer browser sessions, with rendered DOM extraction for text, markdown, structured data, links, images, and query-rankable regions with browser coordinates for smart screenshots.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -330,7 +330,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-07-04T00:00:00Z"
+      "updated_at": "2026-07-06T07:14:36Z"
     },
     {
       "name": "screenshots",
@@ -351,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.5",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, snapshots, markdown, structured page data, explicit response caching controls, and live browser-DOM search parsing with challenge detection.",
+      "version": "0.1.6",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
@@ -365,7 +365,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-04T00:00:00Z"
+      "updated_at": "2026-07-06T07:14:36Z"
     },
     {
       "name": "storage",
