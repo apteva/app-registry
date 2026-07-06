@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-06T07:41:21Z",
+  "updated_at": "2026-07-06T07:44:38Z",
   "apps": [
     {
       "name": "llm",
@@ -351,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.8",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.8 improves smart snapshot ranking, dedupes nested parent regions, and auto-dismisses common cookie banners before smart captures.",
+      "version": "0.1.9",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.9 auto-dismisses common cookie banners before smart captures and prevents footer/navigation containers from outranking content sections.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
@@ -365,7 +365,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-06T07:41:21Z"
+      "updated_at": "2026-07-06T07:44:38Z"
     },
     {
       "name": "storage",
