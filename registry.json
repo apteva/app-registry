@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-06T08:50:27Z",
+  "updated_at": "2026-07-06T08:55:23Z",
   "apps": [
     {
       "name": "llm",
@@ -351,8 +351,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.13",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.13 excludes small standalone text nodes from smart visual crops unless they contain contact emails for contact-style queries.",
+      "version": "0.1.14",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.14 dedupes near-identical nested smart snapshot regions with the same heading and very high visual overlap.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
