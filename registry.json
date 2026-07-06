@@ -264,6 +264,25 @@
       "category": "personal"
     },
     {
+      "name": "pantry",
+      "display_name": "Pantry",
+      "version": "0.1.0",
+      "description": "Food inventory for pantry, fridge, and freezer. Track products, barcode aliases, locations, quantities, expiry batches, low-stock thresholds, and shopping-list needs. Agents can add/use stock from natural-language lines or structured MCP tools, then answer questions like what expires this week and what should I buy.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/pantry",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/pantry/apteva.yaml",
+      "tags": [
+        "pantry",
+        "groceries",
+        "food",
+        "inventory",
+        "household",
+        "personal"
+      ],
+      "official": true,
+      "category": "personal"
+    },
+    {
       "name": "status",
       "display_name": "Status",
       "version": "2.0.1",
