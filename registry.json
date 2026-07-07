@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-06T08:55:23Z",
+  "updated_at": "2026-07-07T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -1477,6 +1477,25 @@
         "links",
         "offers",
         "stats"
+      ],
+      "official": true,
+      "category": "marketing"
+    },
+    {
+      "name": "partner-program",
+      "display_name": "Partner Program",
+      "version": "0.1.0",
+      "description": "Merchant-side referral and affiliate program for SaaS, services, and commerce. Track approved partners, campaigns, referral links and codes, referred customers, and commission ledger entries. MVP uses five tables and manual payout tracking so teams can run a real program before adding payout automation.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/partner-program",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/partner-program/apteva.yaml",
+      "tags": [
+        "partners",
+        "referrals",
+        "affiliate",
+        "commissions",
+        "growth",
+        "saas"
       ],
       "official": true,
       "category": "marketing"
