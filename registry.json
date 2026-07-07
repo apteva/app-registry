@@ -1616,6 +1616,26 @@
       "category": "observability"
     },
     {
+      "name": "webinars",
+      "display_name": "Webinars",
+      "version": "0.1.1",
+      "description": "Live, scheduled, multi-slot, and replay webinars. Owns registration pages, registrants, reminders, attendance, chat, polls, offers, replay publishing, and engagement reporting. v0.1.1 adds generic webinar slots so scheduled, multi-session, and evergreen-style webinars share one registration model.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/webinars",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/webinars/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/webinars/icon.png",
+      "tags": [
+        "webinars",
+        "video",
+        "registration",
+        "slots",
+        "funnel",
+        "events"
+      ],
+      "official": true,
+      "category": "media"
+    },
+    {
       "name": "calls",
       "display_name": "Calls",
       "version": "0.1.5",
