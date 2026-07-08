@@ -283,6 +283,26 @@
       "category": "personal"
     },
     {
+      "name": "recipes",
+      "display_name": "Recipes",
+      "version": "0.1.0",
+      "description": "Recipe library, nutrition estimates, meal planning, and pantry-aware shopping lists. Agents can create structured recipes, scale servings, estimate macros, plan meals, generate merged shopping lists, and suggest meals from available ingredients.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/recipes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/recipes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/recipes/icon.svg",
+      "tags": [
+        "recipes",
+        "nutrition",
+        "meal-planning",
+        "food",
+        "cooking",
+        "personal"
+      ],
+      "official": true,
+      "category": "personal"
+    },
+    {
       "name": "status",
       "display_name": "Status",
       "version": "2.0.1",
