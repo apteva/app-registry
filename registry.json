@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-07T00:00:00Z",
+  "updated_at": "2026-07-08T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -638,8 +638,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.3.47",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with one visual track, timed audio tracks, optional soundtrack, storage-aware render saves, and first-class overlay/text tracks. Composer supports AI image, video, avatar, background music, timed audio clips, audio-only renders, generated-asset timing/reflow, remote instance rendering, reusable looped video clips, animated text overlays, and provider-neutral multi-reference AI clips through source_images.",
+      "version": "0.4.0",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. Composer V2 adds a renderer-neutral JSON schema with assets, scenes, tracks, audio, validation, canonical examples for agents, and an ffmpeg compatibility path for simple V2 specs while advanced animated layouts are marked for the web renderer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
