@@ -658,8 +658,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.5.1",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. Composer V2 adds a renderer-neutral JSON schema with assets, scenes, tracks, audio, validation, canonical examples for agents, and a native V2 renderer for image, shape, and text scene graphs with layout, animation presets, keyframes, stable reveal text, and corrected alpha compositing. Video elements still use the ffmpeg compatibility path.",
+      "version": "0.5.2",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. Composer V2 adds a renderer-neutral JSON schema with assets, scenes, tracks, audio, validation, canonical examples for agents, and a native renderer for image, shape, and text scene graphs with grouped parent motion, design-size scaling, enter/exit presets, typewriter/word reveal text, and keyframes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
