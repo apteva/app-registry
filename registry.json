@@ -1754,6 +1754,25 @@
       ],
       "official": true,
       "category": "channels"
+    },
+    {
+      "name": "testimonials",
+      "display_name": "Testimonials",
+      "version": "0.1.0",
+      "description": "Lightweight customer proof store for Apteva. Keep text testimonials, reviews, ratings, attribution, consent, publication status, and an optional media reference for later video/audio/image testimonials. V1 uses one testimonials table and declares Storage as an optional dependency only.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/testimonials",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/testimonials/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/testimonials/icon.svg",
+      "tags": [
+        "testimonials",
+        "reviews",
+        "social-proof",
+        "marketing",
+        "ugc"
+      ],
+      "official": true,
+      "category": "marketing"
     }
   ]
 }
