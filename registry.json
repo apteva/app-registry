@@ -674,8 +674,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.5.5",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. Public installs use the stable V1 timeline/render surface while experimental Composer V2 work remains gated for internal development.",
+      "version": "0.5.6",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with layered visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. Public installs use the stable V1 timeline/render surface, including Shotstack-style clip layout fields for image/video PIP and B-roll layers, while experimental Composer V2 work remains gated for internal development.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
