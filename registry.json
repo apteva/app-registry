@@ -674,8 +674,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.5.7",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with layered visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. v0.5.7 hardens ElevenLabs narration with timeline-ordered continuity across silence and SFX, stable text-based cache identity, persisted provider request IDs, immediate-text fallback, shared panel/render generation, conservative partial-setting defaults, and generated-TTS loudness normalization. Public installs use the stable V1 timeline/render surface, including Shotstack-style clip layout fields for image/video PIP and B-roll layers, while experimental Composer V2 work remains gated for internal development.",
+      "version": "0.5.8",
+      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with layered visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. v0.5.8 preserves planned fit_generated_keep_start avatar/video slots while recording actual generated duration separately, and renders gapped, overlapping, or out-of-order base clips on an absolute timeline so later PIP layers remain synchronized. Contiguous and legacy implicit base tracks retain the efficient concat path. v0.5.7 hardens ElevenLabs narration with timeline-ordered continuity across silence and SFX, stable text-based cache identity, persisted provider request IDs, immediate-text fallback, shared panel/render generation, conservative partial-setting defaults, and generated-TTS loudness normalization. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
