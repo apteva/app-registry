@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-08T00:00:00Z",
+  "updated_at": "2026-07-10T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -634,8 +634,8 @@
     {
       "name": "media-studio",
       "display_name": "Media Studio",
-      "version": "0.10.36",
-      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via compatible providers. media_models lets agents discover the live model catalog and use returned model ids in media_generate; when multiple image providers are bound, image model ids are provider-prefixed. v0.10.36 sniffs generated image bytes before saving so provider/model outputs that declare one format but return another are stored with matching MIME metadata and filename extensions. v0.10.35 restores default image model discovery for bound providers by treating omitted image model capability as image.generate, so Venice and other image providers appear in the panel and media_models without requiring an explicit capability. v0.10.34 also loads Venice edit models from the inpaint model catalog and filters edit-only resolution tiers for current model ids such as Nano Banana, Qwen, Flux, and GPT Image edit. media_generate supports image / video / audio_tts / audio_sfx / music / avatar; media_estimate estimates generation cost; media_delete removes generations and linked files. source_image switches images into edit and video into image-to-video; source_images supports multi-reference Venice reference-to-video models such as Seedance, with model-aware limits and lineage metadata. Async video/avatar jobs queue + poll automatically. Optionally saves outputs to Storage.",
+      "version": "0.10.37",
+      "description": "Generate or edit images, video, audio, music, and talking-head avatar videos via compatible providers. media_models exposes the live model catalog and provider-prefixed image model ids when multiple providers are bound. v0.10.37 uses the latest multi-binding SDK, isolates project workers and cached media, retains original async provider connections, safely resumes finalization after restarts, falls back to project-scoped local cache when Storage fails, validates provider prompt limits, redacts inline media from SQLite metadata, and rejects oversized downloads without storing truncated files. v0.10.36 also sniffs generated image bytes before saving so provider/model outputs with mismatched declared formats receive correct MIME metadata and filename extensions. media_generate supports image / video / audio_tts / audio_sfx / music / avatar; media_estimate estimates generation cost; media_delete removes generations and linked files. source_image and source_images support provider-aware image edits and multi-reference video generation. Async video/avatar jobs queue and poll automatically. Optionally saves outputs to Storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-studio/apteva.yaml",
