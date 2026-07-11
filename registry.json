@@ -533,8 +533,8 @@
     {
       "name": "simulator",
       "display_name": "Apteva Simulator",
-      "version": "0.1.21",
-      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.21 makes panel Boot actions honor the install's configured runtime and device type instead of overriding them with host-incompatible defaults.",
+      "version": "0.1.22",
+      "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.22 resolves the installed Android package's launcher activity before starting it, avoiding Android 35 monkey failures that left the home screen open.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/simulator",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/simulator/apteva.yaml",
