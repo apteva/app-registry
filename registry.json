@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-10T00:00:00Z",
+  "updated_at": "2026-07-11T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -461,8 +461,8 @@
     {
       "name": "jobs",
       "display_name": "Jobs",
-      "version": "0.1.10",
-      "description": "Scheduled-job runner. Other apps (and agents) enqueue work to be delivered later — once at a future time, on an interval, or on a cron expression. At-least-once delivery with idempotency keys, exponential backoff, and a runs log.",
+      "version": "0.1.11",
+      "description": "Scheduled-job runner for one-time, interval, and cron work. Dispatches platform-authorized sibling app tools, external HTTP targets, or agent events with bounded concurrency, reclaimable leases, retries, idempotency keys, and retained run history.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/jobs",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/jobs/apteva.yaml",
