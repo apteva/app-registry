@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-11T00:00:00Z",
+  "updated_at": "2026-07-12T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -1016,8 +1016,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.8.13",
-      "description": "Customers, invoices, and payments — the AR core. Invoice UI defaults to latest due-date sorting so recent invoices appear first while undated invoices stay last. Issuer settings (your legal entity) + EU reverse-charge auto-detection + country-name rendering on the PDF. Stripe Checkout payment links only require stripe_secret_key in Billing config; Billing creates its own Stripe webhook endpoint, verifies /webhooks/stripe locally, and records payments idempotently. Catalog optional dep: invoice line items can reference a catalog price_id to snapshot description + unit_price. v0.8.13 adds invoices_create_from_prepared_lines so upstream apps such as Subscriptions can create invoices from generic prepared lines while Billing stays product-agnostic. Lifecycle: draft → open → paid / void / uncollectible. PDF + HTML print views render from line item snapshots.",
+      "version": "0.8.17",
+      "description": "Customers, invoices, payments, refunds, reusable payment methods, and PDF/HTML invoice rendering. v0.8.17 partitions issuer legal and bank identity by project, reconciles Stripe Checkout against persisted session amount and currency, charges the exact outstanding balance including tax and fractional-quantity lines, retries failed webhook processing, limits public webhook bodies, records multiple partial refunds idempotently, reopens refunded paid invoices, rounds tax correctly, and requires a patched Go toolchain. Catalog price snapshots and generic prepared invoice lines remain product-agnostic.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
