@@ -155,8 +155,8 @@
     {
       "name": "fetch",
       "display_name": "Fetch",
-      "version": "0.1.0",
-      "description": "Controlled HTTP client for agents and operators. Agents get one fetch_request MCP tool for GET/POST/PUT/PATCH/DELETE-style requests with timeouts, size caps, redirect limits, header redaction, and private-network blocking. The dashboard panel provides saved requests, environments, and redacted history.",
+      "version": "0.1.1",
+      "description": "Controlled HTTP client for agents and operators. Agents get one fetch_request MCP tool with bounded requests, hardened redirects, SSRF protection, encrypted secrets, and redacted history. The responsive dashboard panel provides an API editor, saved requests, environments, and paginated execution history.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fetch",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fetch/apteva.yaml",
