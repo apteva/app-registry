@@ -356,8 +356,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.8.20",
-      "description": "Contacts store for Apteva agents and human teams. Multi-value channels, typed custom attributes with provenance, append-only activity log, soft-delete + merge.",
+      "version": "0.8.21",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams, with project isolation and typed attributes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
