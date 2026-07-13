@@ -7,8 +7,8 @@
     {
       "name": "llm",
       "display_name": "LLM Gateway",
-      "version": "0.3.0",
-      "description": "Managed AI API access for Apteva-hosted apps and agents. OpenAI-compatible tenant-safe gateway with provider routing, bound provider integrations, provider model discovery, project and subject policy, token revocation, subject suspend/resume, idempotent usage tracking, spend caps, app-issued bearer tokens, and usage records for orchestration apps to consume.",
+      "version": "0.4.0",
+      "description": "Generic OpenAI-compatible LLM gateway for Apteva-hosted apps and agents. Supports bound Anthropic, OpenCode Go, OpenAI, OpenRouter, and Fireworks providers; automatic model discovery; project and subject policy and quotas; scoped and revocable tokens; provider failover; embeddings; and idempotent raw token usage records for orchestration apps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/llm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/llm/apteva.yaml",
