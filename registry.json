@@ -1793,8 +1793,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.1.1",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, selected or fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, and reusable snapshots. Provides a compact project panel plus MCP orchestration for eval apps and agents. v0.1.1 removes the desktop content-width cap so the project panel uses the available dashboard width.",
+      "version": "0.1.2",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, selected or fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, and reusable snapshots. Provides a compact project panel plus MCP orchestration for eval apps and agents. v0.1.2 fixes environment listing when the app database uses its production single-connection pool.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
