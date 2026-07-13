@@ -1811,8 +1811,8 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.1.0",
-      "description": "Project-scoped agent evaluations in isolated Environments. Define reusable suites and deterministic or model-judged cases, compare agents and models across repeated runs, inspect traces and metrics, schedule continuous evaluations, and apply reviewed directive suggestions.",
+      "version": "0.1.1",
+      "description": "Project-scoped agent evaluations in isolated Environments. Define reusable suites and deterministic or model-judged cases, compare agents and models across repeated runs, inspect traces and metrics, schedule continuous evaluations, and apply reviewed directive suggestions. v0.1.1 aligns panel surface tokens with the dashboard and preselects the suite being run.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/evals/apteva.yaml",
