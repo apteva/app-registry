@@ -1774,7 +1774,7 @@
     {
       "name": "testimonials",
       "display_name": "Testimonials",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Lightweight customer proof store for Apteva with consent-aware publication, text and media testimonials, exact filtering, pagination, and a responsive management panel. V1 uses one testimonials table and declares Storage as an optional dependency only.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/testimonials",
