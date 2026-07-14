@@ -1319,16 +1319,17 @@
     {
       "name": "docs",
       "display_name": "Documents",
-      "version": "0.1.1",
-      "description": "Generate client-facing PDFs from markdown templates and store them in storage. Pure-Go render pipeline (no Chromium): markdown body + Go-template placeholders, rendered via maroto. Audit trail on every render — who rendered what template with which data — for compliance use cases (invoices, contracts, NDAs). Past renders keep working even after a template is edited because the output is a stable storage file_id.",
+      "version": "0.3.0",
+      "description": "Craft project-isolated, client-facing PDFs and lead magnets from reusable Markdown templates. Includes a starter-driven editor with live previews, Go-template variables, A4/Letter/Legal output, tables and Storage-backed images, resource-scoped agent permissions, strict input and image safety limits, and a paginated render audit trail. Finished PDFs are stored as stable Storage files.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/docs",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/docs/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/docs/icon.png",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/docs/icon.svg",
       "tags": [
         "documents",
         "pdf",
         "templates",
+        "lead-magnets",
         "invoices",
         "contracts",
         "client-facing"
