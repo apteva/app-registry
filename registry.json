@@ -2,13 +2,13 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-13T00:00:00Z",
+  "updated_at": "2026-07-14T00:00:00Z",
   "apps": [
     {
       "name": "llm",
       "display_name": "LLM Gateway",
-      "version": "0.4.0",
-      "description": "Generic OpenAI-compatible LLM gateway for Apteva-hosted apps and agents. Supports bound Anthropic, OpenCode Go, OpenAI, OpenRouter, and Fireworks providers; automatic model discovery; project and subject policy and quotas; scoped and revocable tokens; provider failover; embeddings; and idempotent raw token usage records for orchestration apps.",
+      "version": "0.5.0",
+      "description": "Generic OpenAI-compatible LLM gateway for Apteva-hosted apps and agents. Supports bound Anthropic, OpenCode Go, OpenAI, OpenRouter, and Fireworks providers; automatic model and provider-rate discovery; manual rate overrides and history; project and subject quotas and upstream cost caps; scoped and revocable tokens; provider failover; embeddings; and idempotent token and provider-cost usage records for orchestration apps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/llm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/llm/apteva.yaml",
