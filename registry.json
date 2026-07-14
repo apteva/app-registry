@@ -1179,8 +1179,8 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.2.2",
-      "description": "Patreon-like memberships for creators and communities. Manage multiple creator spaces, paid membership periods, expiring member portals, gated posts and pictures, scheduled publishing, Billing payment lifecycle events, optional CRM synchronization, and supporter announcements through Messaging. v0.2.2 includes access-filtered attachments in public and member feeds.",
+      "version": "0.2.3",
+      "description": "Patreon-like memberships for creators and communities. Manage multiple creator spaces, paid membership periods, expiring member portals, gated posts and pictures, scheduled publishing, Billing payment lifecycle events, optional CRM synchronization, and supporter announcements through Messaging. v0.2.3 includes access-filtered feed attachments and schema-safe, per-space CRM state synchronization.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/creators/apteva.yaml",
