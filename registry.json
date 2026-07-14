@@ -425,8 +425,8 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.10.15",
-      "description": "File storage with virtual folders, signed URLs, dedup. Pluggable backend: local disk by default, S3-compatible (AWS / R2 / B2 / Wasabi / MinIO) when configured. On S3, presigned upload + download URLs let clients transfer bytes directly to the bucket — bytes never proxy through this container. v0.9.5 adds files_get_content for inline byte fetch via CallAppResult — fixes the multi-storage-install case where signed URLs route to the wrong instance.",
+      "version": "0.10.19",
+      "description": "File storage with virtual folders, signed URLs, dedup, resumable uploads, and a pluggable local or S3-compatible backend. v0.10.19 serves public and HMAC-signed downloads through a dedicated read-only anonymous route while keeping metadata, uploads, and mutations authenticated.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/apteva.yaml",
@@ -1179,7 +1179,7 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Patreon-like memberships for creators and communities. Manage multiple creator spaces, paid membership periods, expiring member portals, gated posts and files, scheduled publishing, Billing payment lifecycle events, optional CRM synchronization, and supporter announcements through Messaging.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
