@@ -7,8 +7,8 @@
     {
       "name": "llm",
       "display_name": "LLM Gateway",
-      "version": "0.5.1",
-      "description": "Generic OpenAI-compatible LLM gateway for Apteva-hosted apps and agents. Supports bound Anthropic, OpenCode Go, OpenAI, OpenRouter, and Fireworks providers; automatic model and provider-rate discovery; a versioned built-in fallback rate catalog with provenance and effective dates; manual overrides and history; project and subject quotas and upstream cost caps; scoped and revocable tokens; provider failover; embeddings; and idempotent token and provider-cost usage records.",
+      "version": "0.5.2",
+      "description": "Generic OpenAI-compatible LLM gateway for Apteva-hosted apps and agents. Supports bound OpenAI Codex subscription access with account-aware model discovery and OAuth refresh, plus Anthropic, OpenCode Go, OpenAI, OpenRouter, and Fireworks providers; automatic model and provider-rate discovery; a versioned built-in fallback rate catalog; manual rate overrides and history; project and subject quotas and upstream cost caps; scoped and revocable tokens; provider failover; embeddings; and idempotent token and provider-cost usage records.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/llm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/llm/apteva.yaml",
