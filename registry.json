@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-15T00:00:00Z",
+  "updated_at": "2026-07-16T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -1019,8 +1019,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.8.17",
-      "description": "Customers, invoices, payments, refunds, reusable payment methods, and PDF/HTML invoice rendering. v0.8.17 partitions issuer legal and bank identity by project, reconciles Stripe Checkout against persisted session amount and currency, charges the exact outstanding balance including tax and fractional-quantity lines, retries failed webhook processing, limits public webhook bodies, records multiple partial refunds idempotently, reopens refunded paid invoices, rounds tax correctly, and requires a patched Go toolchain. Catalog price snapshots and generic prepared invoice lines remain product-agnostic.",
+      "version": "0.8.18",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Stripe is an optional payment processor, not the invoice issuer: connecting Stripe never creates a Checkout Session by default. v0.8.18 clarifies that agents may create a Stripe payment link only when the user explicitly requests one, and that Billing returns the URL but does not email or deliver it. Checkout reconciliation, partial refunds, tax rounding, and product-agnostic Catalog snapshots remain supported.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
