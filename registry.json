@@ -676,8 +676,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.5.8",
-      "description": "Multi-clip video and audio composition. Stitch generated or uploaded assets into a single video with layered visual tracks, timed audio tracks, optional soundtrack, storage-aware render saves, overlay/text tracks, and AI-generated sources. v0.5.8 preserves planned fit_generated_keep_start avatar/video slots while recording actual generated duration separately, and renders gapped, overlapping, or out-of-order base clips on an absolute timeline so later PIP layers remain synchronized. Contiguous and legacy implicit base tracks retain the efficient concat path. v0.5.7 hardens ElevenLabs narration with timeline-ordered continuity across silence and SFX, stable text-based cache identity, persisted provider request IDs, immediate-text fallback, shared panel/render generation, conservative partial-setting defaults, and generated-TTS loudness normalization. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
+      "version": "0.5.9",
+      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. v0.5.9 adds live composition and render cards for chat plus a durable asynchronous render lifecycle: a render row exists before AI generation starts, progress moves through generation, rendering, QA, and upload, final audio/video becomes playable in place, queued work resumes after sidecar restarts, and no second render call is required. The Composer panel uses the same background path while synchronous tool callers remain compatible. v0.5.8 preserves planned fit_generated_keep_start avatar/video slots and renders explicit base-track timing without shifting later PIP layers. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
@@ -687,7 +687,8 @@
         "composition",
         "render",
         "ffmpeg",
-        "timeline"
+        "timeline",
+        "chat"
       ],
       "official": true,
       "category": "ai"
