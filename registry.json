@@ -676,8 +676,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.5.9",
-      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. v0.5.9 adds live composition and render cards for chat plus a durable asynchronous render lifecycle: a render row exists before AI generation starts, progress moves through generation, rendering, QA, and upload, final audio/video becomes playable in place, queued work resumes after sidecar restarts, and no second render call is required. The Composer panel uses the same background path while synchronous tool callers remain compatible. v0.5.8 preserves planned fit_generated_keep_start avatar/video slots and renders explicit base-track timing without shifting later PIP layers. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
+      "version": "0.5.10",
+      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. v0.5.10 makes V1 text rendering deterministic across hosts: Composer supplies its bundled Go Mono TTF to local and remote executors and every drawtext filter uses an explicit fontfile, so values such as Courier New no longer require host Fontconfig configuration or proprietary fonts. v0.5.9 adds live composition and render cards for chat plus a durable asynchronous render lifecycle that continues through AI generation, rendering, QA, and upload without a second render call. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
