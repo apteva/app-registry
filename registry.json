@@ -1760,8 +1760,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.3",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with Twilio inbound routing for agent pickup. Outbound calls and answered inbound calls run as realtime sub-threads in core, with carrier audio bridged through a provider media stream. Includes MCP tools for placing, routing, answering, rejecting, hanging up, and listing calls, plus a dashboard panel for active and recent call operations.",
+      "version": "0.1.4",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with Twilio inbound routing for agent pickup. v0.1.4 adds authenticated query-free carrier media ingress, install/project-scoped agent dispatch, provider-native voices, one-shot realtime greetings, reconnect token renewal, disconnect cleanup, ephemeral call threads, and hardened call lifecycle recovery. Includes MCP tools for placing, routing, answering, rejecting, hanging up, and listing calls, plus a dashboard panel for active and recent call operations.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
