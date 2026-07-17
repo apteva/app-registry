@@ -1760,8 +1760,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.5",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with Twilio inbound routing for agent pickup. v0.1.5 adds provider-neutral live phone-number inventory and normalized pricing, short-lived confirmed purchase quotes, MCP search and purchase tools, and a Numbers view in the dashboard. Twilio, Telnyx, Plivo, and Vonage support confirmed purchases; SignalWire inventory is search-only until its API can provide a verifiable quote. Includes hardened realtime call bridging and tools for placing, routing, answering, rejecting, hanging up, and listing calls.",
+      "version": "0.1.6",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with Twilio inbound routing for agent pickup. v0.1.6 adds regulated Twilio number purchasing with validated Address SID support in MCP and the Numbers panel. Provider-neutral live inventory, normalized pricing, and short-lived confirmed purchase quotes support Twilio, Telnyx, Plivo, and Vonage purchases; SignalWire inventory remains search-only until its API can provide a verifiable quote. Includes hardened realtime call bridging and tools for placing, routing, answering, rejecting, hanging up, and listing calls.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
