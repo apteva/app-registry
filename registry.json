@@ -1760,8 +1760,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.11",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with realtime agent threads and inbound routing for Twilio and Telnyx. Twilio calls can opt into dual-channel recording, with verified callbacks, retry and reconciliation handling, and durable private copies in Storage. Recordings are available from the Calls panel for playback, download, retry, and deletion. Includes provider-neutral number search and confirmed purchase, address and compliance-profile workflows, MCP tools, authenticated app APIs, and the dashboard panel.",
+      "version": "0.1.12",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with realtime agent threads and inbound routing for Twilio and Telnyx. Twilio calls can opt into dual-channel recording with verified callbacks and reconciliation. Storage is optional: without a binding, recordings remain in the carrier cloud and are still available from the Calls panel for playback, download, and deletion; binding Storage adds durable private copies. Includes provider-neutral number search and confirmed purchase, address and compliance-profile workflows, MCP tools, authenticated app APIs, and the dashboard panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
