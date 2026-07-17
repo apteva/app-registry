@@ -1760,8 +1760,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.9",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with realtime agent threads and inbound routing for Twilio and Telnyx. Routes can let the agent decide whether to answer or immediately spawn and connect a configured realtime thread. Includes provider-neutral number search and confirmed purchase, address and compliance-profile workflows for Twilio and Telnyx, MCP tools, authenticated app APIs, and the dashboard panel.",
+      "version": "0.1.10",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage, with realtime agent threads and inbound routing for Twilio and Telnyx. Twilio immediate routes now keep the carrier ringing while the realtime thread starts, return the media stream in the initial answer, and track call and stream failures through signed callbacks. Includes provider-neutral number search and confirmed purchase, address and compliance-profile workflows for Twilio and Telnyx, MCP tools, authenticated app APIs, and the dashboard panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
