@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-17T00:00:00Z",
+  "updated_at": "2026-07-18T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -656,8 +656,8 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.19",
-      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.19 sends persona and item visual references as source_images for image, video, and avatar generation, including persona-owned Composer composition AI clips.",
+      "version": "0.1.20",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, voice and avatar identity, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.20 preserves the multi-reference image, video, avatar, and AI composition workflow while adding truthful provider errors, async Media Studio job reconciliation, duplicate-submit protection, project-switch isolation, clearer generation states, and responsive narrow-panel layouts.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
@@ -733,7 +733,7 @@
     {
       "name": "trips",
       "display_name": "Trips",
-      "version": "0.8.4",
+      "version": "0.8.5",
       "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
