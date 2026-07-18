@@ -1798,8 +1798,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.2.0",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, and reusable snapshots. v0.2.0 adds simulated websites with signed previews, isolated state and events, reset and snapshot support, and a functional Patreon fixture pack.",
+      "version": "0.2.1",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, and reusable snapshots. v0.2 adds simulated websites with signed previews, isolated state and events, reset and snapshot support, and a functional Patreon fixture pack. v0.2.1 prevents duplicate runs during slow runtime startup and closes fixture previews reliably when runs stop.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
