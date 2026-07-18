@@ -1060,8 +1060,8 @@
     {
       "name": "inventory",
       "display_name": "Inventory",
-      "version": "0.1.0",
-      "description": "Reusable stock ledger for Apteva apps. Tracks SKUs, stock locations, on-hand quantities, reservations, transfers, adjustments, receipts, and an append-only movement audit trail. Commerce, Orders, Subscriptions, and fulfillment apps can reserve and commit stock without owning inventory logic themselves. Catalog links are optional, so inventory works for standalone SKUs as well as sellable products.",
+      "version": "0.1.1",
+      "description": "Reusable stock ledger for Apteva apps. Tracks SKUs, stock locations, on-hand quantities, reservations, transfers, adjustments, receipts, and an append-only movement audit trail. v0.1.1 makes reservation completion idempotent so Commerce and other callers can safely retry stock commits after partial failures.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/inventory",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/inventory/apteva.yaml",
@@ -1141,8 +1141,8 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.1.2",
-      "description": "Cart + buy flow — the orchestrator that turns a customer's intent into a real billing invoice. Three tables (carts, cart_items, checkout_sessions) implement the full state machine: open → checkout (locked while a session is awaiting payment) → converted (terminal, linked to billing invoice) or abandoned (TTL). Sits between content (storefront rendering) and billing (order ledger). Cart items snapshot from catalog prices at add-time so totals stay stable even if catalog pricing changes mid-session. On pay, calls billing.customers_upsert_by_email + invoices_create + invoices_finalize to mint a real invoice (idempotent + auditable). v0.1.2 adds cart_create so upstream apps such as Commerce can create or reuse carts by session token. v0.2.0 adds Stripe Checkout Session via the same payment_processor integration billing uses, with webhook-driven auto-paid flow. 10 MCP tools across cart_* and checkout_*. Admin panel with Carts + Sessions tabs.",
+      "version": "0.1.3",
+      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. Cart items snapshot canonical Catalog prices, sessions capture customer and address data, and v0.1.3 consumes invoice.paid events to complete Checkout state and emit checkout.paid for downstream Commerce processing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/apteva.yaml",
@@ -1160,8 +1160,8 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.1.0",
-      "description": "Shopify-style multi-store commerce layer for Apteva. Owns stores, storefront listings, variants, collections, carts, checkout orchestration, and sales while delegating product/price truth to Catalog, cart/payment flow to Checkout, stock to Inventory, invoices to Billing, and fulfillment records to Orders.",
+      "version": "0.2.0",
+      "description": "Multi-store commerce orchestration for Apteva. v0.2.0 adds an operational merchant panel, canonical Catalog pricing, synchronized Commerce and Checkout carts, durable inventory reservations, verified Billing payments, immutable sale snapshots, idempotent Orders handoff, project-safe storefront routes, and recoverable paid-sale processing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
