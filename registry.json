@@ -122,7 +122,7 @@
     {
       "name": "demo",
       "display_name": "Demo Runner",
-      "version": "0.3.2",
+      "version": "0.3.1",
       "description": "Client-facing demo runner. State board with live MCP-polled scenario cards, control rail with seed/reset recipes + scripted scenario triggers, chat dock for natural-language Q&A with the agent. Designed as a kiosk surface for client meetings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/demo",
@@ -1798,7 +1798,7 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "description": "Project-scoped isolated test environments built from installed app sidecars, fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, and reusable snapshots. v0.3 expands simulated websites with Patreon creator workflows for video posts, scheduled publishing, payouts, and direct member conversations, while preserving deterministic state, events, previews, and snapshot restore. v0.3.2 also preserves older post audiences and keeps payout-method editing consistent after updates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
