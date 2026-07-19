@@ -676,8 +676,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.5.11",
-      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. v0.5.11 sends remote render outputs through the binding-gated Storage callback proxy used by Media, so the platform validates Composer's binding and exchanges credentials for the bound Storage installation. Failed remote renders retain remote stdout, stderr, HTTP status, and response diagnostics. v0.5.10 makes V1 text rendering deterministic across hosts with a bundled Go Mono font. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
+      "version": "0.6.0",
+      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. v0.6.0 introduces an AI-native multi-track editing workspace with draggable and resizable clips, snapping, zoom, undo/redo, split and duplicate commands, composited preview, visible visual/text/audio/silence/soundtrack lanes, PIP layout controls, responsive drawers, and keyboard shortcuts. MCP tools, backend APIs, schemas, and renderers remain unchanged. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
