@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-18T00:00:00Z",
+  "updated_at": "2026-07-23T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -1798,8 +1798,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.3.2",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, and reusable snapshots. v0.3 expands simulated websites with Patreon creator workflows for video posts, scheduled publishing, payouts, and direct member conversations, while preserving deterministic state, events, previews, and snapshot restore. v0.3.2 also preserves older post audiences and keeps payout-method editing consistent after updates.",
+      "version": "0.4.6",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, fake connections, deterministic MCP seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.4.6 completes settled two-sided voice simulations after eight seconds of media and runtime inactivity while keeping an explicit caller done signal preferred.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
@@ -1816,8 +1816,8 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.1.3",
-      "description": "Project-scoped agent evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language tasks and pass criteria, inspect traces and metrics, and schedule continuous evaluations. v0.1.3 gives agents signed access to simulated websites and supports deterministic web-state and web-event checks.",
+      "version": "0.3.3",
+      "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.3.3 accepts environment-detected conversation inactivity as a normal completed voice simulation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/evals/apteva.yaml",
