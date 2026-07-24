@@ -1183,8 +1183,8 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.3.1",
-      "description": "Patreon-like memberships for creators and communities. Manage multiple creator spaces, paid membership periods, expiring member portals, gated posts and pictures, scheduled publishing, Billing payment lifecycle events, optional CRM synchronization, and supporter announcements through Messaging. v0.3.0 adds publishable ordered collections, many-to-many post organization, collection metadata and Storage-backed cover images, plus public and member collection views with locked paid previews. v0.3.1 restores picture uploads and cover validation against the current Storage API.",
+      "version": "0.3.2",
+      "description": "Patreon-like memberships for creators and communities. Manage multiple creator spaces, paid membership periods, expiring member portals, gated posts and pictures, scheduled publishing, Billing payment lifecycle events, optional CRM synchronization, and supporter announcements through Messaging. v0.3.0 adds publishable ordered collections, many-to-many post organization, collection metadata and Storage-backed cover images, plus public and member collection views with locked paid previews. v0.3.2 restores picture uploads and cover validation against the current Storage API, including uploads through the HTTP app surface.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/creators/apteva.yaml",
