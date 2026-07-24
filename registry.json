@@ -375,8 +375,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.59",
-      "description": "Watch, steer, and replay hosted browser sessions. v0.7.59 makes browser-view follow a session live and automatically settle on its durable final frame.",
+      "version": "0.7.60",
+      "description": "Watch, steer, and replay hosted browser sessions. v0.7.60 makes the legacy browser-card alias render the same live-to-final session view as browser-view.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -387,7 +387,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-07-24T13:04:41Z"
+      "updated_at": "2026-07-24T13:32:25Z"
     },
     {
       "name": "screenshots",
