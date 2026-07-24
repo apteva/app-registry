@@ -375,8 +375,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.45",
-      "description": "Watch and steer browser sessions, with rendered DOM extraction and Set-of-Mark label clicking. v0.7.45 adds opt-in structured Set-of-Mark targets in screenshot responses via include_som=true while keeping default MCP payloads small.",
+      "version": "0.7.59",
+      "description": "Watch, steer, and replay hosted browser sessions. v0.7.59 makes browser-view follow a session live and automatically settle on its durable final frame.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -387,7 +387,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-07-06T08:14:50Z"
+      "updated_at": "2026-07-24T13:04:41Z"
     },
     {
       "name": "screenshots",
