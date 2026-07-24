@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-23T00:00:00Z",
+  "updated_at": "2026-07-24T00:00:00Z",
   "apps": [
     {
       "name": "llm",
@@ -999,8 +999,8 @@
     {
       "name": "live-link",
       "display_name": "Live Link",
-      "version": "0.5.0",
-      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, or ngrok with a random or reserved domain. The panel includes public-exposure acknowledgement, provider controls, copy feedback, a responsive QR code, lifecycle status, and bounded run history. v0.5.0 keeps credentials out of argv and SQLite, reconciles named tunnels on every start, validates targets and Cloudflare zones, serializes lifecycle changes, preserves live/off intent across restarts, and installs pinned SHA-256-verified cloudflared or ngrok agents.",
+      "version": "0.6.0",
+      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.0 adds generic provider configuration and destruction, isolated zrok credentials and runtime state, connection-ownership checks, and a pinned SHA-256-verified zrok2 agent alongside the existing hardened cloudflared and ngrok providers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/apteva.yaml",
@@ -1011,6 +1011,7 @@
         "public-url",
         "cloudflared",
         "ngrok",
+        "zrok",
         "infrastructure",
         "dev"
       ],
