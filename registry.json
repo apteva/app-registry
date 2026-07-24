@@ -1800,8 +1800,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.5.0",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.5.0 adds generic protocol fixtures and a virtual Telephony carrier that exercises signed inbound callbacks, Media Streams WebSockets, carrier audio codecs, transcripts, recordings, and live protocol events without changing the production Telephony app.",
+      "version": "0.5.1",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.5.1 fixes virtual Telephony carrier signatures by sharing one generated credential between the protocol fixture and its isolated runtime connection.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
