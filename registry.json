@@ -1800,8 +1800,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.4.9",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.4.9 clones managed MCP runners into each runtime, routes their app and integration bindings through isolated resources, and exposes MCP selection, calls, and checks in the panel and tools.",
+      "version": "0.5.0",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.5.0 adds generic protocol fixtures and a virtual Telephony carrier that exercises signed inbound callbacks, Media Streams WebSockets, carrier audio codecs, transcripts, recordings, and live protocol events without changing the production Telephony app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
@@ -1818,8 +1818,8 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.3.4",
-      "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.3.4 can include project-managed MCP servers in cloned environments and verify their tool calls and resulting state.",
+      "version": "0.4.0",
+      "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.4.0 lets voice evaluations run through either the direct realtime bridge or the virtual Telephony carrier, automatically wiring the carrier fixture into cloned environments.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/evals/apteva.yaml",
