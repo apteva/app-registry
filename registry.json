@@ -1762,8 +1762,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.16",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Twilio, Telnyx, and Plivo now support the complete inbound and outbound flow: route provisioning, immediate or agent-decided answer, rejection and hangup, verified carrier callbacks, optional dual-channel cloud recording, provider playback and deletion, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. Storage remains optional and adds durable private recording copies when bound. Includes provider-neutral number search and confirmed purchase, address and compliance-profile workflows, MCP tools, authenticated app APIs, and the dashboard panel.",
+      "version": "0.1.17",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Twilio, Telnyx, and Plivo support complete inbound and outbound routing, immediate or agent-decided answer, rejection and hangup, verified carrier callbacks, optional dual-channel cloud recording, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. v0.1.17 adds declared provider-neutral call lifecycle events, durable deduplication and reconciliation tools, richer timing and termination facts, out-of-order callback recovery, and official Twilio request validation. Storage remains optional for durable private recording copies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
@@ -1800,8 +1800,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.5.1",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.5.1 fixes virtual Telephony carrier signatures by sharing one generated credential between the protocol fixture and its isolated runtime connection.",
+      "version": "0.5.2",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.5.2 paces virtual carrier output and appends a silence tail so realtime caller models reliably detect completed receptionist turns.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
