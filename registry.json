@@ -736,12 +736,13 @@
     {
       "name": "trips",
       "display_name": "Trips",
-      "version": "0.8.5",
+      "version": "0.8.6",
       "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/icon.png",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/ui/icon.svg",
+      "icon_style": "monochrome",
       "tags": [
         "trips",
         "travel",
