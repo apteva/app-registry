@@ -1715,12 +1715,13 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.8.3",
-      "description": "Generic event analytics for Apteva apps. Three ingest paths: bus auto-capture, analytics_track, and static-site tag collection. analytics_query / count / top / topics / sum surface aggregates over JSON props. The dashboard panel is real-time, with Overview, Dashboards, Catalog, Tracking, and Capture tabs. v0.8 adds an event catalog / tracking plan: event specs, typed property specs, validation modes, violation reporting, and spec-driven auto upsert / rollup policies for imported daily metrics and live counters. v0.8.1 fixes Catalog loading under the SDK's single SQLite connection runtime. v0.8.2 lets dashboard stat and timeseries widgets sum numeric event fields, so aggregate observations such as Patreon daily post views can chart total views per day instead of observation row counts. v0.8.3 adds dashboard-level filters, dynamic filter option discovery, filter-aware widget evaluation, and a Patreon Overview template with Page, Currency, and Window controls. Dashboards persist project-scoped widget layouts for live page views, active sessions, top pages, devices, and recent activity.",
+      "version": "0.8.7",
+      "description": "Generic event analytics for Apteva apps. Three ingest paths—bus auto-capture, analytics_track, and static-site collection—feed project-scoped queries, aggregates, tracking plans, violations, and saved real-time dashboards. v0.8.4–v0.8.6 harden project isolation, HTTP APIs, numeric aggregation, dashboard batching, and anonymous public-route collection. v0.8.7 adds Analytics' adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/icon.png",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
+      "icon_style": "monochrome",
       "tags": [
         "analytics",
         "events",
