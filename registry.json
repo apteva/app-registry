@@ -660,8 +660,8 @@
     {
       "name": "persona-studio",
       "display_name": "Persona Studio",
-      "version": "0.1.20",
-      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, voice and avatar identity, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.20 preserves the multi-reference image, video, avatar, and AI composition workflow while adding truthful provider errors, async Media Studio job reconciliation, duplicate-submit protection, project-switch isolation, clearer generation states, and responsive narrow-panel layouts.",
+      "version": "0.1.21",
+      "description": "Virtual influencer and reusable persona workspace. Owns consistent identities, style profiles, Storage-backed references, reusable items/products/props/locations, voice and avatar identity, campaigns, generated assets, cache keys, and Composer handoffs while Media Studio remains the provider-neutral generator. v0.1.21 makes persona video generation strictly reference-to-video: it requires visual references, selects or validates only reference-to-video models, honors live model limits, prioritizes weighted faces and selected item images, previews the exact references sent, and uses Media Studio's generic source_images contract.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/persona-studio",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/persona-studio/apteva.yaml",
