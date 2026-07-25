@@ -47,8 +47,8 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.1.7",
-      "description": "Shared SaaS access control, checkout orchestration, no-card trials, and generic fulfillment for Apteva apps. Packages installed apps into sellable plans, creates or links Billing customers only when payment is required, creates Subscriptions and invoices, provisions Auth organizations and Entitlements, runs lifecycle actions against other apps such as Containers, stores live usage gauges from existing app tools, and applies subscription lifecycle state.",
+      "version": "0.8.0",
+      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, and usage for Apteva apps. Plans choose provider-independent collection policy: invoice links remain the default, while charge_automatically saves a reusable method during the first hosted checkout and asks Billing to collect later renewal invoices with durable idempotency.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/apteva.yaml",
@@ -1028,8 +1028,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.9.1",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Stripe remains an optional payment processor and Checkout links remain strictly on demand: Billing creates or shares no link unless explicitly requested. v0.9.1 uses the unified monochrome app icon and routes every Stripe call through the bound payment_processor integration; the platform automatically registers Billing's webhook, stores its signing secret encrypted, verifies incoming events, and lets Billing mark matching invoices paid without receiving Stripe credentials.",
+      "version": "0.10.0",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns provider execution and webhook reconciliation, including durable idempotent off-session invoice collection requested by product apps. Stripe remains optional, credentials stay in the platform connection, and hosted payment links remain explicitly requested.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1131,8 +1131,8 @@
     {
       "name": "subscriptions",
       "display_name": "Subscriptions",
-      "version": "0.2.0",
-      "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, subscription status, current periods, renewal cycles, and references to invoice, order, or entitlement outputs. v0.2.0 adds generic flat and metered subscription items, idempotent usage records, period usage summaries, prepared invoice lines, and subscription invoice creation through Billing. Emits specific lifecycle events such as subscription.active, subscription.past_due, subscription.paused, subscription.ended, subscription.item.created, subscription.usage.recorded, and subscription.invoice.requested.",
+      "version": "0.7.0",
+      "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, trial endings, active renewal scheduling, cycle creation, subscription status, usage, discounts, and prepared invoice lines. Emits one idempotent subscription.cycle_due event per due period so product apps can orchestrate fulfillment and collection.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/subscriptions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/subscriptions/apteva.yaml",
