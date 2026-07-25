@@ -47,7 +47,7 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "description": "Shared SaaS product orchestration, checkout, access, lifecycle, and usage for Apteva apps. Plans choose provider-independent collection policy: invoice links remain the default, while charge_automatically saves a reusable method during the first hosted checkout and asks Billing to collect later renewal invoices with durable idempotency.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
