@@ -1005,12 +1005,13 @@
     {
       "name": "live-link",
       "display_name": "Live Link",
-      "version": "0.6.2",
-      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.2 resolves the public URL from zrok's returned namespace hostname instead of assuming a domain, and automatically repairs URLs saved by earlier versions.",
+      "version": "0.6.3",
+      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.2 resolves the public URL from zrok's returned namespace hostname instead of assuming a domain, and automatically repairs URLs saved by earlier versions. v0.6.3 adopts Live Link's adaptive themed icon.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/icon.svg",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/ui/icon.svg",
+      "icon_style": "monochrome",
       "tags": [
         "tunnel",
         "expose",
