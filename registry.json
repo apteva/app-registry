@@ -1554,8 +1554,8 @@
     {
       "name": "affiliate",
       "display_name": "Affiliate",
-      "version": "0.1.11",
-      "description": "Publisher-side affiliate manager for offers, monetized links, and normalized performance across Target Circle/Circlewise, Impact, Awin, CJ Affiliate, Amazon Associates, Skimlinks, Sovrn, PartnerStack, and ShareASale. v0.1.11 returns an explicit top-level click total to agents, with grouped stats as a breakdown and no ambiguous row count.",
+      "version": "0.1.12",
+      "description": "Publisher-side affiliate manager for offers, monetized links, and normalized performance across Target Circle/Circlewise, Impact, Awin, CJ Affiliate, Amazon Associates, Skimlinks, Sovrn, PartnerStack, and ShareASale. v0.1.12 imports Awin's root-array programme responses and uses daily campaign reporting for clicks, transactions, revenue, and commission.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/affiliate",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/affiliate/apteva.yaml",
