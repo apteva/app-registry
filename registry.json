@@ -1762,8 +1762,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.18",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Twilio, Telnyx, and Plivo support complete inbound and outbound routing, immediate or agent-decided answer, rejection and hangup, verified carrier callbacks, optional dual-channel cloud recording, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. v0.1.18 adds project-scoped connected-number discovery and a routing overview showing carrier ownership, capabilities, assigned route and agent, answer mode, voice, and webhook health. Storage remains optional for durable private recording copies.",
+      "version": "0.1.19",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Supports complete inbound and outbound routing, immediate or agent-decided answer, verified callbacks, optional dual-channel recording, connected-number and routing visibility, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. v0.1.19 hardens noisy calls with frame-size-independent WebRTC VAD, sustained-speech detection, an adaptive noise floor, low-latency suppression, provider-aware interruption fallback, forwarded-call context, and detailed audio diagnostics. Storage remains optional for durable private recording copies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
