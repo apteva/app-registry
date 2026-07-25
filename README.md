@@ -13,13 +13,14 @@ Open a PR adding a new entry to `apps[]`. Required fields:
 - `author`
 - `repo` — public git URL
 - `manifest_url` — the raw URL to `apteva.yaml` in the repo's main branch
-- `icon` — square PNG/SVG, 256×256 ideal
 - `tags` — discovery hints
 - `category` — one of `productivity`, `observability`, `channels`, `tools`, `workflow`, `media`, `other`
 
 Optional:
 
 - `official` — set `true` only on entries the Apteva core team maintains
+- `icon` — public fallback URL for the app's manifest-owned identity asset
+- `icon_style` — `monochrome` for theme-tinted SVGs or `image` for authored colours
 
 ## Schema
 
