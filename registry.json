@@ -358,12 +358,13 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.8.21",
+      "version": "0.8.23",
       "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams, with project isolation and typed attributes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/icon.png",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
+      "icon_style": "monochrome",
       "tags": [
         "crm",
         "contacts",
