@@ -433,11 +433,13 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.14",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.14 dedupes near-identical nested smart snapshot regions with the same heading and very high visual overlap.",
+      "version": "0.1.16",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.16 adds Web's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/ui/icon.svg",
+      "icon_style": "monochrome",
       "tags": [
         "browser",
         "search",
@@ -447,7 +449,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-06T08:14:50Z"
+      "updated_at": "2026-07-26T06:37:11Z"
     },
     {
       "name": "storage",
@@ -1505,7 +1507,7 @@
       "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant with its own data dir and port, supervised by Fleet; hosted tenants can run on the parent server or on VPS instances. Includes tenant_clone and tenant_migrate for local/remote host-to-host transfer, read-only cloning with consistent SQLite snapshots, cold moves with rollback, streamed local-to-hosted transfers for large full clones, provider hooks for Backup, admin-driven bootstrap, encrypted api_key keyring, server-native ingress/cert registration for tenant hostnames, delegated DNS/domain grants, generic provider grants for sharing parent integrations into tenants, generic tenant inventory/platform/app-MCP control tools, health polling, boot reconciliation, tenant updates, and support-login tools. v0.8.24 adds Fleet's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/fleet/v0.8.21/mcp/fleet/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/fleet/v0.8.24/mcp/fleet/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1517,7 +1519,8 @@
         "infrastructure"
       ],
       "official": true,
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "updated_at": "2026-07-26T06:37:11Z"
     },
     {
       "name": "robot",
