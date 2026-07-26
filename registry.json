@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-26T09:36:23Z",
+  "updated_at": "2026-07-26T09:44:39Z",
   "apps": [
     {
       "name": "llm",
@@ -1209,8 +1209,8 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.1.6",
-      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. v0.1.5 lets trusted commerce orchestrators freeze shipping, discount, tax, and quote metadata before payment and shows the final amount breakdown. v0.1.6 prevents Billing's default tax setting from taxing those already-frozen invoice lines a second time.",
+      "version": "0.1.7",
+      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. Trusted commerce orchestrators can freeze shipping, discount, tax, and quote metadata before payment. v0.1.7 correctly decodes Catalog's wrapped product and price results when snapshotting cart lines, restoring cross-app add-to-cart behavior while retaining the frozen-tax protections from v0.1.6.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/apteva.yaml",
@@ -1225,7 +1225,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T07:53:29Z"
+      "updated_at": "2026-07-26T09:44:39Z"
     },
     {
       "name": "commerce",
