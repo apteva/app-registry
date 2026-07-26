@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-25T00:00:00Z",
+  "updated_at": "2026-07-26T09:22:12Z",
   "apps": [
     {
       "name": "llm",
@@ -1230,8 +1230,8 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.3.0",
-      "description": "Multi-store commerce orchestration for Apteva. v0.3.0 adds Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping: live provider catalog browsing, draft product import into Catalog and Commerce, source cost and availability synchronization, provider shipping quotes, review or automatic order dispatch, status reconciliation, and tracking handoff to Orders. Provider payloads remain provider-specific and Commerce adds only three sourcing tables.",
+      "version": "0.4.0",
+      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. v0.4.0 removes Commerce's duplicate public renderer and optionally configures Content's generic app-extension runtime to provide a responsive storefront, product and collection pages, search, session-backed cart, and buyer checkout. Each store owns an independent Content site and theme configuration; without Content, Commerce remains a complete merchant administration and orchestration app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1256,7 +1256,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T07:46:21Z"
+      "updated_at": "2026-07-26T09:22:12Z"
     },
     {
       "name": "creators",
@@ -1738,8 +1738,8 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.11.2",
-      "description": "Multi-site block-based CMS. One project hosts 1..N sites — each with its own posts, pages, terms, menus, settings, theme, and optional hostname. Per-site templates (Finance Blog, SaaS Marketing, Docs Site bundled). Posts and pages with hierarchy, media, taxonomies, menus, revisions, redirects. Canonical body is a JSON block tree; 16 core block types shipped. Dashboard panel includes a Content tab (list + block editor), Templates tab (one-click site scaffolds), and a site switcher that auto-hides on single-site installs. Renders themed HTML at /, /posts/:slug, /:nested-page, term archives, feed.xml, and sitemap.xml; host-based dispatch routes domain-linked traffic to the right site automatically. Same data exposed as REST under /api/apps/content/admin/* so external frontends share the database without touching the theme path. v2.11.2 adds Content's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "2.12.0",
+      "description": "Multi-site block-based CMS and generic public experience runtime. One project hosts 1..N sites, each with its own content, navigation, settings, theme, hostname, and app-provided extensions. v2.12.0 lets any trusted app register versioned route, data-source, action, settings, asset, and template manifests without adding provider-specific logic or dependencies to Content. Content owns public rendering, route dispatch, signed browser sessions, action security, draft configuration, publishing, invalidation, and responsive preview; provider apps retain their domain data and tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/apteva.yaml",
@@ -1752,7 +1752,8 @@
         "website"
       ],
       "official": true,
-      "category": "productivity"
+      "category": "productivity",
+      "updated_at": "2026-07-26T09:22:12Z"
     },
     {
       "name": "gigs",
