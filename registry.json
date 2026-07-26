@@ -1080,8 +1080,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.11.2",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns provider execution and webhook reconciliation, including durable idempotent off-session invoice collection requested by product apps. v0.11.0 adds durable hosted and custom Stripe Checkout Sessions. Custom sessions return only a short-lived client secret and the catalog-marked public publishable key; Stripe API and webhook secrets stay in the platform connection. v0.11.1 correctly provider-encodes Stripe payment method arrays. v0.11.2 uses Stripe's current Elements Checkout Session UI mode.",
+      "version": "0.12.0",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns processor execution and webhook reconciliation. v0.12.0 adds a durable, idempotent Stripe refund request ledger for partial and full refunds while verified processor webhooks remain authoritative for invoice balances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1097,13 +1097,13 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T11:36:33Z"
+      "updated_at": "2026-07-26T14:28:02Z"
     },
     {
       "name": "catalog",
       "display_name": "Catalog",
-      "version": "0.2.1",
-      "description": "Products and prices — the source-of-truth app for what your business sells. Modelled after Stripe's Product + Price split: one product, many prices (different currencies, intervals, tiers). Lower-layer commerce app — catalog calls nothing; downstream apps call here. Prices are effectively immutable for financial fields after create (unit_amount_cents, currency, interval, metering fields) — to change pricing, create a new price and archive the old one. v0.1.2 adds generic metered price metadata (billing_scheme, meter_key, unit_label, unit_size) for orchestrators such as Hosting to sell included usage plus overage while Catalog remains provider-neutral. Soft-delete only so invoice/subscription references always resolve. Two-column panel with list + detail and form modals. Chat-attachable product-card and price-card components. v0.2.1 adds Catalog's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.3.0",
+      "description": "Products, immutable prices, and reusable promotions: the source of truth for what the business sells. v0.3.0 extends the existing discount reservation model with basket lines, automatic promotions, market and customer eligibility, merchandise and shipping allocations, free shipping, and buy-X-get-Y benefits while remaining independent of Commerce.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/catalog",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/catalog/apteva.yaml",
@@ -1123,8 +1123,8 @@
     {
       "name": "inventory",
       "display_name": "Inventory",
-      "version": "0.1.2",
-      "description": "Reusable stock ledger for Apteva apps. Tracks SKUs, stock locations, on-hand quantities, reservations, transfers, adjustments, receipts, and an append-only movement audit trail. v0.1.1 makes reservation completion idempotent so Commerce and other callers can safely retry stock commits after partial failures. v0.1.2 adds Inventory's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Reusable stock ledger for Apteva apps. Tracks SKUs, locations, on-hand quantities, safety stock, reservations, transfers, adjustments, receipts, and an append-only movement audit trail. v0.2.0 enforces safety stock, adds configurable reservation TTLs, and expires abandoned reservations through a worker and event.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/inventory",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/inventory/apteva.yaml",
@@ -1166,8 +1166,8 @@
     {
       "name": "orders",
       "display_name": "Orders",
-      "version": "0.2.4",
-      "description": "Generic commerce fulfillment ledger for physical, hosting, SaaS, digital, and service products. Orders records durable order state, line items, fulfillment submissions, shipment tracking, returns, and an append-only event log. v0.2.4 adds item-level split fulfillments and idempotent provider shipment/tracking upserts for Commerce supplier dispatch.",
+      "version": "0.3.0",
+      "description": "Generic fulfillment ledger for physical, hosting, SaaS, digital, and service products. v0.3.0 adds idempotent partial returns, explicit approval/transit/receipt transitions, exchange linkage, optional Inventory restock, Billing refund coordination, and refund status reconciliation without coupling Orders to Commerce.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/orders",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/orders/apteva.yaml",
@@ -1185,7 +1185,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T07:46:21Z"
+      "updated_at": "2026-07-26T14:28:02Z"
     },
     {
       "name": "subscriptions",
@@ -1210,8 +1210,8 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.2.0",
-      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. Trusted commerce orchestrators can freeze shipping, discount, tax, and quote metadata before payment. v0.2.0 adds retry-safe manual, Stripe-hosted, and custom Stripe Elements payment preparation through Billing. Checkout persists provider state, reuses the finalized invoice on retries, and completes only from verified Billing events.",
+      "version": "0.3.0",
+      "description": "Independent cart and checkout orchestration that turns customer intent into a durable Billing invoice. v0.3.0 adds validated Information, Shipping, and Payment transitions, buyer and shipping snapshots, one-time recovery tokens, durable bootstrap and restart tools, abandonment expiry, and retry-safe payment resumption.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/apteva.yaml",
@@ -1226,13 +1226,13 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T11:06:13Z"
+      "updated_at": "2026-07-26T14:28:02Z"
     },
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.6.5",
-      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. Content remains the sole owner of public rendering. v0.6.0 adds per-store manual, Stripe-hosted, or native Stripe Elements checkout, trusted return URLs, session-bound payment status, webhook-driven confirmation pages, Stripe CSP declarations, and right-aligned cart and checkout totals. v0.6.1 preserves Content's query-based return and cancellation routes and keeps payment submission gated by Stripe's confirmation state. v0.6.2 versions Stripe idempotency namespaces by presentation and removes retry-unstable expiry parameters. v0.6.3 replays frozen checkout details idempotently without invalid downstream updates. v0.6.4 adds a polished Information, Shipping, and Payment checkout flow with completed-step summaries, guarded editing, one primary action per stage, and production-safe hidden states. v0.6.5 lets awaiting-payment storefront sessions resume through the idempotent checkout path.",
+      "version": "0.7.0",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, BigBuy, and CJ Dropshipping adapters. v0.7.0 adds unified shipping, automatic and coded promotion allocation, transactional tax and market quotes, frozen checkout snapshots, reservation compensation, durable storefront recovery, native multi-step Stripe checkout, and structured merchant settings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1257,7 +1257,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T12:12:43Z"
+      "updated_at": "2026-07-26T14:28:02Z"
     },
     {
       "name": "creators",
@@ -1739,8 +1739,8 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.13.0",
-      "description": "Multi-site block-based CMS and generic public experience runtime. One project hosts 1..N sites, each with its own content, navigation, settings, theme, hostname, and app-provided extensions. Content owns public rendering, route dispatch, signed browser sessions, action security, draft configuration, publishing, invalidation, and responsive preview; provider apps retain their domain data and tools. v2.13.0 adds validated per-extension browser policies and Content Security Policy response headers for secure external scripts, frames, connections, and images, plus no-store extension actions.",
+      "version": "2.14.0",
+      "description": "Multi-site block-based CMS and generic public experience runtime. Content owns public rendering and signed browser sessions while provider apps retain their domain data and tools. v2.14.0 adds structured, retry-aware provider action failures for resilient public experiences without introducing a Commerce dependency.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/apteva.yaml",
@@ -1754,7 +1754,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-26T11:06:13Z"
+      "updated_at": "2026-07-26T14:28:02Z"
     },
     {
       "name": "gigs",
