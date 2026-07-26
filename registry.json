@@ -1231,8 +1231,8 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.6.0",
-      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. Content remains the sole owner of public rendering. v0.6.0 adds per-store manual, Stripe-hosted, or native Stripe Elements checkout, trusted return URLs, session-bound payment status, webhook-driven confirmation pages, Stripe CSP declarations, and right-aligned cart and checkout totals.",
+      "version": "0.6.1",
+      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. Content remains the sole owner of public rendering. v0.6.0 adds per-store manual, Stripe-hosted, or native Stripe Elements checkout, trusted return URLs, session-bound payment status, webhook-driven confirmation pages, Stripe CSP declarations, and right-aligned cart and checkout totals. v0.6.1 preserves Content's query-based return and cancellation routes and keeps payment submission gated by Stripe's confirmation state.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1257,7 +1257,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T11:06:13Z"
+      "updated_at": "2026-07-26T11:16:19Z"
     },
     {
       "name": "creators",
