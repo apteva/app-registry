@@ -1231,8 +1231,8 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.7.0",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, BigBuy, and CJ Dropshipping adapters. v0.7.0 adds unified shipping, automatic and coded promotion allocation, transactional tax and market quotes, frozen checkout snapshots, reservation compensation, durable storefront recovery, native multi-step Stripe checkout, and structured merchant settings.",
+      "version": "0.7.1",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, BigBuy, and CJ Dropshipping adapters. v0.7.1 adds unified shipping, automatic and coded promotion allocation, transactional tax and market quotes, frozen checkout snapshots, reservation compensation, durable storefront recovery, native multi-step Stripe checkout, structured merchant settings, and safe cart reopening when a shopper edits an unsubmitted checkout.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1257,7 +1257,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T14:28:02Z"
+      "updated_at": "2026-07-26T14:39:06Z"
     },
     {
       "name": "creators",
