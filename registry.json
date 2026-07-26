@@ -1080,8 +1080,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.10.0",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns provider execution and webhook reconciliation, including durable idempotent off-session invoice collection requested by product apps. Stripe remains optional, credentials stay in the platform connection, and hosted payment links remain explicitly requested.",
+      "version": "0.11.0",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns provider execution and webhook reconciliation, including durable idempotent off-session invoice collection requested by product apps. v0.11.0 adds durable hosted and custom Stripe Checkout Sessions. Custom sessions return only a short-lived client secret and the catalog-marked public publishable key; Stripe API and webhook secrets stay in the platform connection.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1096,7 +1096,8 @@
         "ar"
       ],
       "official": true,
-      "category": "finance"
+      "category": "finance",
+      "updated_at": "2026-07-26T11:06:13Z"
     },
     {
       "name": "catalog",
@@ -1209,8 +1210,8 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.1.7",
-      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. Trusted commerce orchestrators can freeze shipping, discount, tax, and quote metadata before payment. v0.1.7 correctly decodes Catalog's wrapped product and price results when snapshotting cart lines, restoring cross-app add-to-cart behavior while retaining the frozen-tax protections from v0.1.6.",
+      "version": "0.2.0",
+      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. Trusted commerce orchestrators can freeze shipping, discount, tax, and quote metadata before payment. v0.2.0 adds retry-safe manual, Stripe-hosted, and custom Stripe Elements payment preparation through Billing. Checkout persists provider state, reuses the finalized invoice on retries, and completes only from verified Billing events.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/apteva.yaml",
@@ -1225,13 +1226,13 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T09:44:39Z"
+      "updated_at": "2026-07-26T11:06:13Z"
     },
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.5.0",
-      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. v0.4.1 removes Commerce's duplicate public renderer and optionally configures Content's generic app-extension runtime to provide a responsive storefront, product and collection pages, search, session-backed cart, and buyer checkout through Content's constrained public gateway. Each store owns an independent Content site and theme configuration; without Content, Commerce remains a complete merchant administration and orchestration app. v0.4.2 right-aligns cart amounts on a shared edge and prevents repeated product and variant titles. v0.5.0 adds a production one-page checkout with contact, international delivery and billing addresses, shipping review, responsive product imagery and totals, accessible validation and errors, accurate payment state, and replay-safe checkout submission.",
+      "version": "0.6.0",
+      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. Content remains the sole owner of public rendering. v0.6.0 adds per-store manual, Stripe-hosted, or native Stripe Elements checkout, trusted return URLs, session-bound payment status, webhook-driven confirmation pages, Stripe CSP declarations, and right-aligned cart and checkout totals.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1256,7 +1257,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T10:14:59Z"
+      "updated_at": "2026-07-26T11:06:13Z"
     },
     {
       "name": "creators",
@@ -1738,8 +1739,8 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.12.1",
-      "description": "Multi-site block-based CMS and generic public experience runtime. One project hosts 1..N sites, each with its own content, navigation, settings, theme, hostname, and app-provided extensions. v2.12.1 lets trusted apps register versioned route, data-source, action, settings, asset, and template manifests without adding provider-specific logic or dependencies to Content, and adds a constrained anonymous preview gateway that keeps Content administration authenticated. Content owns public rendering, route dispatch, signed browser sessions, action security, draft configuration, publishing, invalidation, and responsive preview; provider apps retain their domain data and tools.",
+      "version": "2.13.0",
+      "description": "Multi-site block-based CMS and generic public experience runtime. One project hosts 1..N sites, each with its own content, navigation, settings, theme, hostname, and app-provided extensions. Content owns public rendering, route dispatch, signed browser sessions, action security, draft configuration, publishing, invalidation, and responsive preview; provider apps retain their domain data and tools. v2.13.0 adds validated per-extension browser policies and Content Security Policy response headers for secure external scripts, frames, connections, and images, plus no-store extension actions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/apteva.yaml",
@@ -1753,7 +1754,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-26T09:36:23Z"
+      "updated_at": "2026-07-26T11:06:13Z"
     },
     {
       "name": "gigs",
