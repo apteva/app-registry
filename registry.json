@@ -1080,8 +1080,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.11.1",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns provider execution and webhook reconciliation, including durable idempotent off-session invoice collection requested by product apps. v0.11.0 adds durable hosted and custom Stripe Checkout Sessions. Custom sessions return only a short-lived client secret and the catalog-marked public publishable key; Stripe API and webhook secrets stay in the platform connection. v0.11.1 correctly provider-encodes Stripe payment method arrays.",
+      "version": "0.11.2",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns provider execution and webhook reconciliation, including durable idempotent off-session invoice collection requested by product apps. v0.11.0 adds durable hosted and custom Stripe Checkout Sessions. Custom sessions return only a short-lived client secret and the catalog-marked public publishable key; Stripe API and webhook secrets stay in the platform connection. v0.11.1 correctly provider-encodes Stripe payment method arrays. v0.11.2 uses Stripe's current Elements Checkout Session UI mode.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1097,7 +1097,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T11:27:16Z"
+      "updated_at": "2026-07-26T11:36:33Z"
     },
     {
       "name": "catalog",
