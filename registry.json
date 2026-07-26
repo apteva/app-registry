@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-26T09:22:12Z",
+  "updated_at": "2026-07-26T09:36:23Z",
   "apps": [
     {
       "name": "llm",
@@ -1230,8 +1230,8 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.4.0",
-      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. v0.4.0 removes Commerce's duplicate public renderer and optionally configures Content's generic app-extension runtime to provide a responsive storefront, product and collection pages, search, session-backed cart, and buyer checkout. Each store owns an independent Content site and theme configuration; without Content, Commerce remains a complete merchant administration and orchestration app.",
+      "version": "0.4.1",
+      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. v0.4.1 removes Commerce's duplicate public renderer and optionally configures Content's generic app-extension runtime to provide a responsive storefront, product and collection pages, search, session-backed cart, and buyer checkout through Content's constrained public gateway. Each store owns an independent Content site and theme configuration; without Content, Commerce remains a complete merchant administration and orchestration app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1256,7 +1256,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T09:22:12Z"
+      "updated_at": "2026-07-26T09:36:23Z"
     },
     {
       "name": "creators",
@@ -1738,8 +1738,8 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.12.0",
-      "description": "Multi-site block-based CMS and generic public experience runtime. One project hosts 1..N sites, each with its own content, navigation, settings, theme, hostname, and app-provided extensions. v2.12.0 lets any trusted app register versioned route, data-source, action, settings, asset, and template manifests without adding provider-specific logic or dependencies to Content. Content owns public rendering, route dispatch, signed browser sessions, action security, draft configuration, publishing, invalidation, and responsive preview; provider apps retain their domain data and tools.",
+      "version": "2.12.1",
+      "description": "Multi-site block-based CMS and generic public experience runtime. One project hosts 1..N sites, each with its own content, navigation, settings, theme, hostname, and app-provided extensions. v2.12.1 lets trusted apps register versioned route, data-source, action, settings, asset, and template manifests without adding provider-specific logic or dependencies to Content, and adds a constrained anonymous preview gateway that keeps Content administration authenticated. Content owns public rendering, route dispatch, signed browser sessions, action security, draft configuration, publishing, invalidation, and responsive preview; provider apps retain their domain data and tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/apteva.yaml",
@@ -1753,7 +1753,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-26T09:22:12Z"
+      "updated_at": "2026-07-26T09:36:23Z"
     },
     {
       "name": "gigs",
