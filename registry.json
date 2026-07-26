@@ -1209,8 +1209,8 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.1.5",
-      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. v0.1.5 lets trusted commerce orchestrators freeze shipping, discount, tax, and quote metadata before payment, carries those adjustments into Billing invoice lines, and shows the final amount breakdown in the operator panel.",
+      "version": "0.1.6",
+      "description": "Cart and checkout orchestration that turns customer intent into a durable Billing invoice. v0.1.5 lets trusted commerce orchestrators freeze shipping, discount, tax, and quote metadata before payment and shows the final amount breakdown. v0.1.6 prevents Billing's default tax setting from taxing those already-frozen invoice lines a second time.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/apteva.yaml",
@@ -1225,7 +1225,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T07:46:21Z"
+      "updated_at": "2026-07-26T07:53:29Z"
     },
     {
       "name": "commerce",
