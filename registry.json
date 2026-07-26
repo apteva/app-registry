@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-26T09:56:48Z",
+  "updated_at": "2026-07-26T10:14:59Z",
   "apps": [
     {
       "name": "llm",
@@ -1230,8 +1230,8 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.4.2",
-      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. v0.4.1 removes Commerce's duplicate public renderer and optionally configures Content's generic app-extension runtime to provide a responsive storefront, product and collection pages, search, session-backed cart, and buyer checkout through Content's constrained public gateway. Each store owns an independent Content site and theme configuration; without Content, Commerce remains a complete merchant administration and orchestration app. v0.4.2 right-aligns cart amounts on a shared edge and prevents repeated product and variant titles.",
+      "version": "0.5.0",
+      "description": "Multi-store commerce orchestration for Apteva. Connects Catalog, Inventory, Checkout, Billing, and Orders; includes Commerce-owned adapters for Printful, Printify, BigBuy, and CJ Dropshipping with provider-native payloads. v0.4.1 removes Commerce's duplicate public renderer and optionally configures Content's generic app-extension runtime to provide a responsive storefront, product and collection pages, search, session-backed cart, and buyer checkout through Content's constrained public gateway. Each store owns an independent Content site and theme configuration; without Content, Commerce remains a complete merchant administration and orchestration app. v0.4.2 right-aligns cart amounts on a shared edge and prevents repeated product and variant titles. v0.5.0 adds a production one-page checkout with contact, international delivery and billing addresses, shipping review, responsive product imagery and totals, accessible validation and errors, accurate payment state, and replay-safe checkout submission.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/apteva.yaml",
@@ -1256,7 +1256,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T09:56:48Z"
+      "updated_at": "2026-07-26T10:14:59Z"
     },
     {
       "name": "creators",
