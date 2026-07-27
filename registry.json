@@ -1920,8 +1920,8 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.6.1",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.5.3 applies paced audio, silence tails, and playback acknowledgements in both directions of the virtual carrier bridge. v0.6.1 adds Environments's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.6.2",
+      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.6.2 drains buffered audio before classifying socket closure, distinguishes caller and target completion from carrier loss, and applies the same completion rules to direct and carrier simulations.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
@@ -1940,8 +1940,8 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.5.1",
-      "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.4.0 lets voice evaluations run through either the direct realtime bridge or the virtual Telephony carrier, automatically wiring the carrier fixture into cloned environments. v0.5.1 adds Evals's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.5.2",
+      "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.5.2 accepts explicit target completion as a valid end to realtime voice evaluations and requires Environments 0.6.2 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/evals/apteva.yaml",
