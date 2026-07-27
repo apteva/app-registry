@@ -1880,8 +1880,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.20",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Supports complete inbound and outbound routing, immediate or agent-decided answer, verified callbacks, optional dual-channel recording, connected-number and routing visibility, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. v0.1.19 hardens noisy calls with frame-size-independent WebRTC VAD, sustained-speech detection, an adaptive noise floor, low-latency suppression, provider-aware interruption fallback, forwarded-call context, and detailed audio diagnostics. Storage remains optional for durable private recording copies. v0.1.20 adds Telephony's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.1.21",
+      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Supports complete inbound and outbound routing, immediate or agent-decided answer, verified callbacks, optional dual-channel recording, connected-number and routing visibility, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. Noisy calls use frame-size-independent WebRTC VAD, sustained-speech detection, an adaptive noise floor, low-latency suppression, forwarded-call context, and detailed audio diagnostics. Storage remains optional for durable private recording copies. v0.1.21 requests Core's provider-neutral telephony turn-detection profile for inbound and outbound threads, makes provider speech-start detection authoritative by default, and retains explicit local VAD fallback mode.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
