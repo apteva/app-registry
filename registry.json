@@ -7,12 +7,12 @@
     {
       "name": "push",
       "display_name": "Push",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Self-hostable mobile push notification relay. Registers iOS devices, encrypts APNs tokens at rest, issues device-scoped grants, delivers privacy-safe approval, alert, and report notifications, and exposes delivery health in a compact settings panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/push",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/push/v0.1.0/mcp/push/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/push/v0.1.0/mcp/push/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/push/v0.1.1/mcp/push/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/push/v0.1.1/mcp/push/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "push",
