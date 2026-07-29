@@ -674,8 +674,8 @@
     {
       "name": "media-downloader",
       "display_name": "Media Downloader",
-      "version": "0.2.14",
-      "description": "yt-dlp-backed media discovery and downloads for public and authenticated sources, including private, age-restricted, and member-only YouTube or Patreon media through encrypted Netscape cookie profiles. Includes no-key YouTube discovery through the youtube_search agent tool and responsive panel search results. v0.2.14 fixes multipart Storage uploads by routing them through the caller-bound app proxy.",
+      "version": "0.2.15",
+      "description": "yt-dlp-backed media discovery and downloads for public and authenticated sources, including private, age-restricted, and member-only YouTube, Patreon, or Instagram media through encrypted Netscape cookie profiles. Includes no-key YouTube discovery and responsive panel search results. v0.2.15 adds first-class authenticated Instagram Post, Reel, and IGTV profiles.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media-downloader",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/media-downloader/apteva.yaml",
@@ -687,6 +687,7 @@
         "audio",
         "youtube",
         "patreon",
+        "instagram",
         "download",
         "yt-dlp",
         "storage"
