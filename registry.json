@@ -1104,6 +1104,27 @@
       "category": "infrastructure"
     },
     {
+      "name": "tunnel",
+      "display_name": "Tunnel",
+      "version": "0.1.0",
+      "description": "Self-hosted, multi-tenant HTTP tunnels under an operator-controlled domain. Tunnel publishes optional wildcard DNS through Domains, reserves stable per-project HTTPS hostnames, and carries requests over outbound encrypted WebSocket connections to local services. Includes a dashboard panel, MCP management tools, hashed one-time connector credentials, quotas, token rotation, concurrency limits, and batched usage accounting. Requires Apteva 0.29.2 or newer.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/tunnel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tunnel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tunnel/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "tunnel",
+        "ingress",
+        "networking",
+        "developer-tools",
+        "self-hosted",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
       "name": "billing",
       "display_name": "Billing",
       "version": "0.12.0",
