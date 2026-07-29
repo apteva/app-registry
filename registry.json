@@ -1720,12 +1720,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.25",
-      "description": "Paid advertising control plane for Apteva. Manage ad accounts, campaigns, ad sets, ads, creatives, and audiences behind one MCP surface. v0.1 supports Meta Ads (Facebook + Instagram) and Google Ads, with explicit integration setup, project-scoped OAuth account picking, protected provider resource boundaries, and a responsive campaign dashboard. v0.1.25 reuses shared Dashboard integration connections, lets operators choose between multiple provider connections, and expands Google manager hierarchies into searchable client advertiser accounts.",
+      "version": "0.1.26",
+      "description": "Paid advertising control plane for Apteva. Manage ad accounts, campaigns, ad sets, ads, creatives, audiences, and daily media performance behind one MCP surface. v0.1 supports Meta Ads (Facebook + Instagram) and Google Ads with shared Dashboard connections and project-scoped account picking. v0.1.26 adds bounded daily campaign reporting with normalized spend micros, impressions, clicks, conversions, provider pagination, and structured rate-limit errors.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.25/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.25/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.26/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.26/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
