@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-29T00:00:00Z",
+  "updated_at": "2026-07-30T00:00:00Z",
   "apps": [
     {
       "name": "push",
@@ -1083,8 +1083,8 @@
     {
       "name": "live-link",
       "display_name": "Live Link",
-      "version": "0.6.3",
-      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.2 resolves the public URL from zrok's returned namespace hostname instead of assuming a domain, and automatically repairs URLs saved by earlier versions. v0.6.3 adopts Live Link's adaptive themed icon.",
+      "version": "0.6.4",
+      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.4 safely removes orphaned zrok shares only when they belong to this Live Link environment and exact reserved hostname, preserves the reserved name, and reports the real provider error instead of a bare exit code.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/apteva.yaml",
