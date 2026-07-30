@@ -1278,11 +1278,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.7.6",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, BigBuy, and CJ Dropshipping adapters. v0.7.6 adds unified shipping, promotion allocation, transactional tax and market quotes, frozen checkout snapshots, reservation compensation, durable storefront recovery, quote-scoped Stripe idempotency, remote-state reconciliation for payment retries, native multi-step Stripe checkout, and structured merchant settings.",
+      "version": "0.8.0",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.0 adds Prodigi sandbox and live fulfillment with SKU-based product lookup, design-aware artwork imports, provider-native delivery quotes, idempotent print orders, and shipment tracking while preserving Prodigi JSON in Commerce's existing source and dispatch records.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.7.6/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.0/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1299,12 +1299,13 @@
         "print-on-demand",
         "printful",
         "printify",
+        "prodigi",
         "bigbuy",
         "cjdropshipping"
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T15:01:28Z"
+      "updated_at": "2026-07-30T10:52:23Z"
     },
     {
       "name": "creators",
