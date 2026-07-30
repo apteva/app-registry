@@ -1083,8 +1083,8 @@
     {
       "name": "live-link",
       "display_name": "Live Link",
-      "version": "0.6.4",
-      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.4 safely removes orphaned zrok shares only when they belong to this Live Link environment and exact reserved hostname, preserves the reserved name, and reports the real provider error instead of a bare exit code.",
+      "version": "0.6.5",
+      "description": "Publish an Apteva instance through an explicitly selected HTTPS tunnel: anonymous Cloudflare Quick, a stable hostname on your Cloudflare zone, ngrok, or a stable free zrok reserved name. v0.6.5 safely removes orphaned zrok shares only when they belong to this Live Link environment and exact reserved hostname, preserves the reserved name, uses the zrok v2 unshare contract, and reports the real provider error instead of a bare exit code.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/live-link",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/live-link/apteva.yaml",
