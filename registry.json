@@ -1743,12 +1743,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.33",
-      "description": "Paid advertising control plane for Apteva. Manage Meta and Google ad accounts, campaigns, ad sets, ads, creatives, audiences, lead forms, and daily media performance behind one MCP surface. v0.1.33 adds full-resolution Meta creative previews to the campaign hierarchy workspace.",
+      "version": "0.1.34",
+      "description": "Paid advertising control plane for Apteva. Manage Meta and Google ad accounts, campaigns, ad sets, ads, creatives, audiences, lead forms, and daily media performance behind one MCP surface. v0.1.34 adds coordinated near-real-time performance collection, provider backoff, AppBus invalidation events, and live panel updates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.33/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.33/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.34/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.34/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
