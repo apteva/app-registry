@@ -1279,11 +1279,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.8.0",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.0 adds Prodigi sandbox and live fulfillment with SKU-based product lookup, design-aware artwork imports, provider-native delivery quotes, idempotent print orders, and shipment tracking while preserving Prodigi JSON in Commerce's existing source and dispatch records.",
+      "version": "0.8.1",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.1 corrects CJ product and variant normalization, provider error handling, shipping quotes, and order payloads while hardening post-purchase carts, checkout cancellation, and Prodigi fulfillment requests.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.0/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.1/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1306,7 +1306,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-30T10:52:23Z"
+      "updated_at": "2026-08-08T14:25:16Z"
     },
     {
       "name": "creators",
