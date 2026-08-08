@@ -1743,12 +1743,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.37",
-      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.37 adds Meta Page-engagement audiences using project-scoped Page selection, automatic provider rule construction, retention controls, and responsive creation UI.",
+      "version": "0.1.38",
+      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.38 fixes Meta audience usage discovery and prevents deletion when provider usage validation fails.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.37/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.37/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.38/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.38/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
