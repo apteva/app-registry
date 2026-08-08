@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-07-30T00:00:00Z",
+  "updated_at": "2026-08-08T00:00:00Z",
   "apps": [
     {
       "name": "push",
@@ -1063,8 +1063,8 @@
     {
       "name": "backup",
       "display_name": "Backup",
-      "version": "0.3.2",
-      "description": "Backup engine for Apteva platform snapshots and app-provided scoped backups. Platform runs capture the server DB plus running sidecar app DBs through /api/platform/snapshot; app-scoped runs let providers such as Fleet hand Backup a per-resource snapshot for destination upload, scheduling, retention, history, and restore. Destinations support local disk and S3-compatible buckets (AWS, Cloudflare R2, Backblaze B2, Wasabi, MinIO). Schedules are driven by the Jobs app. v0.3.2 adds Backup's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.3.3",
+      "description": "Verified, optionally encrypted backups for Apteva platform databases and local Fleet tenants. Destinations support local disk, AWS S3, and Cloudflare R2, with Jobs-driven scheduling, scoped retention, durable progress, destination health checks, and partial-restore reporting. v0.3.3 adds full archive validation, operation coordination, streaming encryption and restore, bounded transfer timeouts, interrupted-run recovery, prefix-scoped retention, and improved history and accessibility in the Backup panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/backup",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/backup/apteva.yaml",
