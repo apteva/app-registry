@@ -1279,11 +1279,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.8.4",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.4 preserves known supplier costs when catalog refreshes omit pricing, preventing quote-derived margin data from being reset.",
+      "version": "0.8.5",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.5 preserves known supplier costs when catalog refreshes omit pricing and corrects the immutable release source reference.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.4/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.5/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
