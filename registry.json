@@ -959,8 +959,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.23.2",
-      "description": "Build and release services, Android apps, and iOS apps from Code, local, or Git sources through local, capsule, Codemagic, and GitHub Actions backends. Deploy manages production and staging environments, domains, retained artifacts, supervised runtime recovery, mobile signing, TestFlight and Play testing, and provider-neutral App Store Connect and Google Play listing preparation. v0.23.2 fixes App Store screenshot targeting and incomplete uploads, verifies provider release readiness, preserves partial reconciliation state, selects editable App Info metadata, and safely handles first-version localization rules.",
+      "version": "0.23.3",
+      "description": "Build and release services, Android apps, and iOS apps from Code, local, or Git sources through local, capsule, Codemagic, and GitHub Actions backends. Deploy manages production and staging environments, domains, retained artifacts, supervised runtime recovery, mobile signing, TestFlight and Play testing, and provider-neutral App Store Connect and Google Play listing preparation. v0.23.3 fixes Apple free-price creation, persists scoped partial reconciliation safely, preserves failed-apply history across saves and syncs, and applies availability independently when pricing fails.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
