@@ -494,8 +494,8 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.12",
-      "description": "Typed-row database for Apteva agents and human teams. The row-shaped sibling to storage: define typed tables (text, number, bool, datetime, json, file_id), insert rows with strict validation, query with typed predicates, paginate. Read-only SELECT escape hatch with {table_name} placeholders for aggregations the named tools can't express. Project-scoped by default; opt-in global tables for shared lookup data. v0.1.12 adds Tables's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.1.13",
+      "description": "Typed-row database for Apteva agents and human teams. The row-shaped sibling to storage: define typed tables (text, number, bool, datetime, json, file_id), insert rows with strict validation, query with typed predicates, paginate. Read-only SELECT escape hatch with {table_name} placeholders for aggregations the named tools can't express. Project-scoped by default; opt-in global tables for shared lookup data. v0.1.13 adds changed fields and the complete current row to single-row update events for immediate event filtering.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/apteva.yaml",
@@ -552,8 +552,8 @@
     {
       "name": "workflows",
       "display_name": "Workflows",
-      "version": "0.4.7",
-      "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends. v0.4.7 adds Workflows's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.4.8",
+      "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends. v0.4.8 adds strict pre-run event predicates that discard non-matching events before persisting runs or steps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workflows/apteva.yaml",
