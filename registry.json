@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-09T13:51:00Z",
+  "updated_at": "2026-08-09T19:56:05Z",
   "apps": [
     {
       "name": "push",
@@ -1419,8 +1419,8 @@
     {
       "name": "mqtt",
       "display_name": "MQTT Broker",
-      "version": "0.2.1",
-      "description": "Embedded MQTT 3.1.1/5.0 broker and LAN message bus for IoT devices. v0.2.0 adds declared raw TCP exposure on port 1883, the mqtt.message platform event contract, a working outbound event bridge, durable retained messages, live subscription removal, project-scoped bridges, stronger topic and QoS validation, cached ACL checks, batched audit persistence, connected-client visibility, a hardened dashboard, and raw-socket integration coverage. Home Assistant discovery remains built in.",
+      "version": "0.3.0",
+      "description": "Embedded MQTT 3.1.1/5.0 broker and LAN message bus for IoT devices. v0.3.0 adds explicit credential lifecycle tools, retained-message administration, authenticated client connect/disconnect events, a stable filtered device event, bounded packet/client/queue controls, stricter ACL and topic validation, durable traffic metrics, and an expanded operations dashboard. Home Assistant discovery remains built in.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/apteva.yaml",
@@ -1435,6 +1435,29 @@
       ],
       "official": true,
       "category": "infrastructure"
+    },
+    {
+      "name": "devices",
+      "display_name": "Devices",
+      "version": "0.1.0",
+      "description": "Provision and control Arduino, ESP8266/ESP32, Raspberry Pi, and other MQTT-capable hardware. Devices provides per-device credentials and exact-topic ACLs, capability discovery, allowlisted GPIO operations, variables and firmware functions, live state and telemetry, correlated commands, aREST-compatible envelopes, setup examples, and a project dashboard. Requires MQTT 0.3.0 or newer.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/devices",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/devices/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/devices/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "devices",
+        "iot",
+        "mqtt",
+        "arduino",
+        "esp32",
+        "raspberry-pi",
+        "gpio",
+        "arest"
+      ],
+      "official": true,
+      "category": "iot"
     },
     {
       "name": "tapo",
