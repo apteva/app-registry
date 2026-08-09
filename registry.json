@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-09T12:34:11Z",
+  "updated_at": "2026-08-09T13:35:19Z",
   "apps": [
     {
       "name": "push",
@@ -1398,8 +1398,8 @@
     {
       "name": "mqtt",
       "display_name": "MQTT Broker",
-      "version": "0.1.1",
-      "description": "Embedded MQTT broker for Apteva. Acts as the LAN message bus for smart-home devices (ESP32, Zigbee2MQTT, Tasmota, anything that speaks MQTT 3.1.1 or 5.0). Every published message is mirrored onto the platform event bus as `mqtt.message` so sibling apps (messaging, jobs, calendar) can react without speaking MQTT themselves; per-pattern subscriptions promote interesting topics to named bus events. Auto-discovers Home Assistant-convention devices by parsing `homeassistant/+/+/config`. Username/password auth + per-user topic ACL; an `apteva-default` user is seeded with a random password on first install (logged once). v0.1.1 adds MQTT Broker's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Embedded MQTT 3.1.1/5.0 broker and LAN message bus for IoT devices. v0.2.0 adds declared raw TCP exposure on port 1883, the mqtt.message platform event contract, a working outbound event bridge, durable retained messages, live subscription removal, project-scoped bridges, stronger topic and QoS validation, cached ACL checks, batched audit persistence, connected-client visibility, a hardened dashboard, and raw-socket integration coverage. Home Assistant discovery remains built in.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/apteva.yaml",
