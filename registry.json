@@ -940,8 +940,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "0.5.1",
-      "description": "DNS + domain inventory and registrar workflows for Apteva projects. v0.5 adds exact record-ID edits and deletes, safe multi-record RRset handling, project-isolated connections, strict provider errors and Spaceship pagination, serialized DNS mutations, and expiring idempotent confirmation intents for paid registration. v0.5.1 adds Domains's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.5.2",
+      "description": "DNS + domain inventory and registrar workflows for Apteva projects. v0.5 adds exact record-ID edits and deletes, safe multi-record RRset handling, project-isolated connections, strict provider errors and Spaceship pagination, serialized DNS mutations, and expiring idempotent confirmation intents for paid registration. v0.5.1 adds Domains's adaptive themed icon. v0.5.2 supports multiple DNS and registrar provider bindings with explicit defaults and per-domain connection selection.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
