@@ -166,7 +166,7 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "3.1.1",
+      "version": "3.2.4",
       "description": "Durable work, progress, schedules, occurrences, and opaque thread assignment for Apteva agents.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
@@ -399,7 +399,7 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.8.23",
+      "version": "0.8.24",
       "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams, with project isolation and typed attributes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
@@ -417,7 +417,7 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.61",
+      "version": "0.7.62",
       "description": "Watch, steer, and replay hosted browser sessions. v0.7.61 adopts Computer's canonical icon and host-provided app identity across its chat cards.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
@@ -475,7 +475,7 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.10.22",
+      "version": "0.10.24",
       "description": "File storage with virtual folders, signed URLs, dedup, resumable uploads, and a pluggable local or S3-compatible backend. v0.10.19 serves public and HMAC-signed downloads through a dedicated read-only anonymous route while keeping metadata, uploads, and mutations authenticated. v0.10.22 adds Storage's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
@@ -591,7 +591,7 @@
     {
       "name": "simulator",
       "display_name": "Apteva Simulator",
-      "version": "0.1.24",
+      "version": "0.1.26",
       "description": "iOS and Android simulators on demand. Boot a device, build a repo's source into an APK/.app, install + launch on a headless emulator or Simulator, stream the screen to the browser, and relay touch + key input. Called by Apteva Code on Run for mobile repos; usable standalone for any flow that produces a mobile artifact. v0.1.23 reconnects live view after transient proxy or sidecar interruptions instead of leaving the panel permanently on Stream closed. v0.1.24 adds Apteva Simulator's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/simulator",
@@ -612,7 +612,7 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.13.85",
+      "version": "0.13.88",
       "description": "Catalog + derivations + renders + transcripts + auto-descriptions for audio/video/image files in storage. Pluggable render backend: ffmpeg by default, Cloudinary when bound (offload trim/resize/transcode/crop/extract_frame). Subscribes to storage events for instant indexing on upload + cascade cleanup on delete; falls back to a 30s safety-net poll. Smart video thumbnails skip black/fade openings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
@@ -822,7 +822,7 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.14.80",
+      "version": "0.14.84",
       "description": "Schedule and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools. v0.14.80 adds Social's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
@@ -1001,7 +1001,7 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.4.40",
+      "version": "0.4.41",
       "description": "Trading desk for Apteva agents. Multi-portfolio, multi-asset (equity, crypto, polymarket). Each portfolio runs in paper mode (deterministic in-process engine) or live mode (orders route through a bound broker integration; v0.2 ships Binance only). Mandate, allowed asset classes, and daily-loss halt enforced server-side; halt cancels working broker orders upstream. Approval policy lives in the agent's directive, not the platform. v0.4.40 adds Trading's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
@@ -1128,7 +1128,7 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.12.0",
+      "version": "0.12.2",
       "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns processor execution and webhook reconciliation. v0.12.0 adds a durable, idempotent Stripe refund request ledger for partial and full refunds while verified processor webhooks remain authoritative for invoice balances.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
@@ -1238,7 +1238,7 @@
     {
       "name": "subscriptions",
       "display_name": "Subscriptions",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, trial endings, active renewal scheduling, cycle creation, subscription status, usage, discounts, and prepared invoice lines. Emits one idempotent subscription.cycle_due event per due period so product apps can orchestrate fulfillment and collection. v0.7.1 adds Subscriptions's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/subscriptions",
@@ -1333,7 +1333,7 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.4.2",
+      "version": "0.7.8",
       "description": "Circle/Skool-shaped community platform. Multiple communities per install, each with spaces (feed/forum/chat/course), member directory, posts and reactions, in-app DMs, and courses with sections, lessons, comments, and progress. Panel updates live via the platform event bus. Storage and ffmpeg bindings are optional for lesson videos and duration probing. v0.4.2 adds Community's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
@@ -1481,7 +1481,7 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.4.21",
+      "version": "0.4.25",
       "description": "Compute-host inventory + lifecycle for Apteva. Manages the local Apteva machine and remote VPS instances under one MCP/REST surface so other apps (Live Link self-vps, Deploy SSHRuntime, Backup off-host, future Containers/Database/MQTT/game-server apps) bind a single \"compute\" dependency instead of each speaking VPS-provider APIs directly. The local machine is auto-seeded as instance id=0 and is always 'ready' — cannot be created or destroyed via the public API. Remote instances are provisioned via Hetzner Cloud. Per-instance Ed25519 SSH keypair seeded into the box via cloud-init authorized_keys; background readiness probe flips status='provisioning' → 'ready' once SSH accepts the key. MCP tools cover create/get/list/destroy/run/upload/download/wait/metrics so higher-level apps can transfer artifacts between local and remote hosts. Vitals (CPU / mem / disk / net / load / uptime) via gopsutil locally and a /proc-parsing bash script over SSH remotely, cached 5s per host. v0.4.21 adds Instances's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
@@ -1811,7 +1811,7 @@
     {
       "name": "gigs",
       "display_name": "Gigs",
-      "version": "0.1.19",
+      "version": "0.1.21",
       "description": "Agents delegate atomic work to human workers (CRM contacts) by composing reusable multi-modal instructions — text, audio, video, images, documents, checklists, confirmations, and the full input_* family. Templates are saved instruction sets; gigs are dispatched snapshots whose result schema, media manifest, and checklist are derived from the composition (never hand-authored). Workers receive a magic-link page via crm.contacts_send_message, read/watch the instructions, fill the form, upload attachments through storage, and submit. Yes/no and short-text gigs also accept thread replies via the CRM conversation. workers_create upserts a CRM contact and promotes it to a worker in one MCP call. CRM and storage are required dependencies; messaging is reached indirectly through CRM. v0.1.19 adds Gigs's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/gigs",
@@ -1830,7 +1830,7 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.7.4",
+      "version": "0.8.0",
       "description": "Identity layer for Apteva-deployed SaaS: email + password signup/login, EdDSA JWT issuance with JWKS, refresh-token rotation, OAuth client registry, app-specific user metadata, email verification, password reset, magic links, and TOTP MFA. Agents administer organizations, users, clients, and metadata via MCP tools; the deployed frontend hits the public HTTP routes; the dashboard renders a consolidated Auth panel. Messaging is an optional dependency for transactional email. v0.7.4 adds Auth's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
@@ -1972,7 +1972,7 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.6.3",
+      "version": "0.7.0",
       "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.6.3 makes direct and carrier voice simulations inherit the cloned source agent's production realtime MCP policy.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
@@ -1992,7 +1992,7 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.5.2",
+      "version": "0.5.4",
       "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.5.2 accepts explicit target completion as a valid end to realtime voice evaluations and requires Environments 0.6.2 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
