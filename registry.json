@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-09T12:30:13Z",
+  "updated_at": "2026-08-09T12:34:11Z",
   "apps": [
     {
       "name": "push",
@@ -1791,11 +1791,11 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.14.2",
-      "description": "Multi-site block-based CMS and generic public experience runtime. Content owns public rendering and signed browser sessions while provider apps retain their domain data and tools. v2.14.2 automatically fingerprints extension asset URLs from their content and serves matching revisions with immutable caching and ETags, while preserving short-cache compatibility for legacy stable URLs.",
+      "version": "2.14.3",
+      "description": "Multi-site block-based CMS and generic public experience runtime. Content owns public rendering and signed browser sessions while provider apps retain their domain data and tools. v2.14.3 automatically fingerprints extension asset URLs from their content, serves matching revisions with immutable caching and ETags, and remains compatible with provider templates that append an explicit theme revision.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content/v2.14.2/mcp/content/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content/v2.14.3/mcp/content/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1806,7 +1806,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-08-09T12:30:13Z"
+      "updated_at": "2026-08-09T12:34:11Z"
     },
     {
       "name": "gigs",
