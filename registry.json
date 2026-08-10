@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-10T05:41:40Z",
+  "updated_at": "2026-08-10T05:44:45Z",
   "apps": [
     {
       "name": "push",
@@ -1439,8 +1439,8 @@
     {
       "name": "devices",
       "display_name": "Devices",
-      "version": "0.1.0",
-      "description": "Provision and control Arduino, ESP8266/ESP32, Raspberry Pi, and other MQTT-capable hardware. Devices provides per-device credentials and exact-topic ACLs, capability discovery, allowlisted GPIO operations, variables and firmware functions, live state and telemetry, correlated commands, aREST-compatible envelopes, setup examples, and a project dashboard. Requires MQTT 0.3.0 or newer.",
+      "version": "0.1.1",
+      "description": "Provision and control Arduino, ESP8266/ESP32, Raspberry Pi, and other MQTT-capable hardware. Devices provides per-device credentials and exact-topic ACLs, native capability discovery, allowlisted GPIO operations, variables and firmware functions, live state and telemetry, correlated commands, setup examples, and a project dashboard. Requires MQTT 0.3.0 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/devices",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/devices/apteva.yaml",
@@ -1453,8 +1453,7 @@
         "arduino",
         "esp32",
         "raspberry-pi",
-        "gpio",
-        "arest"
+        "gpio"
       ],
       "official": true,
       "category": "iot"
