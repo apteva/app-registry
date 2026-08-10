@@ -534,8 +534,8 @@
     {
       "name": "jobs",
       "display_name": "Jobs",
-      "version": "0.1.12",
-      "description": "Scheduled-job runner for one-time, interval, and cron work. Dispatches platform-authorized sibling app tools, external HTTP targets, or agent events with bounded concurrency, reclaimable leases, retries, idempotency keys, and retained run history. v0.1.12 adds Jobs's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.1.13",
+      "description": "Scheduled-job runner for one-time, interval, cron, and deterministic randomized daily-window work. Dispatches platform-authorized sibling app tools, external HTTP targets, or agent events with bounded concurrency, reclaimable leases, retries, occurrence-specific idempotency, execution metadata, previews, and retained run history.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/jobs",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/jobs/apteva.yaml",
@@ -545,10 +545,12 @@
         "jobs",
         "scheduling",
         "cron",
+        "random",
         "infrastructure"
       ],
       "official": true,
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "updated_at": "2026-08-10T09:09:36Z"
     },
     {
       "name": "functions",
