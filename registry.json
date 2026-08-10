@@ -1300,11 +1300,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.8.6",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.6 adds an optional Meta sales channel with Pixel selection or creation and consent-gated storefront events.",
+      "version": "0.8.7",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.7 preserves canonical Ads resource names when configuring and displaying Meta Pixels.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.6/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.7/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1327,7 +1327,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-08-10T06:30:00Z"
+      "updated_at": "2026-08-10T06:32:51Z"
     },
     {
       "name": "creators",
