@@ -1300,11 +1300,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.8.5",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.5 preserves known supplier costs when catalog refreshes omit pricing and corrects the immutable release source reference.",
+      "version": "0.8.6",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.6 adds an optional Meta sales channel with Pixel selection or creation and consent-gated storefront events.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.5/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.6/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1327,7 +1327,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-08-09T11:00:13Z"
+      "updated_at": "2026-08-10T06:30:00Z"
     },
     {
       "name": "creators",
@@ -1787,12 +1787,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.41",
-      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.41 adds capability-driven tracking-source creation, safe Meta Pixel reuse and reconciliation, account defaults, and a resource creation UI.",
+      "version": "0.1.42",
+      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.42 adds a constrained browser installation contract for normalized Meta Pixels without exposing provider credentials.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.41/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.41/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.42/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.42/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
