@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-09T19:56:05Z",
+  "updated_at": "2026-08-10T05:41:40Z",
   "apps": [
     {
       "name": "push",
@@ -1788,12 +1788,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.40",
-      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.40 adds project-scoped campaign selection, filtered hierarchy and analytics sync, and a provider-neutral import picker.",
+      "version": "0.1.41",
+      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.41 adds capability-driven tracking-source creation, safe Meta Pixel reuse and reconciliation, account defaults, and a resource creation UI.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.40/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.40/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.41/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.41/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
