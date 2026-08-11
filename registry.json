@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-10T17:26:58Z",
+  "updated_at": "2026-08-11T10:19:57Z",
   "apps": [
     {
       "name": "push",
@@ -982,8 +982,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.24.3",
-      "description": "Build and release services, Android apps, and iOS apps from Code, local, or Git sources through local, capsule, Codemagic, and GitHub Actions backends. Deploy manages production and staging environments, domains, retained artifacts, supervised runtime recovery, mobile signing, TestFlight and Play testing, and provider-neutral App Store Connect and Google Play listing preparation. v0.24.3 adds persisted mobile test audiences, exact Google Group reconciliation, custom Play tracks, opt-in links, and atomic tester updates during Android releases.",
+      "version": "0.24.4",
+      "description": "Build and release services, Android apps, and iOS apps from Code, local, or Git sources through local, capsule, Codemagic, and GitHub Actions backends. Deploy manages production and staging environments, domains, retained artifacts, supervised runtime recovery, mobile signing, TestFlight and Play testing, and provider-neutral App Store Connect and Google Play listing preparation. v0.24.4 adds provider-neutral media-kind reconciliation so valid Play icons and Apple or Google media groups can be applied independently while incomplete media remains blocked.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
