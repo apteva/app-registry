@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-12T07:02:28Z",
+  "updated_at": "2026-08-12T08:03:33Z",
   "apps": [
     {
       "name": "push",
@@ -42,6 +42,27 @@
         "multimodal",
         "vision",
         "usage"
+      ],
+      "official": true,
+      "category": "tools"
+    },
+    {
+      "name": "design",
+      "display_name": "Design Studio",
+      "version": "0.1.0",
+      "description": "Agent-native parametric 2D/3D CAD for Apteva. Build safe LLM-generatable operation graphs as exact OpenCascade solids, inspect dimensions and topology, preview meshes, validate manufacturing constraints, export STEP, STL, 3MF, and GLB, and create traceable manufacturing packages.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/design",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.1.0/mcp/design/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.1.0/mcp/design/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "design",
+        "cad",
+        "3d",
+        "manufacturing",
+        "3d-printing",
+        "parametric"
       ],
       "official": true,
       "category": "tools"
