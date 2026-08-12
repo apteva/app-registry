@@ -70,8 +70,8 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.3.1",
-      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, method/path routes, simple API keys, CORS policy, request logs, dashboard operations, incremental Function streaming, and dispatch to installed apps or HTTP origins. v0.3.1 preserves native EventSource query-key authentication through the platform app proxy while retaining authenticated, filtered, sanitized, coalesced AppBus invalidation streams.",
+      "version": "0.4.0",
+      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, routes, API keys, CORS, request logs, incremental Function streaming, and safe authenticated AppBus invalidation feeds. v0.4.0 adds bounded in-list event matching, projections only from explicitly constrained data fields, and ordered per-projection coalescing so one stream can precisely invalidate several resources.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/apteva.yaml",
