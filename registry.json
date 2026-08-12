@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-12T08:47:46Z",
+  "updated_at": "2026-08-12T14:35:01Z",
   "apps": [
     {
       "name": "push",
@@ -70,8 +70,8 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.1.2",
-      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, method/path routes, simple API keys, CORS policy, request logs, dashboard operations, and dispatch to Functions, installed app HTTP surfaces, or plain HTTP origins. v0.1.2 adds API Gateway's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, method/path routes, simple API keys, CORS policy, request logs, dashboard operations, and dispatch to Functions, installed app HTTP surfaces, or plain HTTP origins. v0.2.0 streams Function-target responses through the platform's bound-app proxy, including incremental SSE, response headers, status, cancellation, and backward-compatible structured non-streaming responses.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/apteva.yaml",
@@ -576,8 +576,8 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.6.1",
-      "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>. v1.6.1 adds Functions's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "1.7.0",
+      "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>. v1.7.0 adds incremental HTTP response streaming and Server-Sent Events for both Node and Go functions while keeping functions_invoke unary.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/apteva.yaml",
