@@ -1836,8 +1836,8 @@
     {
       "name": "seo",
       "display_name": "SEO",
-      "version": "0.4.10",
-      "description": "Locale-aware SEO research workbench for domains, keywords, rankings, backlinks, and cached provider metrics. Includes a dashboard panel for interactive seeding, DataForSEO location sync, human-triggered paid refreshes, a domain page-ranking drill-down, and daily ranking history in the existing rankings table. v0.3.7 fixes DataForSEO domain refresh payloads for the current Google domain_rank_overview API; MCP tools stay read/write for tracked entities and read-only for cached SEO data. v0.4.10 adds SEO's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.5.0",
+      "description": "Generic Google and YouTube SEO research workbench for domains, keywords, rankings, backlinks, SERPs, and content opportunities. Supports DataForSEO, YepAPI, or both through one provider-neutral interface, with provider-scoped data, selectable bindings, resumable DataForSEO bulk keyword metrics, and uniform Google/YouTube result storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/seo",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/apteva.yaml",
@@ -1849,7 +1849,9 @@
         "keywords",
         "rankings",
         "backlinks",
-        "dataforseo"
+        "dataforseo",
+        "yepapi",
+        "youtube"
       ],
       "official": true,
       "category": "marketing"
