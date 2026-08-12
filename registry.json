@@ -2097,6 +2097,26 @@
       ],
       "official": true,
       "category": "infrastructure"
+    },
+    {
+      "name": "tickets",
+      "display_name": "Tickets",
+      "version": "0.1.0",
+      "description": "Client feedback and support requests without repository coupling. Secure intake and per-ticket magic links, configurable areas and workflows, public comments, internal notes, Storage-backed attachments, optional CRM contact context, and an append-only activity history for every ticket.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/tickets",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tickets/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tickets/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "tickets",
+        "feedback",
+        "support",
+        "issues",
+        "clients"
+      ],
+      "official": true,
+      "category": "productivity"
     }
   ]
 }
