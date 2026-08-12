@@ -70,8 +70,8 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.2.0",
-      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, method/path routes, simple API keys, CORS policy, request logs, dashboard operations, and dispatch to Functions, installed app HTTP surfaces, or plain HTTP origins. v0.2.0 streams Function-target responses through the platform's bound-app proxy, including incremental SSE, response headers, status, cancellation, and backward-compatible structured non-streaming responses.",
+      "version": "0.2.1",
+      "description": "Lightweight API gateway for Apteva SaaS projects. Owns public API hostnames, method/path routes, simple API keys, CORS policy, request logs, dashboard operations, and dispatch to Functions, installed app HTTP surfaces, or plain HTTP origins. v0.2.1 fixes the native API panel initializer while retaining incremental Function SSE streaming and backward-compatible structured responses.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/apteva.yaml",
