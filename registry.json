@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-11T11:36:44Z",
+  "updated_at": "2026-08-12T00:00:00Z",
   "apps": [
     {
       "name": "push",
@@ -1356,8 +1356,8 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.7.8",
-      "description": "Circle/Skool-shaped community platform. Multiple communities per install, each with spaces (feed/forum/chat/course), member directory, posts and reactions, in-app DMs, and courses with sections, lessons, comments, and progress. Panel updates live via the platform event bus. Storage and ffmpeg bindings are optional for lesson videos and duration probing. v0.4.2 adds Community's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.12.3",
+      "description": "Community and course storefront for Apteva. Supports branded multi-community portals, Auth-linked members, public course products, one-time and recurring access, inline Stripe checkout, public sample lessons, reusable instructor profiles, consent-aware product testimonials, custom domains, and complete course delivery. v0.12.3 fixes instructor profile listing on production single-connection databases.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/apteva.yaml",
