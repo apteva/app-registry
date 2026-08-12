@@ -1836,8 +1836,8 @@
     {
       "name": "seo",
       "display_name": "SEO",
-      "version": "0.5.0",
-      "description": "Generic Google and YouTube SEO research workbench for domains, keywords, rankings, backlinks, SERPs, and content opportunities. Supports DataForSEO, YepAPI, or both through one provider-neutral interface, with provider-scoped data, selectable bindings, resumable DataForSEO bulk keyword metrics, and uniform Google/YouTube result storage.",
+      "version": "0.5.1",
+      "description": "Generic Google and YouTube SEO research workbench for domains, keywords, rankings, backlinks, SERPs, and content opportunities. Supports DataForSEO, YepAPI, or both through one provider-neutral interface, with default-provider read isolation, an explicit all-provider view, resumable DataForSEO bulk keyword metrics, YepAPI difficulty enrichment, and video-only YouTube SERP fallback.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/seo",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/seo/apteva.yaml",
