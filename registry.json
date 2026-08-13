@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-12T21:56:17Z",
+  "updated_at": "2026-08-13T05:20:57Z",
   "apps": [
     {
       "name": "push",
@@ -2104,7 +2104,7 @@
     {
       "name": "tickets",
       "display_name": "Tickets",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Client feedback and support requests without repository coupling. Secure intake and per-ticket magic links, configurable areas and workflows, public comments, internal notes, Storage-backed attachments, optional CRM contact context, and an append-only activity history for every ticket.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tickets",
