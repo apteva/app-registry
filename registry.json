@@ -1111,8 +1111,8 @@
     {
       "name": "backup",
       "display_name": "Backup",
-      "version": "0.3.3",
-      "description": "Verified, optionally encrypted backups for Apteva platform databases and local Fleet tenants. Destinations support local disk, AWS S3, and Cloudflare R2, with Jobs-driven scheduling, scoped retention, durable progress, destination health checks, and partial-restore reporting. v0.3.3 adds full archive validation, operation coordination, streaming encryption and restore, bounded transfer timeouts, interrupted-run recovery, prefix-scoped retention, and improved history and accessibility in the Backup panel.",
+      "version": "0.3.4",
+      "description": "Verified, optionally encrypted backups for Apteva platform databases and local Fleet tenants. v0.3.4 adds app-authorized streaming with separate snapshot and restore permissions, explicit restore confirmation, and no administrator-key fallback.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/backup",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/backup/apteva.yaml",
