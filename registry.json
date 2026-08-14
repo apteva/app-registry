@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-14T07:17:40Z",
+  "updated_at": "2026-08-14T09:41:03Z",
   "apps": [
     {
       "name": "push",
@@ -434,6 +434,26 @@
         "crm",
         "contacts",
         "productivity"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
+      "name": "prospecting",
+      "display_name": "Prospecting",
+      "version": "0.1.0",
+      "description": "Web-first prospect discovery and qualification for Apteva. Define target profiles, run bounded company searches through Web, research and score candidate companies and people with source evidence, reject or defer candidates, and hand accepted contacts to CRM without initiating outreach.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/prospecting/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "prospecting",
+        "leads",
+        "sales",
+        "research",
+        "crm"
       ],
       "official": true,
       "category": "productivity"
