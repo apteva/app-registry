@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-14T13:38:27Z",
+  "updated_at": "2026-08-14T13:40:47Z",
   "apps": [
     {
       "name": "push",
@@ -441,12 +441,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Web-first prospect discovery and deterministic qualification for Apteva. Runs bounded searches with provider fallback and noise filtering, extracts contact details and automation signals from first-party websites without AI, preserves evidence, and hands accepted contacts to CRM without initiating outreach.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/prospecting/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.2/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.2/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
