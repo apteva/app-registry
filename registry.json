@@ -441,12 +441,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.2.3",
-      "description": "Web-first prospect discovery and deterministic qualification for Apteva. Filters marketplaces and noisy results, cleans company identities, traverses contact-first pages, extracts ranked phone and email details without AI, preserves evidence, and hands accepted contacts to CRM without initiating outreach.",
+      "version": "0.2.4",
+      "description": "Web-first prospect discovery and deterministic qualification for Apteva. Filters noisy results, protects company identities, traverses contact-first pages, extracts ranked email details and validated US phone numbers without AI, preserves evidence, and hands accepted contacts to CRM without initiating outreach.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.3/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.3/mcp/prospecting/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.4/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.4/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
