@@ -441,12 +441,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.2.8",
-      "description": "Web-first prospect discovery and deterministic qualification for Apteva. Filters noisy results, protects company identities, traverses contact-first pages, and refreshes same-domain or public-mailbox emails plus evidence-backed US phone numbers without AI. It preserves evidence and hands accepted contacts to CRM without initiating outreach.",
+      "version": "0.2.9",
+      "description": "Standalone lead workspace for manually adding or bulk importing companies, exploring and updating the catalog, recording decisions, and exporting CSV or JSON. Optional Web adds browser-backed discovery and deterministic qualification; optional CRM adds explicit duplicate-safe handoff. No AI or outreach is required.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.8/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.8/mcp/prospecting/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.9/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.9/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
