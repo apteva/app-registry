@@ -441,12 +441,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.2.12",
+      "version": "0.3.0",
       "description": "Standalone lead workspace with a full-width desktop working queue, left-side lead selector, right-side qualification workspace, and a unified add/import panel. Rejected leads stay hidden by default and can be permanently purged with explicit confirmation. Optional Web and CRM integrations remain available.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.12/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.12/mcp/prospecting/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.3.0/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.3.0/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
