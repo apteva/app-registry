@@ -441,12 +441,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.2.9",
-      "description": "Standalone lead workspace for manually adding or bulk importing companies, exploring and updating the catalog, recording decisions, and exporting CSV or JSON. Optional Web adds browser-backed discovery and deterministic qualification; optional CRM adds explicit duplicate-safe handoff. No AI or outreach is required.",
+      "version": "0.2.10",
+      "description": "Standalone lead workspace for manually adding or bulk importing companies, exploring and updating the catalog, recording decisions, and exporting CSV or JSON. Optional Web adds browser-backed discovery and deterministic qualification; optional CRM adds explicit duplicate-safe handoff. v0.2.10 adds confirmed permanent cleanup of rejected candidates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.9/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.9/mcp/prospecting/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.10/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.2.10/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
