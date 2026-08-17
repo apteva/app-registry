@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-17T18:01:56Z",
+  "updated_at": "2026-08-17T18:15:17Z",
   "apps": [
     {
       "name": "push",
@@ -2146,7 +2146,7 @@
     {
       "name": "a2a",
       "display_name": "Agent to Agent",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Agent-to-agent communication. Agents discover peers with agents_discover and message each other by name or id, exchanging request/reply tasks with A2A-protocol-compatible lifecycle semantics (submitted, working, input_required, completed, failed, canceled). Durable task ledger, per-pair rate limiting, live dashboard panel showing every exchange.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/a2a",
