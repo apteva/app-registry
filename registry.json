@@ -1983,8 +1983,8 @@
     {
       "name": "webinars",
       "display_name": "Webinars",
-      "version": "0.1.2",
-      "description": "Live, scheduled, multi-slot, and replay webinars. Owns registration pages, registrants, reminders, attendance, chat, polls, offers, replay publishing, and engagement reporting. v0.1.1 adds generic webinar slots so scheduled, multi-session, and evergreen-style webinars share one registration model. v0.1.2 adds Webinars's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Live, scheduled, multi-slot, and replay webinars. Owns registration pages, registrants, reminders, attendance, chat, polls, offers, replay publishing, and engagement reporting. v0.2.0 fixes scripted offers never firing, duplicate-registration corruption, and reminders that ignored rescheduling; enforces replay expiry with signed media URLs; and rebuilds the attendee pages with a responsive live room, real lifecycle states, and accessibility fixes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/webinars",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/webinars/apteva.yaml",
@@ -2105,8 +2105,8 @@
     {
       "name": "streaming",
       "display_name": "Streaming",
-      "version": "0.1.1",
-      "description": "Live ingest and HLS packaging for sibling Apteva apps. Owns RTMP ingest, ffmpeg-driven HLS segmentation, recording-to-MP4, viewer heartbeats, signed playback, and synthetic load testing for capacity planning. v0.1.1 adds Streaming's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Live ingest and HLS packaging for sibling Apteva apps. Owns RTMP ingest, ffmpeg-driven HLS segmentation, recording-to-MP4, viewer heartbeats, signed playback, and synthetic load testing for capacity planning. v0.2.0 fixes recordings being stranded when a publisher disconnects, adds expiring HMAC-signed playback URLs with a per-stream signed-URL policy, bounds the live HLS playlist with a separate VOD replay manifest, and enforces retention_days.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/streaming",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/streaming/apteva.yaml",
