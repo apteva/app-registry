@@ -519,7 +519,7 @@
     {
       "name": "signatures",
       "display_name": "Signatures",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Send PDFs from Storage for simple electronic signature. Supports ordered signers and approvers, secure manual links, optional Messaging invitations and reminders, visible PDF fields, completed documents, and an append-only audit trail.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/signatures",
