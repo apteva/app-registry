@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-19T08:13:55Z",
+  "updated_at": "2026-08-19T08:34:42Z",
   "apps": [
     {
       "name": "push",
@@ -2164,7 +2164,7 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "description": "One conversation system: internal chat, the typed inbox (approvals, reports, alerts, status), thread-per-conversation, and external channels as optional integration bindings.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
