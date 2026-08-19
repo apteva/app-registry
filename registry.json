@@ -519,7 +519,7 @@
     {
       "name": "signatures",
       "display_name": "Signatures",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Send Storage PDFs for electronic signature with visual field placement: drag signature/date/text boxes onto rendered pages in the dashboard, and signers see those boxes overlaid on the document at their exact positions. Signatures can be typed or drawn; drawn marks are stamped into the completed PDF as images. Ordered signers and approvers, secure links, optional Messaging invitations, completed PDF and audit JSON back to Storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/signatures",
