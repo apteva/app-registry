@@ -2164,8 +2164,8 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.12.0",
-      "description": "Replacement conversation system for dashboard chat and the typed inbox, with compact step-by-step Telegram onboarding through platform-managed connections: secure pairing, public intake, persistent one-time person and group invite links, automatic identity discovery, sole-agent bot naming with safe original-name restoration for shared routing, native live response drafts in private chats, typing feedback in groups, mention-gated groups, webhook health, durable delivery, and approval actions—without asking operators for numeric Telegram IDs.",
+      "version": "0.12.1",
+      "description": "Replacement conversation system for dashboard chat and the typed inbox, with compact step-by-step Telegram onboarding through platform-managed connections: secure pairing, public intake, persistent one-time person and group invite links, automatic identity discovery, sole-agent bot naming with safe original-name restoration for shared routing, natural typing-first feedback and tool-chunk live drafts in private chats, typing feedback in groups, mention-gated groups, webhook health, durable delivery, and approval actions—without asking operators for numeric Telegram IDs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/conversations/apteva.yaml",
