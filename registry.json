@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-20T10:21:45Z",
+  "updated_at": "2026-08-20T10:31:21Z",
   "apps": [
     {
       "name": "push",
@@ -1346,11 +1346,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.8.7",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.7 preserves canonical Ads resource names when configuring and displaying Meta Pixels.",
+      "version": "0.8.8",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.8.8 adds immutable supplier-cost and shipping snapshots, idempotent fee and refund reconciliation, and contribution-profit reporting.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.7/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.8.8/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
