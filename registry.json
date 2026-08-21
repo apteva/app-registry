@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-20T12:36:52Z",
+  "updated_at": "2026-08-21T07:58:23Z",
   "apps": [
     {
       "name": "push",
@@ -1904,8 +1904,8 @@
     {
       "name": "gigs",
       "display_name": "Gigs",
-      "version": "0.1.26",
-      "description": "Agents delegate atomic work to human workers (CRM contacts) by composing reusable multi-modal instructions — text, audio, video, images, documents, checklists, confirmations, and the full input_* family. Templates are saved instruction sets; gigs are dispatched snapshots whose result schema, media manifest, and checklist are derived from the composition (never hand-authored). Workers receive a magic-link page via crm.contacts_send_message, read/watch the instructions, fill the form, upload attachments through storage, and submit. Yes/no and short-text gigs also accept thread replies via the CRM conversation. workers_create upserts a CRM contact and promotes it to a worker in one MCP call. CRM and storage are required dependencies; messaging is reached indirectly through CRM. v0.1.26 adds the gig-queue home widget: submissions awaiting review, work in flight with deadline urgency, and recent outcomes, pinnable on the dashboard home page.",
+      "version": "0.2.0",
+      "description": "Generic work marketplace and execution engine for agents and human workers. Define standard offers and service packages around reusable gig templates; configure commercial pay grades and effective worker rate cards; recommend the usual customer offer, worker compensation, rate source, and expected margin; negotiate job posts and proposals into contracts and milestones; then dispatch immutable compensated gigs. Catalog owns customer-facing products and prices, optional Bills owns worker payables, and optional Orders can reference service-fulfillment contracts. Workers remain CRM contacts and receive magic-link work pages backed by Storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/gigs",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/gigs/apteva.yaml",
