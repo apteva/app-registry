@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-23T07:18:57Z",
+  "updated_at": "2026-08-23T07:37:11Z",
   "apps": [
     {
       "name": "push",
@@ -70,12 +70,12 @@
     {
       "name": "pcb",
       "display_name": "PCB Studio",
-      "version": "0.1.0",
-      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 circuit and board model, immutable revisions, typed edits, ERC/DRC, deterministic SVG and BOM generation, traceable release packages, Storage persistence, and optional provider-neutral component sourcing. No external ECAD engine dependency.",
+      "version": "0.1.1",
+      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 circuit and board model, immutable revisions, typed edits, ERC/DRC, deterministic SVG and BOM generation, traceable release packages, and no external ECAD engine dependency. v0.1.1 moves Storage, component data, and fabrication providers onto platform-native app/integration bindings and makes artifact uploads resolve the selected Storage install.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/pcb",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.1.0/mcp/pcb/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.1.0/mcp/pcb/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.1.1/mcp/pcb/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.1.1/mcp/pcb/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "pcb",
