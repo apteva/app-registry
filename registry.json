@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-21T07:58:23Z",
+  "updated_at": "2026-08-23T07:18:57Z",
   "apps": [
     {
       "name": "push",
@@ -63,6 +63,27 @@
         "manufacturing",
         "3d-printing",
         "parametric"
+      ],
+      "official": true,
+      "category": "tools"
+    },
+    {
+      "name": "pcb",
+      "display_name": "PCB Studio",
+      "version": "0.1.0",
+      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 circuit and board model, immutable revisions, typed edits, ERC/DRC, deterministic SVG and BOM generation, traceable release packages, Storage persistence, and optional provider-neutral component sourcing. No external ECAD engine dependency.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/pcb",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.1.0/mcp/pcb/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.1.0/mcp/pcb/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "pcb",
+        "electronics",
+        "ecad",
+        "hardware",
+        "bom",
+        "manufacturing"
       ],
       "official": true,
       "category": "tools"
