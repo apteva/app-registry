@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-24T08:56:00Z",
+  "updated_at": "2026-08-24T13:02:21Z",
   "apps": [
     {
       "name": "push",
@@ -115,8 +115,8 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.8.2",
-      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, and usage for Apteva apps. New paid plans default to provider-independent automatic collection, saving a reusable method during hosted checkout and asking Billing to collect renewal invoices with durable idempotency; manual invoice links remain available explicitly. v0.8.2 adds SaaS's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.9.1",
+      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, and usage for Apteva apps. v0.9.1 optionally syncs SaaS customers to CRM by email, stores durable contact links and retry state, backfills existing customers, and never blocks customer creation or checkout when CRM is unavailable.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/apteva.yaml",
