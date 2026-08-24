@@ -70,12 +70,12 @@
     {
       "name": "pcb",
       "display_name": "PCB Studio",
-      "version": "0.4.0",
-      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 model and no external ECAD, routing, or simulation engine. v0.4 adds a snapped interactive layout editor for component placement and rotation, manual traces and vias, deletion, undo/redo, and immutable revision saves. Gerber X2, Excellon, and Gerber-job outputs now pass an independent parser and native-design reconciliation gate before manufacturing packages or releases are created.",
+      "version": "0.5.0",
+      "description": "Native, agent-first electronics design for Apteva with no external ECAD, routing, simulation, or illustration engine. v0.5 adds a semantic Wiring workspace for Arduino and breadboard tutorials, named part/pin connectivity, compatibility validation, physical GPIO simulation, and detailed SVG, PNG, tutorial JSON, and tutorial ZIP exports. The deterministic board editor, autorouter, simulation lab, Gerber/Excellon writers, and independent fabrication gate remain built in.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/pcb",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.4.0/mcp/pcb/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.4.0/mcp/pcb/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.5.0/mcp/pcb/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.5.0/mcp/pcb/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "pcb",
@@ -83,7 +83,10 @@
         "ecad",
         "hardware",
         "bom",
-        "manufacturing"
+        "manufacturing",
+        "arduino",
+        "breadboard",
+        "tutorials"
       ],
       "official": true,
       "category": "tools"
