@@ -70,12 +70,12 @@
     {
       "name": "pcb",
       "display_name": "PCB Studio",
-      "version": "0.3.1",
-      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 model and no external ECAD, routing, or simulation engine. v0.3 adds deterministic constraint-aware autorouting, native DC/RC/digital simulation with persisted waveforms and faults, and an Arduino-compatible virtual hardware lab for Serial, GPIO, I2C, and sensors. v0.3.1 content-addresses repeated simulation and firmware experiments so every result remains independently retrievable and comparable through Storage.",
+      "version": "0.4.0",
+      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 model and no external ECAD, routing, or simulation engine. v0.4 adds a snapped interactive layout editor for component placement and rotation, manual traces and vias, deletion, undo/redo, and immutable revision saves. Gerber X2, Excellon, and Gerber-job outputs now pass an independent parser and native-design reconciliation gate before manufacturing packages or releases are created.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/pcb",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.3.1/mcp/pcb/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.3.1/mcp/pcb/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.4.0/mcp/pcb/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.4.0/mcp/pcb/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "pcb",
