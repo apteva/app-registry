@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-24T06:19:48Z",
+  "updated_at": "2026-08-24T06:54:57Z",
   "apps": [
     {
       "name": "push",
@@ -70,12 +70,12 @@
     {
       "name": "pcb",
       "display_name": "PCB Studio",
-      "version": "0.3.0",
-      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 model and no external ECAD, routing, or simulation engine. v0.3 adds deterministic constraint-aware autorouting, native DC/RC/digital simulation with persisted waveforms and faults, and an Arduino-compatible virtual hardware lab for Serial, GPIO, I2C, and sensors. It retains footprint-aware DRC, Gerber X2/Excellon output, immutable revisions, and strict artifact persistence through the selected Storage binding.",
+      "version": "0.3.1",
+      "description": "Native, agent-first electronics design for Apteva with an owned apteva-pcb/v1 model and no external ECAD, routing, or simulation engine. v0.3 adds deterministic constraint-aware autorouting, native DC/RC/digital simulation with persisted waveforms and faults, and an Arduino-compatible virtual hardware lab for Serial, GPIO, I2C, and sensors. v0.3.1 content-addresses repeated simulation and firmware experiments so every result remains independently retrievable and comparable through Storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/pcb",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.3.0/mcp/pcb/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.3.0/mcp/pcb/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.3.1/mcp/pcb/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.3.1/mcp/pcb/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "pcb",
