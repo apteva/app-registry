@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-23T09:20:34Z",
+  "updated_at": "2026-08-24T05:57:55Z",
   "apps": [
     {
       "name": "push",
@@ -444,8 +444,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.8.24",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams, with project isolation and typed attributes.",
+      "version": "0.8.29",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.8.29 adds end-to-end attachments for outbound email files, inbound email attachments, and SMS/WhatsApp media, with device uploads and Storage picking in the CRM composer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
