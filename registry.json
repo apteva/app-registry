@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-24T06:54:57Z",
+  "updated_at": "2026-08-24T08:25:34Z",
   "apps": [
     {
       "name": "push",
@@ -2185,8 +2185,8 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.12.1",
-      "description": "Replacement conversation system for dashboard chat and the typed inbox, with compact step-by-step Telegram onboarding through platform-managed connections: secure pairing, public intake, persistent one-time person and group invite links, automatic identity discovery, sole-agent bot naming with safe original-name restoration for shared routing, natural typing-first feedback and tool-chunk live drafts in private chats, typing feedback in groups, mention-gated groups, webhook health, durable delivery, and approval actions—without asking operators for numeric Telegram IDs.",
+      "version": "0.17.0",
+      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. v0.17.0 adds a reusable fixed-agent Conversations component for Build and other app surfaces while sharing the full transcript, streaming, approval-card, archive, and composer implementation with the main Conversations UI.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/conversations/apteva.yaml",
