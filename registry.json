@@ -703,12 +703,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.13.91",
-      "description": "Catalog, render, transcript, and inspection tools for audio, video, and images in Storage. v0.13.91 adds read-only technical and quality analysis across all media types plus grounded AI questions over existing source images, cached thumbnails/keyframes, and transcripts without generating new artifacts. FFmpeg powers local probing, QC, and edits; Cloudinary remains an optional render backend.",
+      "version": "0.13.92",
+      "description": "Catalog, render, transcript, and inspection tools for audio, video, and images in Storage. v0.13.92 makes audio normalization preserve the source sample rate and adds post-normalization limiting with codec-safe headroom to prevent clipping in lossy outputs. It also includes read-only technical and quality analysis plus grounded AI questions over existing source images, cached thumbnails/keyframes, and transcripts without generating new artifacts.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.91/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.91/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.92/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.92/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -723,7 +723,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-08-25T09:42:36Z"
+      "updated_at": "2026-08-25T11:35:30Z"
     },
     {
       "name": "podcast",
