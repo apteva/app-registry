@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-24T13:02:21Z",
+  "updated_at": "2026-08-25T08:26:24Z",
   "apps": [
     {
       "name": "push",
@@ -1482,6 +1482,27 @@
         "investing",
         "budget",
         "personal-finance"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
+      "name": "currencies",
+      "display_name": "Currencies",
+      "version": "0.1.0",
+      "description": "Provider-neutral ISO 4217 metadata, current and historical exchange rates, and deterministic minor-unit conversion. Works offline with manual rates and optionally uses bound Alpaca Market Data, Salt Edge, or Alpha Vantage connections. Every result preserves effective time, source, staleness, inversion or triangulation path, rounding, and an immutable quote ID; different currencies never silently fall back to parity.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/currencies",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/currencies/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/currencies/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "finance",
+        "currencies",
+        "exchange-rates",
+        "fx",
+        "accounting",
+        "conversion"
       ],
       "official": true,
       "category": "finance"
