@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-25T08:49:53Z",
+  "updated_at": "2026-08-25T09:23:09Z",
   "apps": [
     {
       "name": "push",
@@ -913,8 +913,8 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.14.84",
-      "description": "Schedule and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools. v0.14.80 adds Social's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.15.1",
+      "description": "Schedule, draft, review, approve, and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools. v0.15.1 explicitly requests Apteva-hosted Storage delivery URLs so secure provider relays such as TikTok receive URLs from the verified Apteva instance.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/social/apteva.yaml",
