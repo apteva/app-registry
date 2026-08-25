@@ -1993,7 +1993,7 @@
       "description": "Generic project-scoped event analytics for Apteva apps, with explicit tracking, bus auto-capture, static-site collection, tracking plans, saved dashboards, reusable Home widgets, themed area charts, previous-period comparisons, and linked measurable goals. v0.12.0 adds read-only mixed-currency aggregation for stats, trends, comparisons, and objectives using auditable historical FX reference rates; source events remain unchanged.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.12.0/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
