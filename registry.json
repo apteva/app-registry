@@ -703,12 +703,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.13.94",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.13.94 makes media_get request a fresh 24-hour Apteva-proxied inline ingestion URL and return Storage-confirmed delivery, disposition, and expiry details. Versioned workflow metadata, conditional merge patches, metadata search filters, and codec-safe audio normalization remain included.",
+      "version": "0.13.95",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.13.95 lets media_get callers choose apteva or direct URL delivery and inline or attachment disposition, while preserving apteva/inline defaults and returning Storage-confirmed effective values. Versioned workflow metadata, conditional patches, metadata search, and codec-safe audio normalization remain included.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.94/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.94/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.95/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.95/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -723,7 +723,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-08-25T17:22:34Z"
+      "updated_at": "2026-08-25T17:42:45Z"
     },
     {
       "name": "podcast",
