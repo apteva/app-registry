@@ -1989,8 +1989,8 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.8.7",
-      "description": "Generic event analytics for Apteva apps. Three ingest paths—bus auto-capture, analytics_track, and static-site collection—feed project-scoped queries, aggregates, tracking plans, violations, and saved real-time dashboards. v0.8.4–v0.8.6 harden project isolation, HTTP APIs, numeric aggregation, dashboard batching, and anonymous public-route collection. v0.8.7 adds Analytics' adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.12.0",
+      "description": "Generic project-scoped event analytics for Apteva apps, with explicit tracking, bus auto-capture, static-site collection, tracking plans, saved dashboards, reusable Home widgets, themed area charts, previous-period comparisons, and linked measurable goals. v0.12.0 adds read-only mixed-currency aggregation for stats, trends, comparisons, and objectives using auditable historical FX reference rates; source events remain unchanged.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/apteva.yaml",
@@ -2002,7 +2002,8 @@
         "observability"
       ],
       "official": true,
-      "category": "observability"
+      "category": "observability",
+      "updated_at": "2026-08-25T00:00:00Z"
     },
     {
       "name": "webinars",
