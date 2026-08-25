@@ -703,12 +703,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.13.93",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.13.93 adds arbitrary versioned JSON metadata, atomic conditional merge patches for safe state transitions, nested metadata equality filters in media_search, and a conflict-safe metadata editor in the Media panel. Audio normalization preserves source sample rates and applies codec-safe peak limiting.",
+      "version": "0.13.94",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.13.94 makes media_get request a fresh 24-hour Apteva-proxied inline ingestion URL and return Storage-confirmed delivery, disposition, and expiry details. Versioned workflow metadata, conditional merge patches, metadata search filters, and codec-safe audio normalization remain included.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.93/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.93/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.94/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.94/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -723,7 +723,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-08-25T13:37:59Z"
+      "updated_at": "2026-08-25T17:22:34Z"
     },
     {
       "name": "podcast",
