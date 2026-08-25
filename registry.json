@@ -447,8 +447,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.8.29",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.8.29 adds end-to-end attachments for outbound email files, inbound email attachments, and SMS/WhatsApp media, with device uploads and Storage picking in the CRM composer.",
+      "version": "0.8.30",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.8.30 adds active list IDs to contact.added events across direct creation, upserts, HTTP creation, and inbound Messaging routing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
