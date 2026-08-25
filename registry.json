@@ -703,12 +703,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.13.96",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.13.96 defaults external ingestion URLs to Storage proxy delivery, producing signed /proxy/ paths without backend redirects or exposure. media_get still supports explicit proxy, apteva, or direct delivery and inline or attachment disposition, and reports Storage-confirmed effective values. Requires Storage 0.10.26 or newer.",
+      "version": "0.13.97",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.13.97 restores apteva/inline as the default external ingestion URL mode while retaining explicit proxy or direct delivery and attachment disposition choices. media_get reports Storage-confirmed effective delivery, disposition, and expiry values. Requires Storage 0.10.26 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.96/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.96/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.97/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.13.97/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -723,7 +723,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-08-25T18:09:52Z"
+      "updated_at": "2026-08-25T18:17:43Z"
     },
     {
       "name": "podcast",
