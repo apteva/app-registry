@@ -875,7 +875,7 @@
     {
       "name": "bookings",
       "display_name": "Bookings",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "description": "Calendly-style booking links for client meetings. Booking types define availability, duration, conflict and destination calendars, and meeting location. Bookings reads free slots from Calendar, creates the booked Calendar event, optionally creates a Calls room, and can attach invitees and booking activity to CRM.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bookings",
@@ -2053,8 +2053,8 @@
     {
       "name": "calls",
       "display_name": "Calls",
-      "version": "0.1.6",
-      "description": "Standalone realtime audio/video calls with WebRTC-ready rooms, join tokens, unified human/agent/service participants, chat, transcripts, and app-bus lifecycle events. Agents join with the same participant primitives as humans; no dependency on streaming. v0.1.6 adds Calls's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.2",
+      "description": "Secure realtime audio/video rooms using authenticated WebRTC mesh signaling, expiring join links, unified human/agent/service participants, chat, transcripts, presence, and lifecycle events.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/calls",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calls/apteva.yaml",
