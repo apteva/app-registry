@@ -1014,8 +1014,8 @@
     {
       "name": "email-checker",
       "display_name": "Email Checker",
-      "version": "0.5.0",
-      "description": "Standalone email validation with RFC-correct MX and A/AAAA routing, Null MX detection, multi-MX SMTP probing, generated-recipient catch-all detection, retry-aware temporary failure handling, typo suggestions, and disposable, free, and role classification. Optional bound ZeroBounce, Bouncer, NeverBounce, Kickbox, MillionVerifier, or Hunter providers return one normalized verdict without storing verification data.",
+      "version": "0.5.1",
+      "description": "Standalone email validation with RFC-correct MX and A/AAAA routing, Null MX detection, multi-MX SMTP probing, generated-recipient catch-all detection, retry-aware temporary failure handling, typo suggestions, and disposable, free, and role classification. SMTP policy, reputation, authentication, and anti-abuse blocks remain explicitly inconclusive instead of invalidating a mailbox. Optional bound ZeroBounce, Bouncer, NeverBounce, Kickbox, MillionVerifier, or Hunter providers return one normalized verdict without storing verification data.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/email-checker",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/email-checker/apteva.yaml",
