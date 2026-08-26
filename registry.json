@@ -875,7 +875,7 @@
     {
       "name": "bookings",
       "display_name": "Bookings",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Calendly-style booking links for client meetings. Booking types define availability, duration, conflict and destination calendars, and meeting location. Bookings reads free slots from Calendar, creates the booked Calendar event, optionally creates a Calls room, and can attach invitees and booking activity to CRM.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bookings",
