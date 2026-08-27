@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-27T09:55:12Z",
+  "updated_at": "2026-08-27T11:42:19Z",
   "apps": [
     {
       "name": "push",
@@ -835,8 +835,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.7.1",
-      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. The AI-native multi-track workspace provides draggable and resizable clips, snapping, zoom, undo/redo, split and duplicate commands, composited preview, visible visual/text/audio/silence/soundtrack lanes, PIP layout controls, responsive drawers, and keyboard shortcuts. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development. v0.7.0 adds reusable video and audio source ranges, normalized source crops, eased pan/zoom keyframes, editable browser event markers, timeline controls, and shared local/remote rendering. v0.7.1 fixes local Storage resolution by decoding files_get's wrapped response and reading available disk-backed blobs instead of falling through to public signed URLs.",
+      "version": "0.7.2",
+      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. The AI-native multi-track workspace provides draggable and resizable clips, snapping, zoom, undo/redo, split and duplicate commands, composited preview, visible visual/text/audio/silence/soundtrack lanes, PIP layout controls, responsive drawers, and keyboard shortcuts. Public installs use the stable V1 timeline/render surface while experimental Composer V2 remains gated for internal development. v0.7.0 adds reusable video and audio source ranges, normalized source crops, eased pan/zoom keyframes, editable browser event markers, timeline controls, and shared local/remote rendering. v0.7.1 fixes local Storage resolution by decoding files_get's wrapped response and reading available disk-backed blobs instead of falling through to public signed URLs. v0.7.2 smooths subtle camera moves with adaptive 2x/4x pan-and-zoom rendering plus Lanczos downscaling, and adds 0.25x-16x playback rates for video and audio with synchronized pitch-safe retained audio.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
