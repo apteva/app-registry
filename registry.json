@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-27T12:08:44Z",
+  "updated_at": "2026-08-27T14:03:02Z",
   "apps": [
     {
       "name": "push",
@@ -2216,8 +2216,8 @@
     {
       "name": "builder",
       "display_name": "Builder",
-      "version": "0.1.1",
-      "description": "Goal-driven orchestration for Apteva Helper. The Builder workspace combines the Helper conversation with live durable state for the outcome, execution plan, approvals, success checks, managed resources, and meaningful activity.",
+      "version": "0.2.0",
+      "description": "Goal-driven orchestration for Apteva Helper. Builder now optionally installs Evals and isolated Environments to simulate, score, and safely refine agent workflows before production activation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/builder",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/builder/apteva.yaml",
@@ -2228,7 +2228,9 @@
         "orchestration",
         "goals",
         "planning",
-        "approvals"
+        "approvals",
+        "evals",
+        "simulation"
       ],
       "official": true,
       "category": "workflow"
