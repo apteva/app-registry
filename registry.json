@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-27T08:47:36Z",
+  "updated_at": "2026-08-27T09:55:12Z",
   "apps": [
     {
       "name": "push",
@@ -916,8 +916,8 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.15.1",
-      "description": "Schedule, draft, review, approve, and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools. v0.15.1 explicitly requests Apteva-hosted Storage delivery URLs so secure provider relays such as TikTok receive URLs from the verified Apteva instance.",
+      "version": "0.15.2",
+      "description": "Schedule, draft, review, approve, and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools. v0.15.2 preserves Zernio-created, scheduled, and published timestamps plus platform post identities and URLs; reconciles imported lifecycle states safely without republishing history; sorts by the upstream lifecycle date; and labels provider-imported posts in the panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/social/apteva.yaml",
