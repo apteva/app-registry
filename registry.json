@@ -2216,8 +2216,8 @@
     {
       "name": "builder",
       "display_name": "Builder",
-      "version": "0.1.0",
-      "description": "Goal-driven orchestration for Apteva Helper. Turns an outcome into a durable plan, tracks the agents, apps, integrations, credentials, checks, and decisions involved, and keeps execution grounded in explicit success criteria.",
+      "version": "0.1.1",
+      "description": "Goal-driven orchestration for Apteva Helper. The Builder workspace combines the Helper conversation with live durable state for the outcome, execution plan, approvals, success checks, managed resources, and meaningful activity.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/builder",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/builder/apteva.yaml",
