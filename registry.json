@@ -2214,6 +2214,26 @@
       "category": "infrastructure"
     },
     {
+      "name": "builder",
+      "display_name": "Builder",
+      "version": "0.1.0",
+      "description": "Goal-driven orchestration for Apteva Helper. Turns an outcome into a durable plan, tracks the agents, apps, integrations, credentials, checks, and decisions involved, and keeps execution grounded in explicit success criteria.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/builder",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/builder/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/builder/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "agents",
+        "orchestration",
+        "goals",
+        "planning",
+        "approvals"
+      ],
+      "official": true,
+      "category": "workflow"
+    },
+    {
       "name": "conversations",
       "display_name": "Conversations",
       "version": "0.17.1",
