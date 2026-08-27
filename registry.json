@@ -703,12 +703,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.0",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.0 hardens content-agnostic Smart Crop against disconnected background saliency and unsupported temporal jumps, exposes executor-resolved crop rectangles and paths without replacing submitted parameters, returns tracked paths from Smart Crop preview, and adds an opt-in contain fit that preserves the complete source frame. External ingestion defaults to apteva/inline, supports explicit proxy or direct delivery, and reports Storage-confirmed effective delivery, disposition, and expiry values. Requires Storage 0.10.26 or newer.",
+      "version": "0.14.1",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.1 routes read-only media analysis through the configured remote instance when render_host_id is set, fails closed when that executor is unavailable, and reports the effective executor and host. It retains v0.14.0's content-agnostic Smart Crop hardening, resolved crop diagnostics, and opt-in contain fit. External ingestion defaults to apteva/inline, supports explicit proxy or direct delivery, and reports Storage-confirmed effective delivery, disposition, and expiry values. Requires Storage 0.10.26 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.0/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.0/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.1/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.1/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
