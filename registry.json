@@ -214,7 +214,7 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "3.2.7",
+      "version": "3.3.3",
       "description": "Durable work, progress, schedules, occurrences, and opaque thread assignment for Apteva agents.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
