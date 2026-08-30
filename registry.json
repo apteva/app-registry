@@ -703,12 +703,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.2",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.2 adds a read-only, fail-closed Bunny Stream embed resolver that derives the player URL from canonical Media metadata, validates site and source identity, and remotely rejects unavailable or soft-404 players before external publishing. It retains remote read-only analysis execution, content-agnostic Smart Crop hardening, and Storage-confirmed external delivery modes. Requires Storage 0.10.26 or newer.",
+      "version": "0.14.3",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.3 keeps external-provider publishing data in arbitrary media metadata and removes provider-specific URL resolution from Media itself. It retains remote read-only analysis execution, content-agnostic Smart Crop hardening, and Storage-confirmed external delivery modes. Requires Storage 0.10.26 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.2/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.2/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.3/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.3/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -723,7 +723,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-08-30T09:30:00Z"
+      "updated_at": "2026-08-30T09:41:00Z"
     },
     {
       "name": "podcast",
