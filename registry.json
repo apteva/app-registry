@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-03T13:37:07Z",
+  "updated_at": "2026-09-03T14:33:43Z",
   "apps": [
     {
       "name": "push",
@@ -1666,8 +1666,8 @@
     {
       "name": "containers",
       "display_name": "Containers",
-      "version": "0.2.0",
-      "description": "Generic Docker workload runtime for Apteva. Runs arbitrary container images on local or remote Instances hosts with pull policies, bounded pre-start file and secret injection, named volumes, ports, health checks, logs, lifecycle actions, storage usage metrics, and built-in blueprints. v0.2.0 adds caller-owned asynchronous command execution with lifecycle events, timeouts, cancellation, bounded retained logs, restart reconciliation, safe archive-only named-volume import/export, and workload command, working-directory, and user overrides. Execution and archive transfer are app-only and local-Docker first; ownership checks prevent apps from operating on unrelated workloads.",
+      "version": "0.2.1",
+      "description": "Generic Docker workload runtime for Apteva. Runs arbitrary container images on local or remote Instances hosts with pull policies, bounded pre-start file and secret injection, named volumes, ports, health checks, logs, lifecycle actions, storage usage metrics, and built-in blueprints. v0.2 adds caller-owned asynchronous command execution with lifecycle events, timeouts, cancellation, bounded retained logs, restart reconciliation, safe archive-only named-volume import/export, and workload command, working-directory, and user overrides. v0.2.1 removes retained command containers before workload volumes are destroyed, preventing leaked Docker resources during workspace teardown.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/containers",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/apteva.yaml",
