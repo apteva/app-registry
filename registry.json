@@ -1974,8 +1974,8 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.8.0",
-      "description": "Identity layer for Apteva-deployed SaaS: email + password signup/login, EdDSA JWT issuance with JWKS, refresh-token rotation, OAuth client registry, app-specific user metadata, email verification, password reset, magic links, and TOTP MFA. Agents administer organizations, users, clients, and metadata via MCP tools; the deployed frontend hits the public HTTP routes; the dashboard renders a consolidated Auth panel. Messaging is an optional dependency for transactional email. v0.7.4 adds Auth's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.10.0",
+      "description": "Identity layer for Apteva-deployed SaaS, partitioned by organization: email + password signup/login, EdDSA JWT issuance with per-org JWKS, refresh-token rotation, OAuth client registry, roles and permissions, app-specific user metadata, email verification, password reset, magic links, and TOTP MFA. Agents administer organizations, users, clients, and roles via MCP tools; the deployed frontend hits the public HTTP routes; the dashboard renders a consolidated Auth panel. Messaging is an optional dependency for transactional email. v0.10.0 adds guest and external-identity accounts: sibling apps such as Games log players in by device, custom, or verified provider identity, link and unlink identities, upgrade guests to full accounts, and fetch JWKS by tool.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/apteva.yaml",
@@ -1990,7 +1990,30 @@
         "saas"
       ],
       "official": true,
-      "category": "developer"
+      "category": "developer",
+      "updated_at": "2026-09-03T06:28:53Z"
+    },
+    {
+      "name": "games",
+      "display_name": "Games",
+      "version": "0.1.0",
+      "description": "Game backend for Apteva: players and progression, operated by an agent. Guest and custom-ID login through the Auth app, player profiles and bans, versioned player data (cloud save) with public, private, and server visibility, server-authoritative statistics with last/max/min/sum aggregation, leaderboards with daily, weekly, monthly, and season periods, and achievements evaluated from statistics. Game clients use the /v1 player API with Auth-issued JWTs; agents use the MCP tools; the dashboard panel shows players, leaderboards, and definitions.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/games",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/games/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/games/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "games",
+        "players",
+        "progression",
+        "leaderboards",
+        "liveops",
+        "backend"
+      ],
+      "official": true,
+      "category": "developer",
+      "updated_at": "2026-09-03T06:28:53Z"
     },
     {
       "name": "market-intel",
