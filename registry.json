@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-03T10:42:25Z",
+  "updated_at": "2026-09-03T13:16:39Z",
   "apps": [
     {
       "name": "push",
@@ -1680,6 +1680,26 @@
         "workloads",
         "execution",
         "volumes",
+        "infrastructure"
+      ],
+      "official": true,
+      "category": "infrastructure"
+    },
+    {
+      "name": "workspaces",
+      "display_name": "Workspaces",
+      "version": "0.1.0",
+      "description": "Control room for durable development environments. Workspaces tracks ownership, lifecycle, TTL, commands, logs, resources, activity, and safety context while the required Containers app owns the underlying Docker workloads and volumes. This first release supports approved local runtime profiles and a non-interactive command console.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/workspaces",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workspaces/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workspaces/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "workspaces",
+        "development",
+        "agents",
+        "containers",
         "infrastructure"
       ],
       "official": true,
