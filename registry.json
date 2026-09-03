@@ -1912,12 +1912,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.44",
-      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.44 prevents account-restricted Meta THRUPLAY billing requests and preserves Meta's actionable error details and remediation.",
+      "version": "0.1.45",
+      "description": "Paid advertising control plane for Apteva. Manage Meta, Google, X, and Reddit ad accounts, resources, campaigns, ad sets, ads, creatives, audiences, and normalized daily media performance behind one MCP surface. v0.1.45 preflights Meta ad-set goals against the parent campaign, prevents native overrides from bypassing validated delivery fields, classifies unavailable performance goals, and records safe request context for rejected creates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.44/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.44/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.45/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.45/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
