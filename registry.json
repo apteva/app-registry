@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-03T06:26:31Z",
+  "updated_at": "2026-09-03T10:42:25Z",
   "apps": [
     {
       "name": "push",
@@ -49,12 +49,12 @@
     {
       "name": "design",
       "display_name": "Design Studio",
-      "version": "0.1.1",
-      "description": "Agent-native parametric 2D/3D CAD for Apteva. Build safe LLM-generatable operation graphs as exact OpenCascade solids, inspect dimensions and topology, preview meshes, validate manufacturing constraints, export STEP, STL, 3MF, and GLB, and create traceable manufacturing packages.",
+      "version": "0.4.0",
+      "description": "Agent-native parametric 2D/3D CAD for exact solids, revision-linked PCB enclosures, reusable component documents, nested assemblies, printable open-hardware products, validation, per-part STEP/STL/3MF exports, GLB previews, and traceable manufacturing packages.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/design",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.1.1/mcp/design/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.1.1/mcp/design/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.4.0/mcp/design/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.4.0/mcp/design/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "design",
@@ -62,7 +62,11 @@
         "3d",
         "manufacturing",
         "3d-printing",
-        "parametric"
+        "parametric",
+        "assemblies",
+        "open-hardware",
+        "robotics",
+        "pcb-enclosures"
       ],
       "official": true,
       "category": "tools"
