@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-08-29T18:05:53Z",
+  "updated_at": "2026-09-03T06:26:31Z",
   "apps": [
     {
       "name": "push",
@@ -214,8 +214,8 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "3.3.3",
-      "description": "Durable work, progress, schedules, occurrences, and opaque thread assignment for Apteva agents.",
+      "version": "3.4.0",
+      "description": "Durable work, progress, schedules, occurrence execution tracking, safe recovery, and opaque thread assignment for Apteva agents.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tasks/apteva.yaml",
