@@ -309,8 +309,8 @@
     {
       "name": "books",
       "display_name": "Books",
-      "version": "0.1.1",
-      "description": "Structured long-form manuscript workspace. Create books, organize chapters and sections, write in markdown, keep notes, track revisions, and export manuscripts. v0.1.1 adds Books's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Publication-ready book workspace with structured manuscripts, revision history, covers and images, EPUB 3 validation, print PDF export, and platform-specific publishing packages.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/books",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/books/apteva.yaml",
