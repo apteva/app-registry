@@ -313,8 +313,8 @@
     {
       "name": "books",
       "display_name": "Books",
-      "version": "0.2.0",
-      "description": "Publication-ready book workspace with structured manuscripts, revision history, covers and images, EPUB 3 validation, print PDF export, and platform-specific publishing packages.",
+      "version": "0.2.1",
+      "description": "Publication-ready book workspace with EPUB 3 and print PDF export. v0.2.1 supports full 25 MiB base64 asset uploads and treats the built-in EPUB structural preflight as publication-ready while clearly distinguishing optional W3C EPUBCheck certification.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/books",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/books/apteva.yaml",
