@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-03T16:29:34Z",
+  "updated_at": "2026-09-04T08:31:08Z",
   "apps": [
     {
       "name": "push",
@@ -313,8 +313,8 @@
     {
       "name": "books",
       "display_name": "Books",
-      "version": "0.2.1",
-      "description": "Publication-ready book workspace with EPUB 3 and print PDF export. v0.2.1 supports full 25 MiB base64 asset uploads and treats the built-in EPUB structural preflight as publication-ready while clearly distinguishing optional W3C EPUBCheck certification.",
+      "version": "0.2.2",
+      "description": "Publication-ready book workspace with EPUB 3 and print PDF export. v0.2.2 adds compact manuscript-tree reads and atomic append, prepend, and exact-replace operations with checksum conflict protection for reliable chapter workers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/books",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/books/apteva.yaml",
