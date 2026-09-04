@@ -218,8 +218,8 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "3.4.0",
-      "description": "Durable work, progress, schedules, occurrence execution tracking, safe recovery, and opaque thread assignment for Apteva agents.",
+      "version": "3.5.0",
+      "description": "Durable work, progress, schedules, occurrence execution tracking, safe recovery, and opaque thread assignment for Apteva agents. v3.5.0 adds focused progress, definition-edit, and failure tools while retaining the combined update operation for compatibility.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tasks/apteva.yaml",
