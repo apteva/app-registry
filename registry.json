@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T13:23:45Z",
+  "updated_at": "2026-09-05T13:39:59Z",
   "apps": [
     {
       "name": "push",
@@ -1666,11 +1666,11 @@
     {
       "name": "containers",
       "display_name": "Containers",
-      "version": "0.4.0",
-      "description": "Generic Docker workload runtime for Apteva. Runs arbitrary container images on local or remote Instances hosts with pull policies, bounded pre-start file and secret injection, named volumes, ports, health checks, logs, lifecycle actions, storage usage metrics, and built-in blueprints. v0.4.0 adds named persistent PTY shell sessions: current directory, exported variables, functions, aliases, installed packages, writable files, and services persist across commands, with targeted interruption, timeouts, bounded logs, ownership checks, and audit events.",
+      "version": "0.5.0",
+      "description": "Generic Docker workload runtime for Apteva. Runs arbitrary container images on local or remote Instances hosts with persistent shell sessions, named volumes, ports, health checks, logs, lifecycle actions, and built-in blueprints. v0.5.0 fixes project isolation, argument injection, lifecycle and cancellation races, retained-volume reuse, archive safety, output bounds, file ownership, port allocation, and UI reliability. HTTP readiness checks are opt-in; execution and archive transfer are local-only.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/containers",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/containers/v0.5.0/mcp/containers/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/containers/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
