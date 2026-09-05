@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T07:55:41Z",
+  "updated_at": "2026-09-05T08:39:32Z",
   "apps": [
     {
       "name": "push",
@@ -1728,12 +1728,12 @@
     {
       "name": "fleet",
       "display_name": "Fleet",
-      "version": "0.10.5",
-      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant with its own data dir and port, supervised by Fleet; hosted tenants can run on the parent server or on VPS instances. Includes tenant_clone and tenant_migrate for local/remote host-to-host transfer, provider hooks for Backup, admin-driven bootstrap, encrypted api_key keyring, server-native ingress/cert registration for tenant hostnames, delegated DNS/domain grants, generic provider grants for sharing parent integrations into tenants, generic tenant inventory/platform/app-MCP control tools, health polling, boot reconciliation, tenant updates, support-login tools, optional A2A pairing, isolated tenant environments, and project-template provisioning. v0.10.1 makes hosted clone transfer source-disk safe: ordinary files stream directly with resumable rsync, live SQLite databases copy with sqlite3_rsync, and domainless clones stay stopped until a quarantine rehearsal succeeds. v0.10.2 fixes SQLite replica relative-path expansion in both cross-host and same-host clone scripts. v0.10.3 launches the exact versioned CLI, server, and Core binaries, rejects runtime/health version mismatches, and preserves stopped tenants during updates. v0.10.4 skips intentionally offline hosted tenants during startup reconciliation, so a removed rehearsal VPS cannot prevent Fleet from mounting. v0.10.5 safely stops all validated processes in a hosted tenant session, verifies ambiguous SSH outcomes, preserves static deployments, and uses durable update leases to prevent auto-respawn races across Fleet restarts.",
+      "version": "0.10.6",
+      "description": "Control plane for a fleet of client Apteva instances. Spawns each tenant with its own data dir and port, supervised by Fleet; hosted tenants can run on the parent server or on VPS instances. Includes tenant_clone and tenant_migrate for local/remote host-to-host transfer, provider hooks for Backup, admin-driven bootstrap, encrypted api_key keyring, server-native ingress/cert registration for tenant hostnames, delegated DNS/domain grants, generic provider grants for sharing parent integrations into tenants, generic tenant inventory/platform/app-MCP control tools, health polling, boot reconciliation, tenant updates, support-login tools, optional A2A pairing, isolated tenant environments, and project-template provisioning. v0.10.1 makes hosted clone transfer source-disk safe: ordinary files stream directly with resumable rsync, live SQLite databases copy with sqlite3_rsync, and domainless clones stay stopped until a quarantine rehearsal succeeds. v0.10.2 fixes SQLite replica relative-path expansion in both cross-host and same-host clone scripts. v0.10.3 launches the exact versioned CLI, server, and Core binaries, rejects runtime/health version mismatches, and preserves stopped tenants during updates. v0.10.4 skips intentionally offline hosted tenants during startup reconciliation, so a removed rehearsal VPS cannot prevent Fleet from mounting. v0.10.5 safely stops all validated processes in a hosted tenant session, verifies ambiguous SSH outcomes, preserves static deployments, and uses durable update leases to prevent auto-respawn races across Fleet restarts. v0.10.6 hardens authentication and tenant-scoped credentials, safe archive handling, durable lifecycle recovery, port and hostname ownership, DNS cleanup, setup and restore state; bounds health polling and logs; and adds paginated lists, operation recovery and local storage cleanup controls.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/fleet",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/fleet/v0.10.5/mcp/fleet/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/fleet/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/fleet/v0.10.6/mcp/fleet/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/fleet/v0.10.6/mcp/fleet/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "fleet",
@@ -1745,7 +1745,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-04T07:28:59Z"
+      "updated_at": "2026-09-05T08:39:32Z"
     },
     {
       "name": "robot",
