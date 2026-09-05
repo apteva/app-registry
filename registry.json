@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T12:23:25Z",
+  "updated_at": "2026-09-05T13:23:45Z",
   "apps": [
     {
       "name": "push",
@@ -667,8 +667,8 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.5.25",
-      "description": "Repositories — named, framework-tagged code workspaces scoped under Apteva projects. First-class editing tools modelled on Claude Code: partial reads with line numbers, exact-match string edits with uniqueness checks, atomic multi-edit, repo-wide grep + glob, ZIP import for repository initialization or overlay updates, editor-style SVG source-tree icons, and native repo issues for bugs, feature requests, tasks, comments, and code links. v0.5.18 makes coding tools more agent-efficient with compact grep modes, smaller paged reads, file outlines/excerpts, and dry-run unified patch application for large edits. v0.5.17 unifies project navigation with a single top tab bar and renames the global code view to Repositories. v0.5.16 gives the project-wide Issues inbox the full panel width and makes issue titles the primary row text with repo metadata below. v0.5.15 adds a project-wide Issues inbox in the UI so operators can scan and create issues across all repositories without selecting a repo first. v0.5.14 adds project-wide issue search for agents, defaults the issue UI to all states, and batches field edits in the edit modal. v0.5.13 moves issue metadata editing into a modal and keeps the issue detail page focused on title, body, links, and comments. v0.5.12 simplifies the issue UI with quieter issue rows, fewer visible filters, and compact metadata chips in the detail sidebar. v0.5.11 separates issue lifecycle state from workflow status: state=open|closed, reason=completed|not_planned, and status for board workflow such as todo, in_progress, blocked, or done. v0.5.10 promotes Code and Issues to top-level repository tabs, with the file tree scoped to the Code tab like a GitHub-style repo view. v0.5.25 adds Apteva Code's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.9.0",
+      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.9.0 prevents lost concurrent edits and stale saves, makes patches and imports recoverable, fixes selected Git commits, preserves workspace data on sync failures, and hardens previews, cancellation, pagination and resource limits. Finite commands now default to Workspaces; trusted local execution requires explicit installation configuration.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
