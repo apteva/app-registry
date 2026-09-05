@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T13:39:59Z",
+  "updated_at": "2026-09-05T13:41:07Z",
   "apps": [
     {
       "name": "push",
@@ -1041,8 +1041,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "0.5.2",
-      "description": "DNS + domain inventory and registrar workflows for Apteva projects. v0.5 adds exact record-ID edits and deletes, safe multi-record RRset handling, project-isolated connections, strict provider errors and Spaceship pagination, serialized DNS mutations, and expiring idempotent confirmation intents for paid registration. v0.5.1 adds Domains's adaptive themed icon. v0.5.2 supports multiple DNS and registrar provider bindings with explicit defaults and per-domain connection selection.",
+      "version": "0.6.0",
+      "description": "DNS, domain inventory and registrar workflows for Apteva projects. v0.6 fixes wrong-target writes, exact record selection, TXT and MX/SRV handling, account pinning and provider response validation. Adds safe create/ensure modes, durable purchase and DNS recovery, provider capabilities, metadata editing, expiry refresh and scoped UI controls. Paid registration requires the refreshed Porkbun integration catalog.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
@@ -1060,8 +1060,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.24.8",
-      "description": "Build and release services, Android apps, and iOS apps from Code, local, or Git sources through local, capsule, Codemagic, and GitHub Actions backends. Deploy manages production and staging environments, domains, retained artifacts, supervised runtime recovery, mobile signing, TestFlight and Play testing, and provider-neutral App Store Connect and Google Play listing preparation. v0.24.8 resolves rejected App Store review items before idempotently resubmitting the existing review submission with its replacement build.",
+      "version": "0.25.0",
+      "description": "Build and release services, Android apps, and iOS apps from Code or local sources through local, capsule, Codemagic, and GitHub Actions backends. v0.25.0 adds project-scoped access, durable release/cancellation intent, verified process ownership, safe replacement and exact-build recovery, encrypted signing revisions, bounded archives/logs, ingress retries, and environment-aware panel actions. Local builds return asynchronously; GitHub workflows require the apteva_deploy_run_id correlation input.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
@@ -1625,8 +1625,8 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.4.25",
-      "description": "Compute-host inventory + lifecycle for Apteva. Manages the local Apteva machine and remote VPS instances under one MCP/REST surface so other apps (Live Link self-vps, Deploy SSHRuntime, Backup off-host, future Containers/Database/MQTT/game-server apps) bind a single \"compute\" dependency instead of each speaking VPS-provider APIs directly. The local machine is auto-seeded as instance id=0 and is always 'ready' — cannot be created or destroyed via the public API. Remote instances are provisioned via Hetzner Cloud. Per-instance Ed25519 SSH keypair seeded into the box via cloud-init authorized_keys; background readiness probe flips status='provisioning' → 'ready' once SSH accepts the key. MCP tools cover create/get/list/destroy/run/upload/download/wait/metrics so higher-level apps can transfer artifacts between local and remote hosts. Vitals (CPU / mem / disk / net / load / uptime) via gopsutil locally and a /proc-parsing bash script over SSH remotely, cached 5s per host. v0.4.21 adds Instances's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.4.42",
+      "description": "Compute-host inventory and lifecycle across bound cloud providers, with SSH execution, file transfer, tunnels, metrics, block volumes and object storage. Version 0.4.42 hardens lifecycle recovery, storage identity and retention, provider account selection, credential cleanup, file operations and UI consistency, and updates dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/instances/apteva.yaml",
