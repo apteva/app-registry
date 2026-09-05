@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T09:52:28Z",
+  "updated_at": "2026-09-05T09:58:22Z",
   "apps": [
     {
       "name": "push",
@@ -606,7 +606,7 @@
     {
       "name": "jobs",
       "display_name": "Jobs",
-      "version": "0.1.13",
+      "version": "0.1.14",
       "description": "Scheduled-job runner for one-time, interval, cron, and deterministic randomized daily-window work. Dispatches platform-authorized sibling app tools, external HTTP targets, or agent events with bounded concurrency, reclaimable leases, retries, occurrence-specific idempotency, execution metadata, previews, and retained run history.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/jobs",
@@ -622,7 +622,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-08-10T09:09:36Z"
+      "updated_at": "2026-09-05T09:58:22Z"
     },
     {
       "name": "functions",
