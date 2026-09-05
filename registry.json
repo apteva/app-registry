@@ -920,8 +920,8 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.15.3",
-      "description": "Schedule, draft, review, approve, and publish posts to your social media accounts (X, Facebook, Instagram, LinkedIn, TikTok, YouTube, Reddit, Pinterest, Threads). Connect accounts from inside the app — no separate integration setup. Posts can be triggered from the panel or by an agent via MCP tools. v0.15.3 separates publishing access from provider history imports: automatic synchronization defaults to managed-only exact post reconciliation, full-history import is explicit, provider/profile bindings are enforced, and locally deleted provider imports remain suppressed.",
+      "version": "0.16.3",
+      "description": "Schedule, review, approve, and publish posts across native social platforms and Zernio. Social 0.16.3 hardens approval and delivery integrity, scheduling and retries, inbox synchronization, analytics, media uploads, TikTok privacy, OAuth callbacks, and account management.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/refs/heads/main/mcp/social/apteva.yaml",
