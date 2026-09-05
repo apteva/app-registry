@@ -568,8 +568,8 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.10.24",
-      "description": "File storage with virtual folders, signed URLs, dedup, resumable uploads, and a pluggable local or S3-compatible backend. v0.10.19 serves public and HMAC-signed downloads through a dedicated read-only anonymous route while keeping metadata, uploads, and mutations authenticated. v0.10.22 adds Storage's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.11.0",
+      "description": "File storage with virtual folders, scoped sharing, deduplication, resumable uploads, and local or S3-compatible backends. v0.11.0 hardens folder permissions and URL imports, verifies uploads before immutable publication, adds durable completion retries and cleanup, makes Storage share links revocable, and fixes pagination and UI races. Includes faster folder summaries, lower memory use, and updated dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/apteva.yaml",
