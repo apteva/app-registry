@@ -587,7 +587,7 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, and an efficient table editor.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
