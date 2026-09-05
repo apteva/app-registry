@@ -568,8 +568,8 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.11.1",
-      "description": "File storage with virtual folders, scoped sharing, deduplication, resumable uploads, and local or S3-compatible backends. v0.11.1 returns HTTP 403 when URL imports are blocked by the internal-network policy, including redirects. Includes the v0.11.0 authorization, upload integrity, revocable sharing, cleanup, pagination, and performance improvements.",
+      "version": "0.11.2",
+      "description": "File storage with virtual folders, scoped sharing, deduplication, resumable uploads, and local or S3-compatible backends. v0.11.2 fixes the panel and file-card JSX runtime crash, enforces production bundle imports, and validates release modules against the dashboard runtime. Includes the v0.11.1 import-policy HTTP fix and v0.11.0 security, reliability, and performance improvements.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/apteva.yaml",
