@@ -1625,8 +1625,8 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.4.25",
-      "description": "Compute-host inventory + lifecycle for Apteva. Manages the local Apteva machine and remote VPS instances under one MCP/REST surface so other apps (Live Link self-vps, Deploy SSHRuntime, Backup off-host, future Containers/Database/MQTT/game-server apps) bind a single \"compute\" dependency instead of each speaking VPS-provider APIs directly. The local machine is auto-seeded as instance id=0 and is always 'ready' — cannot be created or destroyed via the public API. Remote instances are provisioned via Hetzner Cloud. Per-instance Ed25519 SSH keypair seeded into the box via cloud-init authorized_keys; background readiness probe flips status='provisioning' → 'ready' once SSH accepts the key. MCP tools cover create/get/list/destroy/run/upload/download/wait/metrics so higher-level apps can transfer artifacts between local and remote hosts. Vitals (CPU / mem / disk / net / load / uptime) via gopsutil locally and a /proc-parsing bash script over SSH remotely, cached 5s per host. v0.4.21 adds Instances's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.4.42",
+      "description": "Compute-host inventory and lifecycle across bound cloud providers, with SSH execution, file transfer, tunnels, metrics, block volumes and object storage. Version 0.4.42 hardens lifecycle recovery, storage identity and retention, provider account selection, credential cleanup, file operations and UI consistency, and updates dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/instances/apteva.yaml",
