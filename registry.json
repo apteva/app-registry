@@ -627,8 +627,8 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.7.0",
-      "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>. v1.7.0 adds incremental HTTP response streaming and Server-Sent Events for both Node and Go functions while keeping functions_invoke unary.",
+      "version": "1.8.0",
+      "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>. v1.8.0 improves warm execution and app-call performance, validates deployments before activation, and hardens resource limits, cancellation and streaming. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+); review the upgrade notes before installing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/apteva.yaml",
