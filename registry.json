@@ -2065,11 +2065,11 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.13.0",
-      "description": "Generic project-scoped event analytics for Apteva apps, with explicit tracking, bus auto-capture, static-site collection, tracking plans, saved dashboards, reusable Home widgets, themed area charts, previous-period comparisons, and linked measurable goals. v0.13.0 adds governed project-scoped reference sets, active canonical-value validation and discovery, and safe event-spec patching that preserves omitted properties and policies.",
+      "version": "0.14.0",
+      "description": "Project-scoped event analytics with explicit tracking, bus capture, website collection, saved dashboards and measurable goals. v0.14.0 fixes typed filters, rollup arithmetic and replay, money validation, objective identity, live refresh and tracking sessions. Adds guided query, reference and FX management, opt-in retention and diagnostics, bounded queries, and a patched runtime.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.13.0/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.14.0/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -2079,7 +2079,7 @@
       ],
       "official": true,
       "category": "observability",
-      "updated_at": "2026-08-25T00:00:00Z"
+      "updated_at": "2026-09-05T12:27:48Z"
     },
     {
       "name": "webinars",
