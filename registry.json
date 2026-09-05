@@ -489,8 +489,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.84",
-      "description": "Watch, steer, and replay hosted browser sessions. v0.7.84 updates controlled rich-text editors through native browser input, preserves embedded non-editable widgets, and verifies the settled rendered value.",
+      "version": "0.7.88",
+      "description": "Watch, steer, and replay hosted browser sessions. v0.7.88 improves stable control targeting, framework input state, tab activation, session cleanup, and observation efficiency, with expanded live LLM regression coverage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -503,7 +503,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-08-29T18:05:53Z"
+      "updated_at": "2026-09-05T10:35:25Z"
     },
     {
       "name": "screenshots",
