@@ -2,17 +2,17 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T15:47:50Z",
+  "updated_at": "2026-09-05T16:04:33Z",
   "apps": [
     {
       "name": "neural",
       "display_name": "Neural Studio",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Train small neural networks on your CPU. Explore live neuron activations, spike encoding, decision boundaries, training and validation curves, immutable model versions, and project-authenticated prediction endpoints.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/neural",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/neural/v0.1.0/mcp/neural/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/neural/v0.1.0/mcp/neural/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/neural/v0.1.1/mcp/neural/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/neural/v0.1.1/mcp/neural/ui/icon.svg",
       "tags": [
         "ai",
         "neural",
