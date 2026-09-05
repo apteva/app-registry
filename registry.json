@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T13:23:45Z",
+  "updated_at": "2026-09-05T13:36:59Z",
   "apps": [
     {
       "name": "push",
@@ -1041,8 +1041,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "0.5.2",
-      "description": "DNS + domain inventory and registrar workflows for Apteva projects. v0.5 adds exact record-ID edits and deletes, safe multi-record RRset handling, project-isolated connections, strict provider errors and Spaceship pagination, serialized DNS mutations, and expiring idempotent confirmation intents for paid registration. v0.5.1 adds Domains's adaptive themed icon. v0.5.2 supports multiple DNS and registrar provider bindings with explicit defaults and per-domain connection selection.",
+      "version": "0.6.0",
+      "description": "DNS, domain inventory and registrar workflows for Apteva projects. v0.6 fixes wrong-target writes, exact record selection, TXT and MX/SRV handling, account pinning and provider response validation. Adds safe create/ensure modes, durable purchase and DNS recovery, provider capabilities, metadata editing, expiry refresh and scoped UI controls. Paid registration requires the refreshed Porkbun integration catalog.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
