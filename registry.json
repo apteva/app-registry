@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T12:21:43Z",
+  "updated_at": "2026-09-05T12:23:25Z",
   "apps": [
     {
       "name": "push",
@@ -1229,8 +1229,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.12.5",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer settings, and PDF/HTML invoice rendering. Billing owns processor execution and webhook reconciliation. v0.12.5 adds first-class invoice accounting dates, makes historical payment receipt times authoritative for paid_at, and enriches invoice.paid events with invoice chronology and causative payment details.",
+      "version": "0.13.0",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.0 hardens payment and refund integrity with durable Stripe recovery, invoice payment coordination, transactional events, immutable issued identities, currency/date validation, paginated history, and stale-response-safe UI. Requires Apteva server 0.27.4 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1246,7 +1246,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-08-20T10:52:50Z"
+      "updated_at": "2026-09-05T12:23:25Z"
     },
     {
       "name": "catalog",
