@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T09:38:01Z",
+  "updated_at": "2026-09-05T09:52:28Z",
   "apps": [
     {
       "name": "push",
@@ -2126,8 +2126,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.1.21",
-      "description": "Voice calls via Twilio, Telnyx, Plivo, SignalWire, or Vonage with realtime agent threads. Supports complete inbound and outbound routing, immediate or agent-decided answer, verified callbacks, optional dual-channel recording, connected-number and routing visibility, paced 20 ms bidirectional media, playback progress, bounded congestion recovery, and caller barge-in. Noisy calls use frame-size-independent WebRTC VAD, sustained-speech detection, an adaptive noise floor, low-latency suppression, forwarded-call context, and detailed audio diagnostics. Storage remains optional for durable private recording copies. v0.1.21 requests Core's provider-neutral telephony turn-detection profile for inbound and outbound threads, makes provider speech-start detection authoritative by default, and retains explicit local VAD fallback mode.",
+      "version": "0.3.8",
+      "description": "Voice calls and browser softphone with Twilio, Telnyx, Plivo, SignalWire, and Vonage. Includes published IVR flows, connected-number inventory, realtime agent calling, and durable team ringing: simultaneous, sequential, round-robin, or priority, with first-answer wins, per-member timeouts, loser cancellation, and no-answer fallback. Phone/SIP ring-group legs use Twilio, Telnyx, or Plivo webhook routes; browser destinations are shared operator pools. Improves call controls, audio buffering and resampling, recording cleanup, callback recovery, and call-list performance. Storage is optional for private recording copies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
