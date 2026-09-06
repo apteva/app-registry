@@ -2041,8 +2041,8 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.1.0",
-      "description": "Game backend for Apteva: players and progression, operated by an agent. Guest and custom-ID login through the Auth app, player profiles and bans, versioned player data (cloud save) with public, private, and server visibility, server-authoritative statistics with last/max/min/sum aggregation, leaderboards with daily, weekly, monthly, and season periods, and achievements evaluated from statistics. Game clients use the /v1 player API with Auth-issued JWTs; agents use the MCP tools; the dashboard panel shows players, leaderboards, and definitions.",
+      "version": "0.2.0",
+      "description": "Multi-game backend for Apteva: define games with titles and descriptions, each with isolated players, Auth configuration, cloud saves, statistics, leaderboards and achievements. Includes a game catalog, scoped v2 API and MCP tools, legacy v1 migration, transactional progression, retry-safe writes, and faster leaderboard reads.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/games",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/games/apteva.yaml",
@@ -2058,7 +2058,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-03T06:28:53Z"
+      "updated_at": "2026-09-06T14:00:11Z"
     },
     {
       "name": "market-intel",
