@@ -646,11 +646,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.8.1",
-      "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>. v1.8.1 automatically recovers interrupted 1.8.0 schema upgrades, preserves existing identities, and commits repair and migration receipts atomically. Requires Apteva 0.50.2+; embeds SDK 0.76.0 and allows 30 minutes for initialization. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
+      "version": "1.9.0",
+      "description": "Lambda-style serverless functions in node or Go. Each function is an immutable, built version served by a pool of warm worker processes — the runtime boots once and serves invocations over a socketpair, no per-request spawn. Handlers reach other Apteva apps via context.call. Deploy-time build (npm install / go build), immutable versions with rollback, auto-routed HTTP at /fn/<name>, and optional public Function URLs at /url/<name>/<token>. v1.9.0 prepares active runtimes in the background, reuses compatible artifacts after restarts and restores, exposes preparation/readiness controls, and shows invocation timing and cancellation causes. Requires Apteva 0.50.2+ and includes the 1.8.1 migration recovery fix. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.8.1/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.9.0/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
