@@ -587,11 +587,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.11.2",
-      "description": "File storage with virtual folders, scoped sharing, deduplication, resumable uploads, and local or S3-compatible backends. v0.11.2 fixes the panel and file-card JSX runtime crash, enforces production bundle imports, and validates release modules against the dashboard runtime. Includes the v0.11.1 import-policy HTTP fix and v0.11.0 security, reliability, and performance improvements.",
+      "version": "0.11.3",
+      "description": "File storage with virtual folders, scoped sharing, deduplication, resumable uploads, and local or S3-compatible backends. v0.11.3 adds Scaleway Object Storage integration bindings, aligns automatic pending-upload allowance with the configured file limit, and shows file preparation progress with early size checks. Includes the production JSX runtime and import-policy fixes from v0.11.2 and v0.11.1.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.11.3/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
