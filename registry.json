@@ -1142,11 +1142,11 @@
     {
       "name": "torrent",
       "display_name": "Torrent",
-      "version": "0.2.1",
-      "description": "BitTorrent client + indexer-search frontend. Search across configured Jackett / Prowlarr / RSS sources, add downloads by magnet or .torrent URL; on completion the resulting files are uploaded to the storage app and probed by media. Generic — ships with no indexers preconfigured; the user supplies sources and is responsible for what they download. v0.2.1 adds Torrent's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.4",
+      "description": "BitTorrent client with default ApiBay keyword search, optional Jackett/Prowlarr/Torznab sources, and native magnet/infohash metadata lookup through peers and DHT. Selected downloads transfer to Storage. v0.2.4 improves search compatibility, queue and file-priority handling, scheduled auto-add, and resource cleanup.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/torrent",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/torrent/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/torrent/v0.2.4/mcp/torrent/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/torrent/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
