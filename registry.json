@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-06T14:06:26Z",
+  "updated_at": "2026-09-06T15:09:31Z",
   "apps": [
     {
       "name": "neural",
@@ -1518,11 +1518,11 @@
     {
       "name": "currencies",
       "display_name": "Currencies",
-      "version": "0.2.0",
-      "description": "Provider-neutral ISO 4217 metadata, current and historical exchange rates, and deterministic minor-unit conversion. Bootstraps roughly 90 days of official, keyless ECB euro reference rates and refreshes them periodically; optional Alpaca Market Data, Salt Edge, or Alpha Vantage connections add broader or intraday coverage. Every result preserves effective time, source, staleness, inversion or triangulation path, rounding, and an immutable quote ID; different currencies never silently fall back to parity.",
+      "version": "0.3.0",
+      "description": "Provider-neutral currency metadata, exchange-rate observations and deterministic conversion. Includes public ECB reference rates and bounded historical imports beyond the rolling 90-day feed, with publication timestamps, immutable provenance and optional provider connections.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/currencies",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/currencies/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/currencies/v0.3.0/mcp/currencies/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/currencies/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1534,7 +1534,8 @@
         "conversion"
       ],
       "official": true,
-      "category": "finance"
+      "category": "finance",
+      "updated_at": "2026-09-06T15:09:31Z"
     },
     {
       "name": "mqtt",
@@ -2084,11 +2085,11 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.14.0",
-      "description": "Project-scoped event analytics with explicit tracking, bus capture, website collection, saved dashboards and measurable goals. v0.14.0 fixes typed filters, rollup arithmetic and replay, money validation, objective identity, live refresh and tracking sessions. Adds guided query, reference and FX management, opt-in retention and diagnostics, bounded queries, and a patched runtime.",
+      "version": "0.15.0",
+      "description": "Project-scoped event analytics, dashboards and goals with durable automatic objective refresh, optional Currencies-powered historical ECB imports, explicitly authorized combined goals, retries and freshness indicators. Preserves event identities, cached amounts on failure and auditable FX revisions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.14.0/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.15.0/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -2098,7 +2099,7 @@
       ],
       "official": true,
       "category": "observability",
-      "updated_at": "2026-09-05T12:27:48Z"
+      "updated_at": "2026-09-06T15:09:31Z"
     },
     {
       "name": "webinars",
