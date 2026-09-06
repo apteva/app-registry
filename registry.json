@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-05T16:04:33Z",
+  "updated_at": "2026-09-06T14:06:26Z",
   "apps": [
     {
       "name": "neural",
@@ -2019,8 +2019,8 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.11.0",
-      "description": "Organization-scoped first-party authentication with EdDSA access tokens, atomic refresh rotation and replay detection, session revocation, email verification and password reset, RBAC, and trusted sibling-app identity login. v0.11.0 hardens tenant isolation, credential recovery, identity conversion, resource limits, and admin UI state. Upgrading invalidates existing sessions and recovery links. MFA-required login and independent delegated token issuance are disabled pending secure implementations.",
+      "version": "0.11.1",
+      "description": "Organization-scoped first-party authentication with EdDSA access tokens, atomic refresh rotation and replay detection, session revocation, email verification and password reset, RBAC, and trusted sibling-app identity login. v0.11.0 hardens tenant isolation, credential recovery, identity conversion, resource limits, and admin UI state. Upgrading invalidates existing sessions and recovery links. MFA-required login and independent delegated token issuance are disabled pending secure implementations. v0.11.1 restores the adaptive app icon in the installation manifest.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/apteva.yaml",
@@ -2036,7 +2036,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-05T12:09:16Z"
+      "updated_at": "2026-09-06T14:06:26Z"
     },
     {
       "name": "games",
