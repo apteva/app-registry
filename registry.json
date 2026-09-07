@@ -2044,8 +2044,8 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.2.0",
-      "description": "Multi-game backend for Apteva: define games with titles and descriptions, each with isolated players, Auth configuration, cloud saves, statistics, leaderboards and achievements. Includes a game catalog, scoped v2 API and MCP tools, legacy v1 migration, transactional progression, retry-safe writes, and faster leaderboard reads.",
+      "version": "0.3.0",
+      "description": "Multi-game backend and studio for Apteva: isolated players, saves, progression and Auth; per-game Code source links and Deploy builds, releases, promotion and store listings; scheduled AdMob, GA4 and Apple sales reporting; and bounded, retry-safe gameplay telemetry. Deploy owns artifact tests, signing, publisher accounts and release policy. Includes portfolio freshness, reconciliation for uncertain operations, and an opt-in offline telemetry client.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/games",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/games/apteva.yaml",
@@ -2057,11 +2057,13 @@
         "progression",
         "leaderboards",
         "liveops",
-        "backend"
+        "backend",
+        "delivery",
+        "analytics"
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-06T14:00:11Z"
+      "updated_at": "2026-09-07T12:00:41Z"
     },
     {
       "name": "market-intel",
