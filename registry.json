@@ -1079,8 +1079,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.25.0",
-      "description": "Build and release services, Android apps, and iOS apps from Code or local sources through local, capsule, Codemagic, and GitHub Actions backends. v0.25.0 adds project-scoped access, durable release/cancellation intent, verified process ownership, safe replacement and exact-build recovery, encrypted signing revisions, bounded archives/logs, ingress retries, and environment-aware panel actions. Local builds return asynchronously; GitHub workflows require the apteva_deploy_run_id correlation input.",
+      "version": "0.26.0",
+      "description": "Build and release services, mobile apps, and arbitrary artifacts from Code or local sources through local and external build backends. v0.26.0 adds generic prepare/export/build/test commands, verified resumable Code snapshots, per-target publisher accounts, integration-driven publishing, separate availability observations, and release policies tied to the exact tested artifact. Includes a Steamworks integration configuration example; engine exports and uploads use commands.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
@@ -1096,7 +1096,9 @@
         "app-store",
         "google-play",
         "developer",
-        "agent"
+        "agent",
+        "artifacts",
+        "steam"
       ],
       "official": true,
       "category": "developer"
