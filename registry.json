@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-07T12:38:45Z",
+  "updated_at": "2026-09-07T13:13:31Z",
   "apps": [
     {
       "name": "neural",
@@ -351,12 +351,12 @@
     {
       "name": "events",
       "display_name": "Events",
-      "version": "0.2.0",
-      "description": "Manage shows, venues, performer applications, lineups, and door check-in. Includes an event editor, public attendee pages, free registration, external checkout links, validated ticket types and sales windows, and atomic capacity enforcement. Paid ticketing is handled externally or recorded manually; external purchases are not automatically synchronized.",
+      "version": "0.3.0",
+      "description": "Manage shows, artist applications and private reviews, consented photos, published lineups, tickets and check-in. Atomic show/settings saves and automatic lineup rescheduling.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/events",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/events/v0.2.0/mcp/events/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/events/v0.2.0/mcp/events/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/events/v0.3.0/mcp/events/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/events/v0.3.0/mcp/events/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "events",
