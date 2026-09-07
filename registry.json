@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-07T12:26:12Z",
+  "updated_at": "2026-09-07T12:38:45Z",
   "apps": [
     {
       "name": "neural",
@@ -2311,8 +2311,8 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.21.0",
-      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. v0.21.0 ships the reusable client, React UI and styles with the app. External sites load them through Web SDK 0.7.0 without a per-app npm package; dashboard loading and application-user isolation are preserved. Requires Apteva 0.40.6 or later.",
+      "version": "0.21.1",
+      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. v0.21.1 fixes scoped main-thread approval acknowledgments and ships the reusable client, React UI and styles with the app. External sites load them through Web SDK 0.7.0 without a per-app npm package; dashboard loading and application-user isolation are preserved. Requires Apteva 0.40.6 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/conversations/apteva.yaml",
