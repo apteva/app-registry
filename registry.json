@@ -1981,11 +1981,11 @@
     {
       "name": "content",
       "display_name": "Content",
-      "version": "2.14.3",
-      "description": "Multi-site block-based CMS and generic public experience runtime. Content owns public rendering and signed browser sessions while provider apps retain their domain data and tools. v2.14.3 automatically fingerprints extension asset URLs from their content, serves matching revisions with immutable caching and ETags, and remains compatible with provider templates that append an explicit theme revision.",
+      "version": "2.14.4",
+      "description": "Multi-site block-based CMS and generic public experience runtime. v2.14.4 fixes form credential retention and a forms-list database deadlock, prevents stale edits and publish-after-save failures, normalizes scheduled publishing, preserves existing content in template append mode, protects live extension routes, and corrects locale and taxonomy routing. Adds bounded extension caches and rate limits, cached metadata-only sitemaps, and upgrade cleanup for existing form logs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content/v2.14.3/mcp/content/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content/v2.14.4/mcp/content/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/content/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1996,7 +1996,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-08-09T12:34:11Z"
+      "updated_at": "2026-09-07T06:54:23Z"
     },
     {
       "name": "gigs",
