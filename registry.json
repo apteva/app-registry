@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-06T20:50:08Z",
+  "updated_at": "2026-09-07T06:24:32Z",
   "apps": [
     {
       "name": "neural",
@@ -2186,12 +2186,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.7.0",
-      "description": "Project-scoped isolated test environments built from installed app sidecars, managed MCP servers, fake connections, deterministic seed plans, runtime agents, virtualized edge traffic, assertions, reusable snapshots, interactive websites, and full-duplex realtime voice fixtures. v0.6.3 makes direct and carrier voice simulations inherit the cloned source agent's production realtime MCP policy.",
+      "version": "0.7.4",
+      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.4 fixes lifecycle recovery, partial updates, evaluation evidence, carrier call correlation, and stale UI state, with cached catalogs, batched reads, and optional history retention.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/environments/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.4/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.4/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
