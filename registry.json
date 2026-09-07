@@ -686,8 +686,8 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.9.0",
-      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.9.0 prevents lost concurrent edits and stale saves, makes patches and imports recoverable, fixes selected Git commits, preserves workspace data on sync failures, and hardens previews, cancellation, pagination and resource limits. Finite commands now default to Workspaces; trusted local execution requires explicit installation configuration.",
+      "version": "0.10.0",
+      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.10.0 adds immutable source snapshots with fixed revisions, SHA-256 checksums and sizes; bounded authenticated chunk reads for large exports; and subdirectory exports for multi-project repositories. Snapshots survive restarts, preserve binary assets and executable modes, and expire explicitly after 24 hours.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
