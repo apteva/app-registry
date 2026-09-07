@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-07T06:24:32Z",
+  "updated_at": "2026-09-07T06:29:15Z",
   "apps": [
     {
       "name": "neural",
@@ -2267,12 +2267,12 @@
     {
       "name": "a2a",
       "display_name": "Agent to Agent",
-      "version": "0.2.1",
-      "description": "Agent-to-agent communication. Agents discover peers with agents_discover and message each other by name or id, exchanging request/reply tasks with A2A-protocol-compatible lifecycle semantics (submitted, working, input_required, completed, failed, canceled). Durable task ledger, per-pair rate limiting, live dashboard panel showing every exchange.",
+      "version": "0.5.1",
+      "description": "Agent-to-agent communication within and between Apteva installations and public A2A agents. Discover Agent Cards, exchange messages and tracked tasks, and inspect connections in a live dashboard. v0.5.1 adds durable reply recovery, artifact preservation, bounded polling, stricter access controls, and UI reliability fixes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/a2a",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/a2a/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/a2a/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/a2a/v0.5.1/mcp/a2a/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/a2a/v0.5.1/mcp/a2a/ui/icon.svg",
       "tags": [
         "agents",
         "a2a",
