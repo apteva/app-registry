@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T14:17:47Z",
+  "updated_at": "2026-09-08T14:32:03Z",
   "apps": [
     {
       "name": "tests",
@@ -1497,11 +1497,11 @@
     {
       "name": "bills",
       "display_name": "Bills",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Supplier bills, approvals and recorded payments. Generic source obligations prevent duplicate payables; explicit credits, refunds and reversals preserve history. Supports partial payments, durable retry keys and supporting documents. Creating a bill never pays it.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bills",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bills/v0.2.0/mcp/bills/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bills/v0.2.1/mcp/bills/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/bills/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -2025,11 +2025,11 @@
     {
       "name": "gigs",
       "display_name": "Gigs",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "description": "Generic gigs with versioned compensation agreements, explicit financial approvals, expenses, optional site allocations and delivered-file links. Optional Bills integration creates unapproved supplier payables and synchronizes recorded payments. Historical unknown costs remain unknown. Includes resumable parallel video uploads.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/gigs",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/gigs/v0.6.0/mcp/gigs/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/gigs/v0.6.1/mcp/gigs/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/gigs/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
