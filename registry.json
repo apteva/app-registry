@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T14:32:03Z",
+  "updated_at": "2026-09-08T16:10:55Z",
   "apps": [
     {
       "name": "tests",
@@ -1669,11 +1669,11 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.4.45",
+      "version": "0.4.46",
       "description": "Compute-host inventory and lifecycle across bound cloud providers, with SSH execution, file transfer, tunnels, metrics, block volumes and object storage. Version 0.4.42 hardens lifecycle recovery, storage identity and retention, provider account selection, credential cleanup, file operations and UI consistency, and updates dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.4.45/mcp/instances/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.4.46/mcp/instances/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
