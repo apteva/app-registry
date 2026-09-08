@@ -2,8 +2,27 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-07T15:04:47Z",
+  "updated_at": "2026-09-08T05:41:02Z",
   "apps": [
+    {
+      "name": "tests",
+      "display_name": "Tests",
+      "version": "0.1.0",
+      "description": "Project test suites with function and HTTP assertions, queued runs, saved failure evidence, and app-bus events.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/tests",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.1.0/mcp/tests/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.1.0/mcp/tests/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "tests",
+        "checks",
+        "quality",
+        "functions"
+      ],
+      "official": true,
+      "category": "tools"
+    },
     {
       "name": "neural",
       "display_name": "Neural Studio",
