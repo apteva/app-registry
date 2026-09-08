@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T08:18:05Z",
+  "updated_at": "2026-09-08T08:20:19Z",
   "apps": [
     {
       "name": "tests",
@@ -2170,8 +2170,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.3.10",
-      "description": "Voice calls and browser softphone with Twilio, Telnyx, Plivo, SignalWire, and Vonage. Includes published IVR flows, connected-number inventory, realtime agent calling, and durable team ringing: simultaneous, sequential, round-robin, or priority, with first-answer wins, per-member timeouts, loser cancellation, and no-answer fallback. Phone/SIP ring-group legs use Twilio, Telnyx, or Plivo webhook routes; browser destinations are shared operator pools. Improves call controls, audio buffering and resampling, recording cleanup, callback recovery, and call-list performance. Storage is optional for private recording copies. Native SIP adds reliable session refreshes, bounded audio queues, SRTP replay protection, and TLS certificate renewal. Adds an app-served headless softphone through the existing Web SDK, sharing call and audio logic with the Calls panel, with safer cancellation, answer recovery, operator rejoin, and stalled-connection detection.",
+      "version": "0.3.11",
+      "description": "Voice calls and browser softphone with Twilio, Telnyx, Plivo, SignalWire, and Vonage. Includes published IVR flows, connected-number inventory, realtime agent calling, and durable team ringing: simultaneous, sequential, round-robin, or priority, with first-answer wins, per-member timeouts, loser cancellation, and no-answer fallback. Phone/SIP ring-group legs use Twilio, Telnyx, or Plivo webhook routes; browser destinations are shared operator pools. Improves call controls, audio buffering and resampling, recording cleanup, callback recovery, and call-list performance. Storage is optional for private recording copies. Native SIP adds reliable session refreshes, bounded audio queues, SRTP replay protection, and TLS certificate renewal. Adds an app-served headless softphone through the existing Web SDK, sharing call and audio logic with the Calls panel, with safer cancellation, answer recovery, operator rejoin, and stalled-connection detection. Fixes concurrent realtime answer preparation so duplicate inbound webhooks wait for the winning thread without failing or hanging up the call.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
