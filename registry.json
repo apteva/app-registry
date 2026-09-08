@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T08:20:19Z",
+  "updated_at": "2026-09-08T09:28:25Z",
   "apps": [
     {
       "name": "tests",
@@ -136,11 +136,11 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.6.1",
-      "description": "API gateway for Apteva projects with project-scoped management, validated authentication, safe HTTP/app and Function proxying, authenticated AppBus invalidations, managed CORS and DNS, bounded logs, and compiled routing. v0.6.0 fixes isolation and stream lifecycle issues, improves route precedence, and reduces routing cost.",
+      "version": "0.6.2",
+      "description": "API gateway for Apteva projects with project-scoped management, validated authentication, safe HTTP/app and Function proxying, authenticated AppBus invalidations, managed CORS and DNS, bounded logs, and compiled routing. v0.6.0 fixes isolation and stream lifecycle issues, improves route precedence, and reduces routing cost. v0.6.2 removes the premature 10-second header cutoff, uses the route budget including queueing, classifies deadline errors, and propagates request IDs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.6.2/mcp/api/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -155,7 +155,8 @@
         "appbus"
       ],
       "official": true,
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "updated_at": "2026-09-08T09:28:25Z"
     },
     {
       "name": "saas",
@@ -625,11 +626,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.18",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, and an efficient table editor.",
+      "version": "0.1.19",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, and an efficient table editor. v0.1.19 adds request correlation logging for Functions calls without changing query behavior.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.18/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.19/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -639,7 +640,8 @@
         "sql"
       ],
       "official": true,
-      "category": "storage"
+      "category": "storage",
+      "updated_at": "2026-09-08T09:28:25Z"
     },
     {
       "name": "jobs",
@@ -665,11 +667,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.11.3",
-      "description": "Lambda-style serverless functions in node or Go with immutable deployments, warm workers, runtime preparation and public Function URLs. v1.10.0 separates app and integration deadlines, adds configurable memory and worker capacity with bounded waiting and protected interactive/nested budgets, and exposes live and per-call memory telemetry through HTTP, MCP and the themed panel. Requires Apteva 0.50.2+; end-to-end provider cancellation also needs the companion server update. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.10.1 retains the capacity/memory API, readiness and themed panel improvements, disables isolated Go telemetry, and saves build cancellation and cgroup diagnostics before cleanup. Pair with Fleet 0.10.9 for deployments beyond ten seconds. v1.11.0 defaults to soft measured-memory admission with headroom, retains hard worker limits and protected capacity, and exposes admission usage and soft/strict settings through the API and themed panel. v1.11.1 fixes nested protocol-buffer admission by allowing children to borrow unused shared capacity while retaining the hard global limit; the API and panel show protected and borrowed nested buffers. v1.11.2 removes startup history scans using process-owned active-work tracking, adds startup diagnostics, and batches legacy recovery and retention in the background. The companion platform upgrade-handover change is not included in this app release. v1.11.3 adds configurable soft protocol-buffer admission, a separate hard ceiling and bounded waiting with measured host headroom, exposed through the API and themed panel.",
+      "version": "1.11.4",
+      "description": "Lambda-style serverless functions in node or Go with immutable deployments, warm workers, runtime preparation and public Function URLs. v1.10.0 separates app and integration deadlines, adds configurable memory and worker capacity with bounded waiting and protected interactive/nested budgets, and exposes live and per-call memory telemetry through HTTP, MCP and the themed panel. Requires Apteva 0.50.2+; end-to-end provider cancellation also needs the companion server update. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.10.1 retains the capacity/memory API, readiness and themed panel improvements, disables isolated Go telemetry, and saves build cancellation and cgroup diagnostics before cleanup. Pair with Fleet 0.10.9 for deployments beyond ten seconds. v1.11.0 defaults to soft measured-memory admission with headroom, retains hard worker limits and protected capacity, and exposes admission usage and soft/strict settings through the API and themed panel. v1.11.1 fixes nested protocol-buffer admission by allowing children to borrow unused shared capacity while retaining the hard global limit; the API and panel show protected and borrowed nested buffers. v1.11.2 removes startup history scans using process-owned active-work tracking, adds startup diagnostics, and batches legacy recovery and retention in the background. The companion platform upgrade-handover change is not included in this app release. v1.11.3 adds configurable soft protocol-buffer admission, a separate hard ceiling and bounded waiting with measured host headroom, exposed through the API and themed panel. v1.11.4 distinguishes queue timeout from capacity rejection, returns HTTP 504 for deadlines, and propagates Gateway request IDs to Tables.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.11.3/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.11.4/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -681,7 +683,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-08T08:18:05Z"
+      "updated_at": "2026-09-08T09:28:25Z"
     },
     {
       "name": "workflows",
