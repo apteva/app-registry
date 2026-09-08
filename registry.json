@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T07:58:14Z",
+  "updated_at": "2026-09-08T08:18:05Z",
   "apps": [
     {
       "name": "tests",
@@ -665,11 +665,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.11.2",
-      "description": "Lambda-style serverless functions in node or Go with immutable deployments, warm workers, runtime preparation and public Function URLs. v1.10.0 separates app and integration deadlines, adds configurable memory and worker capacity with bounded waiting and protected interactive/nested budgets, and exposes live and per-call memory telemetry through HTTP, MCP and the themed panel. Requires Apteva 0.50.2+; end-to-end provider cancellation also needs the companion server update. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.10.1 retains the capacity/memory API, readiness and themed panel improvements, disables isolated Go telemetry, and saves build cancellation and cgroup diagnostics before cleanup. Pair with Fleet 0.10.9 for deployments beyond ten seconds. v1.11.0 defaults to soft measured-memory admission with headroom, retains hard worker limits and protected capacity, and exposes admission usage and soft/strict settings through the API and themed panel. v1.11.1 fixes nested protocol-buffer admission by allowing children to borrow unused shared capacity while retaining the hard global limit; the API and panel show protected and borrowed nested buffers. v1.11.2 removes startup history scans using process-owned active-work tracking, adds startup diagnostics, and batches legacy recovery and retention in the background. The companion platform upgrade-handover change is not included in this app release.",
+      "version": "1.11.3",
+      "description": "Lambda-style serverless functions in node or Go with immutable deployments, warm workers, runtime preparation and public Function URLs. v1.10.0 separates app and integration deadlines, adds configurable memory and worker capacity with bounded waiting and protected interactive/nested budgets, and exposes live and per-call memory telemetry through HTTP, MCP and the themed panel. Requires Apteva 0.50.2+; end-to-end provider cancellation also needs the companion server update. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.10.1 retains the capacity/memory API, readiness and themed panel improvements, disables isolated Go telemetry, and saves build cancellation and cgroup diagnostics before cleanup. Pair with Fleet 0.10.9 for deployments beyond ten seconds. v1.11.0 defaults to soft measured-memory admission with headroom, retains hard worker limits and protected capacity, and exposes admission usage and soft/strict settings through the API and themed panel. v1.11.1 fixes nested protocol-buffer admission by allowing children to borrow unused shared capacity while retaining the hard global limit; the API and panel show protected and borrowed nested buffers. v1.11.2 removes startup history scans using process-owned active-work tracking, adds startup diagnostics, and batches legacy recovery and retention in the background. The companion platform upgrade-handover change is not included in this app release. v1.11.3 adds configurable soft protocol-buffer admission, a separate hard ceiling and bounded waiting with measured host headroom, exposed through the API and themed panel.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.11.2/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.11.3/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -681,7 +681,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-08T07:27:37Z"
+      "updated_at": "2026-09-08T08:18:05Z"
     },
     {
       "name": "workflows",
