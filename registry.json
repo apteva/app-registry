@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T06:18:42Z",
+  "updated_at": "2026-09-08T06:55:02Z",
   "apps": [
     {
       "name": "tests",
@@ -160,8 +160,8 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.9.1",
-      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, and usage for Apteva apps. v0.9.1 optionally syncs SaaS customers to CRM by email, stores durable contact links and retry state, backfills existing customers, and never blocks customer creation or checkout when CRM is unavailable.",
+      "version": "0.10.1",
+      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, usage, and integration-backed managed instance fulfillment for Apteva apps. v0.10.1 fixes managed grant revocation, fulfillment idempotency, delayed payment events, durable billing recovery, plan-change scheduling, usage freshness, account pagination, and fulfillment history cleanup performance.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/apteva.yaml",
