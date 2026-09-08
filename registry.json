@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T05:41:02Z",
+  "updated_at": "2026-09-08T06:18:42Z",
   "apps": [
     {
       "name": "tests",
@@ -1379,8 +1379,8 @@
     {
       "name": "subscriptions",
       "display_name": "Subscriptions",
-      "version": "0.7.2",
-      "description": "Generic recurring-commerce lifecycle for SaaS, physical product subscriptions, memberships, and services. Owns recurrence, trial endings, active renewal scheduling, cycle creation, subscription status, usage, discounts, and prepared invoice lines. Emits one idempotent subscription.cycle_due event per due period so product apps can orchestrate fulfillment and collection. v0.7.1 adds Subscriptions's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.9.1",
+      "description": "Recurring-commerce lifecycle for SaaS, physical subscriptions, memberships, and services, including metered usage, discounts, item-change history, trial conversion, renewals, and money-bearing events. v0.9.1 hardens scheduled cancellation, concurrent updates, cycle idempotency, monetary and HTTP validation, durable lifecycle delivery, global scheduling, and indexed pagination while preserving existing tools and UI.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/subscriptions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/subscriptions/apteva.yaml",
