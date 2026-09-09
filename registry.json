@@ -2173,8 +2173,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.4.1",
-      "description": "Voice calls, published IVR flows, ring groups, recordings, native SIP, and a shared browser softphone through the Web SDK. Supports generic authenticated application users: online Auth or user-info session verification, installation and user/group grants for browser destinations and outbound numbers, filtered incoming offers, call ownership, explicit supervisor takeover, and short-lived revocable media sessions. A backend can assign an existing human call for attachment without redialing. Trusted operator and agent integrations remain supported. Carriers include Twilio, Telnyx, Plivo, SignalWire, and Vonage; Storage is optional for private recording copies. Fixes authenticated Web SDK frontend downloads with application-user bearer tokens.",
+      "version": "0.4.2",
+      "description": "Voice calls, published IVR flows, ring groups, recordings, native SIP, and a shared browser softphone through the Web SDK. Supports generic authenticated application users: online Auth or user-info session verification, installation and user/group grants for browser destinations and outbound numbers, filtered incoming offers, call ownership, explicit supervisor takeover, and short-lived revocable media sessions. A backend can assign an existing human call for attachment without redialing. Trusted operator and agent integrations remain supported. Carriers include Twilio, Telnyx, Plivo, SignalWire, and Vonage; Storage is optional for private recording copies. Fixes authenticated Web SDK frontend downloads and the Twilio audio WebSocket handshake race by separating provider stream notifications from socket ownership.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
