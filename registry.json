@@ -881,8 +881,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.7.4",
-      "description": "Multi-clip video and audio composition with layered visuals, timed audio, soundtracks, text overlays, AI-generated sources, and local or remote ffmpeg rendering. v0.7.4 fixes fullscreen and layered visual opacity, aligns rendered crop, rounded corners, shadows, and camera keyframes with preview, and reports measured render progress. Composer V2 is now available by default with native rectangles, ellipses, gradients, borders, and structured shadows. Text supports wrapping, auto-fit, padding, line height, and safe-area diagnostics. Remote rendering preserves special characters in text and URLs, while stored and emitted diagnostics redact credentials and retain actionable stage and executor details.",
+      "version": "0.7.5",
+      "description": "Multi-clip video and audio composition with layered visuals, AI-generated sources, and local or remote rendering. v0.7.5 fixes project isolation, revision-safe save-and-render, duplicate AI refresh jobs, split source offsets, zero volume, examples, and looping previews. Adds active render cancellation, bounded uploads, durable output checks, ranged cache playback, silent-video handling, and reliable browser image capture. Native drawing uses element-sized buffers; unsupported V2 content fails explicitly.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
