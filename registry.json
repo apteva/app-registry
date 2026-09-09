@@ -2067,8 +2067,8 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.4.0",
-      "description": "Multi-game backend and content studio for Apteva: thirteen typed asset kinds, immutable versions and manifests, Media Studio generation, deterministic sprite and audio baking, Unity/Godot importers, reviewed content promotion and rollback, isolated players and saves, Code/Deploy delivery and reporting.",
+      "version": "0.5.0",
+      "description": "Multi-game backend and content studio for Apteva: game logos pinned to retained sprite assets and included in build manifests, thirteen typed asset kinds, Media Studio generation, Unity/Godot importers, reviewed content promotion and rollback, isolated players and saves, Code/Deploy delivery and reporting.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/games",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/games/apteva.yaml",
@@ -2086,7 +2086,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-09T07:19:40Z"
+      "updated_at": "2026-09-09T08:17:11Z"
     },
     {
       "name": "market-intel",
