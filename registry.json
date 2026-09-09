@@ -1209,8 +1209,8 @@
     {
       "name": "backup",
       "display_name": "Backup",
-      "version": "0.3.5",
-      "description": "Verified, optionally encrypted backups for Apteva platform data and local Fleet tenants. v0.3.5 fixes durable scheduling, policy-isolated retention, result persistence, history pagination, UTC durations, and recovery passphrase forwarding with the published SDK.",
+      "version": "0.3.6",
+      "description": "Verified, optionally encrypted backups for Apteva platform data, local Fleet tenants, and selected folders on registered macOS/Linux instances. v0.3.6 adds optional Instances integration with native Go workers, streamed archives, durable retries, isolated retention, and replacement-host restore.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/backup",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/backup/apteva.yaml",
