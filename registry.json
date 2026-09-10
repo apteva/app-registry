@@ -708,8 +708,8 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.10.0",
-      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.10.0 adds immutable source snapshots with fixed revisions, SHA-256 checksums and sizes; bounded authenticated chunk reads for large exports; and subdirectory exports for multi-project repositories. Snapshots survive restarts, preserve binary assets and executable modes, and expire explicitly after 24 hours.",
+      "version": "0.11.0",
+      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.11.0 adds opt-in Git Auto-sync: saved edits become debounced commits, remote changes fast-forward, and local commits push to the tracked origin branch. Includes offline retries, divergence protection, persistent settings, toolbar controls and agent tools. Auto-sync is off by default.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
