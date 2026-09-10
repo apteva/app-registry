@@ -2334,8 +2334,8 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.22.0",
-      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. The app-served React UI supports per-surface locale, timeZone, and message overrides, with English, French, and Spanish translations. Live language changes preserve drafts, history, and streaming. External hosts load components through Web SDK 0.7.0; no SDK upgrade or Conversations npm package is needed. Requires Apteva 0.40.6 or later.",
+      "version": "0.22.1",
+      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. Dashboard and exported chat share components and self-contained scoped CSS, preserve host themes, and show clean transcripts with named speakers and actionable delivery failures. Supports locale, timeZone, and message overrides with English, French, and Spanish translations. External hosts use Web SDK 0.7.0; no Web SDK upgrade or Conversations npm package is needed. Requires Apteva 0.40.6 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/conversations/apteva.yaml",
