@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-08T17:34:34Z",
+  "updated_at": "2026-09-10T07:27:34Z",
   "apps": [
     {
       "name": "tests",
@@ -2334,8 +2334,8 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.21.2",
-      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. v0.21.2 adds explicit managed-chat ownership guidance and a trusted backend identity resolver, validated with real Codex. The reusable client, React UI and styles ship with the app for Web SDK 0.7.0 external hosts; dashboard assets are unchanged. Ownership guidance is behavioral, not Core-enforced. Requires Apteva 0.40.6 or later.",
+      "version": "0.22.0",
+      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. The app-served React UI supports per-surface locale, timeZone, and message overrides, with English, French, and Spanish translations. Live language changes preserve drafts, history, and streaming. External hosts load components through Web SDK 0.7.0; no SDK upgrade or Conversations npm package is needed. Requires Apteva 0.40.6 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/conversations/apteva.yaml",
