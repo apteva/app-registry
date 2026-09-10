@@ -136,11 +136,11 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.7.0",
-      "description": "API gateway for Apteva projects with project-scoped management, validated authentication, safe HTTP/app and Function proxying, authenticated AppBus invalidations, managed CORS and DNS, bounded logs, and compiled routing. v0.7.0 adds configurable Auth or bound-app authorizers per API or route, normalized principals with explicitly allowed authorization claims, and authenticated Function request envelopes with reserved identity metadata, request IDs, and deadlines. Preserves streaming, cancellation, and configurable Last-Event-ID CORS support.",
+      "version": "0.8.0",
+      "description": "API gateway with configurable Auth or bound-app authorizers, project-scoped routing, CORS, DNS, and AppBus invalidations. v0.8.0 invokes authenticated Functions through functions_invoke_authenticated with verified identity, permitted claims, explicit auth.function_ids, request IDs, and deadlines. Requires Functions 1.14.1+ and configured trusted callers. Authenticated routes fail closed without scope and use buffered responses; public Function and app_events streaming remain supported.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.7.0/mcp/api/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.8.0/mcp/api/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -156,7 +156,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-10T15:58:01Z"
+      "updated_at": "2026-09-10T16:38:19Z"
     },
     {
       "name": "saas",
