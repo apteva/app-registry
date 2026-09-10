@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-10T07:27:34Z",
+  "updated_at": "2026-09-10T12:00:17Z",
   "apps": [
     {
       "name": "tests",
@@ -607,11 +607,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.12.0",
-      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. v0.12.0 starts large browser uploads without whole-file preparation and sends parallel multipart chunks directly to connected S3 storage, with provider-side completion, retries, cancellation cleanup, and upload lifecycle logs. Direct multipart uploads skip whole-file SHA-256 deduplication; disk and existing checksum-verified upload protocols remain supported.",
+      "version": "0.12.1",
+      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. v0.12.1 automatically configures bucket CORS for the dashboard while preserving existing rules. Large uploads use parallel direct S3 multipart transfers, with a streaming fallback through Apteva when CORS setup or direct transfer fails. Completed parts, project scope, and lifecycle events are preserved; no whole-file preparation or temporary staging is needed for S3 multipart uploads.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.0/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.1/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
