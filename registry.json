@@ -136,11 +136,11 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.6.4",
-      "description": "API gateway for Apteva projects with project-scoped management, validated authentication, safe HTTP/app and Function proxying, authenticated AppBus invalidations, managed CORS and DNS, bounded logs, and compiled routing. v0.6.0 fixes isolation and stream lifecycle issues, improves route precedence, and reduces routing cost. v0.6.2 removes the premature 10-second header cutoff, uses the route budget including queueing, classifies deadline errors, and propagates request IDs. v0.6.3 uses concurrent gateway read pools with immediate shared cache invalidation, retaining correlated route budgets, streaming, and cancellation. v0.6.4 corrects the runtime source tag so installs build this release.",
+      "version": "0.7.0",
+      "description": "API gateway for Apteva projects with project-scoped management, validated authentication, safe HTTP/app and Function proxying, authenticated AppBus invalidations, managed CORS and DNS, bounded logs, and compiled routing. v0.7.0 adds configurable Auth or bound-app authorizers per API or route, normalized principals with explicitly allowed authorization claims, and authenticated Function request envelopes with reserved identity metadata, request IDs, and deadlines. Preserves streaming, cancellation, and configurable Last-Event-ID CORS support.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.6.4/mcp/api/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.7.0/mcp/api/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -156,7 +156,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-08T12:38:00Z"
+      "updated_at": "2026-09-10T15:58:01Z"
     },
     {
       "name": "saas",
