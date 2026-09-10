@@ -667,11 +667,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.13.1",
-      "description": "Lambda-style serverless functions in node or Go with immutable deployments, warm workers, runtime preparation and public Function URLs. v1.10.0 separates app and integration deadlines, adds configurable memory and worker capacity with bounded waiting and protected interactive/nested budgets, and exposes live and per-call memory telemetry through HTTP, MCP and the themed panel. Requires Apteva 0.50.2+; end-to-end provider cancellation also needs the companion server update. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.10.1 retains the capacity/memory API, readiness and themed panel improvements, disables isolated Go telemetry, and saves build cancellation and cgroup diagnostics before cleanup. Pair with Fleet 0.10.9 for deployments beyond ten seconds. v1.11.0 defaults to soft measured-memory admission with headroom, retains hard worker limits and protected capacity, and exposes admission usage and soft/strict settings through the API and themed panel. v1.11.1 fixes nested protocol-buffer admission by allowing children to borrow unused shared capacity while retaining the hard global limit; the API and panel show protected and borrowed nested buffers. v1.11.2 removes startup history scans using process-owned active-work tracking, adds startup diagnostics, and batches legacy recovery and retention in the background. The companion platform upgrade-handover change is not included in this app release. v1.11.3 adds configurable soft protocol-buffer admission, a separate hard ceiling and bounded waiting with measured host headroom, exposed through the API and themed panel. v1.11.4 distinguishes queue timeout from capacity rejection, returns HTTP 504 for deadlines, and propagates Gateway request IDs to Tables. v1.12.0 adds automatic CPU-aware execution and managed-call admission, waits within existing request deadlines, preserves cancellation and lightweight-call headroom, and exposes automatic limits, waiting and CPU through the API and themed panel. Shared admission across different caller apps needs the separate platform update; that update is not included in this Functions release. v1.13.0 replaces automatic execution/destination serialization with parallel accounting. Unset per-function concurrency follows resource capacity, default worker count derives from memory, and explicit saved policies remain intact. Preserves all migrations, durable recovery, memory/protocol controls, preparation, streaming, and correlation. v1.13.1 corrects the runtime source tag so installs build this release.",
+      "version": "1.14.0",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and configurable memory, concurrency and execution budgets. v1.14.0 adds a restricted authenticated invocation API with verified caller installation policies, opaque principals and claims, bounded nested propagation, and identity audit records. Authenticated workers are retired after execution to prevent identity leakage. Existing invocation paths remain available by default; requestContext.authorizer is runtime-owned. Requires Apteva 0.50.2+ and the platform verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.13.1/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.14.0/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -683,7 +683,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-08T12:38:00Z"
+      "updated_at": "2026-09-10T15:59:07Z"
     },
     {
       "name": "workflows",
