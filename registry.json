@@ -667,11 +667,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.14.0",
-      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and configurable memory, concurrency and execution budgets. v1.14.0 adds a restricted authenticated invocation API with verified caller installation policies, opaque principals and claims, bounded nested propagation, and identity audit records. Authenticated workers are retired after execution to prevent identity leakage. Existing invocation paths remain available by default; requestContext.authorizer is runtime-owned. Requires Apteva 0.50.2+ and the platform verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
+      "version": "1.14.1",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and configurable memory, concurrency and execution budgets. v1.14.0 adds a restricted authenticated invocation API with verified caller installation policies, opaque principals and claims, bounded nested propagation, and identity audit records. Authenticated workers are retired after execution to prevent identity leakage. Existing invocation paths remain available by default; requestContext.authorizer is runtime-owned. Requires Apteva 0.50.2+ and the platform verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.14.1 accepts opaque business payloads such as new-user passwords while keeping caller credentials out of identity claims and authenticated request bodies out of invocation history. Trusted caller checks and nested identity propagation remain enforced; Functions does not interpret application roles, centres, or CRM rules.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.14.0/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.14.1/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -683,7 +683,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-10T15:59:07Z"
+      "updated_at": "2026-09-10T16:32:39Z"
     },
     {
       "name": "workflows",
