@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-10T13:02:07Z",
+  "updated_at": "2026-09-10T14:38:13Z",
   "apps": [
     {
       "name": "tests",
@@ -2045,8 +2045,8 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.12.0",
-      "description": "Organization-scoped authentication with EdDSA sessions, refresh rotation, recovery, RBAC and trusted identity login. v0.12.0 adds opt-in platform tokens selected from trusted role/permission policies, a maximum 60-second returned lifetime, and live-session renewal for unified Web SDK authentication. Existing Auth sessions remain valid; configure explicit role bindings and matching platform policies to enable delegated access.",
+      "version": "0.12.1",
+      "description": "Organization-scoped authentication with EdDSA sessions, refresh rotation, recovery, RBAC and role-bound platform tokens. v0.12.1 distinguishes retryable failures from uncertain refresh outcomes for generic persistent Web SDK sessions, and reports logout lookup failures accurately. Existing Auth sessions remain valid.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/apteva.yaml",
@@ -2062,7 +2062,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-10T12:27:55Z"
+      "updated_at": "2026-09-10T14:38:13Z"
     },
     {
       "name": "games",
