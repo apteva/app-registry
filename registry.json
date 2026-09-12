@@ -276,12 +276,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.3.0",
-      "description": "Reusable company procedures with independent assignments for different agents, pages, and clients; typed parameters, recurring schedules, versioned runs, and optional Tasks integration.",
+      "version": "0.4.0",
+      "description": "Company procedures with agent and human roles, step dependencies, approval gates, independent assignments, recurring runs, and optional Tasks integration.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.3.0/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.3.0/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.3.0/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.4.0/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.4.0/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.4.0/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
