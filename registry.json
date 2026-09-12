@@ -2353,7 +2353,7 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.23.2",
+      "version": "0.23.3",
       "description": "Shared dashboard and exported chat with a configurable attachment composer: files/photos, screenshots, paste/drop, persistent image previews and downloadable files. Images reach Core vision through conversation events; optional Storage copies return file IDs. Includes original grouped live tool activity, pause/send controls and English, French and Spanish localization. No generic Web SDK upgrade required. Requires Apteva 0.40.6 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
