@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-10T14:38:13Z",
+  "updated_at": "2026-09-12T13:06:11Z",
   "apps": [
     {
       "name": "tests",
@@ -257,11 +257,11 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "3.5.3",
-      "description": "Durable work, progress, schedules, occurrence execution tracking, and safe recovery for Apteva agents. App-bus updates keep task status, progress, and execution activity current across pages, widgets, and clickable chat cards. Includes an all-tasks priority view, themed scheduling controls, and guidance that keeps bare waiting in Core pace.",
+      "version": "3.6.0",
+      "description": "Durable work, progress, schedules, occurrence execution tracking, and safe recovery for Apteva agents. App-bus updates keep task status, progress, and execution activity current across pages, widgets, and clickable chat cards. Includes an all-tasks priority view, themed scheduling controls, and guidance that keeps bare waiting in Core pace. Provides the private Processes integration for versioned company procedures.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tasks/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tasks/v3.6.0/mcp/tasks/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tasks/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -269,6 +269,25 @@
         "agents",
         "scheduling",
         "automation"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
+    {
+      "name": "processes",
+      "display_name": "Processes",
+      "version": "0.1.0",
+      "description": "Versioned company procedures with agent ownership, approval checkpoints, recurring schedules, and durable execution history powered by Tasks.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.1.0/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.1.0/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.1.0/mcp/processes/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "productivity",
+        "processes",
+        "agents",
+        "operations"
       ],
       "official": true,
       "category": "productivity"
