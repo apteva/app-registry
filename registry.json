@@ -2334,8 +2334,8 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.22.1",
-      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. Dashboard and exported chat share components and self-contained scoped CSS, preserve host themes, and show clean transcripts with named speakers and actionable delivery failures. Supports locale, timeZone, and message overrides with English, French, and Spanish translations. External hosts use Web SDK 0.7.0; no Web SDK upgrade or Conversations npm package is needed. Requires Apteva 0.40.6 or later.",
+      "version": "0.22.2",
+      "description": "One durable conversation system for project chat, agent-scoped chat widgets, the typed inbox, and Telegram. Dashboard and exported chat share the original ChatToolActivity UI with grouped live tools, persistent status, expandable details and a combined pause/send button. Shared scoped CSS preserves host themes and clean transcripts with named speakers and actionable delivery failures. Supports locale, timeZone, and message overrides with English, French, and Spanish translations. External hosts use Web SDK 0.7.0; no Web SDK upgrade or Conversations npm package is needed. Requires Apteva 0.40.6 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/conversations/apteva.yaml",
