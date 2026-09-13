@@ -2,18 +2,18 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-13T14:54:45Z",
+  "updated_at": "2026-09-13T16:27:33Z",
   "apps": [
     {
       "name": "3d-studio",
       "display_name": "3D Studio",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Native Go polygon modeling for game assets. Select and edit vertices and faces, use proportional transforms, extrude and inset geometry, preview changes, and export GLB. Includes a browser editor, 16 MCP tools, immutable revisions, and an editable low-poly car example.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/3d-studio",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/3d-studio/v0.1.0/mcp/3d-studio/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/3d-studio/v0.1.0/mcp/3d-studio/ui/icon.svg",
-      "icon_style": "monochrome",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/3d-studio/v0.1.1/mcp/3d-studio/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/3d-studio/v0.1.1/mcp/3d-studio/ui/icon.svg",
+      "icon_style": "image",
       "tags": [
         "3d",
         "modeling",
