@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-13T07:04:11Z",
+  "updated_at": "2026-09-13T07:11:18Z",
   "apps": [
     {
       "name": "tests",
@@ -2192,8 +2192,8 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.4.4",
-      "description": "Voice calls, published IVR flows, ring groups, recordings, native SIP, and a shared browser softphone through the Web SDK. Supports generic authenticated application users: online Auth or user-info session verification, installation and user/group grants for browser destinations and outbound numbers, filtered incoming offers, call ownership, explicit supervisor takeover, and short-lived revocable media sessions. A backend can assign an existing human call for attachment without redialing. Trusted operator and agent integrations remain supported. Carriers include Twilio, Telnyx, Plivo, SignalWire, and Vonage; Storage is optional for private recording copies. Includes authenticated frontend loading and the Twilio handshake fix, configurable microphone gain and adaptive playback buffers, installation-level human carrier pacing, independent human audio transport diagnostics, and shared microphone enumeration and local preview APIs for consuming applications.",
+      "version": "0.4.5",
+      "description": "Voice calls, published IVR flows, ring groups, recordings, native SIP, and a shared browser softphone through the Web SDK. Supports generic authenticated application users: online Auth or user-info session verification, installation and user/group grants for browser destinations and outbound numbers, filtered incoming offers, call ownership, explicit supervisor takeover, and short-lived revocable media sessions. A backend can assign an existing human call for attachment without redialing. Trusted operator and agent integrations remain supported. Carriers include Twilio, Telnyx, Plivo, SignalWire, and Vonage; Storage is optional for private recording copies. Includes authenticated frontend loading and the Twilio handshake fix, configurable microphone gain and adaptive playback buffers, installation-level human carrier pacing, independent human audio transport diagnostics, and shared microphone enumeration and local preview APIs for consuming applications. Same-origin call audio and microphone previews support strict Content Security Policy through verified, content-addressed audio assets.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/telephony",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/telephony/apteva.yaml",
