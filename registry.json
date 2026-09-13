@@ -921,8 +921,8 @@
     {
       "name": "calendar",
       "display_name": "Calendar",
-      "version": "0.3.6",
-      "description": "Self-contained calendar — multiple calendars per project, events with recurrence (rrule), holidays helper. Agents read + write via MCP tools; the panel renders day / week / month / year / agenda views with click-to-create and drag-to-move. Multi-day + all-day events render clearly across views: truly continuous spanning bars in month view (per-week overlay), a dedicated all-day strip above the week/day timed grid, and connected span bars in the larger year mini-calendars. v0.3.6 adds Calendar's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.4.0",
+      "description": "Project-scoped calendars with timezone-aware recurrence, transactional occurrence editing, availability search, and fixed-date holidays. Day, week, month, year and agenda views include explicit edit scopes, all-day and recurrence controls, overlapping-event columns, cross-day drag previews, keyboard access and mobile navigation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/calendar",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calendar/apteva.yaml",
