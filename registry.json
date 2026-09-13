@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-13T07:11:18Z",
+  "updated_at": "2026-09-13T08:00:56Z",
   "apps": [
     {
       "name": "tests",
@@ -276,12 +276,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.5.0",
-      "description": "Event-driven company procedures with reusable assignments, multi-agent steps, approvals, recurring runs, and optional Tasks integration. Event triggers require the updated Apteva event-delivery server.",
+      "version": "0.6.0",
+      "description": "Company procedures and native one-off tasks with a unified Work panel, multi-agent execution, approvals, recurring runs, and event triggers. Tasks integration is optional.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.5.0/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.5.0/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.5.0/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.6.0/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.6.0/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.6.0/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
