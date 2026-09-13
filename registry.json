@@ -296,12 +296,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.9.2",
-      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, native one-off tasks, and live run updates. Main delegates focused step workers with complete dependency and approval evidence. Tasks integration is optional.",
+      "version": "0.9.3",
+      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, native one-off tasks, and live run updates. Sequential same-agent runs reuse one worker with complete dependency and approval evidence. Tasks integration is optional.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.9.2/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.9.2/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.9.2/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.9.3/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.9.3/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.9.3/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
