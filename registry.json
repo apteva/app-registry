@@ -1165,8 +1165,8 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.9.1",
-      "description": "Multi-portfolio trading desk for paper and broker execution across equities, ETFs, crypto and prediction markets. Trading v0.9.1 hardens broker routing, fills and cancellation, order retries, risk and strategy governance, historical replay, accounting and UI portfolio isolation. Includes upgrade safeguards for ambiguous broker bindings.",
+      "version": "0.10.0",
+      "description": "Multi-portfolio trading desk for simulation, Alpaca paper, and broker execution across equities, ETFs, crypto and prediction markets. Strategies and agents share an event-driven backtester with generic prices, sentiment and news inputs, latency, partial fills, costs, risk controls, benchmarks, live progress, and portable artifacts. Recorded agent decisions replay without model calls. Includes broker environment verification and recovery fixes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/apteva.yaml",
