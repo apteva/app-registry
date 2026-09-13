@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-13T09:57:18Z",
+  "updated_at": "2026-09-13T12:33:25Z",
   "apps": [
     {
       "name": "tests",
@@ -1165,8 +1165,8 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.10.0",
-      "description": "Multi-portfolio trading desk for simulation, Alpaca paper, and broker execution across equities, ETFs, crypto and prediction markets. Strategies and agents share an event-driven backtester with generic prices, sentiment and news inputs, latency, partial fills, costs, risk controls, benchmarks, live progress, and portable artifacts. Recorded agent decisions replay without model calls. Includes broker environment verification and recovery fixes.",
+      "version": "0.11.0",
+      "description": "Multi-portfolio trading desk for simulation, Alpaca paper, and broker execution across equities, ETFs, crypto and prediction markets. Strategies and agents share an event-driven backtester with generic inputs, latency, partial fills, costs, risk controls, benchmarks, and replay artifacts. Includes out-of-sample and walk-forward validation, robustness grids, stress scenarios, and seeded Monte Carlo execution uncertainty, with live suite progress and portable reports.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/apteva.yaml",
