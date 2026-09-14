@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-14T06:45:14Z",
+  "updated_at": "2026-09-14T07:09:40Z",
   "apps": [
     {
       "name": "3d-studio",
@@ -296,12 +296,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.11.0",
-      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and native one-off tasks. The project-wide SOP map shows every bounded procedure graph, all steps, assignments, and concurrent live run overlays. The compact dashboard overview shows current execution status. Tasks integration is optional.",
+      "version": "0.11.1",
+      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and native one-off tasks. One shared project graph packs all SOP boundaries and steps horizontally or vertically, with independent live run indicators and execution details. The compact dashboard overview shows current execution status. Tasks integration is optional.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.11.0/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.11.0/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.11.0/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.11.1/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.11.1/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.11.1/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
