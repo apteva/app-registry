@@ -767,8 +767,8 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.12.0",
-      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.12.0 adds explicit per-repository local execution permissions, agent controls and an Allow and run preview action. v0.11.1 fixes repeated delete calls reporting success for an absent repository. v0.11.0 adds opt-in Git Auto-sync: saved edits become debounced commits, remote changes fast-forward, and local commits push to the tracked origin branch. Includes offline retries, divergence protection, persistent settings, toolbar controls and agent tools. Auto-sync is off by default.",
+      "version": "0.12.1",
+      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.12.1 fixes Vite previews stuck in Starting by aligning the server port and readiness checks. v0.12.0 adds explicit per-repository local execution permissions, agent controls and an Allow and run preview action. v0.11.1 fixes repeated delete calls reporting success for an absent repository. v0.11.0 adds opt-in Git Auto-sync: saved edits become debounced commits, remote changes fast-forward, and local commits push to the tracked origin branch. Includes offline retries, divergence protection, persistent settings, toolbar controls and agent tools. Auto-sync is off by default.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
