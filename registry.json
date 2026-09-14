@@ -787,12 +787,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.4",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.4 fixes worker races, derivative repair, metadata and folder handling, Smart Crop, and live UI state. Adds verified source/result caching, bounded processing and uploads, reliable completion delivery, and video quality choices with Legacy as the default. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.5",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.5 fixes a general indexing queue defect that could leave valid files permanently pending, including files in hidden Storage folders. Explicit reindex requests dispatch immediately; stale claims are reclaimed, retries are durable, and queue diagnostics expose attempts and failures. Includes the v0.14.4 worker, catalog, rendering, caching, and quality fixes. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.4/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.4/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.5/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.5/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -807,7 +807,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-09-05T10:06:19Z"
+      "updated_at": "2026-09-14T10:02:33Z"
     },
     {
       "name": "podcast",
