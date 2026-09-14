@@ -296,12 +296,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.11.3",
-      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and native one-off tasks. The themed project graph shows all SOP boundaries, steps, and live runs, including older versions. Project and detail flows share clear status indicators and balanced border contrast. The compact dashboard overview shows current execution status. Tasks integration is optional.",
+      "version": "0.12.0",
+      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and native tasks. Step delays and relative deadlines persist across restarts; Processes notifies agents when work becomes eligible. The themed project graph and compact widget show live steps, scheduled starts, and deadlines. Tasks integration is optional.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.11.3/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.11.3/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.11.3/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.12.0/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.12.0/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.12.0/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
