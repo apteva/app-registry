@@ -767,8 +767,8 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.12.1",
-      "description": "Project-scoped source repositories, native Git, editing, issues, templates and isolated Workspaces execution. v0.12.1 fixes Vite previews stuck in Starting by aligning the server port and readiness checks. v0.12.0 adds explicit per-repository local execution permissions, agent controls and an Allow and run preview action. v0.11.1 fixes repeated delete calls reporting success for an absent repository. v0.11.0 adds opt-in Git Auto-sync: saved edits become debounced commits, remote changes fast-forward, and local commits push to the tracked origin branch. Includes offline retries, divergence protection, persistent settings, toolbar controls and agent tools. Auto-sync is off by default.",
+      "version": "0.13.0",
+      "description": "Project-scoped source repositories, Git auto-sync, editing, issues and templates. When Workspaces is connected, Run uses a Docker workspace with dependency installation, source sync, mapped preview ports, logs and Stop. Requires Workspaces 0.6.0 and Containers 0.5.0; unbound previews retain explicit local execution permissions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/apteva.yaml",
@@ -1792,8 +1792,8 @@
     {
       "name": "workspaces",
       "display_name": "Workspaces",
-      "version": "0.3.0",
-      "description": "Control room for persistent development environments. Workspaces tracks ownership, lifecycle, TTL, commands, logs, resources, activity, and safety context while Containers 0.4.0 owns the underlying Docker workload. v0.3.0 gives every workspace one persistent PTY shell, so current directory, exported variables, functions, aliases, installed tools, writable files, and background services carry into later commands; the preserved container filesystem survives stop and resume.",
+      "version": "0.6.0",
+      "description": "Persistent development environments with ownership, lifecycle, TTL, commands, source transfer and logs. Includes app-owned HTTP previews with mapped loopback ports, readiness, startup deadlines and Stop through Containers 0.5.0. Command PTY state and workspace volumes persist across commands; preview handles survive Code and Workspaces restarts.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workspaces",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workspaces/apteva.yaml",
