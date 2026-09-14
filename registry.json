@@ -2,8 +2,28 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-14T07:40:55Z",
+  "updated_at": "2026-09-14T12:09:26Z",
   "apps": [
+    {
+      "name": "editorial",
+      "display_name": "Editorial",
+      "version": "0.1.0",
+      "description": "Standalone editorial calendar and content operations: ideas, briefs, approvals, owners, deadlines and channel-specific releases. Optional Social and Campaigns links; no required app dependencies.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/editorial",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.1.0/mcp/editorial/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.1.0/mcp/editorial/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "editorial",
+        "content",
+        "calendar",
+        "planning",
+        "marketing"
+      ],
+      "official": true,
+      "category": "productivity"
+    },
     {
       "name": "3d-studio",
       "display_name": "3D Studio",
