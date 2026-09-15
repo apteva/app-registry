@@ -1580,12 +1580,12 @@
     {
       "name": "finance",
       "display_name": "Finance",
-      "version": "0.1.16",
-      "description": "Unified personal-wealth tracker \u2014 cash, brokerage positions, P2P loans, crypto, real estate, vehicles, pensions, loans, all in one ledger. Three nouns model everything: accounts (a place that holds value), instruments (the thing held \u2014 AAPL, BTC, EUR, your house), holdings (account \u00d7 instrument \u2192 quantity + cost basis). Money in signed integer minor units; avg-cost accounting with cost_basis_delta on every txn so realised P&L is one column sum. Convenience tools for buy/sell/dividend/interest/transfer/valuation. Reports: net worth (point or monthly series, by account/kind/currency), allocation, performance (realised + unrealised P&L), cashflow (income vs expense per period). Per-category monthly budgets with hierarchical rollup. CSV import. v0.1 is manual entry; v0.2 plugs in integrations (Trading 212 first, then Plaid / Mintos / Binance) via the platform integrations engine \u2014 manual and integrated rows are indistinguishable downstream. v0.1.16 adds Finance's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Personal finance and portfolio tracking with brokerage and open-banking imports, budgets and reports. Reviewed payments through Plaid, Teller, Enable Banking, TrueLayer Payments and Salt Edge PIS include bank authorization, durable duplicate prevention and status reconciliation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/finance",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/finance/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/finance/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/finance/v0.2.0/mcp/finance/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/finance/v0.2.0/mcp/finance/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "finance",
