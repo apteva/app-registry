@@ -1580,12 +1580,12 @@
     {
       "name": "finance",
       "display_name": "Finance",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "description": "Personal finance and portfolio tracking with one Financial connections selection for bank and brokerage imports, payments, authorization and status tracking. Supports Plaid, Teller, Enable Banking, TrueLayer Payments and Salt Edge PIS, with durable payment review and reconciliation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/finance",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/finance/v0.2.3/mcp/finance/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/finance/v0.2.3/mcp/finance/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/finance/v0.2.4/mcp/finance/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/finance/v0.2.4/mcp/finance/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "finance",
