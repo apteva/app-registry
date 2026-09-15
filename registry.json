@@ -2353,12 +2353,12 @@
     {
       "name": "a2a",
       "display_name": "Agent to Agent",
-      "version": "0.5.1",
-      "description": "Agent-to-agent communication within and between Apteva installations and public A2A agents. Discover Agent Cards, exchange messages and tracked tasks, and inspect connections in a live dashboard. v0.5.1 adds durable reply recovery, artifact preservation, bounded polling, stricter access controls, and UI reliability fixes.",
+      "version": "0.6.0",
+      "description": "Agent-to-agent communication within and between Apteva installations and public A2A agents. A complete network workspace with an overview of active work and issues, searchable agent capabilities, a network map, exchange timelines and artifacts, guided connection setup, discovery checks, and access controls.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/a2a",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/a2a/v0.5.1/mcp/a2a/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/a2a/v0.5.1/mcp/a2a/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/a2a/v0.6.0/mcp/a2a/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/a2a/v0.6.0/mcp/a2a/ui/icon.svg",
       "tags": [
         "agents",
         "a2a",
