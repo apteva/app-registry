@@ -2,17 +2,17 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-17T15:52:07Z",
+  "updated_at": "2026-09-17T15:56:57Z",
   "apps": [
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "description": "Reproducible, publishable benchmarks for agents. Sealed scenario packs carry fixed budgets and a frozen scoring contract; admission control keeps harness failures out of the record; leaderboards compare targets across runs and over time. Execution is delegated to Evals inside isolated Environments.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.1.1/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.1.1/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.2.0/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.2.0/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
