@@ -7,12 +7,12 @@
     {
       "name": "editorial",
       "display_name": "Editorial",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Standalone editorial calendar and content operations for multiple brands: ideas, briefs, approvals, owners, deadlines and channel releases, plus a home dashboard calendar widget. Optional brand-specific Social and Campaigns mappings; no required app dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/editorial",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.3.2/mcp/editorial/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.3.2/mcp/editorial/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.3.3/mcp/editorial/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.3.3/mcp/editorial/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "editorial",
