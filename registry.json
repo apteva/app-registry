@@ -1483,11 +1483,11 @@
     {
       "name": "commerce",
       "display_name": "Commerce",
-      "version": "0.9.0",
-      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.9.0 makes storefront measurement provider-neutral: Meta Pixels and Google conversion actions are offered side by side, a store can run both at once, and the storefront drives every provider through one canonical, consent-gated event vocabulary.",
+      "version": "0.9.1",
+      "description": "Multi-store commerce orchestration for Apteva. Connects independent Catalog, Inventory, Checkout, Billing, Orders, and optional Content and Ads apps; includes provider-specific Printful, Printify, Prodigi, BigBuy, and CJ Dropshipping adapters. v0.9.0 makes storefront measurement provider-neutral: Meta Pixels and Google conversion actions are offered side by side, a store can run both at once, and the storefront drives every provider through one canonical, consent-gated event vocabulary. v0.9.1 validates CJ Dropshipping catalog responses so silently ignored page-size, keyword, and price filters surface as errors instead of mismatched products.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/commerce",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.9.0/mcp/commerce/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/commerce/v0.9.1/mcp/commerce/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/commerce/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1510,7 +1510,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-09-17T09:24:57Z"
+      "updated_at": "2026-09-17T09:47:23Z"
     },
     {
       "name": "creators",
