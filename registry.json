@@ -2016,12 +2016,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.46",
-      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.46 hardens mutation scope, adds recoverable audience sync with complete batch diagnostics, fixes pagination and analytics cache reconciliation, and reduces hierarchy requests.",
+      "version": "0.1.47",
+      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.47 makes a Google Search campaign buildable end to end with keyword and negative-keyword targeting, responsive search ads, first-class campaign channel types, Google conversion actions with gtag installation details, and sitelink, callout and structured-snippet extensions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.46/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.46/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.47/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.47/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
