@@ -2016,12 +2016,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.48",
-      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.48 fixes Google campaign creation: the required EU political advertising declaration, unshared budgets compatible with inline bidding, a corrected objective-to-bidding map using real Google strategies, Google bid strategy names for accounts without conversion history, and budget tools that surface and remove budgets stranded by failed creates.",
+      "version": "0.1.49",
+      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.49 adds Google location and language targeting, so a campaign need not be born serving everywhere, and fixes four GAQL reads that filtered on a field they did not select, which had made keyword, negative keyword and ad extension listing fail.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.48/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.48/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.49/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.49/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
