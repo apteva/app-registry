@@ -687,11 +687,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.12.5",
-      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.5 adds smooth live progress across all concurrent direct-S3 and relayed multipart upload workers while preserving retries, cancellation, and resumability. Direct browser uploads require platform.dashboard.connect approval and a dashboard reload; unavailable registration retains streaming relay uploads.",
+      "version": "0.12.7",
+      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.7 defaults browser multipart uploads to the faster parallel relay while keeping direct S3 configurable. Both transports and small single-request uploads show smooth live progress, smoothed transfer speed, and approximate completion ETA, with retries, cancellation, and resumability preserved.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.5/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.7/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
