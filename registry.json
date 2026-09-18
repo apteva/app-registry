@@ -2414,12 +2414,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.23.21",
-      "description": "Shared dashboard and exported chat with attachments, durable retries, grouped live tool activity, approvals, localization, and Telegram routing. v0.23.21 adds a generic presentation-only option for hiding the page-context row while preserving the complete context attached to every sent message. Requires Apteva 0.40.6 or later.",
+      "version": "0.23.22",
+      "description": "Shared dashboard and exported chat with attachments, durable retries, grouped live tool activity, approvals, localization, and Telegram routing. v0.23.22 rebuilds the manifest-loaded agent conversation widget so the generic page-context display option is honored while context transport remains intact. Requires Apteva 0.40.6 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.21/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.21/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.22/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.22/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
