@@ -687,11 +687,11 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.4.0",
-      "description": "Independent project-scoped databases with named SQLite or Pebble backends. Define typed collections, records, compound and unique indexes, atomic cross-collection batches, aggregation, query plans, and stable cursor pagination through one portable API. v0.4.0 adds atomic chunked SQLite bulk inserts to reduce per-record write overhead while preserving durable commits.",
+      "version": "0.4.1",
+      "description": "Independent project-scoped databases with named SQLite or Pebble backends. Define typed collections, records, compound and unique indexes, atomic cross-collection batches, aggregation, query plans, and stable cursor pagination through one portable API. v0.4.1 tunes atomic SQLite bulk-insert chunks for lower write overhead while preserving durable commits.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.4.0/mcp/database/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.4.1/mcp/database/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -703,7 +703,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-09-18T15:30:00Z"
+      "updated_at": "2026-09-18T15:45:00Z"
     },
     {
       "name": "storage",
