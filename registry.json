@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-17T17:37:05Z",
+  "updated_at": "2026-09-18T14:24:00Z",
   "apps": [
     {
       "name": "bench",
@@ -218,6 +218,29 @@
       "official": true,
       "category": "infrastructure",
       "updated_at": "2026-09-10T17:25:03Z"
+    },
+    {
+      "name": "graphql",
+      "display_name": "GraphQL",
+      "version": "0.1.0",
+      "description": "Standalone GraphQL and realtime API runtime with schema versioning, resolver bindings, Database/Tables/Functions/HTTP sources, native aggregation delegation, and WebSocket subscriptions. Independent from the API Gateway app.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.1.0/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.1.0/mcp/graphql/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "graphql",
+        "realtime",
+        "subscriptions",
+        "aggregation",
+        "database",
+        "tables",
+        "functions",
+        "api"
+      ],
+      "official": true,
+      "category": "infrastructure"
     },
     {
       "name": "saas",
