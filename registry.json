@@ -687,11 +687,11 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.4.2",
-      "description": "Independent project-scoped databases with named SQLite or Pebble backends. Define typed collections, records, compound and unique indexes, atomic cross-collection batches, aggregation, query plans, and stable cursor pagination through one portable API. v0.4.2 removes avoidable scalar-record serialization from the SQLite write path while preserving exact size limits.",
+      "version": "0.4.3",
+      "description": "Independent project-scoped databases with named SQLite or Pebble backends. Define typed collections, records, compound and unique indexes, atomic cross-collection batches, aggregation, query plans, and stable cursor pagination through one portable API. v0.4.3 removes avoidable scalar-record and index-key allocations from the SQLite write path while preserving portable limits.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.4.2/mcp/database/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.4.3/mcp/database/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -703,7 +703,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-09-18T16:00:00Z"
+      "updated_at": "2026-09-18T16:15:00Z"
     },
     {
       "name": "storage",
