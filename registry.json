@@ -809,11 +809,11 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.14.0",
-      "description": "Project-scoped source repositories, Git auto-sync, editing, issues and templates. When Workspaces is connected, Run uses a Docker workspace with dependency installation, source sync, mapped preview ports, logs and Stop. Requires Workspaces 0.6.2 and Containers 0.5.2; unbound previews retain explicit local execution permissions.",
+      "version": "0.14.1",
+      "description": "Project-scoped source repositories with native immutable revisions, branches, tags, restore, exact-revision export, editing, issues and templates. Git synchronization remains optional. When Workspaces is connected, Run uses a Docker workspace with dependency installation, source sync, mapped preview ports, logs and Stop.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/code/v0.14.0/mcp/code/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/code/v0.14.1/mcp/code/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
