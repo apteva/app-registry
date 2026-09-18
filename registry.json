@@ -68,7 +68,7 @@
     {
       "name": "tests",
       "display_name": "Tests",
-      "version": "0.1.1",
+      "version": "0.1.0",
       "description": "Project test suites with function and HTTP assertions, queued runs, saved failure evidence, and app-bus events.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tests",
@@ -222,7 +222,7 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Standalone GraphQL and realtime API runtime with schema versioning, resolver bindings, Database/Tables/Functions/HTTP sources, native aggregation delegation, and WebSocket subscriptions. Independent from the API Gateway app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/graphql",
