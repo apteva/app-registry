@@ -2211,8 +2211,8 @@
     {
       "name": "webinars",
       "display_name": "Webinars",
-      "version": "0.2.0",
-      "description": "Live, scheduled, multi-slot, and replay webinars. Owns registration pages, registrants, reminders, attendance, chat, polls, offers, replay publishing, and engagement reporting. v0.2.0 fixes scripted offers never firing, duplicate-registration corruption, and reminders that ignored rescheduling; enforces replay expiry with signed media URLs; and rebuilds the attendee pages with a responsive live room, real lifecycle states, and accessibility fixes.",
+      "version": "0.3.0",
+      "description": "Live, scheduled, multi-slot, and replay webinars. Owns registration pages, registrants, reminders, attendance, chat, polls, offers, replay publishing, and engagement reporting. v0.3.0 prevents event cursor loss and cross-project poll injection, restores join links and timezone-aware reminder text, makes slot capacity atomic, preserves live webinars across sidecar restarts, scopes workers per project, and completes attendee lifecycle, offer, poll, and chat behavior.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/webinars",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/webinars/apteva.yaml",
@@ -2333,8 +2333,8 @@
     {
       "name": "streaming",
       "display_name": "Streaming",
-      "version": "0.2.0",
-      "description": "Live ingest and HLS packaging for sibling Apteva apps. Owns RTMP ingest, ffmpeg-driven HLS segmentation, recording-to-MP4, viewer heartbeats, signed playback, and synthetic load testing for capacity planning. v0.2.0 fixes recordings being stranded when a publisher disconnects, adds expiring HMAC-signed playback URLs with a per-stream signed-URL policy, bounds the live HLS playlist with a separate VOD replay manifest, and enforces retention_days.",
+      "version": "0.3.0",
+      "description": "Live ingest and HLS packaging for sibling Apteva apps. Owns RTMP ingest, ffmpeg-driven HLS segmentation, recording-to-MP4, viewer heartbeats, signed playback, retention, and synthetic load testing. v0.3.0 finalizes recordings consistently across disconnect, restart, and shutdown; preserves media during key rotation; scopes playback signatures by URL kind; supports shared-egress viewers safely; extends live playback lifetimes; and writes replay manifests from measured segment durations. Signed URLs issued by v0.2 must be reissued.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/streaming",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/streaming/apteva.yaml",
