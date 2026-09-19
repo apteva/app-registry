@@ -2,8 +2,28 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-18T16:35:00Z",
+  "updated_at": "2026-09-19T13:40:07Z",
   "apps": [
+    {
+      "name": "actors",
+      "display_name": "Actors",
+      "version": "0.1.0",
+      "description": "Reusable browser actors with named operations, revision-pinned tasks, saved Computer contexts, queued runs, persistent datasets, JSONL/CSV exports, and Jobs schedules. Direct Computer dependency; independent of Web.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.1.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.1.0/mcp/actors/ui/icon.svg",
+      "icon_style": "image",
+      "tags": [
+        "automation",
+        "actors",
+        "extraction",
+        "browser"
+      ],
+      "official": true,
+      "category": "workflow",
+      "updated_at": "2026-09-19T13:40:07Z"
+    },
     {
       "name": "bench",
       "display_name": "Bench",
