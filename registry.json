@@ -1333,7 +1333,7 @@
     {
       "name": "backup",
       "display_name": "Backup",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "description": "Verified, optionally encrypted backups for Apteva platform data, local Fleet tenants, and selected folders on registered macOS/Linux instances. v0.3.6 adds optional Instances integration with native Go workers, streamed archives, durable retries, isolated retention, and replacement-host restore.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/backup",
@@ -2218,9 +2218,9 @@
       "version": "0.3.6",
       "description": "Generic temporal intelligence platform with market and trading domain packs. Records source-attributed evidence, supports date-aware and point-in-time search, and exposes reproducible analysis and backtesting primitives. The market pack provides cross-source prediction-market, sports, macro, news, crypto, and signal intelligence.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.6/mcp/market-intel",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.6/mcp/market-intel/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.6/mcp/market-intel/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.7/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.7/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.7/mcp/market-intel/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "trading",
