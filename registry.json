@@ -48,7 +48,7 @@
     {
       "name": "3d-studio",
       "display_name": "3D Studio",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Native Go polygon modeling for game assets. Select and edit vertices and faces, use proportional transforms, extrude and inset geometry, preview changes, and export GLB. Includes a browser editor, 16 MCP tools, immutable revisions, and editable car, armored warrior, river landscape, and sword examples.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/3d-studio",
@@ -226,8 +226,8 @@
       "description": "Standalone GraphQL and realtime API runtime with schema versioning, resolver bindings, Database/Tables/Functions/HTTP sources, native aggregation delegation, and WebSocket subscriptions. Independent from the API Gateway app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.2.0/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.2.0/mcp/graphql/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.2.1/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.2.1/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
