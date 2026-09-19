@@ -1580,7 +1580,7 @@
     {
       "name": "creators",
       "display_name": "Creators",
-      "version": "0.3.5",
+      "version": "0.3.4",
       "description": "Patreon-like memberships for creators and communities. Manage multiple creator spaces, paid membership periods, expiring member portals, gated posts and pictures, scheduled publishing, Billing payment lifecycle events, optional CRM synchronization, and supporter announcements through Messaging. v0.3.0 adds publishable ordered collections, many-to-many post organization, collection metadata and Storage-backed cover images, plus public and member collection views with locked paid previews. v0.3.2 restores picture uploads and cover validation against the current Storage API, including uploads through the HTTP app surface. v0.3.3 adds direct collection-cover upload, preview, replace, and remove controls in the Creators panel using the same private Storage upload flow as Social. v0.3.4 restores portable production installs by targeting the supported Go 1.25 baseline. v0.3.5 adds Creators's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/creators",
@@ -2215,12 +2215,12 @@
     {
       "name": "market-intel",
       "display_name": "Market Intelligence",
-      "version": "0.3.4",
+      "version": "0.3.6",
       "description": "Generic temporal intelligence platform with market and trading domain packs. Records source-attributed evidence, supports date-aware and point-in-time search, and exposes reproducible analysis and backtesting primitives. The market pack provides cross-source prediction-market, sports, macro, news, crypto, and signal intelligence.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.4/mcp/market-intel",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.4/mcp/market-intel/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.4/mcp/market-intel/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.6/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.6/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.6/mcp/market-intel/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "trading",
