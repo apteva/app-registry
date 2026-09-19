@@ -242,12 +242,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.4.2",
-      "description": "Standalone multi-API GraphQL runtime with standard typed inputs and guarded fast Tables completion. Supports batched relationships, cursor pagination, counts and native aggregation; v0.4.2 adds explicit primitive coercion for differently typed parent/foreign relationship keys. Database/Functions/HTTP adapters, Apteva Auth and trusted Functions remain available. Independent from the API app.",
+      "version": "0.5.0",
+      "description": "Standalone multi-API GraphQL runtime with standard schemas and guarded fast Tables completion. v0.5.0 adds schema-defined typed filters, conventional first/after pagination mapping, authenticated identity-derived Tables row policies, mandatory filter composition, and automatic selection pushdown with fragments and relationship keys. Batched relationships, counts, aggregation, Database/Functions/HTTP adapters, realtime, Apteva Auth and trusted Functions remain available. Independent from the API app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.4.2/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.4.2/mcp/graphql/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.5.0/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.5.0/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
