@@ -2215,12 +2215,12 @@
     {
       "name": "market-intel",
       "display_name": "Market Intelligence",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "description": "Generic temporal intelligence platform with market and trading domain packs. Records source-attributed evidence, supports date-aware and point-in-time search, and exposes reproducible analysis and backtesting primitives. The market pack provides cross-source prediction-market, sports, macro, news, crypto, and signal intelligence.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.3/mcp/market-intel",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.3/mcp/market-intel/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.3/mcp/market-intel/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.4/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.4/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.4/mcp/market-intel/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "trading",
