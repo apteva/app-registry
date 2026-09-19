@@ -2170,11 +2170,11 @@
     {
       "name": "gigs",
       "display_name": "Gigs",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "description": "Generic gigs with versioned compensation agreements, explicit financial approvals, expenses, optional site allocations and delivered-file links. Optional Bills integration creates unapproved supplier payables and synchronizes recorded payments. Historical unknown costs remain unknown. Includes resumable parallel video uploads.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/gigs",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/gigs/v0.6.1/mcp/gigs/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/gigs/v0.6.2/mcp/gigs/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/gigs/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
