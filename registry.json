@@ -222,12 +222,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "description": "Standalone GraphQL and realtime API runtime with schema versioning, resolver bindings, Database/Tables/Functions/HTTP sources, native aggregation delegation, and WebSocket subscriptions. Independent from the API Gateway app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.1.3/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.1.3/mcp/graphql/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.1.4/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.1.4/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
