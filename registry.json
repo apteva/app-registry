@@ -750,11 +750,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.21",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, and an efficient table editor. v0.1.20 adds correlated read diagnostics, query fingerprints, pool and phase timings, and deadline-overrun reporting without changing SQL timeouts or read concurrency. v0.1.21 fixes upgrades blocked by legacy raw text defaults, preserving values, existing metadata and rows while resuming partially completed migrations; all schema loaders share the compatibility rule.",
+      "version": "0.1.22",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, query through a read-only SQL interface, and run bounded generic batches with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.22 adds validated batch execution and atomic multi-operation row writes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.21/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.22/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
