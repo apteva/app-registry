@@ -2239,7 +2239,7 @@
     {
       "name": "market-intel",
       "display_name": "Market Intelligence",
-      "version": "0.3.8",
+      "version": "0.4.0",
       "description": "Generic temporal intelligence platform with market and trading domain packs. Records source-attributed evidence, supports date-aware and point-in-time search, and exposes reproducible analysis and backtesting primitives. The market pack provides cross-source prediction-market, sports, macro, news, crypto, and signal intelligence.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/market-intel/v0.4.0/mcp/market-intel",
