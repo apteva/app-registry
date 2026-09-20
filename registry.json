@@ -2042,7 +2042,7 @@
     {
       "name": "redirects",
       "display_name": "Redirects",
-      "version": "0.3.8",
+      "version": "0.4.0",
       "description": "Branded short links and domain redirects. Each rule maps a (hostname, path) pair to an external URL and answers with a 301/302/307/308 + Location header. Think Bitly on your own domain, or EasyRedir for post-rebrand migrations. Uses server-native ingress to claim public hostnames so apteva-server reverse-proxies inbound traffic here, with TLS handled by platform ingress. Optionally composes with Domains to upsert an A or CNAME record pointing at the platform when the apex is managed there. Match modes: exact and prefix (longest wins, segment-boundary safe); preserve_path forwards the leftover path on prefix rules, preserve_query merges inbound query strings. v0.3.8 adds Redirects's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/redirects",
@@ -2242,9 +2242,9 @@
       "version": "0.3.8",
       "description": "Generic temporal intelligence platform with market and trading domain packs. Records source-attributed evidence, supports date-aware and point-in-time search, and exposes reproducible analysis and backtesting primitives. The market pack provides cross-source prediction-market, sports, macro, news, crypto, and signal intelligence.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.3.8/mcp/market-intel",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.8/mcp/market-intel/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.3.8/mcp/market-intel/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.4.0/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.0/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.0/mcp/market-intel/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "trading",
