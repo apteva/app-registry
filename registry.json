@@ -2484,12 +2484,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.23.24",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, grouped live tool activity, approvals, localization, and Telegram routing. v0.23.24 publishes the chat/v1 mobile surface with cursor history, durable SSE reconnects, and compatible existing dashboard APIs. Requires Apteva 0.52.0 or later.",
+      "version": "0.23.25",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, grouped live tool activity, approvals, localization, and Telegram routing. v0.23.25 binds chat/v1 to the stable page APIs, closes the SSE replay/live handoff gap, and pins source installs to the immutable release tag. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.24/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.24/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.25/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.23.25/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
