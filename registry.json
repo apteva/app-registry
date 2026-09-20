@@ -1146,8 +1146,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.48",
-      "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). v0.13.48 adds a project-home virtual phone widget with SMS and WhatsApp conversation lists, responsive thread views, delivery indicators, channel filtering, and quick replies. Messaging also tracks provider delivery events, suppressions, attachments, templates, sender identities, and inbound routing.",
+      "version": "0.13.49",
+      "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). v0.13.49 adds new-conversation composing to the project-home virtual phone widget, including international-number validation, free-form SMS and WhatsApp messages, approved WhatsApp templates and variables, retry-safe sends, and automatic thread opening. Messaging also tracks provider delivery events, suppressions, attachments, sender identities, and inbound routing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
