@@ -2132,12 +2132,12 @@
     {
       "name": "seo",
       "display_name": "SEO",
-      "version": "0.7.1",
-      "description": "Google and YouTube SEO research workbench for domains, keywords, rankings, backlinks, SERPs, and content opportunities. Supports DataForSEO and YepAPI, budgeted automatic rank tracking, resumable bulk keyword metrics, searchable sites and competitors, and fast cached backlink summaries.",
+      "version": "0.7.2",
+      "description": "Google and YouTube SEO research workbench for domains, keywords, rankings, backlinks, SERPs, and locale-safe content opportunities. Supports DataForSEO and YepAPI, reliable partial keyword refreshes, serialized resumable bulk metrics, budgeted automatic rank tracking, searchable sites and competitors, and fast cached backlink summaries.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/seo",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/seo/v0.7.1/mcp/seo/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/seo/v0.7.1/mcp/seo/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/seo/v0.7.2/mcp/seo/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/seo/v0.7.2/mcp/seo/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "seo",
