@@ -27,12 +27,12 @@
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.5.0",
-      "description": "Reproducible, publishable benchmarks for persistent and on-demand draft agents. Sealed scenario packs carry fixed budgets and a frozen scoring contract; v0.5.0 compares multiple hidden setups without adding agents to the project.",
+      "version": "0.6.0",
+      "description": "Reproducible, publishable benchmarks for persistent and on-demand draft agents. v0.6.0 adds sealed benchmark categories, scenario tags, category-scoped discovery, result search, and cross-pack leaderboards.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.5.0/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.5.0/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.6.0/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.6.0/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
@@ -44,7 +44,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-20T09:40:00Z"
+      "updated_at": "2026-09-20T10:04:51Z"
     },
     {
       "name": "editorial",
