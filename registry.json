@@ -2261,11 +2261,11 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.15.1",
-      "description": "Project-scoped event analytics, dashboards and goals with durable automatic objective refresh, optional Currencies-powered historical ECB imports, explicitly authorized combined goals, retries and freshness indicators. Preserves event identities, cached amounts on failure and auditable FX revisions. Replacement upserts remove omitted observation properties and stale provenance.",
+      "version": "0.16.0",
+      "description": "Project-scoped event analytics with persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards and goals with durable automatic objective refresh, optional Currencies-powered historical ECB imports, retries and auditable FX revisions.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.15.1/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.16.0/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -2275,7 +2275,7 @@
       ],
       "official": true,
       "category": "observability",
-      "updated_at": "2026-09-07T13:40:52Z"
+      "updated_at": "2026-09-20T00:00:00Z"
     },
     {
       "name": "webinars",
