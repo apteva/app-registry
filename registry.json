@@ -615,8 +615,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.3",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.3 adds deterministic list-aware event payloads across contact, activity, conversation, opportunity, and segment workflows, including attribution and before-and-after membership snapshots.",
+      "version": "0.9.4",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.4 documents every supported segment predicate and argument shape in the MCP contract, adds copyable create/update examples, and returns supported alternatives in validation errors.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
