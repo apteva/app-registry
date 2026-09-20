@@ -1146,8 +1146,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.47",
-      "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). Tracks SES/SNS delivery events including delivered, opened, clicked, bounced, complaints, delays, rejects, and rendering failures; mirrors them into Apteva message events and the operator panel. Sender setup can be rechecked idempotently to refresh SES identity, DNS, inbound receiving, SNS notifications, and delivery event wiring.",
+      "version": "0.13.48",
+      "description": "Send and receive messages across channels (email via SES, SMS+WhatsApp via Twilio). v0.13.48 adds a project-home virtual phone widget with SMS and WhatsApp conversation lists, responsive thread views, delivery indicators, channel filtering, and quick replies. Messaging also tracks provider delivery events, suppressions, attachments, templates, sender identities, and inbound routing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
@@ -1156,6 +1156,9 @@
       "tags": [
         "messaging",
         "email",
+        "sms",
+        "whatsapp",
+        "twilio",
         "ses",
         "transactional",
         "inbox"
