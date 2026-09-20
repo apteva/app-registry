@@ -750,11 +750,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.25",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, query through a read-only SQL interface, and run bounded generic batches with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.25 adds a versioned recursive filter AST with typed expressions and correlated exists/not_exists predicates, while preserving the legacy filter API.",
+      "version": "0.1.26",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, query through a read-only SQL interface, and run bounded generic batches with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.26 fixes recursive-filter literal coercion so explicit casts retain their operand type, boolean literals are coerced once, and casted outer numeric IDs preserve indexed text foreign-key lookups. v0.1.25 adds a versioned recursive filter AST with typed expressions and correlated exists/not_exists predicates, while preserving the legacy filter API.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.25/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.26/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -765,7 +765,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-09-20T12:55:50Z"
+      "updated_at": "2026-09-20T13:56:52Z"
     },
     {
       "name": "jobs",
