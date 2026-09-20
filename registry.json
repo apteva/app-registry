@@ -27,12 +27,12 @@
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.3.2",
-      "description": "Reproducible, publishable benchmarks for agents. Sealed scenario packs carry fixed budgets and a frozen scoring contract; admission control keeps harness failures out of the record; leaderboards compare targets across runs and over time. Execution is delegated to Evals inside isolated Environments.",
+      "version": "0.5.0",
+      "description": "Reproducible, publishable benchmarks for persistent and on-demand draft agents. Sealed scenario packs carry fixed budgets and a frozen scoring contract; v0.5.0 compares multiple hidden setups without adding agents to the project.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.3.2/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.3.2/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.5.0/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.5.0/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
@@ -43,7 +43,8 @@
         "reproducibility"
       ],
       "official": true,
-      "category": "developer"
+      "category": "developer",
+      "updated_at": "2026-09-20T09:40:00Z"
     },
     {
       "name": "editorial",
@@ -2381,12 +2382,12 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.5.4",
-      "description": "Project-scoped behavioral and voice evaluations in isolated Environments. Select a production agent, clone the project or reuse a saved Environment, define normal-language scenarios and per-goal pass criteria, inspect live runs, transcripts, tool traces, metrics, and judge results, and schedule continuous evaluations. v0.5.2 accepts explicit target completion as a valid end to realtime voice evaluations and requires Environments 0.6.2 or newer.",
+      "version": "0.6.0",
+      "description": "Behavioral, conditioned live voice, carrier-path, and continuous evaluation of persistent or on-demand draft agents inside isolated Environments. v0.6.0 adds hidden draft targets and multi-setup comparisons without creating project agents.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/evals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/evals/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.6.0/mcp/evals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.6.0/mcp/evals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "evals",
@@ -2396,7 +2397,8 @@
         "observability"
       ],
       "official": true,
-      "category": "developer"
+      "category": "developer",
+      "updated_at": "2026-09-20T09:40:00Z"
     },
     {
       "name": "streaming",
