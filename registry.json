@@ -27,12 +27,12 @@
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.7.0",
-      "description": "Reproducible, publishable benchmarks for persistent and on-demand draft agents. v0.7.0 adds user-selectable LLM judges, judge-aware scoring, and complete verdict provenance.",
+      "version": "0.7.1",
+      "description": "Reproducible, publishable benchmarks for persistent and on-demand draft agents. v0.7.1 automatically pins a safe isolated Environment when a scenario does not specify one.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.7.0/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.7.0/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.7.1/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.7.1/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
@@ -44,7 +44,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-20T13:21:02Z"
+      "updated_at": "2026-09-20T14:07:20Z"
     },
     {
       "name": "editorial",
