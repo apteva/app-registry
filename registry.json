@@ -2215,12 +2215,12 @@
     {
       "name": "market-intel",
       "display_name": "Market Intelligence",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Cross-source market-intelligence gateway for trading agents. Ask in domain language (\"Alcaraz clay H2H\", \"current Fed-cut probability\", \"enrich this Polymarket market\") and market-intel fans out to the right bound data sources — prediction markets, sportsbook odds, macro, news, crypto — normalizes, de-vigs, and returns one consistent result. Read-only: it reads prices/stats/history; the agent decides; the trading app executes. v0.1 ships the unified query gateway; the background signal engine (arbitrage detection + events) lands in v0.2. v0.1.4 adds Market Intelligence's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.4.0/mcp/market-intel",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.0/mcp/market-intel/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.0/mcp/market-intel/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.4.1/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.1/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.1/mcp/market-intel/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "trading",
