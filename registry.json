@@ -772,11 +772,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.24",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, and a generic bounded batch executor with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.24 adds bounded prepared-statement caching for searches, counts, and aggregations, schema invalidation, and the latest structured internal SDK transport while preserving MCP compatibility.",
+      "version": "0.1.25",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, and a generic bounded batch executor with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.25 adds a versioned recursive filter AST with typed expressions and correlated exists/not_exists predicates, while preserving the legacy filter API.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.24/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.25/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -787,7 +787,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-09-19T13:03:13Z"
+      "updated_at": "2026-09-20T12:55:50Z"
     },
     {
       "name": "jobs",
