@@ -2362,12 +2362,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.7.7",
-      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.7 adds generic thread-tree waits so delegated and nested workers finish before an evaluation is finalized.",
+      "version": "0.7.8",
+      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.8 captures ephemeral delegated and nested worker traces while the root agent is still running.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.7/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.7/mcp/environments/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.8/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.8/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
@@ -2382,12 +2382,12 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.9.2",
-      "description": "Behavioral evaluation of persistent or hidden on-demand agents inside isolated Environments. v0.9.2 waits for delegated and nested workers before checking state and judging the complete execution.",
+      "version": "0.9.3",
+      "description": "Behavioral evaluation of persistent or hidden on-demand agents inside isolated Environments. v0.9.3 retains ephemeral delegated and nested worker traces in the evidence judged with the complete execution.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.2/mcp/evals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.2/mcp/evals/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.3/mcp/evals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.3/mcp/evals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "evals",
