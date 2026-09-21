@@ -27,12 +27,12 @@
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.8.0",
-      "description": "Reproducible, publishable benchmarks for persistent and on-demand draft agents. v0.8.0 seals portable inline app-and-seed environment specs so Evals materializes every benchmark world automatically per trial.",
+      "version": "0.9.0",
+      "description": "Reproducible benchmarks for persistent and hidden on-demand agents. v0.9.0 adds Agentic Quality v2, graded outcomes, pass^k reporting, and reversible archival of superseded packs while preserving all history.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.8.0/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.8.0/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.0/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.0/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
@@ -2382,12 +2382,12 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.8.0",
-      "description": "Behavioral, conditioned live voice, carrier-path, and continuous evaluation of persistent or on-demand draft agents inside isolated Environments. v0.8.0 accepts self-contained inline environment specs, resolves stable app names per project, and creates and destroys a fresh runtime for every trial.",
+      "version": "0.9.0",
+      "description": "Behavioral evaluation of persistent or hidden on-demand agents inside isolated Environments. v0.9.0 adds Agentic Quality v2 with weighted and critical outcomes, equivalent evidence paths, disqualification, and continuous quality scores without changing legacy scoring.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.8.0/mcp/evals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.8.0/mcp/evals/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.0/mcp/evals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.0/mcp/evals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "evals",
