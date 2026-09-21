@@ -27,12 +27,12 @@
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.9.2",
-      "description": "Reproducible benchmarks for persistent and hidden on-demand agents. v0.9.2 reliably cancels active Evals runs and surfaces downstream cancellation failures instead of reporting a false cancellation.",
+      "version": "0.9.3",
+      "description": "Reproducible benchmarks for persistent and hidden on-demand agents. v0.9.3 consistently excludes explicit harness-invalid Evals outcomes even when an agent trace exists.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.2/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.2/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.3/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.3/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
@@ -44,7 +44,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-21T09:17:45Z"
+      "updated_at": "2026-09-21T14:51:02Z"
     },
     {
       "name": "editorial",
@@ -2382,12 +2382,12 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.9.4",
-      "description": "Behavioral evaluation of persistent or hidden on-demand agents inside isolated Environments. v0.9.4 retains ephemeral worker evidence with accurate full-run duration and token accounting.",
+      "version": "0.9.5",
+      "description": "Behavioral evaluation of persistent or hidden on-demand agents inside isolated Environments. v0.9.5 grades timed-out or failed agent executions from their persisted work, checks, and judge evidence instead of misclassifying them as harness failures.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.4/mcp/evals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.4/mcp/evals/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.5/mcp/evals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.5/mcp/evals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "evals",
@@ -2398,7 +2398,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-21T09:17:45Z"
+      "updated_at": "2026-09-21T14:51:02Z"
     },
     {
       "name": "streaming",
