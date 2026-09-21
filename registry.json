@@ -27,12 +27,12 @@
     {
       "name": "bench",
       "display_name": "Bench",
-      "version": "0.9.3",
-      "description": "Reproducible benchmarks for persistent and hidden on-demand agents. v0.9.3 consistently excludes explicit harness-invalid Evals outcomes even when an agent trace exists.",
+      "version": "0.10.0",
+      "description": "Reproducible benchmarks for persistent and hidden on-demand agents. v0.10.0 adds immutable category-balanced model ratings derived from stored evidence without rerunning or overwriting results.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bench",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.3/mcp/bench/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.9.3/mcp/bench/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bench/v0.10.0/mcp/bench/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/bench/v0.10.0/mcp/bench/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "bench",
@@ -44,7 +44,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-21T14:51:02Z"
+      "updated_at": "2026-09-21T15:25:26Z"
     },
     {
       "name": "editorial",
