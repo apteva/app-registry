@@ -382,12 +382,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.14.4",
-      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and durable native run history. v0.14.4 tracks the first delivery to every app-provisioned worker with a durable execution ID and hardens worker identity and panel loading.",
+      "version": "0.14.5",
+      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, durable native run history, and a read-only global Home overview across visible projects.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.14.4/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.14.4/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.14.2/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.14.5/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.14.5/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.14.5/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
