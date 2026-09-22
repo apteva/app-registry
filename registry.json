@@ -218,11 +218,11 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.9.0",
-      "description": "API gateway with configurable authorizers, project-scoped routing, CORS, DNS, and AppBus invalidations. v0.9.0 adds optional immutable configurations and hostname-bound stages with atomic promotion and rollback; legacy mutable APIs remain compatible. Requires Functions 1.14.1+ and configured trusted callers.",
+      "version": "0.10.0",
+      "description": "Generic API gateway with configurable authorizers, project-scoped routing, CORS, DNS, AppBus invalidations, immutable configurations, and stages. v0.10.0 adds optional attributed API credentials, exact route scopes, expiration, idempotent issuance, subject revocation, and operational usage plans while preserving legacy keys and routes. Requires Functions 1.14.1+ and configured trusted callers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.9.0/mcp/api/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.10.0/mcp/api/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
