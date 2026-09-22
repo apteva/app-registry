@@ -2484,12 +2484,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.1",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, grouped live tool activity, approvals, localization, and Telegram routing. v0.24.1 removes the redundant manual Inbox refresh control while retaining event-driven updates and the fallback poll. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.2",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, grouped live tool activity, approvals, localization, and Telegram routing. v0.24.2 restores the customizable workspace rail in the full Conversations project page while leaving exported conversation and Inbox widgets unchanged. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.1/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.1/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.2/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.2/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
