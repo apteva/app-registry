@@ -396,12 +396,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.14.7",
-      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and durable native run history. v0.14.6 adds a project-wide Runs browser and execution-scoped agent tool activity with _reason, outcome, and app or integration identity. v0.14.7 fixes the initial panel load hanging when project history contains structured workflow runs.",
+      "version": "0.15.0",
+      "description": "Visual company procedures with independent assignments, multi-agent execution, approval gates, recurring runs, event triggers, and durable native run history. v0.15.0 makes agent authoring semantic-only, derives graph layout deterministically, adds read-only definition readiness checks, flags unenforced approval prose, and gives persistent workers an explicit final completion action.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.14.7/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.14.7/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.14.7/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.15.0/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.15.0/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.15.0/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
