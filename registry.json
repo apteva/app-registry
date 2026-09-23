@@ -667,8 +667,8 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.90",
-      "description": "Watch, steer, and replay hosted browser sessions. v0.7.90 adds persistent operator-owned scheduling constraints that reject immediate publication and incorrect schedule times, with live Patreon LLM recovery coverage. Requires the accompanying server authority patch and registered workflow.",
+      "version": "0.7.91",
+      "description": "Watch, steer, and replay hosted browser sessions. v0.7.91 shows live sessions first, loads closed history in pages only when opened, folds browser settings away from the session list, and keeps the current selection when another session closes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
@@ -681,7 +681,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-09-08T09:42:23Z"
+      "updated_at": "2026-09-23T10:02:25Z"
     },
     {
       "name": "screenshots",
