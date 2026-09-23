@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-23T07:34:12Z",
+  "updated_at": "2026-09-23T07:53:18Z",
   "apps": [
     {
       "name": "actors",
@@ -27,12 +27,12 @@
     {
       "name": "agent-worlds",
       "display_name": "Agent Worlds",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Live agent system visualizations with graph, operations, conversation, and pixel village views, replay, and clip export. Covers the main server, isolated environments, and a configured remote server.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/agent-worlds/v0.1.1/mcp/agent-worlds",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.1/mcp/agent-worlds/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.1/mcp/agent-worlds/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/agent-worlds/v0.1.2/mcp/agent-worlds",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.2/mcp/agent-worlds/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.2/mcp/agent-worlds/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": ["agents", "visualization", "observability", "environments"],
       "official": true,
