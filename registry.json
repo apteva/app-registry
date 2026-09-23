@@ -2498,12 +2498,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.3",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, and Telegram routing. v0.24.3 adds configurable icon-and-text tool activity, accurate tool-to-thinking handoff and message ordering, and safer first-turn image handling. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.5",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, and Telegram routing. v0.24.5 fixes streamed message ordering, groups preparing and running tools, restores Thinking between calls, and recovers live progress on reconnect. Includes compact latest-source icon stacks. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.3/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.3/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.5/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.5/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
