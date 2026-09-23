@@ -2376,12 +2376,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.7.9",
-      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.9 preserves full-run timing while capturing ephemeral delegated and nested worker traces.",
+      "version": "0.7.10",
+      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.10 adds server-owned manual clocks, dated fixtures, clock inspection, and snapshot restore.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.9/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.9/mcp/environments/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.10/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.10/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
