@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-23T14:23:43Z",
+  "updated_at": "2026-09-24T10:12:24Z",
   "apps": [
     {
       "name": "actors",
@@ -929,6 +929,27 @@
       "official": true,
       "category": "media",
       "updated_at": "2026-09-21T09:18:00Z"
+    },
+    {
+      "name": "content-catalog",
+      "display_name": "Content Catalog",
+      "version": "0.1.0",
+      "description": "Coordinate brands, production sessions, linked Storage and Media assets, Gigs, cloud video hosting, release plans, and observed publication results. Bunny Stream is the first hosting provider. Existing files and source-app records stay in their owning apps; publication is recorded only with explicit evidence.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.1.0/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.1.0/mcp/content-catalog/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "media",
+        "catalog",
+        "production",
+        "publishing",
+        "bunny"
+      ],
+      "official": true,
+      "category": "media",
+      "updated_at": "2026-09-24T10:12:24Z"
     },
     {
       "name": "podcast",
