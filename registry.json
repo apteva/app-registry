@@ -1286,8 +1286,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.26.0",
-      "description": "Build and release services, mobile apps, and arbitrary artifacts from Code or local sources through local and external build backends. v0.26.0 adds generic prepare/export/build/test commands, verified resumable Code snapshots, per-target publisher accounts, integration-driven publishing, separate availability observations, and release policies tied to the exact tested artifact. Includes a Steamworks integration configuration example; engine exports and uploads use commands.",
+      "version": "0.27.0",
+      "description": "Build and release services, universal iOS apps for iPhone and iPad, native macOS apps, Android apps, and arbitrary artifacts. v0.27.0 adds macOS builds, signing, App Store releases, platform-specific Apple build lookup and versions, and pinned sibling Code repositories in isolated source capsules.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
@@ -1300,6 +1300,7 @@
         "mobile",
         "android",
         "ios",
+        "macos",
         "app-store",
         "google-play",
         "developer",
