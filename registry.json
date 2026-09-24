@@ -933,12 +933,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.2.1",
-      "description": "Coordinate brands, production sessions, linked Storage and Media assets, Gigs, cloud video hosting, release plans, and observed publication results. Search across linked sessions, files, and releases with review and destination filters and explicit publication evidence. Session and file cards have uniform, filled previews and aligned text. Search never scans Storage folders or publishes externally. Bunny Stream is the first hosting provider.",
+      "version": "0.3.0",
+      "description": "Coordinate brands, production sessions, linked Storage and Media assets, Gigs, cloud video hosting, and asset-level publication status. Search across sessions and files with review, destination, and availability filters. Each asset shows where it was planned, scheduled, or published, with verification evidence kept distinct from reported status. Catalog never scans Storage folders or publishes externally. Bunny Stream is the first hosting provider.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.2.1/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.2.1/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.3.0/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.3.0/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -949,7 +949,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-09-24T11:26:30Z"
+      "updated_at": "2026-09-24T11:50:07Z"
     },
     {
       "name": "podcast",
