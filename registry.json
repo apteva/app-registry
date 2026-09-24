@@ -933,12 +933,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.4.0",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Drop multiple files into a session; Catalog verifies their Storage folder before linking. One post can include several assets and appears on each asset with shared status and evidence. Search across sessions and files with destination and availability filters. Catalog never scans folders automatically or publishes externally. Bunny Stream is the first hosting provider.",
+      "version": "0.4.1",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Historical sessions can have an unknown recording date and a stable Storage folder. A session may override the brand Bunny collection. MCP-only backfill links an existing Bunny video after verifying its library, collection, duration, and readiness without uploading or claiming a cryptographic source match. Catalog never scans folders automatically or publishes externally.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.0/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.0/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.1/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.1/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
