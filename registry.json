@@ -2359,12 +2359,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.8.3",
+      "version": "0.8.4",
       "description": "Voice calls, IVR flows, sequential business-rule routing, browser softphone, recordings and native SIP. Cumulative release with inbound spam protection, correct terminal announcements and missed-call classification, indexed adviser queries and answerable offers, bounded AI handoff recovery with confirmed carrier answer, bounded audio buffers and diagnostics, network benchmarks, configurable connected-call duration, DIDWW number ordering and compliance resources, and generic multi-carrier outbound caller-ID routing. Supports Twilio, Telnyx, Plivo, SignalWire, Vonage, Bandwidth, Sinch and DIDWW. Direct SIP TLS renewal uses content-fingerprint reload detection and keeps the last known-good certificate during partial renewals.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.8.3/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.8.3/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.8.3/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.8.4/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.8.4/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.8.4/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
