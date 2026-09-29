@@ -2521,12 +2521,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.9",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, and Telegram routing. v0.24.9 adds live voice in existing direct operator chats through a configured realtime provider, with review-before-send browser dictation when realtime is unavailable. Standalone exported chat remains unchanged. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.10",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, and Telegram routing. v0.24.10 brings the existing agent-scoped chat widget to agent detail pages, with focused single-agent mode and half- or full-width layout. Build workspace and standalone exported chat defaults remain unchanged. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.9/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.9/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.10/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.10/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
