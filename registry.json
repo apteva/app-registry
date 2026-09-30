@@ -2525,7 +2525,7 @@
       "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.14 gives the shared composer Codex-style bottom breathing room across panel and widget surfaces. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.14/mcp/conversations/apteva.yaml",
+      "manifest_url": "https://github.com/apteva/apps/releases/download/conversations/v0.24.14/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.14/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
