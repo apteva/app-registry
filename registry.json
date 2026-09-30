@@ -2521,12 +2521,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.18",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.18 hides internal parent-thread reports by default while preserving real work tools, attachment reads, and reliable Thinking/tool progress across requests and refreshes. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.19",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.19 hides internal parent-thread reports by default while preserving real work tools, attachment reads, and reliable Thinking/tool progress across requests and refreshes. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://github.com/apteva/apps/releases/download/conversations/v0.24.18/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.18/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://github.com/apteva/apps/releases/download/conversations/v0.24.19/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.19/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
