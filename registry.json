@@ -1143,8 +1143,8 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.16.4",
-      "description": "Schedule, review, approve, and publish posts across native social platforms and Zernio. Social 0.16.4 fixes OAuth callback handoff for browsers without an Apteva session, validates a one-time token and the exact connection, and completes cross-origin popups through authenticated polling.",
+      "version": "0.16.5",
+      "description": "Schedule, review, approve, and publish posts across native social platforms and Zernio. Social 0.16.5 adds Publishing calendar and Performance Home widgets with scoped schedules, cached analytics, account coverage, trends, and direct links into Social.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/refs/heads/main/mcp/social/apteva.yaml",
