@@ -2521,12 +2521,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.13",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, and Telegram routing. v0.24.13 refreshes thread-list unread counts live over the existing SSE stream and shows unread replies after leaving a mobile conversation. Exported chat remains unchanged. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.14",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.14 gives the shared composer Codex-style bottom breathing room across panel and widget surfaces. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.13/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.13/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://github.com/apteva/apps/releases/download/conversations/v0.24.14/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.14/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
