@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.4",
-      "description": "Reusable browser actors with named operations, durable crawl queues, URL fan-out, revision-pinned tasks, structured datasets, saved Computer contexts, and Jobs schedules. Direct Computer dependency; independent of Web. Explicitly tolerant crawl routes can preserve profile data when rendered HTML is truncated.",
+      "version": "0.2.5",
+      "description": "Reusable browser actors with named operations, durable crawl queues, URL fan-out, revision-pinned tasks, structured datasets, saved Computer contexts, and Jobs schedules. Direct Computer dependency; independent of Web. Large rendered pages use bounded retries up to 1 MB and remain rejected when incomplete.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.4/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.4/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.4/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.5/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.5/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.5/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-01T10:25:37Z"
+      "updated_at": "2026-10-01T12:45:00Z"
     },
     {
       "name": "agent-worlds",
@@ -688,12 +688,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.91",
-      "description": "Watch, steer, and replay hosted browser sessions. v0.7.91 shows live sessions first, loads closed history in pages only when opened, folds browser settings away from the session list, and keeps the current selection when another session closes.",
+      "version": "0.7.92",
+      "description": "Watch, steer, and replay hosted browser sessions. v0.7.92 supports bounded rendered DOM responses up to 1 MB for large structured crawls.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.92/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.92/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.92/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -702,7 +702,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-09-23T10:02:25Z"
+      "updated_at": "2026-10-01T12:45:00Z"
     },
     {
       "name": "screenshots",
