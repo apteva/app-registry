@@ -2521,12 +2521,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.24",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.24 keeps approval cards as the single approval UI and keeps completed tool groups active across multi-step handoffs without a transient Thinking row. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.25",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.25 keeps approval progress visible until its card arrives and shows the chosen decision label and note after resolution and refresh. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.24/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.24/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.25/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.25/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
