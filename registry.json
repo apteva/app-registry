@@ -1685,8 +1685,8 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.13.0",
-      "description": "Community and course storefront for Apteva. Supports branded multi-community portals, Auth-linked members, public course products, one-time and recurring access, inline Stripe checkout, public sample lessons, reusable instructor profiles, consent-aware product testimonials, custom domains, and complete course delivery. v0.13.0 fixes delegated resource authorization, global project scoping, DM read cursors, and portal loading; adds saved quizzes and assignments, protected videos and resources, earned certificates, profile editing, and pagination.",
+      "version": "0.14.0",
+      "description": "Community and course storefront for Apteva. Supports branded multi-community portals, Auth-linked members, public course products, one-time and recurring access, inline Stripe checkout, public sample lessons, reusable instructor profiles, consent-aware product testimonials, custom domains, and complete course delivery. v0.14.0 adds track-aware roadmaps, versioned assignment submissions with instructor review and resubmission, evidence-backed student milestones, next-action guidance, and portal review UI.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/apteva.yaml",
