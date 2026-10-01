@@ -2,17 +2,17 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-01T08:34:00Z",
+  "updated_at": "2026-10-01T08:34:19Z",
   "apps": [
     {
       "name": "sportsbook",
       "display_name": "Sportsbook",
-      "version": "0.1.0",
-      "description": "Sports research and paper betting desk with a native panel, multiple sports data and odds providers, experimental predictions, LLM explanations, bet proposals, virtual bankrolls and risk controls. Real wagering is unavailable in v0.1.0.",
+      "version": "0.2.0",
+      "description": "Configurable sports research and paper betting desk with a native sports/competitions catalog, provider mappings, market and prediction settings, multiple-provider routing, bet proposals, virtual bankrolls and risk controls. Real wagering is unavailable.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/sportsbook/v0.1.0/mcp/sportsbook",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/sportsbook/v0.1.0/mcp/sportsbook/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/sportsbook/v0.1.0/mcp/sportsbook/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/sportsbook/v0.2.0/mcp/sportsbook",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/sportsbook/v0.2.0/mcp/sportsbook/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/sportsbook/v0.2.0/mcp/sportsbook/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "sports",
@@ -23,7 +23,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-10-01T08:00:17Z"
+      "updated_at": "2026-10-01T08:34:19Z"
     },
     {
       "name": "actors",
