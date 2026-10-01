@@ -650,8 +650,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.9",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget, reliable email threading, and efficient suppression reconciliation. v0.9.9 recovers missing HTML-only email content safely, including with legacy Messaging bindings, while preserving existing activities, conversations, and workflow state.",
+      "version": "0.9.10",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget, reliable email threading, safe email-body recovery, and efficient suppression reconciliation. v0.9.10 exposes standard MCP read-only annotations for conversations_inbox so agents can discover it with strict read-only access; existing data and inbox behavior are unchanged.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
