@@ -650,8 +650,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.8",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget, reliable email threading, and efficient suppression reconciliation. v0.9.8 recovers missing HTML-only email content safely while preserving existing activities, conversations, and workflow state.",
+      "version": "0.9.9",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget, reliable email threading, and efficient suppression reconciliation. v0.9.9 recovers missing HTML-only email content safely, including with legacy Messaging bindings, while preserving existing activities, conversations, and workflow state.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
@@ -1203,8 +1203,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.53",
-      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. Includes a project-home conversations widget, sender identities, delivery events, suppressions, attachments, and inbound routing. v0.13.53 supplies readable plain text for HTML-only inbound email while retaining the original HTML and provider-supplied text, including when retrying legacy records.",
+      "version": "0.13.54",
+      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. Includes a project-home conversations widget, sender identities, delivery events, suppressions, attachments, and inbound routing. v0.13.54 supplies readable plain text for HTML-only inbound email while retaining original content and allows large legacy databases enough startup time to finish their search-index migration.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
