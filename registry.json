@@ -2521,12 +2521,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.27",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.27 normalizes transcript spacing, hides duplicate alert tool rows, clears viewed alert notifications per reader, and uses matching severity icons in the sidebar. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.28",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, and agent widgets. v0.24.28 suppresses the duplicate Thinking row after an acknowledgement while hidden pacing is prepared. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.27/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.27/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.28/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.28/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
