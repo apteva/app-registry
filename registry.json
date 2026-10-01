@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-01T10:33:22Z",
+  "updated_at": "2026-10-01T12:04:54Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -929,12 +929,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.6",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.6 makes safe catalog discovery the default with compact, planning, and bounded full detail; field projection; explicit large expansions; stable cursors and unmistakable completion metadata; planning sorts; normalized release readiness; and record-free media_inventory grouped counts. Includes the v0.14.5 durable indexing queue recovery. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.7",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.7 adds read-only, project-scoped metadata batches for explicit file IDs, returning current descriptions, provenance, status, rating and duration without scanning, signing or processing. Includes v0.14.6, which makes safe catalog discovery the default with compact, planning, and bounded full detail; field projection; explicit large expansions; stable cursors and unmistakable completion metadata; planning sorts; normalized release readiness; and record-free media_inventory grouped counts. Includes the v0.14.5 durable indexing queue recovery. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.6/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.6/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.7/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.7/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -949,17 +949,17 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-09-21T09:18:00Z"
+      "updated_at": "2026-10-01T12:04:54Z"
     },
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.4.7",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Filter linked session files by content type, Media length, platform, and recorded publication state. File cards show Bunny hosting readiness and processing status, and open preview/player details in a wide modal. A compact Filters button opens content, sharing, platform, sort, and exact duration controls in a modal. A two-handle duration slider and exact second inputs filter video and audio lengths. Historical sessions can have an unknown recording date and a stable Storage folder. MCP-only Bunny backfill links existing hosted videos without uploading. Catalog never scans folders automatically or publishes externally.",
+      "version": "0.4.8",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Filter linked session files by content type, Media length, platform, and recorded publication state. File cards show Bunny hosting readiness and processing status, and open preview/player details in a wide modal. A compact Filters button opens content, sharing, platform, sort, and exact duration controls in a modal. A two-handle duration slider and exact second inputs filter video and audio lengths. Historical sessions can have an unknown recording date and a stable Storage folder. MCP-only Bunny backfill links existing hosted videos without uploading. Catalog never scans folders automatically or publishes externally. Live Media descriptions, source and timestamps appear directly on detail, list and search assets, with fresh status/rating and duration. Text search covers descriptions before pagination; uniform cards show descriptions and Media readiness. Explicit metadata batches require Media 0.14.7.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.7/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.7/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.8/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.8/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -970,7 +970,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-01T10:33:22Z"
+      "updated_at": "2026-10-01T12:04:54Z"
     },
     {
       "name": "podcast",
