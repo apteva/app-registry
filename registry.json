@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-01T08:00:17Z",
+  "updated_at": "2026-10-01T08:34:00Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Reusable browser actors with named operations, durable crawl queues, URL fan-out, revision-pinned tasks, structured datasets, saved Computer contexts, and Jobs schedules. Direct Computer dependency; independent of Web.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.1/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.1/mcp/actors/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.2/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.2/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -55,7 +55,12 @@
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.6/mcp/agent-worlds/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.6/mcp/agent-worlds/ui/icon.svg",
       "icon_style": "monochrome",
-      "tags": ["agents", "visualization", "observability", "environments"],
+      "tags": [
+        "agents",
+        "visualization",
+        "observability",
+        "environments"
+      ],
       "official": true,
       "category": "observability"
     },
