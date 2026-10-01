@@ -650,8 +650,8 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.6",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget. v0.9.6 fixes email replies splitting from their original conversations by using RFC Message-ID values and safely matching legacy SES provider IDs within the same project and contact.",
+      "version": "0.9.7",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget and reliable email threading. v0.9.7 makes suppression reconciliation more efficient with five-minute targeted retries and a 30-minute full safety sweep that updates routes in bulk only when state changes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/apteva.yaml",
