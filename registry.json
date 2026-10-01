@@ -55,12 +55,7 @@
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.6/mcp/agent-worlds/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.1.6/mcp/agent-worlds/ui/icon.svg",
       "icon_style": "monochrome",
-      "tags": [
-        "agents",
-        "visualization",
-        "observability",
-        "environments"
-      ],
+      "tags": ["agents", "visualization", "observability", "environments"],
       "official": true,
       "category": "observability"
     },
