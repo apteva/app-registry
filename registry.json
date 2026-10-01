@@ -2,17 +2,17 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-09-19T13:40:07Z",
+  "updated_at": "2026-10-01T07:29:15Z",
   "apps": [
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.1.0",
-      "description": "Reusable browser actors with named operations, revision-pinned tasks, saved Computer contexts, queued runs, persistent datasets, JSONL/CSV exports, and Jobs schedules. Direct Computer dependency; independent of Web.",
+      "version": "0.2.0",
+      "description": "Reusable browser actors with named operations, durable crawl queues, URL fan-out, revision-pinned tasks, structured datasets, saved Computer contexts, and Jobs schedules. Direct Computer dependency; independent of Web.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.1.0/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.1.0/mcp/actors/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.0/mcp/actors/ui/icon.svg",
       "icon_style": "image",
       "tags": [
         "automation",
@@ -22,7 +22,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-09-19T13:40:07Z"
+      "updated_at": "2026-10-01T07:29:15Z"
     },
     {
       "name": "bench",
