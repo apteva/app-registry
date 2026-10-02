@@ -1088,8 +1088,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.9.2",
-      "description": "Multi-clip video and audio composition with layered visuals, AI-generated sources, and local or remote rendering. v0.9.2 fixes V1 text rendering for straight apostrophes and line breaks, preserving literal percent expressions and backslashes across local and remote renders. v0.9.1 fixes remote rendering through Instances by invoking Bash explicitly. v0.9.0 adds reusable trusted local Python, Bun/TypeScript, and Go procedural clips with named assets, caching, cancellation, timeouts, and media validation. v0.8.0 adds shared audio, image-video, and full-video output presets with independent previews, history, excerpts, and asset reuse.",
+      "version": "0.9.3",
+      "description": "Multi-clip video and audio composition with layered visuals, AI-generated sources, and local or remote rendering. v0.9.3 fixes procedure create/get asset examples to use the selected revision's actual target, so composition, audio, and still bindings pass target validation. v0.9.2 fixes V1 apostrophes, line breaks, and literal text rendering. v0.9.1 fixes remote rendering through Instances by invoking Bash explicitly. v0.9.0 adds reusable trusted local Python, Bun/TypeScript, and Go procedural clips with named assets, caching, cancellation, timeouts, and media validation. v0.8.0 adds shared output presets with independent previews, history, excerpts, and asset reuse.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
