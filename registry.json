@@ -1208,8 +1208,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.56",
-      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. Includes web and native project-home conversations widgets, sender identities, delivery events, suppressions, attachments, and inbound routing. v0.13.56 isolates inbound mail by trusted delivery recipients, deduplicates provider deliveries globally, blocks suppressed or unrouted mail from inbox consumers, and reconciles SES inbound SNS subscriptions to one global callback per installation and topic. Preserves the existing widgets, providers, attachment handling, readable HTML-only email text, and legacy-database startup budget.",
+      "version": "0.13.57",
+      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. Includes web and native project-home conversations widgets, sender identities, delivery events, suppressions, attachments, and inbound routing. v0.13.57 uses SDK workers for restart-safe seven-day Gmail catch-up and ongoing incoming/sent-mail synchronization, preserving original timestamps and preventing duplicate or repeated sends. Sent history is imported into Messaging only; incoming mail retains existing CRM routing. Preserves v0.13.56 project isolation, delivery deduplication, safe inbox dispatch, global SES SNS subscriptions, and all existing UI and providers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
