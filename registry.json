@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-02T10:06:55Z",
+  "updated_at": "2026-10-02T10:15:18Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -874,7 +874,7 @@
     {
       "name": "workflows",
       "display_name": "Workflows",
-      "version": "0.4.9",
+      "version": "0.4.10",
       "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs \u2014 if a step needs judgment it sends an event to an agent and the workflow ends. v0.4.9 adds strict pre-run event predicates plus short-circuit and/or conditions for event filters and branches.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
@@ -959,12 +959,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.4.8",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Filter linked session files by content type, Media length, platform, and recorded publication state. File cards show Bunny hosting readiness and processing status, and open preview/player details in a wide modal. A compact Filters button opens content, sharing, platform, sort, and exact duration controls in a modal. A two-handle duration slider and exact second inputs filter video and audio lengths. Historical sessions can have an unknown recording date and a stable Storage folder. MCP-only Bunny backfill links existing hosted videos without uploading. Catalog never scans folders automatically or publishes externally. Live Media descriptions, source and timestamps appear directly on detail, list and search assets, with fresh status/rating and duration. Text search covers descriptions before pagination; uniform cards show descriptions and Media readiness. Explicit metadata batches require Media 0.14.7.",
+      "version": "0.4.10",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Optional Grid or Grouped by original display uses recorded source links, with expandable compact derivatives, parent previews and navigation, nested lineage and source filters. Matching derivatives retain labeled parent context. Cards show live Media descriptions, rating/status, Bunny readiness and per-platform publication icons, with preview/player details in modals. Shared derivatives display once with all parents accessible. Filters include content, exact duration, sharing and platform. No automatic folder scans, inferred relationships or external publication. Metadata batches require Media 0.14.7.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.8/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.8/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.10/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.10/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -975,7 +975,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-01T12:04:54Z"
+      "updated_at": "2026-10-02T10:15:18Z"
     },
     {
       "name": "podcast",
