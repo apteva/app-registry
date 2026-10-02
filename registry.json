@@ -1690,7 +1690,7 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.14.2",
+      "version": "0.14.3",
       "description": "Community and course storefront for Apteva with learning tracks, milestone evidence reviews, private assignment uploads, quizzes, and configurable graduation requirements.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
