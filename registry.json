@@ -853,11 +853,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.14.1",
-      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and configurable memory, concurrency and execution budgets. v1.14.0 adds a restricted authenticated invocation API with verified caller installation policies, opaque principals and claims, bounded nested propagation, and identity audit records. Authenticated workers are retired after execution to prevent identity leakage. Existing invocation paths remain available by default; requestContext.authorizer is runtime-owned. Requires Apteva 0.50.2+ and the platform verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+). v1.14.1 accepts opaque business payloads such as new-user passwords while keeping caller credentials out of identity claims and authenticated request bodies out of invocation history. Trusted caller checks and nested identity propagation remain enforced; Functions does not interpret application roles, centres, or CRM rules.",
+      "version": "1.16.0",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and trusted authenticated invocations. v1.16.0 adds sortable performance rankings and slow-call diagnostics in the UI and MCP: compare call counts, total execution wall time, average/p95 latency, queue wait and errors over a selected period, then inspect per-invocation timings, logs and downstream resources. Exact percentiles use retained, project-scoped history; running calls are counted separately. Requires Apteva 0.50.2+ and the verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.14.1/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.16.0/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -869,7 +869,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-10T16:32:39Z"
+      "updated_at": "2026-10-02T09:01:15Z"
     },
     {
       "name": "workflows",
@@ -894,11 +894,11 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.14.5",
-      "description": "Project-scoped source repositories with native revisions, branches, tags and restore that require no Git remote. Agents can preview and apply ZIP imports to new or existing repositories through MCP. Editing supports reviewed patches; optional Git synchronization accepts branches, tags and reachable commits. Connected Workspaces provide isolated execution and previews.",
+      "version": "0.14.8",
+      "description": "Project-scoped source repositories with native revisions, branches, tags and restore that require no Git remote. Agents can import single-file blobs with exact bytes and SHA-256-guarded overwrites, preview ZIP imports, and apply reviewed patches through MCP. Optional Git synchronization accepts branches, tags and reachable commits. Connected Workspaces provide isolated execution and previews. The exported /code skill covers native editing and building connected apps with the Apteva Web SDK, including CRM reads and writes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/code/v0.14.5/mcp/code/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/code/v0.14.8/mcp/code/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1208,8 +1208,8 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.54",
-      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. Includes a project-home conversations widget, sender identities, delivery events, suppressions, attachments, and inbound routing. v0.13.54 supplies readable plain text for HTML-only inbound email while retaining original content and allows large legacy databases enough startup time to finish their search-index migration.",
+      "version": "0.13.55",
+      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. Includes web and native project-home conversations widgets, sender identities, delivery events, suppressions, attachments, and inbound routing. Preserves readable plain text for HTML-only inbound email and the extended startup budget for large legacy databases. v0.13.55 replaces personal sender examples with generic copy and updates the app SDK dependency.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/apteva.yaml",
@@ -1232,8 +1232,8 @@
     {
       "name": "campaigns",
       "display_name": "Campaigns",
-      "version": "0.2.14",
-      "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and track per-recipient campaign status. v0.2.14 adds Campaigns's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.18",
+      "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and track per-recipient campaign status. v0.2.18 fixes anonymous unsubscribe links while keeping campaign-management routes authenticated and recipient-token validation intact.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/campaigns",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/campaigns/apteva.yaml",
@@ -1690,11 +1690,11 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.14.2",
+      "version": "0.14.4",
       "description": "Community and course storefront for Apteva with learning tracks, milestone evidence reviews, private assignment uploads, quizzes, and configurable graduation requirements.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/community/v0.14.4/mcp/community/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -2385,12 +2385,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.9.0",
-      "description": "Voice calls, IVR flows, sequential business-rule routing, browser softphone, recordings and native SIP. Cumulative release with inbound spam protection, correct terminal announcements and missed-call classification, indexed adviser queries and answerable offers, bounded AI handoff recovery with confirmed carrier answer, bounded audio buffers and diagnostics, network benchmarks, configurable connected-call duration, DIDWW number ordering and compliance resources, and generic multi-carrier outbound caller-ID routing. Supports Twilio, Telnyx, Plivo, SignalWire, Vonage, Bandwidth, Sinch and DIDWW. Direct SIP TLS renewal uses content-fingerprint reload detection and keeps the last known-good certificate during partial renewals. Version 0.9.0 adds provider-neutral passive live listening at the existing server media bridge: separate supervisor listening grants and leased credentials, bounded independent audio queues, listener auditing and diagnostics, a receive-only frontend SDK, and Listen/Stop controls in the Calls panel. Listening does not create another carrier stream, replace advisers, or request a microphone. Retains all changes through 0.8.4.",
+      "version": "0.10.0",
+      "description": "Voice calls, IVR flows, sequential business-rule routing, browser softphone, recordings and native SIP. Cumulative release retaining inbound spam protection, correct terminal announcements and missed-call classification, indexed adviser queries and answerable offers, bounded AI handoff recovery with confirmed carrier answer, configurable connected-call duration, DIDWW ordering/compliance and multi-carrier outbound caller-ID routing. Supports Twilio, Telnyx, Plivo, SignalWire, Vonage, Bandwidth, Sinch and DIDWW. Retains passive live listening and 0.9.1 carrier source timing, bounded delayed-media handling, directional stall notices and network diagnostics. Version 0.10.0 adds private supervisor coaching through the existing media hub and adviser socket: explicit permissions, adviser-only push-to-talk, pinned adviser sessions, bounded independent queues, automatic microphone cleanup, talk-spurt audits, shared headless SDK methods and Calls panel controls. No additional carrier stream or provider conference is created. Includes local audio, security, concurrency, browser and network regressions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.9.0/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.9.0/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.9.0/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.10.0/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.10.0/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.10.0/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
