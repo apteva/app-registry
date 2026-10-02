@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-02T09:43:01Z",
+  "updated_at": "2026-10-02T10:06:55Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -655,11 +655,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.11",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. Includes a configurable Customer Inbox dashboard widget, reliable email threading, and efficient suppression reconciliation. v0.9.11 makes audience counts and previews contact-first, cancellable, and independent of the writer connection. Preserves read-only inbox discovery and all previous CRM fixes without database migrations.",
+      "version": "0.9.12",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.12 shows recorded message recipients in the inbox and From, To, CC/BCC, and receiving addresses on individual messages. Preserves fast cancellable audience counts, read-only inbox discovery, and all previous CRM fixes without database migrations or record edits.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.11/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.12/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
