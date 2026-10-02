@@ -1088,8 +1088,8 @@
     {
       "name": "composer",
       "display_name": "Composer",
-      "version": "0.7.5",
-      "description": "Multi-clip video and audio composition with layered visuals, AI-generated sources, and local or remote rendering. v0.7.5 fixes project isolation, revision-safe save-and-render, duplicate AI refresh jobs, split source offsets, zero volume, examples, and looping previews. Adds active render cancellation, bounded uploads, durable output checks, ranged cache playback, silent-video handling, and reliable browser image capture. Native drawing uses element-sized buffers; unsupported V2 content fails explicitly.",
+      "version": "0.9.1",
+      "description": "Multi-clip video and audio composition with layered visuals, AI-generated sources, and local or remote rendering. v0.9.1 fixes remote rendering through Instances by invoking Bash explicitly, preserving script values and pipeline failures across the sh command boundary. v0.9.0 adds reusable trusted local Python, Bun/TypeScript, and Go procedural clips with named assets, caching, cancellation, timeouts, and media validation. v0.8.0 adds shared audio, image-video, and full-video output presets with independent previews, history, excerpts, and asset reuse.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/composer",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/composer/apteva.yaml",
