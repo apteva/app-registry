@@ -894,11 +894,11 @@
     {
       "name": "code",
       "display_name": "Apteva Code",
-      "version": "0.14.9",
-      "description": "Project-scoped source repositories with native revisions, branches, tags and restore that require no Git remote. Agents can import single-file blobs with exact bytes and SHA-256-guarded overwrites, preview ZIP imports, and apply reviewed patches through MCP. Optional Git synchronization accepts branches, tags and reachable commits. Connected Workspaces provide isolated execution and previews. The exported /code skill covers native editing and building connected apps with the Apteva Web SDK, including CRM reads and writes.",
+      "version": "0.14.10",
+      "description": "Project-scoped source repositories with native revisions, branches, tags and restore that require no Git remote. Agents can import single-file blobs with exact bytes and SHA-256-guarded overwrites, preview ZIP imports, and apply reviewed patches through MCP. Optional Git synchronization accepts branches, tags and reachable commits. Connected Workspaces provide isolated execution and previews. Tool descriptions and the exported /code skill distinguish previews from optional Git auto-sync: ordinary editing and running need no commit or checkpoint. The skill also covers building connected apps with the Apteva Web SDK, including CRM reads and writes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/code",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/code/v0.14.9/mcp/code/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/code/v0.14.10/mcp/code/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/code/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
