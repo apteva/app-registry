@@ -655,11 +655,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.12",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.12 shows recorded message recipients in the inbox and From, To, CC/BCC, and receiving addresses on individual messages. Preserves fast cancellable audience counts, read-only inbox discovery, and all previous CRM fixes without database migrations or record edits.",
+      "version": "0.9.13",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.13 validates canonical inbound email recipient ownership against project-scoped Messaging senders/domains before any CRM writes, ignores suppressed, unmatched, foreign-project, and conflicting deliveries, and uses canonical recipients for inbox display while retaining original To headers for audit. Preserves transactional ingestion, attachments, threading, recipient display, and fast cancellable audience counts without database migrations or historical record edits.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.12/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.13/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
