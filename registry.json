@@ -2328,7 +2328,7 @@
       "description": "Project-scoped event analytics with reusable configurable Trend and Ranking home widgets, persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards, goals, and GA-style outbound-link measurement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.17.6/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.17.7/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
