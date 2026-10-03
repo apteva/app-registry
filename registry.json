@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.6",
-      "description": "Reusable browser actors with named operations, durable crawl queues, structured datasets, saved Computer contexts, and Jobs schedules. Generic media uploads from URLs, base64 or files, semantic text entry and exact SOM targets. Site workflows are user definitions with optional examples.",
+      "version": "0.2.7",
+      "description": "Reusable browser actors with named operations, durable crawl queues, structured datasets, saved Computer contexts, and Jobs schedules. Generic file uploads, semantic text entry, hosted video URL embeds, and declarative waits that verify loaded players before publication. Returns embed provider, iframe and thumbnail metadata. Site workflows remain user definitions with optional examples.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.6/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.6/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.6/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.7/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.7/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.7/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-03T09:09:47Z"
+      "updated_at": "2026-10-03T09:27:45Z"
     },
     {
       "name": "agent-worlds",
