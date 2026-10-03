@@ -2324,7 +2324,7 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.17.6",
+      "version": "0.17.7",
       "description": "Project-scoped event analytics with reusable configurable Trend and Ranking home widgets, persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards, goals, and GA-style outbound-link measurement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
