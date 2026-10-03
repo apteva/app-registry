@@ -403,11 +403,11 @@
     {
       "name": "tasks",
       "display_name": "Tasks",
-      "version": "3.6.0",
-      "description": "Durable work, progress, schedules, occurrence execution tracking, and safe recovery for Apteva agents. App-bus updates keep task status, progress, and execution activity current across pages, widgets, and clickable chat cards. Includes an all-tasks priority view, themed scheduling controls, and guidance that keeps bare waiting in Core pace. Provides the private Processes integration for versioned company procedures.",
+      "version": "3.7.0",
+      "description": "Durable work, progress, schedules, draft task configuration, required inputs, occurrence execution tracking, and safe recovery for Apteva agents.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tasks",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tasks/v3.6.0/mcp/tasks/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tasks/v3.7.0/mcp/tasks/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tasks/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -655,11 +655,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.15",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.15 adds consistent email/WhatsApp/SMS colors, live WhatsApp reply-window expiry and template-required status, and explicit SMS/WhatsApp replies in the same phone conversation. Return routing matches project, Messaging installation, and exact sender/recipient numbers; failed sends never establish routes. Preserves all existing histories, recipient ownership and email-formatting safeguards; no migrations or historical thread merges.",
+      "version": "0.9.16",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.16 adds saved conversation reply drafts with text/HTML, attachments, templates, autosave and agent tools. Saving never sends; explicit sends revalidate ownership, sender, recipient, suppression and WhatsApp eligibility. Revision checks preserve concurrent edits, durable operation keys prevent duplicate retries, and failed sends retain drafts. CRM-local drafts are not Gmail-synced. Additive migration preserves existing messages and conversations, including channel colors and same-thread SMS/WhatsApp replies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.15/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.16/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
