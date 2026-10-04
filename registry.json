@@ -959,12 +959,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.6.0",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. v0.6.0 adds Catalog-owned Favorite stars, generic tags, single Patreon intent (Unset/Free/Paid), card badges, bulk label editing, and exact label filters for sessions and MCP search. Labels coordinate planning only; Catalog never modifies Media or publishes externally. No automatic scans or file moves.",
+      "version": "0.6.1",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. v0.6.0 adds Catalog-owned Favorite stars, generic tags, single Patreon intent (Unset/Free/Paid), card badges, bulk label editing, and exact label filters for sessions and MCP search. Labels coordinate planning only; Catalog never modifies Media or publishes externally. No automatic scans or file moves. v0.6.1 explicitly advertises MCP read-only annotations for eligibility and other inspection tools so strict agent discovery can load them; lifecycle safeguards are unchanged.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.0/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.0/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.1/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.1/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -975,7 +975,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-04T00:00:00Z"
+      "updated_at": "2026-10-04T17:51:08Z"
     },
     {
       "name": "podcast",
