@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-03T00:00:00Z",
+  "updated_at": "2026-10-04T08:07:23Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -655,11 +655,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.15",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.15 adds consistent email/WhatsApp/SMS colors, live WhatsApp reply-window expiry and template-required status, and explicit SMS/WhatsApp replies in the same phone conversation. Return routing matches project, Messaging installation, and exact sender/recipient numbers; failed sends never establish routes. Preserves all existing histories, recipient ownership and email-formatting safeguards; no migrations or historical thread merges.",
+      "version": "0.9.16",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.16 adds saved conversation reply drafts with text/HTML, attachments, templates, autosave and agent tools. Saving never sends; explicit sends revalidate ownership, sender, recipient, suppression and WhatsApp eligibility. Revision checks preserve concurrent edits, durable operation keys prevent duplicate retries, and failed sends retain drafts. CRM-local drafts are not Gmail-synced. Additive migration preserves existing messages and conversations, including channel colors and same-thread SMS/WhatsApp replies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.15/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.16/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1485,8 +1485,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.13.0",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.0 hardens payment and refund integrity with durable Stripe recovery, invoice payment coordination, transactional events, immutable issued identities, currency/date validation, paginated history, and stale-response-safe UI. Requires Apteva server 0.27.4 or newer.",
+      "version": "0.13.1",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.1 improves the existing customer search with ranked matches, labelled broader candidates, and optional balances, invoice status counts, and recent payments in one call. Account reviews avoid redundant invoice lookups and preserve identity uncertainty. Requires Apteva server 0.27.4 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1502,7 +1502,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-09-05T12:23:25Z"
+      "updated_at": "2026-10-04T08:07:23Z"
     },
     {
       "name": "catalog",
@@ -2324,11 +2324,11 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.17.5",
-      "description": "Project-scoped event analytics with reusable configurable Trend and Ranking home widgets, persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards and goals.",
+      "version": "0.17.10",
+      "description": "Project-scoped event analytics with reusable configurable Trend and Ranking home widgets, persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards, goals, and GA-style outbound-link measurement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.17.5/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.17.10/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -2338,7 +2338,7 @@
       ],
       "official": true,
       "category": "observability",
-      "updated_at": "2026-09-20T13:46:47Z"
+      "updated_at": "2026-10-03T13:47:36Z"
     },
     {
       "name": "webinars",
