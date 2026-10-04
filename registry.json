@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-04T08:07:23Z",
+  "updated_at": "2026-10-04T12:08:44Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -959,12 +959,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.4.12",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media assets, Gigs, cloud hosting, and shared platform posts. Session grid includes a compact brand filter, matching counts and retained selection when returning from details. Optional Grid or Grouped by original display uses recorded source links, with compact uniform source cards and a modal grid for all matching derivatives, parent previews and navigation, nested lineage and source filters. Matching derivatives retain labeled parent context. Cards show live Media descriptions, rating/status, Bunny readiness and per-platform publication icons, with preview/player details in modals. Shared derivatives display once with all parents accessible. Closing asset details returns to the derivative grid. Filters include content, exact duration, sharing and platform. No automatic folder scans, inferred relationships or external publication. Metadata batches require Media 0.14.7.",
+      "version": "0.5.0",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. v0.5.0 adds reversible asset/session archiving separate from review, active-only discovery and availability, explicit Archive/All inspection, bulk and individual archive/move/restore, same-brand membership changes preserving IDs and history, revision checks, retry-safe transactions and lifecycle audit. Read-only eligibility checks support external agents. Changes Catalog records only; no automatic scans or file moves/deletions. Media and direct external processing/publishing remain unchanged.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.12/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.4.12/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.5.0/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.5.0/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -975,7 +975,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-02T12:42:43Z"
+      "updated_at": "2026-10-04T12:08:44Z"
     },
     {
       "name": "podcast",
