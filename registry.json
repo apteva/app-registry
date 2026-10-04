@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-03T00:00:00Z",
+  "updated_at": "2026-10-04T08:07:23Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -1485,8 +1485,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.13.0",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.0 hardens payment and refund integrity with durable Stripe recovery, invoice payment coordination, transactional events, immutable issued identities, currency/date validation, paginated history, and stale-response-safe UI. Requires Apteva server 0.27.4 or newer.",
+      "version": "0.13.1",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.1 improves the existing customer search with ranked matches, labelled broader candidates, and optional balances, invoice status counts, and recent payments in one call. Account reviews avoid redundant invoice lookups and preserve identity uncertainty. Requires Apteva server 0.27.4 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1502,7 +1502,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-09-05T12:23:25Z"
+      "updated_at": "2026-10-04T08:07:23Z"
     },
     {
       "name": "catalog",
