@@ -2547,12 +2547,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.35",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.35 pins the released SDK support for opaque file-reference passthrough and authorized image presentation. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.36",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.36 pins the released SDK support for opaque file-reference passthrough and fixes startup recovery with the single-writer SDK. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.35/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.35/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.36/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.36/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
