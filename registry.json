@@ -1148,8 +1148,8 @@
     {
       "name": "trips",
       "display_name": "Trips",
-      "version": "0.9.0",
-      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps. Trips 0.9.0 adds stay favourites per trip destination: shortlist hotels and Airbnbs with listing links, optional photos, prices, notes and a top choice. Compare options while planning, then select an unbooked itinerary stay; alternatives remain saved and shortlisted options do not affect budget or calendar. Full MCP support.",
+      "version": "0.9.1",
+      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps. Trips 0.9.0 adds stay favourites per trip destination: shortlist hotels and Airbnbs with listing links, optional photos, prices, notes and a top choice. Trips 0.9.1 hardens project scoping and request validation, preserves currency precision and round-trip flight details, keeps cached price events consistent, and adds overall budget editing. Compare options while planning, then select an unbooked itinerary stay; alternatives remain saved and shortlisted options do not affect budget or calendar. Full MCP support.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/apteva.yaml",
