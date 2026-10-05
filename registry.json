@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-05T13:03:09Z",
+  "updated_at": "2026-10-04T00:00:00Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.9",
-      "description": "Reusable browser actors with structured datasets, saved contexts and Jobs schedules. Adds generic cardinality and arithmetic precommit assertions plus verified semantic clicks for guarded consequential actions.",
+      "version": "0.2.8",
+      "description": "Reusable browser actors with structured datasets, saved contexts and Jobs schedules. Semantic media uploads, hosted video embeds, checkbox/dropdown/date controls, verified waits, labelled field patterns and full-page extraction. Durable once_key guards prevent duplicate consequential attempts across retries and revisions. Site workflows remain user definitions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.9/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.9/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.9/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.8/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.8/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.8/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-05T13:50:00Z"
+      "updated_at": "2026-10-03T09:50:09Z"
     },
     {
       "name": "agent-worlds",
@@ -369,7 +369,7 @@
       "name": "simple",
       "display_name": "Simple",
       "version": "0.1.1",
-      "description": "Minimal read-only UI for watching an Apteva agent — embed anywhere on the same host. Same-origin, path-mounted SPA; no sidecar.",
+      "description": "Minimal read-only UI for watching an Apteva agent \u2014 embed anywhere on the same host. Same-origin, path-mounted SPA; no sidecar.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/simple",
       "manifest_url": "https://raw.githubusercontent.com/apteva/simple/main/apteva.yaml",
@@ -422,12 +422,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.5",
-      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.5 adds step-by-step run controls through MCP and UI: review saved outputs, release one step or selected independent branches, and resume through durable idempotent release records. Preserves executor continuity, AI-directed parallel work, compact responses, exact receipts, validation and separate human approval.",
+      "version": "0.16.6",
+      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.6 adds durable claim evidence, bounded recovery wakes for delivered but unclaimed worker steps, stalled-run reporting, and unambiguous ready-step handoffs.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.5/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.5/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.5/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.6/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.6/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.6/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -437,7 +437,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-05T15:09:11Z"
+      "updated_at": "2026-10-05T16:34:06Z"
     },
     {
       "name": "fetch",
@@ -462,7 +462,7 @@
       "name": "todo",
       "display_name": "Todo",
       "version": "0.4.10",
-      "description": "Personal todo list — human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools. v0.4.10 adds Todo's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Personal todo list \u2014 human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools. v0.4.10 adds Todo's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/todo",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/todo/apteva.yaml",
@@ -558,7 +558,7 @@
       "name": "health",
       "display_name": "Health",
       "version": "0.1.1",
-      "description": "Personal health log — weight, sleep, mood, heart rate, blood pressure, workouts. One flexible time-series table for any numeric metric plus a workouts list. Agent ingests natural-language one-liners ('weight 78.4', 'ran 5k 26min', 'bp 122/78') via health_log; the panel charts pinned kinds and lists recent sessions. v0.2 will add device sync (Apple Health, Oura, Garmin). v0.1.1 adds Health's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Personal health log \u2014 weight, sleep, mood, heart rate, blood pressure, workouts. One flexible time-series table for any numeric metric plus a workouts list. Agent ingests natural-language one-liners ('weight 78.4', 'ran 5k 26min', 'bp 122/78') via health_log; the panel charts pinned kinds and lists recent sessions. v0.2 will add device sync (Apple Health, Oura, Garmin). v0.1.1 adds Health's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/health",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/health/apteva.yaml",
@@ -674,12 +674,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.3.2",
-      "description": "Standalone lead workspace with optional Web discovery and CRM handoff. Validates decision-maker name and role evidence, rejects navigation labels, removes stale identity claims during requalification, and preserves concurrent candidate edits and scores. Includes fallback for incomplete search extraction.",
+      "version": "0.3.0",
+      "description": "Standalone lead workspace with a full-width desktop working queue, left-side lead selector, right-side qualification workspace, and a unified add/import panel. Rejected leads stay hidden by default and can be permanently purged with explicit confirmation. Optional Web and CRM integrations remain available.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.3.2/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.3.2/mcp/prospecting/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.3.0/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.3.0/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
@@ -714,7 +714,7 @@
       "name": "screenshots",
       "display_name": "Screenshots",
       "version": "0.1.5",
-      "description": "Capture browser screenshots from a URL, save them to storage, and browse them in a gallery. Built on the `computer` app for the browser session and `storage` for the bytes — this app owns no browser plumbing itself. Four MCP tools (capture / list / get / delete) plus a gallery panel and a chat-attachable screenshot-card the agent posts after a successful capture. Idempotency_key on capture deduplicates retries within a 10-minute window. v0.1 supports URL-driven capture only; attaching to a session the agent already opened lands when computer exposes session resume. v0.1.5 adds Screenshots's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Capture browser screenshots from a URL, save them to storage, and browse them in a gallery. Built on the `computer` app for the browser session and `storage` for the bytes \u2014 this app owns no browser plumbing itself. Four MCP tools (capture / list / get / delete) plus a gallery panel and a chat-attachable screenshot-card the agent posts after a successful capture. Idempotency_key on capture deduplicates retries within a 10-minute window. v0.1 supports URL-driven capture only; attaching to a session the agent already opened lands when computer exposes session resume. v0.1.5 adds Screenshots's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/screenshots",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/screenshots/apteva.yaml",
@@ -731,8 +731,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.2.9",
-      "description": "Browser-native web intelligence with Google search, extraction, crawl, research, reusable extractors and caching. v0.2.9 selects organic rendered Google result headings, excludes sponsored links, retries incomplete extraction, and resolves opaque redirects with bounded deadlines and public-network validation.",
+      "version": "0.1.16",
+      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.16 adds Web's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
@@ -747,7 +747,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-05T10:24:48Z"
+      "updated_at": "2026-07-26T06:37:11Z"
     },
     {
       "name": "signatures",
@@ -813,11 +813,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.2.2",
-      "description": "Typed-row database with safe queries, indexed search, upserts and bounded batches. Tables v0.2.2 adds a dedicated Projections workspace with readiness, freshness, coverage, pending scopes, refresh intervals, pause/resume, and forced refresh controls. It includes the polished v0.2.1 data workspace with searchable navigation, typed filters, server-backed sorting, readable values, sticky headers, and a row-detail editor drawer.",
+      "version": "0.1.26",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, and a generic bounded batch executor with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.26 fixes recursive-filter literal coercion so explicit casts retain their operand type, boolean literals are coerced once, and casted outer numeric IDs preserve indexed text foreign-key lookups. v0.1.25 adds a versioned recursive filter AST with typed expressions and correlated exists/not_exists predicates, while preserving the legacy filter API.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.2/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.26/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -828,7 +828,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-10-05T15:17:46Z"
+      "updated_at": "2026-09-20T13:56:52Z"
     },
     {
       "name": "jobs",
@@ -876,7 +876,7 @@
       "name": "workflows",
       "display_name": "Workflows",
       "version": "0.4.10",
-      "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends. v0.4.9 adds strict pre-run event predicates plus short-circuit and/or conditions for event filters and branches.",
+      "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs \u2014 if a step needs judgment it sends an event to an agent and the workflow ends. v0.4.9 adds strict pre-run event predicates plus short-circuit and/or conditions for event filters and branches.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workflows/apteva.yaml",
@@ -935,12 +935,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.9",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.9 normalizes render filenames before queuing, rejects unsupported or conflicting output formats, and keeps filenames, render plans, content types and Storage uploads consistent. Separates normal remote cache diagnostics from primary failures and persists model-scoped description rate-limit backoff with upstream retry/reset metadata. Includes the v0.14.8 Smart Crop subject-preservation fix. Uses app-sdk v0.95.0; requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.7",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.7 adds read-only, project-scoped metadata batches for explicit file IDs, returning current descriptions, provenance, status, rating and duration without scanning, signing or processing. Includes v0.14.6, which makes safe catalog discovery the default with compact, planning, and bounded full detail; field projection; explicit large expansions; stable cursors and unmistakable completion metadata; planning sorts; normalized release readiness; and record-free media_inventory grouped counts. Includes the v0.14.5 durable indexing queue recovery. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.9/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.9/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.7/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.7/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -955,7 +955,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-05T09:37:46Z"
+      "updated_at": "2026-10-01T12:04:54Z"
     },
     {
       "name": "content-catalog",
@@ -1149,8 +1149,8 @@
     {
       "name": "trips",
       "display_name": "Trips",
-      "version": "0.9.1",
-      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps. Trips 0.9.0 adds stay favourites per trip destination: shortlist hotels and Airbnbs with listing links, optional photos, prices, notes and a top choice. Trips 0.9.1 hardens project scoping and request validation, preserves currency precision and round-trip flight details, keeps cached price events consistent, and adds overall budget editing. Compare options while planning, then select an unbooked itinerary stay; alternatives remain saved and shortlisted options do not affect budget or calendar. Full MCP support.",
+      "version": "0.8.6",
+      "description": "Plan trips end-to-end: destinations, transport, accommodation, activities, packing list, budget. Calendar sync keeps scheduled trip, transport, stay, and activity events in step. Trip ideas can hold candidate destinations, stays, transport, and activities before dates are known; adding dates schedules them. Optional Duffel and Google Places integrations power search, global deal scans, airport autocomplete, and route/date heatmaps.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trips",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trips/apteva.yaml",
@@ -1486,8 +1486,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.13.2",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.2 delivers expiring signed invoice PDF links through linked Storage, uploads new PDFs privately, and preserves rendered bytes when uploading fails. Existing customer search includes ranked matches and compact balances/payment context. Requires Apteva server 0.27.4 or newer.",
+      "version": "0.13.1",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.1 improves the existing customer search with ranked matches, labelled broader candidates, and optional balances, invoice status counts, and recent payments in one call. Account reviews avoid redundant invoice lookups and preserve identity uncertainty. Requires Apteva server 0.27.4 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1503,7 +1503,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-10-05T06:57:04Z"
+      "updated_at": "2026-10-04T08:07:23Z"
     },
     {
       "name": "catalog",
@@ -1843,7 +1843,7 @@
       "name": "ffmpeg",
       "display_name": "FFmpeg",
       "version": "0.1.2",
-      "description": "Stateless ffmpeg-as-a-service for sibling Apteva apps. Three sync MCP tools — ffmpeg_grab_frame, ffmpeg_probe, ffmpeg_version — that wrap the local ffmpeg/ffprobe binaries. tapo's snapshot_capture is the v0.1 use case: grab one frame from a camera's RTSP stream without forcing every camera-y app to bundle its own ffmpeg. No DB, no panel, no async tools — minimal shape. Requires ffmpeg + ffprobe on PATH; OnMount refuses to start with a clear 'install ffmpeg' error if either is missing. v0.1.2 adds FFmpeg's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Stateless ffmpeg-as-a-service for sibling Apteva apps. Three sync MCP tools \u2014 ffmpeg_grab_frame, ffmpeg_probe, ffmpeg_version \u2014 that wrap the local ffmpeg/ffprobe binaries. tapo's snapshot_capture is the v0.1 use case: grab one frame from a camera's RTSP stream without forcing every camera-y app to bundle its own ffmpeg. No DB, no panel, no async tools \u2014 minimal shape. Requires ffmpeg + ffprobe on PATH; OnMount refuses to start with a clear 'install ffmpeg' error if either is missing. v0.1.2 adds FFmpeg's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ffmpeg",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/ffmpeg/apteva.yaml",
@@ -2009,7 +2009,7 @@
       "name": "robot",
       "display_name": "Robot",
       "version": "0.1.7",
-      "description": "Agent navigation eval sandbox. 2D grid worlds the agent perceives partially (radius=2 default) and moves through one cardinal cell at a time. Episodes terminate via the harness — success on goal-reach or timeout at max_steps; the agent has no quit tool. A* baseline computed at scenario load powers an optimality_ratio metric on every successful run. Five gameplay tools (observe / move / pick / drop / no-give-up) plus three control tools (list_scenarios / start_episode / episode_status). pick + drop are reserved in the contract for v0.2 items. Three starter scenarios: empty_room, corridor (S-shape), warehouse_01 (three shelves). v0.1.7 adds Robot's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Agent navigation eval sandbox. 2D grid worlds the agent perceives partially (radius=2 default) and moves through one cardinal cell at a time. Episodes terminate via the harness \u2014 success on goal-reach or timeout at max_steps; the agent has no quit tool. A* baseline computed at scenario load powers an optimality_ratio metric on every successful run. Five gameplay tools (observe / move / pick / drop / no-give-up) plus three control tools (list_scenarios / start_episode / episode_status). pick + drop are reserved in the contract for v0.2 items. Three starter scenarios: empty_room, corridor (S-shape), warehouse_01 (three shelves). v0.1.7 adds Robot's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/robot",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/robot/apteva.yaml",
@@ -2029,7 +2029,7 @@
       "name": "vpn",
       "display_name": "VPN",
       "version": "0.1.1",
-      "description": "Backend-agnostic VPN orchestrator. Provisions a VPN server on an Instances host (local id 0 or a Hetzner VPS), generates keys, uploads daemon config, brings the interface up, and polls peer statistics on a timer. v0.1 ships WireGuard with native client support on macOS, iOS, Windows, Android, and Linux — the .conf returned by vpn_peer_add imports unchanged into every platform's official WG app. The internal Backend interface accommodates OpenVPN / IKEv2 later without changes to the MCP tool surface; tool names are protocol-neutral (vpn_peer_add, not wg_peer_add). Peers are created and revoked exclusively via MCP tools; the panel is monitor-only. v0.1.1 adds VPN's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Backend-agnostic VPN orchestrator. Provisions a VPN server on an Instances host (local id 0 or a Hetzner VPS), generates keys, uploads daemon config, brings the interface up, and polls peer statistics on a timer. v0.1 ships WireGuard with native client support on macOS, iOS, Windows, Android, and Linux \u2014 the .conf returned by vpn_peer_add imports unchanged into every platform's official WG app. The internal Backend interface accommodates OpenVPN / IKEv2 later without changes to the MCP tool surface; tool names are protocol-neutral (vpn_peer_add, not wg_peer_add). Peers are created and revoked exclusively via MCP tools; the panel is monitor-only. v0.1.1 adds VPN's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/vpn",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/vpn/apteva.yaml",
@@ -2048,7 +2048,7 @@
       "name": "certs",
       "display_name": "Certs",
       "version": "0.5.3",
-      "description": "TLS certificate issuance for Apteva projects via Let's Encrypt (or any RFC 8555 ACME directory). Two challenge types: DNS-01 routes TXT writes through the Domains app (no registrar credentials held here); HTTP-01 uses the webroot pattern (writes /.well-known/acme-challenge/<token> to a directory served by whatever reverse proxy is on :80 — Caddy, nginx, traefik). cert_issue accepts a per-request challenge_type override and remembers it for renewal. Async issuance, daily renewal worker, privileged cert_material tool gated to the server's TLS cache. v0.5.3 adds Certs's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "TLS certificate issuance for Apteva projects via Let's Encrypt (or any RFC 8555 ACME directory). Two challenge types: DNS-01 routes TXT writes through the Domains app (no registrar credentials held here); HTTP-01 uses the webroot pattern (writes /.well-known/acme-challenge/<token> to a directory served by whatever reverse proxy is on :80 \u2014 Caddy, nginx, traefik). cert_issue accepts a per-request challenge_type override and remembers it for renewal. Async issuance, daily renewal worker, privileged cert_material tool gated to the server's TLS cache. v0.5.3 adds Certs's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/certs",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/certs/apteva.yaml",
@@ -2068,7 +2068,7 @@
       "name": "routes",
       "display_name": "Routes",
       "version": "0.5.2",
-      "description": "Hostname-based routing for Apteva — owns the table mapping public hostnames (blog.example.com) to local backend targets (http://127.0.0.1:7100). Apps register routes via routes_register; apteva-server reads the table and reverse-proxies inbound traffic. Optional: uninstall and the platform falls back to path-based routing. Works the same for cloud installs (browser → public IP → apteva-server) and tunnel installs (cloudflared etc). v0.5.2 adds Routes's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "description": "Hostname-based routing for Apteva \u2014 owns the table mapping public hostnames (blog.example.com) to local backend targets (http://127.0.0.1:7100). Apps register routes via routes_register; apteva-server reads the table and reverse-proxies inbound traffic. Optional: uninstall and the platform falls back to path-based routing. Works the same for cloud installs (browser \u2192 public IP \u2192 apteva-server) and tunnel installs (cloudflared etc). v0.5.2 adds Routes's adaptive themed icon and updates the app to the current Apteva app SDK.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/routes",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/routes/apteva.yaml",
@@ -2548,12 +2548,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.44",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.44 identifies attached files from metadata without waiting for unavailable readers and fixes composer autosizing in narrow panes. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.42",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.42 starts visible Thinking for proactive subscription, webhook, timer, and agent-created turns on mapped chat threads and settles it on terminal pacing. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.44/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.44/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.42/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.42/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
