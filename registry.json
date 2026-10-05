@@ -1485,8 +1485,8 @@
     {
       "name": "billing",
       "display_name": "Billing",
-      "version": "0.13.1",
-      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.1 improves the existing customer search with ranked matches, labelled broader candidates, and optional balances, invoice status counts, and recent payments in one call. Account reviews avoid redundant invoice lookups and preserve identity uncertainty. Requires Apteva server 0.27.4 or newer.",
+      "version": "0.13.2",
+      "description": "Customers, local invoices, payments, refunds, reusable payment methods, issuer snapshots, and PDF/HTML rendering. v0.13.2 delivers expiring signed invoice PDF links through linked Storage, uploads new PDFs privately, and preserves rendered bytes when uploading fails. Existing customer search includes ranked matches and compact balances/payment context. Requires Apteva server 0.27.4 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/billing",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/billing/apteva.yaml",
@@ -1502,7 +1502,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-10-04T08:07:23Z"
+      "updated_at": "2026-10-05T06:57:04Z"
     },
     {
       "name": "catalog",
