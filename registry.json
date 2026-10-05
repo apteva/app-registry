@@ -730,8 +730,8 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.16",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.16 adds Web's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.9",
+      "description": "Browser-native web intelligence with Google search, extraction, crawl, research, reusable extractors and caching. v0.2.9 selects organic rendered Google result headings, excludes sponsored links, retries incomplete extraction, and resolves opaque redirects with bounded deadlines and public-network validation.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
@@ -746,7 +746,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-26T06:37:11Z"
+      "updated_at": "2026-10-05T10:24:48Z"
     },
     {
       "name": "signatures",
