@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-05T11:04:56Z",
+  "updated_at": "2026-10-05T11:07:46Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -422,12 +422,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.2",
-      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.2 adds explicit worker continuity per run and executor across branches, joins, delays and approval gates, compact worker responses with one exact dependency manifest, and shared-policy reuse with checkpoint recovery.",
+      "version": "0.16.3",
+      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.3 adds compact MCP discovery and version metadata, direct run receipts, one immutable run definition, and exact reread references while preserving HTTP/UI objects and approval evidence. Includes executor worker continuity from v0.16.2.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.2/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.2/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.2/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.3/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.3/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.3/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -437,7 +437,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-05T10:39:21Z"
+      "updated_at": "2026-10-05T11:07:46Z"
     },
     {
       "name": "fetch",
