@@ -813,11 +813,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.26",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, and a generic bounded batch executor with read_snapshot, write_transaction, best_effort, and dependent result references. v0.1.26 fixes recursive-filter literal coercion so explicit casts retain their operand type, boolean literals are coerced once, and casted outer numeric IDs preserve indexed text foreign-key lookups. v0.1.25 adds a versioned recursive filter AST with typed expressions and correlated exists/not_exists predicates, while preserving the legacy filter API.",
+      "version": "0.1.27",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, a generic bounded batch executor, and persistent SQL projections for asynchronous, coalesced analytics refreshes with atomic publication and version switching. v0.1.27 adds durable projection change capture, fenced queue leases, retries, pause/resume, and read-only projection tables.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.26/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.27/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
