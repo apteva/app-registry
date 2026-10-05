@@ -813,11 +813,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.2.0",
-      "description": "Typed-row database with safe queries, indexed search, upserts and bounded batches. Tables v0.2.0 extends persistent SQL projections with predicates inside scoped SQL, generic dependency mappings and timezone-derived scopes, durable refresh intervals and forced requests, result indexes, accurate scoped readiness and published coverage. Replacements build alongside readers; rows stage in bounded writer transactions and publish atomically through generation switches. The result-storage migration requires a database restore for downgrade.",
+      "version": "0.2.1",
+      "description": "Typed-row database with safe queries, indexed search, upserts and bounded batches. Tables v0.2.1 redesigns the workspace with searchable table navigation, typed filters, server-backed sorting, readable values, sticky headers, and a row-detail editor drawer. It includes the persistent SQL projection system introduced in v0.2.0 for scoped analytics, dependency mappings, durable refreshes, result indexes, accurate readiness, safe replacement versions, and published coverage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.0/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.1/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -828,7 +828,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-10-05T13:43:59Z"
+      "updated_at": "2026-10-05T14:57:28Z"
     },
     {
       "name": "jobs",
