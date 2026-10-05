@@ -934,12 +934,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.8",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.8 preserves subjects during stationary Smart Crop tracking instead of following disconnected background features. Invalidates outdated crop decisions and outputs while retaining unrelated render caches. Includes the v0.14.7 metadata batch tools, v0.14.6 safe catalog planning/search, and durable indexing queue recovery. Uses app-sdk v0.95.0; requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.9",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.9 normalizes render filenames before queuing, rejects unsupported or conflicting output formats, and keeps filenames, render plans, content types and Storage uploads consistent. Separates normal remote cache diagnostics from primary failures and persists model-scoped description rate-limit backoff with upstream retry/reset metadata. Includes the v0.14.8 Smart Crop subject-preservation fix. Uses app-sdk v0.95.0; requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.8/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.8/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.9/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.9/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -954,7 +954,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-05T06:59:40Z"
+      "updated_at": "2026-10-05T09:37:46Z"
     },
     {
       "name": "content-catalog",
