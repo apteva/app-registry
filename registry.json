@@ -813,11 +813,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.1.27",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, a generic bounded batch executor, and persistent SQL projections for asynchronous, coalesced analytics refreshes with atomic publication and version switching. v0.1.27 adds durable projection change capture, fenced queue leases, retries, pause/resume, and read-only projection tables.",
+      "version": "0.2.0",
+      "description": "Typed-row database with safe queries, indexed search, upserts and bounded batches. Tables v0.2.0 extends persistent SQL projections with predicates inside scoped SQL, generic dependency mappings and timezone-derived scopes, durable refresh intervals and forced requests, result indexes, accurate scoped readiness and published coverage. Replacements build alongside readers; rows stage in bounded writer transactions and publish atomically through generation switches. The result-storage migration requires a database restore for downgrade.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.1.27/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.0/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -828,7 +828,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-09-20T13:56:52Z"
+      "updated_at": "2026-10-05T13:43:59Z"
     },
     {
       "name": "jobs",
