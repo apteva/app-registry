@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-06T17:35:29Z",
+  "updated_at": "2026-10-06T17:36:38Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -283,12 +283,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.8.0",
-      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.8.0 adds opt-in authorization-safe in-flight read sharing, generic resolver batching, bounded upstream snapshot contexts, per-API and per-operation admission queues and limits, cancellation, and generic projection/coverage/freshness metadata. Deploy controls and the request-health Logs panel/dashboard widget expose errors, slow/large/queued queries, shared executions, resolver timings, loader/batch statistics, and snapshot details with live filters. Tables supports native batch snapshots; request-wide snapshots require a backend with reusable handles.",
+      "version": "0.8.1",
+      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. The v0.8 runtime includes opt-in authorization-safe in-flight read sharing, generic resolver batching, bounded upstream snapshot contexts, per-API and per-operation admission queues and limits, cancellation, and generic projection/coverage/freshness metadata. Deploy controls and the request-health Logs panel/dashboard widget expose errors, slow/large/queued queries, shared executions, resolver timings, loader/batch statistics, and snapshot details with live filters. Tables supports native batch snapshots; request-wide snapshots require a backend with reusable handles.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/graphql/v0.8.0/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.0/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.0/mcp/graphql/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/graphql/v0.8.1/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.1/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.1/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
@@ -302,7 +302,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-06T17:24:38Z"
+      "updated_at": "2026-10-06T17:29:20Z"
     },
     {
       "name": "saas",
@@ -935,12 +935,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.10",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.10 improves standalone portrait framing with cached-thumbnail head/torso evidence, recentres profile poses, and reduces excessive ceiling space when the connected subject fits. Protects supported faces and keeps wide gestures at full scale; explicit fit_mode=contain preserves every source edge with padding. Video tracking and center/contain modes remain unchanged. Includes v0.14.9 output filename/format validation, clear primary render errors and bounded description rate-limit backoff, plus v0.14.8 stationary Smart Crop subject preservation. Uses app-sdk v0.95.0. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.11",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.11 protects reclining head geometry using supported foreground evidence, retains subject extent with a small margin when it fits, and exposes sampled actions wider than the crop with a fit_mode=contain recommendation. Persists app/algorithm versions, effective crop geometry, evidence timestamps and fallback reasons, including cached renders; previews use the render planner. Includes the portrait framing improvements, filename/format validation, clear render errors and bounded description backoff from 0.14.9\u20130.14.10. Uses app-sdk v0.95.0. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.10/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.10/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.11/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.11/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -2386,12 +2386,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.10.3",
-      "description": "Voice calls, IVR flows, sequential business-rule routing, browser softphone, recordings and native SIP. Cumulative release retaining inbound spam protection, correct terminal announcements and missed-call classification, indexed adviser queries and answerable offers, bounded AI handoff recovery with confirmed carrier answer, configurable connected-call duration, DIDWW ordering/compliance and multi-carrier outbound caller-ID routing. Supports Twilio, Telnyx, Plivo, SignalWire, Vonage, Bandwidth, Sinch and DIDWW. Retains passive live listening and 0.9.1 carrier source timing, bounded delayed-media handling, directional stall notices and network diagnostics. Version 0.10.0 adds private supervisor coaching through the existing media hub and adviser socket: explicit permissions, adviser-only push-to-talk, pinned adviser sessions, bounded independent queues, automatic microphone cleanup, talk-spurt audits, shared headless SDK methods and Calls panel controls. No additional carrier stream or provider conference is created. Includes local audio, security, concurrency, browser and network regressions. Version 0.10.1 adds resilient media lease renewal, fresh authorized softphone reconnection with mute retained, temporary authorization outage handling, safer browser audio clock resets, and bounded session/drop diagnostics in the shared headless APIs and Calls panel. Existing latency caps remain unchanged. Version 0.10.2 adds per-call hashed peer identity, Worker ping RTT, socket/reconnect and browser scheduling telemetry, separate carrier/server/browser audio health stages, recoverable audio_degraded notices and scoped multi-call alerts. Shared headless and Calls panel AudioContext diagnostics retain fresh authorized same-call reattachment and bounded stale-audio dropping. Diagnostic persistence no longer blocks the media receive path. Version 0.10.3 adds a filterable project-wide Audio health tab and a dashboard widget, with current/stale/missing telemetry states, detailed diagnostics and persisted multi-call alert history. Indexed summaries are computed in bounded background batches; all matching call counts are independent of pagination. Dashboard links preserve project, installation and filters. Existing audio processing and latency limits are unchanged.",
+      "version": "0.10.4",
+      "description": "Voice calls, IVR flows, sequential business-rule routing, browser softphone, recordings and native SIP. Cumulative release retaining inbound spam protection, correct terminal announcements and missed-call classification, indexed adviser queries and answerable offers, bounded AI handoff recovery with confirmed carrier answer, configurable connected-call duration, DIDWW ordering/compliance and multi-carrier outbound caller-ID routing. Supports Twilio, Telnyx, Plivo, SignalWire, Vonage, Bandwidth, Sinch and DIDWW. Retains passive live listening and 0.9.1 carrier source timing, bounded delayed-media handling, directional stall notices and network diagnostics. Version 0.10.0 adds private supervisor coaching through the existing media hub and adviser socket: explicit permissions, adviser-only push-to-talk, pinned adviser sessions, bounded independent queues, automatic microphone cleanup, talk-spurt audits, shared headless SDK methods and Calls panel controls. No additional carrier stream or provider conference is created. Includes local audio, security, concurrency, browser and network regressions. Version 0.10.1 adds resilient media lease renewal, fresh authorized softphone reconnection with mute retained, temporary authorization outage handling, safer browser audio clock resets, and bounded session/drop diagnostics in the shared headless APIs and Calls panel. Existing latency caps remain unchanged. Version 0.10.2 adds per-call hashed peer identity, Worker ping RTT, socket/reconnect and browser scheduling telemetry, separate carrier/server/browser audio health stages, recoverable audio_degraded notices and scoped multi-call alerts. Shared headless and Calls panel AudioContext diagnostics retain fresh authorized same-call reattachment and bounded stale-audio dropping. Diagnostic persistence no longer blocks the media receive path. Version 0.10.3 adds a filterable project-wide Audio health tab and a dashboard widget, with current/stale/missing telemetry states, detailed diagnostics and persisted multi-call alert history. Indexed summaries are computed in bounded background batches; all matching call counts are independent of pagination. Dashboard links preserve project, installation and filters. Existing audio processing and latency limits are unchanged. Version 0.10.4 improves the Audio health widget with persistent issue badges for ended calls, readable durations, inline filters/pagination/details and no navigation links. Scoped SSE updates reuse the host connection, with bounded standalone recovery, post-commit report hints and periodic reconciliation. Call/media behavior is unchanged.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.10.3/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.10.3/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.10.3/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.10.4/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.10.4/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.10.4/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
