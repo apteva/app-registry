@@ -283,12 +283,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.7.7",
-      "description": "Standalone multi-API GraphQL runtime with standard schemas and a fast Tables path. v0.7.7 adds release-owned aggregate_pipeline resolvers for joins, CTEs, window functions, latest-row deduplication, grouping, and conditional metrics in one safe Tables query. Clients still use ordinary typed GraphQL fields; SQL and sources are immutable while values bind from arguments, parents, verified identity, or literals. Strict source authorization, row/cardinality/truncation limits, sibling batching, atomic releases, authenticated subscriptions, calculations, Database/Functions/HTTP adapters, and realtime remain available. Requires Tables v0.1.26 for this pipeline path. Independent from the API app.",
+      "version": "0.7.9",
+      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.7.9 adds a shared request-health Logs panel and dashboard widget: one-click Errors/Slow/Large views, search, time windows, environment and error-code filters, full error details and field paths, request IDs, execution/source timings, and summaries across all matching requests. Partial errors with HTTP 200 and early HTTP authentication/decoding failures are recorded. The configurable project widget supports half/full sizes and live refresh. Existing safe Tables pipelines, authentication, atomic releases, and source adapters remain available.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.7.7/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.7.7/mcp/graphql/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/graphql/v0.7.9/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.7.9/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.7.9/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
@@ -302,7 +302,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-09-20T21:11:31Z"
+      "updated_at": "2026-10-06T12:06:20Z"
     },
     {
       "name": "saas",
