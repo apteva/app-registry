@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-06T17:24:38Z",
+  "updated_at": "2026-10-06T17:29:20Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -283,12 +283,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.8.0",
-      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.8.0 adds opt-in authorization-safe in-flight read sharing, generic resolver batching, bounded upstream snapshot contexts, per-API and per-operation admission queues and limits, cancellation, and generic projection/coverage/freshness metadata. Deploy controls and the request-health Logs panel/dashboard widget expose errors, slow/large/queued queries, shared executions, resolver timings, loader/batch statistics, and snapshot details with live filters. Tables supports native batch snapshots; request-wide snapshots require a backend with reusable handles.",
+      "version": "0.8.1",
+      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. The v0.8 runtime includes opt-in authorization-safe in-flight read sharing, generic resolver batching, bounded upstream snapshot contexts, per-API and per-operation admission queues and limits, cancellation, and generic projection/coverage/freshness metadata. Deploy controls and the request-health Logs panel/dashboard widget expose errors, slow/large/queued queries, shared executions, resolver timings, loader/batch statistics, and snapshot details with live filters. Tables supports native batch snapshots; request-wide snapshots require a backend with reusable handles.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/graphql/v0.8.0/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.0/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.0/mcp/graphql/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/graphql/v0.8.1/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.1/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.8.1/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
@@ -302,7 +302,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-06T17:24:38Z"
+      "updated_at": "2026-10-06T17:29:20Z"
     },
     {
       "name": "saas",
