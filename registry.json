@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-06T17:24:38Z",
+  "updated_at": "2026-10-06T17:35:29Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -854,11 +854,11 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.16.0",
-      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and trusted authenticated invocations. v1.16.0 adds sortable performance rankings and slow-call diagnostics in the UI and MCP: compare call counts, total execution wall time, average/p95 latency, queue wait and errors over a selected period, then inspect per-invocation timings, logs and downstream resources. Exact percentiles use retained, project-scoped history; running calls are counted separately. Requires Apteva 0.50.2+ and the verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
+      "version": "1.17.0",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and trusted authenticated invocations. v1.17.0 adds project-wide Live logs with error and function filters, expandable invocation output/errors, and a configurable Function activity widget for Home and custom Pages (Pages require Apteva 0.82.1+). Includes sortable performance rankings and slow-call diagnostics in the UI and MCP: compare call counts, total execution wall time, average/p95 latency, queue wait and errors over a selected period, then inspect per-invocation timings, logs and downstream resources. Exact percentiles use retained, project-scoped history; running calls are counted separately. Requires Apteva 0.50.2+ and the verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.16.0/mcp/functions/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.17.0/mcp/functions/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -870,7 +870,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-02T09:01:15Z"
+      "updated_at": "2026-10-06T17:35:29Z"
     },
     {
       "name": "workflows",
