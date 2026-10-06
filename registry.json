@@ -422,12 +422,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.6",
-      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.6 adds durable claim evidence, bounded recovery wakes for delivered but unclaimed worker steps, stalled-run reporting, and unambiguous ready-step handoffs.",
+      "version": "0.16.7",
+      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.7 removes the separate assignment target label from UI, API, MCP and worker context; declared process parameters provide execution inputs. Migration preserves parameter values, exact run identities and saved delivery requests.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.6/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.6/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.6/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.7/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.7/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.7/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -437,7 +437,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-05T16:34:06Z"
+      "updated_at": "2026-10-06T06:14:23Z"
     },
     {
       "name": "fetch",
