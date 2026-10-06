@@ -961,12 +961,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.6.3",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. Favorites, generic tags, Patreon intent, bulk labels and agent search support planning. v0.6.3 refreshes existing assets from Storage's verified checksum result, requests exact-file repair when hosting is pending, and resumes the same hosting reservation without duplicate uploads. Checksum-ready events and reattachment refresh the stored checksum. Session hosting collections and explicit publication boundaries are preserved.",
+      "version": "0.6.4",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. Favorites, generic tags and Patreon intent support planning. v0.6.4 persists explicit hosting requests while checksums are verified, resumes with eligibility and duplicate checks, and automatically tracks encoding progress, stages and messages. New video titles use Media title or session and filename. Workers follow recorded hosting work only; no automatic folder scans or publication.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.3/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.3/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.4/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.4/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -977,7 +977,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-06T08:17:26Z"
+      "updated_at": "2026-10-06T09:40:07Z"
     },
     {
       "name": "podcast",
