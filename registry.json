@@ -422,12 +422,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.8",
-      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.8 makes the entire process list row clickable, with a pointer cursor, hover highlight and visible keyboard focus.",
+      "version": "0.16.9",
+      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.9 uses the host theme hover color for a subtle neutral process row highlight while retaining whole-row selection and keyboard focus.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.8/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.8/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.8/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.9/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.9/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.9/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -437,7 +437,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-06T06:30:56Z"
+      "updated_at": "2026-10-06T06:46:47Z"
     },
     {
       "name": "fetch",
