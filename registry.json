@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-05T17:22:36Z",
+  "updated_at": "2026-10-06T08:17:26Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -794,11 +794,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.12.7",
-      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.7 defaults browser multipart uploads to the faster parallel relay while keeping direct S3 configurable. Both transports and small single-request uploads show smooth live progress, smoothed transfer speed, and approximate completion ETA, with retries, cancellation, and resumability preserved.",
+      "version": "0.12.8",
+      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.8 verifies whole-file SHA-256 asynchronously after direct multipart completion and automatically repairs older files with missing checksums using durable jobs. Exact-file repair and checksum status are available to dependent apps; verification preserves file IDs, URLs, and backend object locations. Browser uploads retain live progress, speed, ETA, retries, cancellation, and resumability.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.7/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.8/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -808,7 +808,8 @@
         "upload"
       ],
       "official": true,
-      "category": "storage"
+      "category": "storage",
+      "updated_at": "2026-10-06T08:17:26Z"
     },
     {
       "name": "tables",
@@ -960,12 +961,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.6.2",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. Favorites, generic tags, Patreon intent, bulk labels and agent search support planning. v0.6.2 creates or reuses a session-named Bunny collection only on an explicit approved hosting request when no session or brand collection is configured; saves its ID with durable retry protection. Existing hosting and collection overrides are preserved. No automatic scans, file moves, Media changes or external publishing.",
+      "version": "0.6.3",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. Favorites, generic tags, Patreon intent, bulk labels and agent search support planning. v0.6.3 refreshes existing assets from Storage's verified checksum result, requests exact-file repair when hosting is pending, and resumes the same hosting reservation without duplicate uploads. Checksum-ready events and reattachment refresh the stored checksum. Session hosting collections and explicit publication boundaries are preserved.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.2/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.2/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.3/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.3/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -976,7 +977,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-06T06:57:50Z"
+      "updated_at": "2026-10-06T08:17:26Z"
     },
     {
       "name": "podcast",
