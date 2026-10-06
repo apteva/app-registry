@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-06T08:17:26Z",
+  "updated_at": "2026-10-06T10:00:00Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -422,12 +422,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.17",
-      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.17 fixes clipped focus outlines in the step-editing modal on desktop and mobile.",
+      "version": "0.16.12",
+      "description": "Visual company procedures with generic connected steps, independent assignments, multi-agent execution, recurring runs, event triggers, and durable native run history. v0.16.12 opens project-wide run selections as full-width detail pages with live current-step, worker activity and tool evidence.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.17/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.17/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.17/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.12/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.12/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.12/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -437,7 +437,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-06T09:29:18Z"
+      "updated_at": "2026-10-06T10:15:00Z"
     },
     {
       "name": "fetch",
@@ -794,11 +794,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.12.8",
-      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.8 verifies whole-file SHA-256 asynchronously after direct multipart completion and automatically repairs older files with missing checksums using durable jobs. Exact-file repair and checksum status are available to dependent apps; verification preserves file IDs, URLs, and backend object locations. Browser uploads retain live progress, speed, ETA, retries, cancellation, and resumability.",
+      "version": "0.12.7",
+      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.7 defaults browser multipart uploads to the faster parallel relay while keeping direct S3 configurable. Both transports and small single-request uploads show smooth live progress, smoothed transfer speed, and approximate completion ETA, with retries, cancellation, and resumability preserved.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.8/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.7/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -808,17 +808,16 @@
         "upload"
       ],
       "official": true,
-      "category": "storage",
-      "updated_at": "2026-10-06T08:17:26Z"
+      "category": "storage"
     },
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.2.6",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, a projections workspace, and a generic bounded batch executor. v0.2.6 batches projection scope refreshes within scheduling budgets, fixes durable queue wait timings, and coalesces projection.ready notifications with persistent retries. v0.2.5 adds bounded SQL validation and authorization-plan caching, generation-aware cleanup/indexing, large dependency fan-out coalescing, phase timings, and projection.ready events. v0.2.4 adds automatic backward-compatible projection storage migration, preserving a writable fallback surface while current readers use atomic generation views. v0.2.3 fixes the Tables workspace when summary table listings omit column metadata. v0.2.2 adds persistent SQL projections with readiness, freshness, coverage, scoped refresh controls, and forced refresh.",
+      "version": "0.2.7",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, a projections workspace, and a generic bounded batch executor. v0.2.7 separates interactive reads from projection workers with configurable shared capacity, coalesces scoped refreshes under load, shortens generation publication locks, and reports queue, calculation, lock, staging, publication, and cleanup timings. v0.2.6 batches projection scope refreshes within scheduling budgets, fixes durable queue wait timings, and coalesces projection.ready notifications with persistent retries. v0.2.5 adds bounded SQL validation and authorization-plan caching, generation-aware cleanup/indexing, large dependency fan-out coalescing, phase timings, and projection.ready events. v0.2.4 adds automatic backward-compatible projection storage migration, preserving a writable fallback surface while current readers use atomic generation views. v0.2.3 fixes the Tables workspace when summary table listings omit column metadata. v0.2.2 adds persistent SQL projections with readiness, freshness, coverage, scoped refresh controls, and forced refresh.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.6/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.7/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -829,7 +828,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-10-06T08:18:06Z"
+      "updated_at": "2026-10-06T10:00:00Z"
     },
     {
       "name": "jobs",
@@ -961,12 +960,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.6.5",
-      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. Favorites, generic tags and Patreon intent support planning. v0.6.5 persists explicit hosting requests while checksums are verified, resumes with eligibility and duplicate checks, and automatically tracks encoding progress, stages and messages. New video titles use Media title or session and filename. Workers follow recorded hosting work only; no automatic folder scans or publication.",
+      "version": "0.6.2",
+      "description": "Coordinate brands, sessions, explicit Storage uploads, Media metadata, Gigs, cloud hosting and shared platform posts. Favorites, generic tags, Patreon intent, bulk labels and agent search support planning. v0.6.2 creates or reuses a session-named Bunny collection only on an explicit approved hosting request when no session or brand collection is configured; saves its ID with durable retry protection. Existing hosting and collection overrides are preserved. No automatic scans, file moves, Media changes or external publishing.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.5/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.5/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.2/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.2/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -977,7 +976,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-06T09:43:17Z"
+      "updated_at": "2026-10-06T06:57:50Z"
     },
     {
       "name": "podcast",
