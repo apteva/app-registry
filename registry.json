@@ -656,11 +656,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.16",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.16 adds saved conversation reply drafts with text/HTML, attachments, templates, autosave and agent tools. Saving never sends; explicit sends revalidate ownership, sender, recipient, suppression and WhatsApp eligibility. Revision checks preserve concurrent edits, durable operation keys prevent duplicate retries, and failed sends retain drafts. CRM-local drafts are not Gmail-synced. Additive migration preserves existing messages and conversations, including channel colors and same-thread SMS/WhatsApp replies.",
+      "version": "0.9.17",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.17 fixes numeric score and boolean attribute writes from legacy string-based agent adapters using project-owned definitions, while preserving text and strict HTTP validation. Documents JSON types and examples, rejects invalid values without data loss, and adds score-readback guidance before dossier readiness. Includes saved reply drafts, channel colors, and same-thread SMS/WhatsApp replies. No data migration or automatic score repair.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.16/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.17/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
