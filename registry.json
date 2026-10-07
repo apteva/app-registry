@@ -461,8 +461,8 @@
     {
       "name": "todo",
       "display_name": "Todo",
-      "version": "0.4.10",
-      "description": "Personal todo list \u2014 human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools. v0.4.10 adds Todo's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.4.14",
+      "description": "Personal todo list \u2014 human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools. v0.4.14 makes todo creation and tag updates atomic, preventing concurrent tag failures and partial writes; preserves hierarchy, timezone, and search discovery improvements.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/todo",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/todo/apteva.yaml",
