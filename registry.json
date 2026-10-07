@@ -1711,11 +1711,11 @@
     {
       "name": "bills",
       "display_name": "Bills",
-      "version": "0.2.4",
-      "description": "Supplier bills, approvals and recorded payments, with source obligations, credits, refunds and reversals. v0.2.4 defaults Codex invoice extraction to GPT-6 Luna with low thinking through the existing Codex integration. Extraction failures create no bill; uploaded documents remain available for retry. Supports partial payments, durable retry keys and supporting documents. Creating a bill never pays it.",
+      "version": "0.2.5",
+      "description": "Supplier bills, approvals and recorded payments, with source obligations, credits, refunds and reversals. v0.2.5 renders filled PDF invoice fields and releases render buffers after each page. Codex extraction uses GPT-6 Luna with low thinking through the existing integration. Extraction failures create no bill; uploaded documents remain available for retry. Supports partial payments, durable retry keys and supporting documents. Creating a bill never pays it.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bills",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bills/v0.2.4/mcp/bills/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bills/v0.2.5/mcp/bills/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/bills/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
