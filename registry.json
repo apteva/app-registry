@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-06T17:36:38Z",
+  "updated_at": "2026-10-07T11:29:21Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -1883,11 +1883,11 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.5.2",
-      "description": "Compute-host inventory and lifecycle across cloud providers and custom servers. Instances configures private buckets and CORS directly over S3 and returns credentials, without creating integrations or connections. Supports durable setup retries, SSH enrollment, host setup, metrics, block volumes and object storage.",
+      "version": "0.6.0",
+      "description": "Compute-host inventory and lifecycle across cloud providers and custom servers, with continuous CPU monitoring at 250ms, live dashboard/MCP stats, peak-preserving history, bounded spike recordings and automatic Linux/macOS collector installation. Also manages SSH enrollment, host setup, block volumes and private S3 object storage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.5.2/mcp/instances/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.6.0/mcp/instances/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1896,7 +1896,8 @@
         "ssh",
         "hetzner",
         "infrastructure",
-        "metrics"
+        "metrics",
+        "monitoring"
       ],
       "official": true,
       "category": "infrastructure"
