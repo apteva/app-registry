@@ -694,12 +694,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.92",
-      "description": "Watch, steer, and replay hosted browser sessions. v0.7.92 supports bounded rendered DOM responses up to 1 MB for large structured crawls.",
+      "version": "0.7.93",
+      "description": "Watch, steer, and replay hosted browser sessions. v0.7.93 supports explicit media file-picker controls with native chooser, target identity, visibility, and non-submit guards.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.92/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.92/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.92/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.93/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.93/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.93/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
