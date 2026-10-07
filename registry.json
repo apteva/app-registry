@@ -1314,8 +1314,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.27.1",
-      "description": "Build and release services, universal iOS apps for iPhone and iPad, native macOS apps, Android apps, and arbitrary artifacts. v0.27.1 fixes Bun and Node artifact staging when dependency symlinks point into temporary build sources, while preserving artifact attestation and rejecting external links.",
+      "version": "0.27.2",
+      "description": "Build and release services, universal iOS apps for iPhone and iPad, native macOS apps, Android apps, and arbitrary artifacts. v0.27.2 installs pinned, checksum-verified XcodeGen for Apple project generation and exposes Codemagic provider step logs through Deploy logs and the dashboard. Existing Xcode projects and workspaces remain supported.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
