@@ -935,12 +935,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.12",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.12 makes trims frame-accurate, aligns retained pictures/audio at zero, and validates every output picture before upload. Detects single-frame black segments with opening/ending coverage; persists trim decisions, validation and limitations across cache reuse. Retains source bit depth and base color signaling; Dolby Vision dynamic metadata is not retained and is reported explicitly. Includes 0.14.11 Smart Crop subject preservation and crop provenance. Uses app-sdk v0.96.0. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.13",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.13 adds guarded auto keyframe trims with bounded drift, source picture/timeline checks and accurate fallback; HEVC quality/speed controls and per-job render estimates/timeouts. Two-pass normalization validates encoded LUFS/true peak, sample rate, decoding and timing, preserving trim presentation cutoffs. Accurate zero-start trims, every-frame black/coverage checks and saved diagnostics remain supported. HDR outputs identify HLG/PQ; required Dolby Vision preservation fails before rendering. Auto copy and normalization use Python 3 on the execution host; auto falls back if unavailable. Includes Smart Crop subject preservation/provenance. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.12/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.12/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.13/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.13/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -955,7 +955,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-05T16:49:49Z"
+      "updated_at": "2026-10-07T11:20:01Z"
     },
     {
       "name": "content-catalog",
