@@ -935,12 +935,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.14",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.14 fixes last-frame loss during normalization by preserving exact presentation boundaries and checking all retained pictures/timestamps. Analysis verifies preceding-frame coverage to avoid false window-start gaps while retaining real-gap warnings. Includes guarded auto keyframe trims with bounded drift, source picture/timeline checks and accurate fallback; HEVC quality/speed controls and per-job render estimates/timeouts. Two-pass normalization validates encoded LUFS/true peak, sample rate, decoding and timing, preserving trim presentation cutoffs. Accurate zero-start trims, every-frame black/coverage checks and saved diagnostics remain supported. HDR outputs identify HLG/PQ; required Dolby Vision preservation fails before rendering. Auto copy and normalization use Python 3 on the execution host; auto falls back if unavailable. Includes Smart Crop subject preservation/provenance. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
+      "version": "0.14.15",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.15 combines copy-trim picture, black-frame and timeline checks in one decode; normalization reuses trusted file-bound video evidence when copied packets match. Live status reports selected copy/encoding mode and validation/upload phases. Remote cancellation verifies process-group shutdown and exposes failures. Retains last-frame normalization fixes, accurate zero-start cuts, bounded keyframe drift, HEVC profiles/budgets, HLG diagnostics, measured loudness/peak validation and Smart Crop provenance. Python 3 is used by auto copy and normalization; auto falls back if unavailable. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.14/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.14/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.15/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.15/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
