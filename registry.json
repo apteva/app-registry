@@ -794,11 +794,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.12.7",
-      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.7 defaults browser multipart uploads to the faster parallel relay while keeping direct S3 configurable. Both transports and small single-request uploads show smooth live progress, smoothed transfer speed, and approximate completion ETA, with retries, cancellation, and resumability preserved.",
+      "version": "0.12.9",
+      "description": "File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.9 releases pending-upload quota atomically on completion, repairs stale reservations on replay, startup, periodic sweeps and new upload admission, and logs and durably retries cleanup failures. Saved files and genuine unfinished uploads are preserved. Includes asynchronous whole-file SHA-256 verification and repair from v0.12.8, plus live upload progress, speed and ETA.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.7/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.12.9/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -808,7 +808,8 @@
         "upload"
       ],
       "official": true,
-      "category": "storage"
+      "category": "storage",
+      "updated_at": "2026-10-07T19:01:34Z"
     },
     {
       "name": "tables",
