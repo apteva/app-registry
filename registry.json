@@ -935,12 +935,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.11",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.11 protects reclining head geometry using supported foreground evidence, retains subject extent with a small margin when it fits, and exposes sampled actions wider than the crop with a fit_mode=contain recommendation. Persists app/algorithm versions, effective crop geometry, evidence timestamps and fallback reasons, including cached renders; previews use the render planner. Includes the portrait framing improvements, filename/format validation, clear render errors and bounded description backoff from 0.14.9\u20130.14.10. Uses app-sdk v0.95.0. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
+      "version": "0.14.12",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.12 makes trims frame-accurate, aligns retained pictures/audio at zero, and validates every output picture before upload. Detects single-frame black segments with opening/ending coverage; persists trim decisions, validation and limitations across cache reuse. Retains source bit depth and base color signaling; Dolby Vision dynamic metadata is not retained and is reported explicitly. Includes 0.14.11 Smart Crop subject preservation and crop provenance. Uses app-sdk v0.96.0. Requires Storage 0.10.26 or newer and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.11/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.11/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.12/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.12/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
