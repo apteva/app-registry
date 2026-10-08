@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.20",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.20 retries flattened HTTP/2 INTERNAL_ERROR/REFUSED_STREAM and nested transient provider errors within existing vision limits, while preserving permanent-error stops and low Codex reasoning. Verified upright native screenshot foreground now supports tighter portrait framing with head/pose protection and the source bottom retained. Keeps crop preflight, action-preservation/contain policies, timestamp validation and bounded description recovery. Video crop behavior is unchanged. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
+      "version": "0.14.21",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.21 adds stable whole-reel portrait composition for supported seated subjects: one fixed crop preserves sampled head, pose, hands, movement margins and the source bottom. Reuses bounded source/background evidence; ambiguous, sparse, cut and wide-action cases retain existing tracking. Keeps native image composition, crop preflight/contain policies, accurate trim and normalization, bounded vision retries and low Codex reasoning. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.20/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.20/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.21/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.21/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -956,7 +956,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-08T12:08:51Z"
+      "updated_at": "2026-10-08T13:24:34Z"
     },
     {
       "name": "content-catalog",
