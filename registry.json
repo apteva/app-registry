@@ -656,11 +656,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.21",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.21 displays immutable sent template content and its template name/ID using Messaging v0.13.60+ snapshots, distinguishing provider-confirmed content from send-time captures. Historical or incomplete content is explicitly unavailable, never reconstructed from current templates. Retains unsubscribe, typed attributes, reply drafts, channel colors and persistent inbox selection. No CRM schema migration or production repair.",
+      "version": "0.9.22",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.22 keeps loaded conversations, scroll position and drafts stable during background refreshes, batches live updates, and retains the selected out-of-filter conversation in the sidebar. Email, WhatsApp and SMS clearly distinguish incoming contacts from outgoing team messages with verified speaker names, left/right alignment and tinting. Retains immutable sent template snapshots, unsubscribe, typed attributes and reply drafts. CRM UI only; no Messaging changes, schema migration or production repair.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.21/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.22/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
