@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.16",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.16 adds bounded adaptive retries for encoded audio peak overshoots while keeping the requested LUFS target and verified video evidence. Upload quota/rate-limit errors preserve their Storage phase/cause without whole-file fallback; transient failures use bounded backoff. Validation progress is indeterminate and overall progress reserves room for validation/upload. Retains shared validation, live copy/encoding mode, verified cancellation, last-frame normalization and analysis-window fixes, guarded accurate/keyframe trims, HEVC profiles/budgets, HLG diagnostics and Smart Crop provenance. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
+      "version": "0.14.17",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.17 adds bounded media_ask retries for transient vision/chat and Codex stream failures: three attempts share one timeout, respect retry/reset hints, preserve available upstream diagnostics, and never overlap still-running calls. Explicit auth, quota/billing and invalid-input errors stop without retry. Uses the same existing frames/transcript and creates no artifacts. Retains adaptive encoded-audio peak retries, Storage error/progress fixes, guarded trims, video validation evidence, verified cancellation, HLG diagnostics and Smart Crop provenance. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.16/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.16/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.17/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.17/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
