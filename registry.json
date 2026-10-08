@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.21",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.21 adds stable whole-reel portrait composition for supported seated subjects: one fixed crop preserves sampled head, pose, hands, movement margins and the source bottom. Reuses bounded source/background evidence; ambiguous, sparse, cut and wide-action cases retain existing tracking. Keeps native image composition, crop preflight/contain policies, accurate trim and normalization, bounded vision retries and low Codex reasoning. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
+      "version": "0.14.22",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.22 shares exact-frame scene and pose analysis between direct video-frame extraction and native screenshots. Repositions fitting gestures before strict crop checks and separates connected full-body pose from broader foreground bounds. No implicit padding; incomplete and wide actions remain guarded. Keeps stable reel composition, accurate trim/normalization, bounded vision retries and low Codex reasoning. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.21/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.21/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.22/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.22/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
