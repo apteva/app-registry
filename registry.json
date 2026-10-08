@@ -814,11 +814,11 @@
     {
       "name": "tables",
       "display_name": "Tables",
-      "version": "0.2.10",
-      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, a projections workspace, a generic bounded batch executor, and a compact diagnostics panel/widget. v0.2.10 adds errors-only, timeout and cancellation filters, configurable 10/25/50-row limits, and coalesced live diagnostics updates through the shared SSE stream without manual refresh or polling. v0.2.9 fixes responsive diagnostics columns and reduces row density. v0.2.8 adds durable redacted slow-read and database-failure diagnostics with project retention. v0.2.7 separates interactive reads from projection workers with configurable shared capacity and phase timings. v0.2.6 batches projection scope refreshes and coalesces projection-ready notifications. v0.2.5 adds bounded SQL validation and authorization-plan caching, generation-aware cleanup/indexing, large dependency fan-out coalescing, phase timings, and projection.ready events. v0.2.4 adds automatic backward-compatible projection storage migration. v0.2.3 fixes the Tables workspace when summary table listings omit column metadata. v0.2.2 adds persistent SQL projections with readiness, freshness, coverage, scoped refresh controls, and forced refresh.",
+      "version": "0.2.11",
+      "description": "Typed-row database for Apteva agents and human teams. Define project-scoped typed tables, validate and upsert rows, search with indexed predicates and cursor pagination, and query through a read-only SQL interface. Includes optimistic edit protection, exact JSON numbers, optional Storage attachments, an efficient table editor, a projections workspace, a generic bounded batch executor, and a compact diagnostics panel/widget. v0.2.11 fixes ordinary SQL verification reuse and adds opt-in watched source dependency columns with durable per-version invalidation and accurate freshness. v0.2.10 adds errors-only, timeout and cancellation filters, configurable 10/25/50-row limits, and coalesced live diagnostics updates through the shared SSE stream without manual refresh or polling. v0.2.9 fixes responsive diagnostics columns and reduces row density. v0.2.8 adds durable redacted slow-read and database-failure diagnostics with project retention. v0.2.7 separates interactive reads from projection workers with configurable shared capacity and phase timings. v0.2.6 batches projection scope refreshes and coalesces projection-ready notifications. v0.2.5 adds bounded SQL validation and authorization-plan caching, generation-aware cleanup/indexing, large dependency fan-out coalescing, phase timings, and projection.ready events. v0.2.4 adds automatic backward-compatible projection storage migration. v0.2.3 fixes the Tables workspace when summary table listings omit column metadata. v0.2.2 adds persistent SQL projections with readiness, freshness, coverage, scoped refresh controls, and forced refresh.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/tables",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.10/mcp/tables/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tables/v0.2.11/mcp/tables/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/tables/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -829,7 +829,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-10-06T17:31:46Z"
+      "updated_at": "2026-10-08T20:51:33Z"
     },
     {
       "name": "jobs",
