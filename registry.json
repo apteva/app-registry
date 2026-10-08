@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.18",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.18 explicitly sets low Codex reasoning for observations and media_ask using raw Responses requests, preserving configured models, prompts, transcripts and existing images. Completed responses must confirm low effort; media_ask reports reasoning_effort. Retains bounded vision retries, persistent description cooldowns, audio/Storage safeguards, guarded trims and Smart Crop provenance. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
+      "version": "0.14.19",
+      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.19 restores verified parent scene evidence for native screenshot Smart Crop, protects supported head/pose extent, and adds media_preview_crop plus explicit action-preservation rejection/contain policies. Validates frame timestamps before queueing, reviews actual existing images with resolution/identity limitations, and persists bounded description recovery with visible metadata readiness. Retains low Codex reasoning, guarded trim/audio/Storage safeguards and video crop behavior. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.18/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.18/mcp/media/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.19/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.19/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -956,7 +956,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-07T11:20:01Z"
+      "updated_at": "2026-10-08T11:25:52Z"
     },
     {
       "name": "content-catalog",
