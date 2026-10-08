@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-08T09:37:32Z",
+  "updated_at": "2026-10-08T15:34:34Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2551,12 +2551,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.45",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.45 keeps thread activity idle during post-reply pacing decisions while preserving visible progress for genuine new events and timer wakes. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.46",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.46 enables themed agent icons by default in the full panel, adds configurable header/thread icons to embedded widgets, and uses group icons for rooms. Older servers show the generic robot until appearance metadata is supported. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.45/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.45/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.46/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.46/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
