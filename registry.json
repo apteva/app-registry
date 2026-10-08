@@ -656,11 +656,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.19",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.19 keeps the viewed conversation selected after replies change its status to pending, so sent messages and delivery status remain visible. Live events, refresh and pagination do not auto-advance; intentional conversation and filter changes still work. Retains v0.9.18 confirmed project-scoped exact-email unsubscribe with Messaging v0.13.59+, audit, typed attributes, reply drafts, channel colors and same-thread SMS/WhatsApp replies. No data migration or production repair.",
+      "version": "0.9.20",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.20 corrects the source release pin so installations actually receive typed attributes, confirmed project-scoped exact-email unsubscribe with Messaging v0.13.59+, and persistent conversation selection after replying. Retains audit, reply drafts, channel colors and same-thread SMS/WhatsApp replies. Includes source/version regression coverage. No database migration or Messaging changes.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.19/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.20/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
