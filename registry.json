@@ -656,11 +656,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.20",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.20 corrects the source release pin so installations actually receive typed attributes, confirmed project-scoped exact-email unsubscribe with Messaging v0.13.59+, and persistent conversation selection after replying. Retains audit, reply drafts, channel colors and same-thread SMS/WhatsApp replies. Includes source/version regression coverage. No database migration or Messaging changes.",
+      "version": "0.9.21",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.21 displays immutable sent template content and its template name/ID using Messaging v0.13.60+ snapshots, distinguishing provider-confirmed content from send-time captures. Historical or incomplete content is explicitly unavailable, never reconstructed from current templates. Retains unsubscribe, typed attributes, reply drafts, channel colors and persistent inbox selection. No CRM schema migration or production repair.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.20/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.21/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1210,11 +1210,11 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.59",
-      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. v0.13.59 adds explicit outbound-only suppressions so operator-recorded email opt-outs stop sending without hiding incoming replies. Existing and default suppressions remain bidirectional and stronger blocks are never weakened. Direction is exposed in tools, events and the suppression UI. Preserves v0.13.58 DMARC setup without automatic report-email requests, existing custom DNS records, Gmail catch-up and synchronization, project isolation, delivery deduplication, conversations widgets and safe inbox dispatch.",
+      "version": "0.13.60",
+      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. v0.13.60 captures immutable per-message template content, supplied values, template identity and available provider-confirmed text. Exposes snapshots through send results and message reads without changing ContentSid requests. An additive nullable column preserves legacy messages; no speculative historical backfill. Retains outbound-only suppression, stronger legacy blocks, DMARC behavior, Gmail synchronization, project isolation and delivery deduplication.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/messaging/v0.13.59/mcp/messaging/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/messaging/v0.13.60/mcp/messaging/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
