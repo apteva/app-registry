@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-08T16:43:44Z",
+  "updated_at": "2026-10-08T21:37:38Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.22",
-      "description": "Catalog, render, transcript, inspection, and workflow tools for audio, video, and images in Storage. v0.14.22 shares exact-frame scene and pose analysis between direct video-frame extraction and native screenshots. Repositions fitting gestures before strict crop checks and separates connected full-body pose from broader foreground bounds. No implicit padding; incomplete and wide actions remain guarded. Keeps stable reel composition, accurate trim/normalization, bounded vision retries and low Codex reasoning. Uses app-sdk v0.96.0; requires Storage 0.10.26+ and Go 1.26.6+ for source builds.",
+      "version": "0.14.23",
+      "description": "Media catalog, analysis and rendering with MediaPipe Pose Full Smart Crop by default, selectable legacy engine, native pose geometry, stable reel tracking and persisted engine/model/fallback diagnostics. Strict action coverage and explicit contain fallback retained.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.22/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.22/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.23/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.23/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.23/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
