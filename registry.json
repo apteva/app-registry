@@ -2283,12 +2283,12 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "description": "Game backend and studio with guided Games \u2192 Code \u2192 Deploy setup, reusable build recipes, runner selection, pinned dependencies, actionable readiness checks and selected-build artifacts, tests and logs.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/games/v0.7.0/mcp/games",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.0/mcp/games/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.0/mcp/games/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/games/v0.7.1/mcp/games",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.1/mcp/games/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.1/mcp/games/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "games",
