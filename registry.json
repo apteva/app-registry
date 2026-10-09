@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.27",
-      "description": "Hybrid native Smart Crop: MediaPipe Full with bounded same-frame YOLO/RTMPose recovery, traceable confidence/fallback evidence, selectable Full and legacy engines, and widest native framing. Unresolved hand coverage and wide gestures remain guarded.",
+      "version": "0.14.28",
+      "description": "Hybrid native Smart Crop with independent whole-pose grounding/reacquisition, bounded tracking recovery, traceable model/margin evidence and mixed coverage diagnostics. Full and legacy engines remain selectable; unresolved hands and genuine wide actions stay guarded.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.27/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.27/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.27/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.28/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.28/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.28/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
