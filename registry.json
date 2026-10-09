@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-09T06:48:46Z",
+  "updated_at": "2026-10-09T06:59:24Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2172,12 +2172,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.49",
-      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.49 adds Google location and language targeting, so a campaign need not be born serving everywhere, and fixes four GAQL reads that filtered on a field they did not select, which had made keyword, negative keyword and ad extension listing fail.",
+      "version": "0.1.50",
+      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.50 adds mobile app install, in-app and value conversion workflows, capability-based setup and readiness checks, App campaigns and creatives, event-level reporting, and durable creation idempotency while preserving existing website campaigns. Requires integrations catalog v0.47.1 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.49/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.49/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.50/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.50/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2193,7 +2193,8 @@
         "reddit"
       ],
       "official": true,
-      "category": "marketing"
+      "category": "marketing",
+      "updated_at": "2026-10-09T06:59:24Z"
     },
     {
       "name": "seo",
