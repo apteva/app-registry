@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-09T06:59:24Z",
+  "updated_at": "2026-10-09T07:43:45Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -674,12 +674,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.4.1",
-      "description": "Lead discovery through Google Places or Web, deterministic website qualification with contact footers, French legal pages, evidence-backed parent-company mailboxes, bounded retries and HTML fallback, plus optional CRM handoff.",
+      "version": "0.4.2",
+      "description": "Google Places and Web lead discovery with HTML-first enrichment, bounded parallel qualification, complete-lead targets, duplicate filtering and business email role ranking.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/prospecting/v0.4.1/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.1/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.1/mcp/prospecting/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/prospecting/v0.4.2/mcp/prospecting",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.2/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.2/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
@@ -689,17 +689,18 @@
         "crm"
       ],
       "official": true,
-      "category": "productivity"
+      "category": "productivity",
+      "updated_at": "2026-10-09T07:43:45Z"
     },
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.94",
-      "description": "Hosted browser control with full-body DOM extraction that preserves contact footers and email/phone links while retaining existing session, upload, and browser controls.",
+      "version": "0.7.95",
+      "description": "Hosted browser controls and lightweight extraction sessions that skip automatic final screenshots while preserving provider cleanup, history and usage accounting.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.94/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.94/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.94/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.95/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.95/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.95/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -708,7 +709,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-10-01T12:45:00Z"
+      "updated_at": "2026-10-09T07:43:45Z"
     },
     {
       "name": "screenshots",
@@ -731,12 +732,12 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.2.10",
-      "description": "Browser-backed search, extraction, crawls, research and reusable extractors with full-body contact extraction and optional public HTML source verification with separate caching and provenance.",
+      "version": "0.2.11",
+      "description": "Browser-backed search and public HTML extraction with reusable browser sessions, canonical root cache URLs and observed redirect aliases.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/web/v0.2.10/mcp/web",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/web/v0.2.10/mcp/web/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/web/v0.2.10/mcp/web/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/web/v0.2.11/mcp/web",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/web/v0.2.11/mcp/web/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/web/v0.2.11/mcp/web/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -747,7 +748,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-07-26T06:37:11Z"
+      "updated_at": "2026-10-09T07:43:45Z"
     },
     {
       "name": "signatures",
