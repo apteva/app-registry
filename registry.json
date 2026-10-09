@@ -2283,12 +2283,12 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.6.0",
-      "description": "Multi-game backend and content studio for Apteva: isolated players and saves, versioned assets, Code/Deploy delivery, and per-game Google Play sales and earnings alongside Apple sales, GA4 and AdMob reporting.",
+      "version": "0.7.0",
+      "description": "Game backend and studio with guided Games \u2192 Code \u2192 Deploy setup, reusable build recipes, runner selection, pinned dependencies, actionable readiness checks and selected-build artifacts, tests and logs.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/games",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.6.0/mcp/games/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.6.0/mcp/games/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/games/v0.7.0/mcp/games",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.0/mcp/games/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.0/mcp/games/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "games",
@@ -2302,7 +2302,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-23T07:22:24Z"
+      "updated_at": "2026-10-09T07:07:34Z"
     },
     {
       "name": "market-intel",
