@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-09T00:00:00Z",
+  "updated_at": "2026-10-09T06:48:46Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.24",
-      "description": "MediaPipe Pose Full Smart Crop by default, selectable legacy engine, bounded native-frame read retries, safe extraction diagnostics and stable reel tracking. Strict action coverage and explicit contain fallback retained.",
+      "version": "0.14.25",
+      "description": "MediaPipe Full Smart Crop with retained attempted-ML confidence/fallback diagnostics, guarded same-frame hand recovery, selectable legacy engine and widest native framing preference. Unresolved/wide actions remain guarded.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.24/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.24/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.24/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.25/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.25/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.25/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -956,7 +956,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-08T22:22:22Z"
+      "updated_at": "2026-10-09T06:48:46Z"
     },
     {
       "name": "content-catalog",
