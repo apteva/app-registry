@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.29",
-      "description": "Hybrid native Smart Crop with independent pose grounding and guarded action coverage. Reel extraction uses accurate cuts, zero-start video/audio alignment and every-frame pre-upload decode/timeline validation. Full and legacy engines remain selectable; no implicit padding.",
+      "version": "0.14.30",
+      "description": "Hybrid native Smart Crop with independent pose grounding and guarded action coverage. Accurate reel cuts use zero-start timing, every-frame validation and bounded video-track endpoint evidence for missing B-frame duration. Full and legacy engines remain selectable; no implicit padding.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.29/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.29/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.29/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.30/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.30/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.30/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-09T12:58:51.262432Z"
+      "updated_at": "2026-10-09T13:56:14.683042Z"
     },
     {
       "name": "content-catalog",
