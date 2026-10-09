@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-08T22:22:22Z",
+  "updated_at": "2026-10-09T00:00:00Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -674,12 +674,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.4.0",
-      "description": "Standalone lead workspace with optional Google Places and Web discovery, saved business details, website qualification, resumable runs, and automatic duplicate-safe CRM handoff for eligible prospects meeting configurable score thresholds. Review remains the default; CRM handoff sends no messages.",
+      "version": "0.4.1",
+      "description": "Lead discovery through Google Places or Web, deterministic website qualification with contact footers, French legal pages, evidence-backed parent-company mailboxes, bounded retries and HTML fallback, plus optional CRM handoff.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.0/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.0/mcp/prospecting/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/prospecting/v0.4.1/mcp/prospecting",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.1/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.1/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
@@ -694,12 +694,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.93",
-      "description": "Watch, steer, and replay hosted browser sessions. v0.7.93 supports explicit media file-picker controls with native chooser, target identity, visibility, and non-submit guards.",
+      "version": "0.7.94",
+      "description": "Hosted browser control with full-body DOM extraction that preserves contact footers and email/phone links while retaining existing session, upload, and browser controls.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.93/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.93/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.93/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.94/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.94/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.94/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -731,12 +731,12 @@
     {
       "name": "web",
       "display_name": "Web",
-      "version": "0.1.16",
-      "description": "Browser-native web intelligence with Google-default search, extract, crawl, map, research, response caching, rendered DOM parsing, and smart query-matched snapshot crops using Computer browser regions. v0.1.16 adds Web's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.10",
+      "description": "Browser-backed search, extraction, crawls, research and reusable extractors with full-body contact extraction and optional public HTML source verification with separate caching and provenance.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/web",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/web/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/web/v0.2.10/mcp/web",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/web/v0.2.10/mcp/web/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/web/v0.2.10/mcp/web/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
