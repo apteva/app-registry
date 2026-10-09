@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-09T00:00:00Z",
+  "updated_at": "2026-10-09T06:59:24Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.8",
+      "version": "0.2.10",
       "description": "Reusable browser actors with structured datasets, saved contexts and Jobs schedules. Semantic media uploads, hosted video embeds, checkbox/dropdown/date controls, verified waits, labelled field patterns and full-page extraction. Durable once_key guards prevent duplicate consequential attempts across retries and revisions. Site workflows remain user definitions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.8/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.8/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.8/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.10/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.10/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.10/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -936,12 +936,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.24",
-      "description": "MediaPipe Pose Full Smart Crop by default, selectable legacy engine, bounded native-frame read retries, safe extraction diagnostics and stable reel tracking. Strict action coverage and explicit contain fallback retained.",
+      "version": "0.14.25",
+      "description": "MediaPipe Full Smart Crop with retained attempted-ML confidence/fallback diagnostics, guarded same-frame hand recovery, selectable legacy engine and widest native framing preference. Unresolved/wide actions remain guarded.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.24/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.24/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.24/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.25/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.25/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.25/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -956,7 +956,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-08T22:22:22Z"
+      "updated_at": "2026-10-09T06:48:46Z"
     },
     {
       "name": "content-catalog",
@@ -2172,12 +2172,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.49",
-      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.49 adds Google location and language targeting, so a campaign need not be born serving everywhere, and fixes four GAQL reads that filtered on a field they did not select, which had made keyword, negative keyword and ad extension listing fail.",
+      "version": "0.1.50",
+      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.50 adds mobile app install, in-app and value conversion workflows, capability-based setup and readiness checks, App campaigns and creatives, event-level reporting, and durable creation idempotency while preserving existing website campaigns. Requires integrations catalog v0.47.1 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.49/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.49/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.50/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.50/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2193,7 +2193,8 @@
         "reddit"
       ],
       "official": true,
-      "category": "marketing"
+      "category": "marketing",
+      "updated_at": "2026-10-09T06:59:24Z"
     },
     {
       "name": "seo",
@@ -2282,12 +2283,12 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.6.0",
-      "description": "Multi-game backend and content studio for Apteva: isolated players and saves, versioned assets, Code/Deploy delivery, and per-game Google Play sales and earnings alongside Apple sales, GA4 and AdMob reporting.",
+      "version": "0.7.1",
+      "description": "Game backend and studio with guided Games \u2192 Code \u2192 Deploy setup, reusable build recipes, runner selection, pinned dependencies, actionable readiness checks and selected-build artifacts, tests and logs.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/games",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.6.0/mcp/games/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.6.0/mcp/games/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/games/v0.7.1/mcp/games",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.1/mcp/games/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.1/mcp/games/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "games",
@@ -2301,7 +2302,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-23T07:22:24Z"
+      "updated_at": "2026-10-09T07:07:34Z"
     },
     {
       "name": "market-intel",
