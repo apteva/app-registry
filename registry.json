@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-09T07:43:45Z",
+  "updated_at": "2026-10-09T07:58:17Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -674,12 +674,12 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.4.2",
-      "description": "Google Places and Web lead discovery with HTML-first enrichment, bounded parallel qualification, complete-lead targets, duplicate filtering and business email role ranking.",
+      "version": "0.4.3",
+      "description": "Lead workspace with Google Places discovery, HTML-first enrichment, bounded parallel qualification, target lead stopping and new-only discovery. Preserves mailbox context to exclude vendor and recruitment contacts; supports reviewed or automatic CRM handoff.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/prospecting/v0.4.2/mcp/prospecting",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.2/mcp/prospecting/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.2/mcp/prospecting/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/prospecting/v0.4.3/mcp/prospecting",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.3/mcp/prospecting/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/prospecting/v0.4.3/mcp/prospecting/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "prospecting",
@@ -690,7 +690,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-09T07:43:45Z"
+      "updated_at": "2026-10-09T07:58:17Z"
     },
     {
       "name": "computer",
