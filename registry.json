@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.26",
+      "version": "0.14.27",
       "description": "Hybrid native Smart Crop: MediaPipe Full with bounded same-frame YOLO/RTMPose recovery, traceable confidence/fallback evidence, selectable Full and legacy engines, and widest native framing. Unresolved hand coverage and wide gestures remain guarded.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.26/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.26/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.26/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.27/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.27/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.27/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-09T08:49:07Z"
+      "updated_at": "2026-10-09T09:03:18Z"
     },
     {
       "name": "content-catalog",
