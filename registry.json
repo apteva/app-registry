@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-10T19:20:04Z",
+  "updated_at": "2026-10-10T19:49:33Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -283,12 +283,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.10.0",
-      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.10.0 adds aggregate_pipeline version 3: fixed dependent SQL stages execute as separate statements in one Tables read-snapshot transaction, with scalar/JSON stage references, per-stage and cumulative limits, verified identity bindings, merged projection metadata, and final-only output. Requires Tables 0.2.16+. Existing version 1 queries and version 2 relational stages remain compatible. Authorization-safe read sharing, resolver batching, bounded upstream snapshots, admission queues, cancellation, and request-health Logs/dashboard filters for errors, slow/large/queued queries, shared executions, resolver timings and snapshots remain available. Tables supports batch snapshots; request-wide snapshots require a backend with reusable handles.",
+      "version": "0.10.1",
+      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.10 supports aggregate_pipeline version 3: fixed dependent SQL stages execute as separate statements in one Tables read-snapshot transaction, with scalar/JSON stage references, per-stage and cumulative limits, verified identity bindings, merged projection metadata, and final-only output. Requires Tables 0.2.16+. Existing version 1 queries and version 2 relational stages remain compatible. Authorization-safe read sharing, resolver batching, bounded upstream snapshots, admission queues, cancellation, and request-health Logs/dashboard filters for errors, slow/large/queued queries, shared executions, resolver timings and snapshots remain available. Tables supports batch snapshots; request-wide snapshots require a backend with reusable handles. v0.10.1 fixes typed integer stage-budget validation after JSON decoding, including 2 MiB budgets.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/graphql/v0.10.0/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.0/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.0/mcp/graphql/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/graphql/v0.10.1/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.1/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.1/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
@@ -302,7 +302,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-10T19:20:04Z"
+      "updated_at": "2026-10-10T19:49:33Z"
     },
     {
       "name": "saas",
