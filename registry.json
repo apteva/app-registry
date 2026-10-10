@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-10T13:38:08.236643Z",
+  "updated_at": "2026-10-10T14:40:35.950788Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.33",
-      "description": "Long native Smart Crop previews reuse one verified disk source and use sample-based bounded budgets. Stage timings and partial failure evidence are preserved; empty or timed-out analysis cannot claim supported geometry. Identical previews share cached plans, unrelated thumbnails do not invalidate ML plans, and existing two-unit admission and strict crop guards remain.",
+      "version": "0.14.34",
+      "description": "Media catalog, rendering and native Smart Crop. Compact preview receipts retain geometry, warnings and counts; immutable project-scoped references preserve full pose/recovery/failure evidence with bounded retrieval and authenticated downloads.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.33/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.33/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.33/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.34/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.34/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.34/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-10T13:38:08.236643Z"
+      "updated_at": "2026-10-10T14:40:35.950788Z"
     },
     {
       "name": "content-catalog",
