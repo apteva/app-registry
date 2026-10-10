@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-09T18:56:22Z",
+  "updated_at": "2026-10-10T07:21:20Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.15",
-      "description": "Reusable browser actors with structured datasets, saved contexts and Jobs schedules. Semantic media uploads, hosted video embeds, checkbox/dropdown/date controls, verified waits, labelled field patterns and full-page extraction. Durable once_key guards prevent duplicate consequential attempts across retries and revisions. Site workflows remain user definitions.",
+      "version": "0.2.16",
+      "description": "Reusable browser actors with named operations, verified read-only view coverage, visible navigation observations, revisioned definitions, structured datasets, durable runs, schedules and guarded actions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.15/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.15/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.15/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.16/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.16/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.16/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-03T09:50:09Z"
+      "updated_at": "2026-10-10T07:21:20Z"
     },
     {
       "name": "agent-worlds",
