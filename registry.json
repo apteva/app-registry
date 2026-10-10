@@ -1316,8 +1316,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.28.0",
-      "description": "Build and release services, iOS, macOS, Android apps, and arbitrary artifacts. v0.28.0 executes generic source preparation and signed-artifact tests on native cloud runners, honors capsule layouts and declared outputs, preserves and enforces artifact attestations, and corrects incomplete Apple signing setup references.",
+      "version": "0.28.1",
+      "description": "Build and release services, iOS, macOS, Android apps, and arbitrary artifacts using generic cloud pipelines and retained artifact attestations. v0.28.1 provisions Rust iOS device and simulator targets and prevents invalid provider responses from leaving missing cloud jobs permanently queued.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
