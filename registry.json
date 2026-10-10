@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.18",
+      "version": "0.2.19",
       "description": "Reusable browser actors with named operations, verified read-only view coverage, visible navigation observations, revisioned definitions, structured datasets, durable runs, schedules and guarded actions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.18/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.18/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.18/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.19/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.19/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.19/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -1235,7 +1235,7 @@
     {
       "name": "campaigns",
       "display_name": "Campaigns",
-      "version": "0.2.18",
+      "version": "0.2.19",
       "description": "Bulk-send orchestrator for CRM audiences. Compose email, SMS, or WhatsApp campaigns against CRM lists or segments, materialize recipients, schedule batch sends through Jobs, deliver via Messaging, respect suppression, add email unsubscribe links, and track per-recipient campaign status. v0.2.18 fixes anonymous unsubscribe links while keeping campaign-management routes authenticated and recipient-token validation intact.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/campaigns",
