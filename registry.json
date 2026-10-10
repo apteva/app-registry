@@ -1361,8 +1361,8 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.12.0",
-      "description": "Multi-portfolio trading desk for simulation, Alpaca paper, and broker execution across equities, ETFs, crypto and prediction markets. Strategies and agents share an event-driven backtester with generic inputs, latency, partial fills, costs, risk controls, benchmarks, and replay artifacts. Includes EMA, Wilder RSI, MACD, Bollinger indicators, composable conditions and five research templates, plus out-of-sample, walk-forward, robustness, stress and Monte Carlo validation with live progress and portable reports.",
+      "version": "0.15.0",
+      "description": "Multi-portfolio trading desk with per-strategy P&L attribution, generic event-driven trade programs, a visual rule editor, OHLC/multi-timeframe EMA/SMA/RSI/ATR indicators, persistent state, fixed monetary risk, protected long/short linear-contract simulation and OCO/trailing exits. Includes sourced CSV bid/ask and candle import, portable replay artifacts, scorecards and validation suites. Real-agent acceptance scenarios cover strategy creation, backtesting, evaluation and versioned revision. Rule programs currently support research simulation; broker/live rule assignment is disabled.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/apteva.yaml",
