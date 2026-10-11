@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-11T08:19:52Z",
+  "updated_at": "2026-10-11T08:22:54.463833Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.35",
-      "description": "Media catalog, rendering and native Smart Crop. Source-bound indexing repairs reuse verified artifacts, preserve partial outputs and clear successful retries atomically. FIFO weighted admission, independent render wait/execution budgets and compact audit receipts retain concurrency and diagnostics.",
+      "version": "0.14.36",
+      "description": "Media catalog, rendering and native Smart Crop. Exact storyboard timestamps and bounded stage retries complete source-verified indexing repair. Atomic retry commits preserve usable artifacts and transcription audio. FIFO weighted admission and independent wait/execution budgets support efficient concurrent work.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.35/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.35/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.35/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.36/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.36/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.36/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-11T07:50:37.249777Z"
+      "updated_at": "2026-10-11T08:22:54.463833Z"
     },
     {
       "name": "content-catalog",
