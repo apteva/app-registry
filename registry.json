@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-10T19:49:33Z",
+  "updated_at": "2026-10-11T07:50:37.249777Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.34",
-      "description": "Media catalog, rendering and native Smart Crop. Compact preview receipts retain geometry, warnings and counts; immutable project-scoped references preserve full pose/recovery/failure evidence with bounded retrieval and authenticated downloads.",
+      "version": "0.14.35",
+      "description": "Media catalog, rendering and native Smart Crop. Source-bound indexing repairs reuse verified artifacts, preserve partial outputs and clear successful retries atomically. FIFO weighted admission, independent render wait/execution budgets and compact audit receipts retain concurrency and diagnostics.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.34/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.34/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.34/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.35/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.35/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.35/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-10T14:40:35.950788Z"
+      "updated_at": "2026-10-11T07:50:37.249777Z"
     },
     {
       "name": "content-catalog",
