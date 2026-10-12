@@ -656,11 +656,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.23",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.23 adds first-outreach drafts for existing contacts and outbound follow-ups without inbound messages. Save and reopen drafts without creating inbox conversations; recipients stay pinned and all composer sends use durable saved-draft retries. Preserves existing drafts, attachments, revisions and uncertain-send keys during the atomic upgrade. Retains stable inbox selection, speaker labels, sent template snapshots, unsubscribe and typed attributes. No Messaging changes or production repair.",
+      "version": "0.9.24",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.24 adds read-only MCP discovery of project attribute definitions, keys, types, required flags and allowed values. Explicit contacts_update schemas document nested attribute arrays, native JSON types, provenance and merge/clear behavior; missing values are rejected to prevent accidental clearing. Retains typed attribute writes, drafts, stable inbox selection, speaker labels, sent template snapshots and unsubscribe. No schema migrations, Messaging changes or production repair.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.23/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.24/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
