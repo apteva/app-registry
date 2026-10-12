@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.32",
+      "version": "0.2.33",
       "description": "Reusable browser actors with immutable revisions, complete compact operation retrieval, structured datasets, exact approved label comparisons and separate preparation/commit evidence. Missing revisions, operations and incomplete responses fail explicitly; once guards and conservative recovery are preserved.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.32/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.32/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.32/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.33/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.33/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.33/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-12T07:14:23Z"
+      "updated_at": "2026-10-12T07:24:38Z"
     },
     {
       "name": "agent-worlds",
