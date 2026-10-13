@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.39",
-      "description": "Reusable browser actors with immutable revisions, verified semantic controls, saved-media checks and guarded same-draft recovery with explicitly reviewed copy amendments.",
+      "version": "0.2.40",
+      "description": "Reusable browser actors with immutable revisions, exact saved-copy checks with opt-in line-edge trimming, verified semantic controls and guarded same-draft recovery.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.39/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.39/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.39/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.40/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.40/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.40/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
