@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-13T15:25:25Z",
+  "updated_at": "2026-10-13T15:51:44.955014Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.37",
-      "description": "Media catalog, rendering and native Smart Crop. Compact render status/list receipts bound model context, retain geometry, warnings, validation and timings, and reference immutable checksum-verified evidence. Stable cursor pagination covers existing renders without reanalysis; HTTP/UI and executable plans remain complete.",
+      "version": "0.14.38",
+      "description": "Media catalog, rendering and native Smart Crop. Analysis defaults to fast opening/middle/ending checks with explicit sampled coverage, one video/audio pass per window, source-bound result caching, verified source-cache reuse and bounded thread/deadline/cancellation controls. Full analysis remains explicit. Render receipts preserve immutable evidence behind bounded summaries.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.37/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.37/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.37/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.38/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.38/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.38/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-11T09:09:03.475577Z"
+      "updated_at": "2026-10-13T15:51:44.955014Z"
     },
     {
       "name": "content-catalog",
