@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-13T09:57:42Z",
+  "updated_at": "2026-10-13T10:34:45Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.37",
-      "description": "Reusable browser actors with immutable revisions, saved JSON media inspection, exact ordered attachment checks, guarded same-draft recovery, read-only configuration inspection and detailed failure evidence. Preserves original request identity and publish-once protection.",
+      "version": "0.2.38",
+      "description": "Reusable browser actors with immutable revisions, verified semantic control reveal for small viewports, accurate pre-dispatch effect evidence, saved-media verification and guarded same-draft recovery.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.37/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.37/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.37/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.38/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.38/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.38/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-13T09:57:42Z"
+      "updated_at": "2026-10-13T10:34:45Z"
     },
     {
       "name": "agent-worlds",
