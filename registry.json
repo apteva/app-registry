@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.33",
-      "description": "Reusable browser actors with immutable revisions, complete compact operation retrieval, structured datasets, exact approved label comparisons and separate preparation/commit evidence. Missing revisions, operations and incomplete responses fail explicitly; once guards and conservative recovery are preserved.",
+      "version": "0.2.34",
+      "description": "Reusable browser actors with immutable revisions, complete operation retrieval, structured datasets, guarded actions, resumable read-only pagination and exact target/before-after/loading diagnostics. Continuations are scope-bound, single-use and expire; ambiguous pagination never implies complete coverage.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.33/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.33/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.33/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.34/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.34/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.34/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -43,7 +43,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-12T07:24:38Z"
+      "updated_at": "2026-10-13T06:27:53Z"
     },
     {
       "name": "agent-worlds",
