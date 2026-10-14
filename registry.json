@@ -1297,8 +1297,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "1.1.0",
-      "description": "DNS, domain inventory, marketplace listing tools and stored Replicate appraisal jobs. Supports Porkbun quoted purchases and Spaceship account-rate registration with explicit confirmation, saved contact options and durable asynchronous operation tracking. Spaceship buying requires the paired server/catalog update; uncertain purchases are not resubmitted.",
+      "version": "1.1.1",
+      "description": "DNS, domain inventory, registrar purchases, marketplace sales and persisted valuations for Apteva projects. Supports Spaceship asynchronous account-rate purchases and SellerHub USD pricing, with stored per-domain HumbleWorth estimates via Replicate shown before registration. Includes Porkbun, Namecheap, IONOS, Dynadot, Cloudflare and Hostinger DNS providers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
