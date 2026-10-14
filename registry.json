@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-13T17:54:06Z",
+  "updated_at": "2026-10-14T08:52:44.202655Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -937,12 +937,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.38",
-      "description": "Media catalog, rendering and native Smart Crop. Analysis defaults to fast opening/middle/ending checks with explicit sampled coverage, one video/audio pass per window, source-bound result caching, verified source-cache reuse and bounded thread/deadline/cancellation controls. Full analysis remains explicit. Render receipts preserve immutable evidence behind bounded summaries.",
+      "version": "0.14.39",
+      "description": "Quick cached media checks, bounded crop/render receipts, and validated two-pass audio normalization with bounded loudness and peak correction from the original source.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.38/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.38/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.38/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.39/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.39/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.39/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -957,7 +957,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-13T15:51:44.955014Z"
+      "updated_at": "2026-10-14T08:52:44.202655Z"
     },
     {
       "name": "content-catalog",
