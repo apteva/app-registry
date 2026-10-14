@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-14T08:52:44.202655Z",
+  "updated_at": "2026-10-14T12:46:36Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -774,23 +774,25 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.4.4",
-      "description": "Independent project-scoped databases with named SQLite or Pebble backends. Define typed collections, records, compound and unique indexes, atomic cross-collection batches, aggregation, query plans, and stable cursor pagination through one portable API. v0.4.4 caches compiled SQLite insert shapes and removes repeated write-path allocations while preserving portable limits.",
+      "version": "0.5.0",
+      "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches, exact integers, native aggregation and improved adapter performance. AptevaDB supports opt-in realtime watches with signed resume cursors, atomic initial snapshots, SSE, MCP polling and dashboard refresh. Existing native data upgrades permanently to format 10; back up before upgrading.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.4.4/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.5.0/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.5.0/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.5.0/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
         "sqlite",
         "pebble",
+        "aptevadb",
+        "realtime",
         "records",
         "storage"
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-09-18T16:30:00Z"
+      "updated_at": "2026-10-14T12:46:36Z"
     },
     {
       "name": "storage",
