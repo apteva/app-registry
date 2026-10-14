@@ -1174,11 +1174,11 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.17.1",
+      "version": "0.17.2",
       "description": "Schedule, review, approve, and publish across native social platforms and Zernio. Optional account-scoped membership discovery and per-target audiences, with YouTube Studio handoff and resumable membership uploads. Ordinary publishing remains unchanged.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.17.1/mcp/social/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.17.2/mcp/social/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/social/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
