@@ -2431,12 +2431,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.7.12",
-      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.12 matches finalized voice transcripts across merged or split turns and separates recognition gaps from audio delivery.",
+      "version": "0.7.13",
+      "description": "Isolated test environments with apps, managed MCP servers, connections, agents, web and voice fixtures, assertions, and snapshots. v0.7.13 avoids idle specification decoding by reconciling lifecycle metadata and loading current specs only for eligible starts or recovery.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.12/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.12/mcp/environments/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.13/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.13/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
