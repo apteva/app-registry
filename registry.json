@@ -1297,8 +1297,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "0.6.0",
-      "description": "DNS, domain inventory and registrar workflows for Apteva projects. v0.6 fixes wrong-target writes, exact record selection, TXT and MX/SRV handling, account pinning and provider response validation. Adds safe create/ensure modes, durable purchase and DNS recovery, provider capabilities, metadata editing, expiry refresh and scoped UI controls. Paid registration requires the refreshed Porkbun integration catalog.",
+      "version": "1.1.0",
+      "description": "DNS, domain inventory, marketplace listing tools and stored Replicate appraisal jobs. Supports Porkbun quoted purchases and Spaceship account-rate registration with explicit confirmation, saved contact options and durable asynchronous operation tracking. Spaceship buying requires the paired server/catalog update; uncertain purchases are not resubmitted.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
