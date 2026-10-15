@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-14T14:28:00Z",
+  "updated_at": "2026-10-15T05:37:02.235739Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -939,12 +939,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.39",
-      "description": "Quick cached media checks, bounded crop/render receipts, and validated two-pass audio normalization with bounded loudness and peak correction from the original source.",
+      "version": "0.14.40",
+      "description": "Media catalog, native Smart Crop and rendering with quick cached checks, bounded evidence receipts and joint loudness/peak correction. Guarded AAC normalization disables perceptual noise substitution, preserves timing and validates the final encoded result.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.39/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.39/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.39/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.14.40/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.40/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.40/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -959,7 +959,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-14T08:52:44.202655Z"
+      "updated_at": "2026-10-15T05:37:02.235739Z"
     },
     {
       "name": "content-catalog",
