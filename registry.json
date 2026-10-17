@@ -89,12 +89,12 @@
     {
       "name": "editorial",
       "display_name": "Editorial",
-      "version": "0.4.4",
+      "version": "0.4.5",
       "description": "Standalone editorial calendar and content operations for multiple brands: ideas, briefs, approvals, owners, deadlines and channel releases. Includes agent-safe workflow guidance plus web and native mobile agenda widgets, with optional brand-specific Social and Campaigns mappings and no required app dependencies.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/editorial",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.4.4/mcp/editorial/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.4.4/mcp/editorial/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.4.5/mcp/editorial/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/editorial/v0.4.5/mcp/editorial/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "editorial",
@@ -674,7 +674,7 @@
     {
       "name": "prospecting",
       "display_name": "Prospecting",
-      "version": "0.4.4",
+      "version": "0.4.5",
       "description": "Google Places discovery with HTML-first enrichment, bounded parallel qualification, target lead stopping and new-only discovery. Excludes vendor/recruitment contacts and prioritizes page-specific restaurant entity emails over hotel footer mailboxes; supports reviewed or automatic CRM handoff.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/prospecting/v0.4.4/mcp/prospecting",
