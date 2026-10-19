@@ -422,12 +422,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.22",
-      "description": "Create and run company procedures. Processes automatically attaches its coordination tools to executing agents before dispatch. Executors must also have any apps required by their steps attached and configured.",
+      "version": "0.16.23",
+      "description": "Visual company procedures with connected steps, independent assignments, scheduled and event-driven runs, compact evidence, and durable execution history. Runtime execution errors hold the affected step and stop stale reminders until explicit reconciliation.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.22/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.22/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.22/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.23/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.23/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.23/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -437,7 +437,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-14T13:00:16Z"
+      "updated_at": "2026-10-19T09:42:38Z"
     },
     {
       "name": "fetch",
