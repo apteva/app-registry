@@ -656,11 +656,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.24",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.24 adds read-only MCP discovery of project attribute definitions, keys, types, required flags and allowed values. Explicit contacts_update schemas document nested attribute arrays, native JSON types, provenance and merge/clear behavior; missing values are rejected to prevent accidental clearing. Retains typed attribute writes, drafts, stable inbox selection, speaker labels, sent template snapshots and unsubscribe. No schema migrations, Messaging changes or production repair.",
+      "version": "0.9.25",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.25 fixes lost email subjects in contacts_send_message replies: both send and reply paths inherit the conversation subject before dispatch and idempotency calculation, preserve explicit subjects and reply headers, avoid duplicate Re: prefixes, and reject unresolved blank subjects. Retains attribute discovery, typed writes, drafts, stable inbox selection, speaker labels, sent template snapshots and unsubscribe. No migrations or Messaging changes; previously delivered mail is not rewritten or resent.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.24/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.25/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
