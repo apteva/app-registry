@@ -48,12 +48,12 @@
     {
       "name": "agent-worlds",
       "display_name": "Agent Worlds",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Instance-wide agent visualization with a village per project, shared project/team/agent focus, System Graph and Operations views, open-house pixel villages, natural agent motion, direct pan/zoom, full app names, replay and export. Requires the generic telemetry observation API.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/agent-worlds/v0.4.0/mcp/agent-worlds",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.4.0/mcp/agent-worlds/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.4.0/mcp/agent-worlds/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/agent-worlds/v0.4.1/mcp/agent-worlds",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.4.1/mcp/agent-worlds/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.4.1/mcp/agent-worlds/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "agents",
@@ -63,7 +63,7 @@
       ],
       "official": true,
       "category": "observability",
-      "updated_at": "2026-10-21T11:40:17Z"
+      "updated_at": "2026-10-21T11:58:16Z"
     },
     {
       "name": "bench",
