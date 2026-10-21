@@ -28,12 +28,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.43",
+      "version": "0.2.44",
       "description": "Reusable browser actors with up to 500 named operations, bounded exact-operation reads, structured datasets, saved contexts, guarded commits, and dropdown selection by values or display labels, and freshly verified scroll-region targets with identity guards.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.43/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.43/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.43/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.44/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.44/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.44/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
