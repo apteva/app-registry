@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-21T08:45:00Z",
+  "updated_at": "2026-10-21T09:02:38Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -1887,12 +1887,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.7.6",
-      "description": "Compute-host inventory and lifecycle across cloud providers and custom servers, with continuous CPU monitoring at 250ms, live dashboard/MCP stats, CPU and I/O wait timeline charts, peak-preserving history, bounded spike recordings and automatic Linux/macOS collector installation. Also manages SSH enrollment, host setup, block volumes and private S3 object storage. Adds a protected native deployment backend for fresh prebuilt Linux apps on registered SSH/systemd hosts, compatible with Apteva Server runtime-backend/v1. v0.7.4 preserves validated, separately provisioned public browser and named runtime endpoints while keeping process control private. Managed public ingress and direct external browser-client support. v0.7.6 reduces monitoring-history cleanup load with shared once-per-minute maintenance and indexed bounded cleanup.",
+      "version": "0.8.0",
+      "description": "Compute-host inventory and lifecycle across cloud providers and custom servers, with continuous CPU monitoring at 250ms, live dashboard/MCP stats, CPU and I/O wait timeline charts, peak-preserving history, bounded spike recordings and automatic Linux/macOS collector installation. Also manages SSH enrollment, host setup, block volumes and private S3 object storage. Adds a protected native deployment backend for fresh prebuilt Linux apps on registered SSH/systemd hosts, compatible with Apteva Server runtime-backend/v1. v0.7.4 preserves validated, separately provisioned public browser and named runtime endpoints while keeping process control private. Managed public ingress and direct external browser-client support. v0.7.6 reduces monitoring-history cleanup load with shared once-per-minute maintenance and indexed bounded cleanup. v0.8.0 adds searchable native target discovery, read-only deployment preflight and stopped persistent-data snapshot/restore with verified SHA-256, SQLite WAL preservation, safe retries and interrupted-transfer recovery.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.7.6/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.7.6/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.7.6/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.8.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.8.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.8.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
