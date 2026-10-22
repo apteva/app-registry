@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-22T10:38:09Z",
+  "updated_at": "2026-10-22T11:00:51Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -1888,12 +1888,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.11.0",
-      "description": "Compute-host inventory, lifecycle and monitoring. Adds Clouding.io (Barcelona, fractional CPU flavors, configurable boot disk) and UpCloud (public zones including Madrid, Linux hosts and managed data volumes). Refresh the Server integration catalog before binding these providers. Preserves Vultr virtual/GPU/bare-metal support and negotiated streamed native state transfers with 8 GiB archive/expanded defaults. Provider pricing and unsupported storage operations are explicit.",
+      "version": "0.12.0",
+      "description": "Compute-host inventory, lifecycle and monitoring across bound cloud providers. Adds OVH standalone VPS, dedicated and Eco bare metal with live catalogs, priced order review, durable delivery/SSH installation, safe retries and confirmed cancellation. Preserves existing Public Cloud, Clouding/UpCloud, Vultr GPU/bare-metal, block storage and streamed native state transfers. Refresh the OVH integration catalog before using new product families.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.11.0/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.11.0/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.11.0/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.12.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.12.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.12.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -1904,11 +1904,13 @@
         "metrics",
         "monitoring",
         "clouding",
-        "upcloud"
+        "upcloud",
+        "ovhcloud",
+        "bare-metal"
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-22T09:30:21Z"
+      "updated_at": "2026-10-22T11:00:51Z"
     },
     {
       "name": "compute",
