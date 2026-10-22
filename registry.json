@@ -1888,12 +1888,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.10.0",
-      "description": "Compute-host inventory, lifecycle and monitoring with full Vultr virtual/GPU/bare-metal discovery and safe boot storage. Native deployment backend supports negotiated streamed state transfer with independent 8 GiB archive/expanded defaults, bounded progress and safe restore recovery. Large migrations require the matching Server state_transfer contract and refreshed backend registration; older Servers retain 512 MiB limits. Refresh the integration catalog before upgrading from versions older than 0.9.0 for the full Vultr catalog.",
+      "version": "0.11.0",
+      "description": "Compute-host inventory, lifecycle and monitoring. Adds Clouding.io (Barcelona, fractional CPU flavors, configurable boot disk) and UpCloud (public zones including Madrid, Linux hosts and managed data volumes). Refresh the Server integration catalog before binding these providers. Preserves Vultr virtual/GPU/bare-metal support and negotiated streamed native state transfers with 8 GiB archive/expanded defaults. Provider pricing and unsupported storage operations are explicit.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.10.0/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.10.0/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.10.0/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.11.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.11.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.11.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -1902,11 +1902,13 @@
         "hetzner",
         "infrastructure",
         "metrics",
-        "monitoring"
+        "monitoring",
+        "clouding",
+        "upcloud"
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-22T06:07:55Z"
+      "updated_at": "2026-10-22T09:30:21Z"
     },
     {
       "name": "compute",
