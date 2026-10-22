@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-22T09:53:39Z",
+  "updated_at": "2026-10-22T10:13:05Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2579,12 +2579,12 @@
     {
       "name": "turn",
       "display_name": "TURN",
-      "version": "0.1.0",
-      "description": "Standalone authenticated STUN/TURN relay with UDP, TCP and TLS transports, temporary project/session ICE credentials, quotas and traffic counters. Native Apteva panel follows dashboard themes and manages endpoint settings, TLS certificates and credentials. Supports managed deployment on a separate instance with reserved listeners, passive activation, drain and ownership fencing.",
+      "version": "0.2.1",
+      "description": "Standalone authenticated STUN/TURN relay for WebRTC over UDP, TCP and TLS. Includes native Apteva management UI, managed DNS through Domains, automatic public certificate issuance and renewal, encrypted certificate state, and independent managed deployment to a public instance.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/turn/v0.1.0/mcp/turn",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/turn/v0.1.0/mcp/turn/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/turn/v0.1.0/mcp/turn/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/turn/v0.2.1/mcp/turn",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/turn/v0.2.1/mcp/turn/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/turn/v0.2.1/mcp/turn/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "turn",
@@ -2595,7 +2595,7 @@
       ],
       "official": true,
       "category": "tools",
-      "updated_at": "2026-10-22T09:36:02Z"
+      "updated_at": "2026-10-22T10:13:05Z"
     }
   ]
 }
