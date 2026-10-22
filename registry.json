@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-21T15:31:27Z",
+  "updated_at": "2026-10-22T05:49:12Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2556,12 +2556,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.48",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.48 adds thread context menus across the panel, browser widget and history, plus durable optional questions/forms through the existing send tool and shared chat/inbox rendering. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.49",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.49 adds one optional agent-generated next-message suggestion as composer ghost text: Tab or tap prepares an editable draft without sending, with desktop/mobile coverage and a real Codex coding regression test. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.48/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.48/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.49/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.49/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
