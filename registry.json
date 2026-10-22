@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-22T06:07:55Z",
+  "updated_at": "2026-10-22T07:04:46Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -1175,11 +1175,11 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.17.3",
-      "description": "Schedule, review, approve, and publish across native social platforms and Zernio. Validated video delivery, retained upload sessions, sanitized diagnostics, and audited recovery for one target. Optional memberships retain the YouTube Studio handoff.",
+      "version": "0.18.0",
+      "description": "Schedule, review, approve, and publish across native social platforms and Zernio. Shared account, destination, and post analytics include Pinterest board performance, Pin rankings, period comparisons, explicit coverage, and accurate metric definitions. Retains validated video delivery and optional memberships.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.17.3/mcp/social/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.18.0/mcp/social/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/social/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
