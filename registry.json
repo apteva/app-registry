@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-22T11:21:53Z",
+  "updated_at": "2026-10-23T07:04:49Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2561,12 +2561,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.49",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.49 adds one optional agent-generated next-message suggestion as composer ghost text: Tab or tap prepares an editable draft without sending, with desktop/mobile coverage and a real Codex coding regression test. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.50",
+      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.50 uses optional host presentation support to hide the floating assistant launcher while a mobile conversation is open, restoring it on Back and preserving drafts and desktop behavior. Older hosts retain their existing launcher. Requires Apteva 0.52.0 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.49/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.49/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.50/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.50/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
