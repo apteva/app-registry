@@ -1300,8 +1300,8 @@
     {
       "name": "domains",
       "display_name": "Domains",
-      "version": "1.2.0",
-      "description": "DNS, domain inventory, registrar purchases, marketplace sales and persisted valuations for Apteva projects. SDK workers track existing purchase operations, pending estimates, listing history and confirmed Spaceship sales with payouts. Durable lifecycle events update the UI automatically; refresh never starts a paid appraisal. Includes Spaceship, Porkbun, Namecheap, IONOS, Dynadot, Cloudflare and Hostinger providers.",
+      "version": "1.3.0",
+      "description": "DNS, domain inventory, registrar purchases, marketplace sales and persisted valuations for Apteva projects. SDK workers track existing purchase operations, pending estimates, listing history and confirmed Spaceship sales with payouts. Durable lifecycle events update the UI automatically; refresh never starts a paid appraisal. Includes Spaceship, Porkbun, Namecheap, IONOS, Dynadot, Cloudflare and Hostinger providers. v1.3.0 adds batch availability, cached estimate requests and listing dry-run previews through existing MCP tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/domains",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/domains/apteva.yaml",
