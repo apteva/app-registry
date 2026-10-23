@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-23T09:19:25Z",
+  "updated_at": "2026-10-23T11:42:01Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2562,12 +2562,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.51",
-      "description": "Shared dashboard, exported chat, and generic native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-up turns. v0.24.51 fixes live voice transcripts: cumulative checkpoints update stable messages, shutdown no longer adds duplicate copies, and adjacent speech fragments display as readable turns. Includes captured GPT Live replay and browser regressions. Requires Apteva 0.52.0 or later.",
+      "version": "0.24.52",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.52 improves browser voice with playback-clock receipts, scoped interruption, continuous microphone input, silence-aware status, and safe reconnection. Includes real GPT Live Tier 3 browser coverage. Full duplex clearing requires the updated Core playback protocol; legacy controls remain supported.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.51/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.51/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.52/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.52/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
