@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-23T07:04:49Z",
+  "updated_at": "2026-10-23T08:03:16Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -1888,12 +1888,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.12.1",
-      "description": "Compute-host inventory, lifecycle and monitoring across bound cloud providers. Adds OVH standalone VPS, dedicated and Eco bare metal with live catalogs, priced order review, durable delivery/SSH installation, safe retries and confirmed cancellation. Preserves existing Public Cloud, Clouding/UpCloud, Vultr GPU/bare-metal, block storage and streamed native state transfers. Includes bounded full-catalog downloads for large OVH catalogs. Refresh the OVH integration catalog before using new product families.",
+      "version": "0.13.0",
+      "description": "Compute-host inventory, lifecycle and bounded monitoring across cloud providers. Adds opt-in generic firewall policies for Clouding, Hetzner Cloud, DigitalOcean, Vultr VMs/bare metal and Linode legacy-config hosts, with per-workload ownership, SSH protection and native deployment start/stop integration. Refresh the provider integration catalog before use. Existing networking stays unchanged unless a policy is requested.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.12.1/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.12.1/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.12.1/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.13.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.13.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.13.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -1906,11 +1906,12 @@
         "clouding",
         "upcloud",
         "ovhcloud",
-        "bare-metal"
+        "bare-metal",
+        "firewall"
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-22T11:10:03Z"
+      "updated_at": "2026-10-23T08:03:16Z"
     },
     {
       "name": "compute",
