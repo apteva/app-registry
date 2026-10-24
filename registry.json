@@ -168,12 +168,12 @@
     {
       "name": "push",
       "display_name": "Push",
-      "version": "0.3.0",
-      "description": "Self-hostable Apple push notification relay for Apteva mobile clients. Registers iOS devices, encrypts APNs tokens at rest, delivers privacy-safe approval, alert, and report notifications, exposes delivery health in a dashboard panel, and configures a public relay hostname through Apteva-managed ingress, TLS, and optional Domains DNS.",
+      "version": "0.3.1",
+      "description": "Self-hostable Apple push notification relay for Apteva mobile clients. Registers iOS devices, encrypts APNs tokens at rest, delivers privacy-safe generic app notifications, approvals, alerts, and reports with instance-aware routing, exposes delivery health in a dashboard panel, and configures a public relay hostname through Apteva-managed ingress, TLS, and optional Domains DNS.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/push",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.0/mcp/push/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.0/mcp/push/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.1/mcp/push/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.1/mcp/push/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "push",
