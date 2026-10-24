@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-24T07:43:24Z",
+  "updated_at": "2026-10-24T08:31:40Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2562,12 +2562,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.55",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.55 aligns thread activity and unread dots at the right edge, sharing the desktop hover/focus menu slot and keeping separate non-overlapping menu actions on touch screens. Preserves full-width thread metadata and existing activity behavior. Includes desktop, keyboard, and touch regressions; pins App SDK v0.106.0.",
+      "version": "0.24.56",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.56 includes exact message IDs in message, approval, alert, and report notification links so native clients can open the conversation at the triggering message. Preserves notification identities, recipients, grouping, opt-in defaults, and publication behavior. Pins App SDK v0.106.0.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.55/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.55/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.56/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.56/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
