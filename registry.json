@@ -168,12 +168,12 @@
     {
       "name": "push",
       "display_name": "Push",
-      "version": "0.3.1",
-      "description": "Self-hostable Apple push notification relay for Apteva mobile clients. Registers iOS devices, encrypts APNs tokens at rest, delivers privacy-safe generic app notifications, approvals, alerts, and reports with instance-aware routing, exposes delivery health in a dashboard panel, and configures a public relay hostname through Apteva-managed ingress, TLS, and optional Domains DNS.",
+      "version": "0.3.2",
+      "description": "Self-hostable Apple push notification relay for Apteva mobile clients. Registers iOS devices, encrypts APNs tokens at rest, delivers generic app notifications with optional account-authorized title and message previews, approvals, alerts, and reports with instance-aware routing, exposes delivery health in a dashboard panel, and configures a public relay hostname through Apteva-managed ingress, TLS, and optional Domains DNS.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/push",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.1/mcp/push/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.1/mcp/push/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.2/mcp/push/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/push/v0.3.2/mcp/push/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "push",
@@ -2562,12 +2562,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.56",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.56 includes exact message IDs in message, approval, alert, and report notification links so native clients can open the conversation at the triggering message. Preserves notification identities, recipients, grouping, opt-in defaults, and publication behavior. Pins App SDK v0.106.0.",
+      "version": "0.24.57",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.57 labels alert notifications by severity (Info, Warning, Error), retaining exact message links, notification identities, recipients, grouping, opt-in defaults, and publication behavior. Pins App SDK v0.106.0.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.56/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.56/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.57/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.57/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
