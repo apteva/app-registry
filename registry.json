@@ -859,12 +859,12 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.17.1",
-      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, and trusted authenticated invocations. v1.17.1 fixes history performance with indexed cursor pagination and page-bounded telemetry reads. First index creation requires a maintenance window with all runtimes sharing the database stopped; see HISTORY_PERFORMANCE.md. Includes project-wide Live logs with error and function filters, expandable invocation output/errors, and a configurable Function activity widget for Home and custom Pages (Pages require Apteva 0.82.1+). Includes sortable performance rankings and slow-call diagnostics in the UI and MCP: compare call counts, total execution wall time, average/p95 latency, queue wait and errors over a selected period, then inspect per-invocation timings, logs and downstream resources. Exact percentiles use retained, project-scoped history; running calls are counted separately. Requires Apteva 0.50.2+ and the verified app-caller bridge for principal admission. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
+      "version": "1.18.0",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, trusted authenticated invocations, live logs and performance diagnostics. v1.18.0 adds bounded incremental space reclamation, separate summary and success/failure detail retention, and storage metrics/alerts in the panel, HTTP API and MCP. Defaults retain summaries and failure details for 30 days and successful details for 7 days. Existing databases need a planned offline conversion for incremental reclamation; migration 010 builds retention indexes with all runtimes and producers stopped. See STORAGE_MANAGEMENT.md before upgrading. Requires Apteva 0.50.2+; custom Page widgets require 0.82.1+. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.17.1/mcp/functions/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/functions/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.18.0/mcp/functions/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.18.0/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "functions",
@@ -875,7 +875,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-09T18:04:10Z"
+      "updated_at": "2026-10-25T08:55:06Z"
     },
     {
       "name": "workflows",
