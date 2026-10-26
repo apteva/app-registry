@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T08:38:36.833031Z",
+  "updated_at": "2026-10-26T08:50:39Z",
   "apps": [
     {
       "name": "mobile",
@@ -50,12 +50,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.44",
-      "description": "Reusable browser actors with up to 500 named operations, bounded exact-operation reads, structured datasets, saved contexts, guarded commits, and dropdown selection by values or display labels, and freshly verified scroll-region targets with identity guards.",
+      "version": "0.2.47",
+      "description": "Reusable browser actors with complete rendered HTML reads up to 5 MB, required Computer v0.7.97 support, bounded read-only navigation retries, exact-revision operation reads, structured datasets, saved contexts and guarded consequential actions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.44/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.44/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.44/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.47/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.47/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.47/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -65,7 +65,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-21T08:45:00Z"
+      "updated_at": "2026-10-26T08:47:32Z"
     },
     {
       "name": "agent-worlds",
@@ -718,12 +718,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.96",
-      "description": "Hosted browser controls with live form-state snapshots, including selected options and values outside the viewport; preserves read-only extraction, guarded actions, cleanup and accounting.",
+      "version": "0.7.97",
+      "description": "Hosted browser controls with bounded rendered DOM extraction up to 5 MB, live form-state snapshots, read-only extraction, guarded actions, cleanup and accounting.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.96/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.96/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.96/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.97/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.97/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.97/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -732,7 +732,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-10-13T07:16:49Z"
+      "updated_at": "2026-10-26T08:47:32Z"
     },
     {
       "name": "screenshots",
