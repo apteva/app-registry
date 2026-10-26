@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T09:05:28Z",
+  "updated_at": "2026-10-26T09:41:53Z",
   "apps": [
     {
       "name": "mobile",
@@ -50,12 +50,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.2.48",
-      "description": "Reusable browser actors with complete rendered HTML reads up to 5 MB, required Computer v0.7.97 support, bounded read-only navigation retries, exact-revision operation reads, structured datasets, saved contexts and guarded consequential actions.",
+      "version": "0.3.0",
+      "description": "Reusable browser actors with bounded MCP metadata discovery, complete immutable operation contracts, explicit hash-verifiable definition exports, structured datasets, saved contexts, 5 MB rendered reads and guarded consequential actions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.2.48/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.48/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.2.48/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.3.0/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.3.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.3.0/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -65,7 +65,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-10-26T09:05:28Z"
+      "updated_at": "2026-10-26T09:41:53Z"
     },
     {
       "name": "agent-worlds",
