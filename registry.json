@@ -657,11 +657,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.25",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.25 fixes lost email subjects in contacts_send_message replies: both send and reply paths inherit the conversation subject before dispatch and idempotency calculation, preserve explicit subjects and reply headers, avoid duplicate Re: prefixes, and reject unresolved blank subjects. Retains attribute discovery, typed writes, drafts, stable inbox selection, speaker labels, sent template snapshots and unsubscribe. No migrations or Messaging changes; previously delivered mail is not rewritten or resent.",
+      "version": "0.9.26",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.25 fixes lost email subjects in contacts_send_message replies: both send and reply paths inherit the conversation subject before dispatch and idempotency calculation, preserve explicit subjects and reply headers, avoid duplicate Re: prefixes, and reject unresolved blank subjects. Retains attribute discovery, typed writes, drafts, stable inbox selection, speaker labels, sent template snapshots and unsubscribe. Previously delivered mail is not rewritten or resent. v0.9.26 normalizes display-name email recipients and tracks individual soft-bounce contributions so confirmed Messaging automatic-response corrections undo only the affected event. Preserves other bounces, complaints, unsubscribe state and manual suppressions. Additive migration; install before Messaging 0.13.61.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.25/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.26/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1214,11 +1214,11 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.13.60",
-      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. v0.13.60 captures immutable per-message template content, supplied values, template identity and available provider-confirmed text. Exposes snapshots through send results and message reads without changing ContentSid requests. An additive nullable column preserves legacy messages; no speculative historical backfill. Retains outbound-only suppression, stronger legacy blocks, DMARC behavior, Gmail synchronization, project isolation and delivery deduplication.",
+      "version": "0.13.61",
+      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. v0.13.60 captures immutable per-message template content, supplied values, template identity and available provider-confirmed text. Exposes snapshots through send results and message reads without changing ContentSid requests. An additive nullable column preserves legacy messages; no speculative historical backfill. Retains outbound-only suppression, stronger legacy blocks, DMARC behavior, Gmail synchronization, project isolation and delivery deduplication. v0.13.61 normalizes recipient mailboxes and distinguishes confirmed SES automatic responses from delivery failures using authenticated inbound evidence and exact feedback IDs. Reconciles affected stored outcomes while retaining raw events and genuine bounces; no resends or automatic SDR hold release. Install CRM 0.9.26 first.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/messaging/v0.13.60/mcp/messaging/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/messaging/v0.13.61/mcp/messaging/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
