@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T10:34:34.480576Z",
+  "updated_at": "2026-10-26T11:38:36.310118Z",
   "apps": [
     {
       "name": "mobile",
@@ -962,12 +962,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.15.0",
-      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.0 replaces direct infrastructure execution with a private SDK v0.109.0 executor component deployed through Server. Includes durable job reconciliation, confirmed cancellation and scoped Storage transfers. Instances is no longer a dependency. Requires a Server supporting owned components.",
+      "version": "0.15.2",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.2 fixes confirmed component cancellation and encodes scoped upload chunks for public gateways. SDK v0.109.0 executor deployment is managed by Server; Instances is no longer a dependency. Requires a Server supporting owned components.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.15.0/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.0/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.0/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.15.2/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.2/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.2/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -982,7 +982,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-26T10:34:34.480576Z"
+      "updated_at": "2026-10-26T11:38:36.310118Z"
     },
     {
       "name": "content-catalog",
