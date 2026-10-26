@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T14:52:52Z",
+  "updated_at": "2026-10-26T18:54:54.072255Z",
   "apps": [
     {
       "name": "mobile",
@@ -2422,12 +2422,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.12.54",
+      "version": "0.12.55",
       "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.54 preserves partial AI audio across chunks, applies a bounded continuous-agent SIP playout reserve, retains scoped cancellation, and reports padding and queue-exhaustion diagnostics. Human microphone pacing is unchanged.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.54/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.54/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.54/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.55/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.55/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.55/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
