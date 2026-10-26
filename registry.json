@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T07:52:32.912959Z",
+  "updated_at": "2026-10-26T08:17:47Z",
   "apps": [
     {
       "name": "sportsbook",
@@ -2183,12 +2183,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.50",
-      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.50 adds mobile app install, in-app and value conversion workflows, capability-based setup and readiness checks, App campaigns and creatives, event-level reporting, and durable creation idempotency while preserving existing website campaigns. Requires integrations catalog v0.47.1 or newer.",
+      "version": "0.1.51",
+      "description": "Manage Meta, Google, X, and Reddit advertising behind one MCP surface. v0.1.51 adds structured Demand Gen campaigns, YouTube subscriptions and follow-on-view goals, placements, grouped audiences, video/image/carousel ads, campaign-specific goal selection, and reporting. Existing website and mobile workflows remain supported. Requires integrations catalog v0.47.1 or newer.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.50/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.50/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.51/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.51/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2205,7 +2205,7 @@
       ],
       "official": true,
       "category": "marketing",
-      "updated_at": "2026-10-09T06:59:24Z"
+      "updated_at": "2026-10-26T08:17:47Z"
     },
     {
       "name": "seo",
