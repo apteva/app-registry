@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T09:41:53Z",
+  "updated_at": "2026-10-26T10:34:34.480576Z",
   "apps": [
     {
       "name": "mobile",
@@ -962,12 +962,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.14.41",
-      "description": "Media catalog, native Smart Crop, quick cached checks and validated rendering. Transcript-driven audio redaction supports word/timestamp selections, room tone, mute, bleep, muffle and short previews while preserving video and timing.",
+      "version": "0.15.0",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.0 replaces direct infrastructure execution with a private SDK v0.109.0 executor component deployed through Server. Includes durable job reconciliation, confirmed cancellation and scoped Storage transfers. Instances is no longer a dependency. Requires a Server supporting owned components.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.14.41/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.41/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.14.41/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.15.0/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.0/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.0/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -982,7 +982,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-21T08:23:32.221422Z"
+      "updated_at": "2026-10-26T10:34:34.480576Z"
     },
     {
       "name": "content-catalog",
