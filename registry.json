@@ -5,6 +5,28 @@
   "updated_at": "2026-10-26T08:38:36.833031Z",
   "apps": [
     {
+      "name": "mobile",
+      "display_name": "Mobile",
+      "version": "0.1.0",
+      "description": "Physical Android and iOS automation for Apteva agents and apps. Discover phones, reserve exclusive sessions, navigate websites, install and control apps, inspect screenshots and UI source, and run deterministic smoke tests with saved evidence. Android ADB and Appium/XCUITest backends, authenticated remote runners, and a native Apteva panel. Live view uses screenshot polling.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/mobile/v0.1.0/mcp/mobile",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.1.0/mcp/mobile/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.1.0/mcp/mobile/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "mobile",
+        "android",
+        "ios",
+        "automation",
+        "testing",
+        "devices"
+      ],
+      "official": true,
+      "category": "developer",
+      "updated_at": "2026-10-26T08:35:08Z"
+    },
+    {
       "name": "sportsbook",
       "display_name": "Sportsbook",
       "version": "0.3.1",
