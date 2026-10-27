@@ -1386,11 +1386,11 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.16.0",
-      "description": "Portfolio management and paper or broker-backed execution for humans, project agents and connected apps. Owns orders, fills, positions, balances, market data, risk limits and portfolio performance. Automated strategies and research are provided by the separate Strategies app.",
+      "version": "0.17.0",
+      "description": "Portfolio management and paper or broker-backed execution, with an authenticated agent paper desk, independent approvals, durable exits, experiment scorecards and exact USD crypto data. Automated strategies and research are provided by the separate Strategies app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/trading/v0.16.0/mcp/trading/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/trading/v0.17.0/mcp/trading/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
