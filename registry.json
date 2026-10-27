@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-27T07:52:20Z",
+  "updated_at": "2026-10-27T08:57:57.599621Z",
   "apps": [
     {
       "name": "mobile",
@@ -1931,12 +1931,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.14.2",
-      "description": "Compute-host inventory, lifecycle and bounded monitoring across cloud providers. Adds opt-in generic firewall policies for Clouding, Hetzner Cloud, DigitalOcean, Vultr VMs/bare metal and Linode legacy-config hosts, with per-workload ownership, SSH protection and native deployment start/stop integration. Refresh the provider integration catalog before use. Existing networking stays unchanged unless a policy is requested. Fixes Clouding firewall activation and RSA-only SSH-key compatibility. Version 0.14.2 repairs stale SSH forwarding transports and closed control tunnels, separates host/control/process/admission health, and adds bounded timestamped network evidence between registered instances. No new background probes are enabled.",
+      "version": "0.15.0",
+      "description": "Compute-host inventory, lifecycle, firewalls and bounded monitoring across cloud providers. v0.15.0 exposes a generic Caddy proxy adapter for Server-owned deployment ingress, with explicit reviewed adoption, ownership, durable recovery and rollback. Fresh proxies and existing-proxy adoption use one Server-controlled deployment workflow. Requires the matching Server ingress-provider controller changes before public native deployments; existing proxies are not adopted automatically. Existing inventory, monitoring, SSH, firewall and private deployment APIs remain available.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.14.2/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.14.2/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.14.2/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.15.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -1954,7 +1954,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-26T11:02:01.118874Z"
+      "updated_at": "2026-10-27T08:57:57.599621Z"
     },
     {
       "name": "compute",
