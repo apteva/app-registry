@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-27T13:06:45Z",
+  "updated_at": "2026-10-27T14:54:40Z",
   "apps": [
     {
       "name": "mobile",
@@ -2225,12 +2225,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.52",
-      "description": "Manage Meta, Google, X, and Reddit advertising through shared campaign, creative, audience and analytics tools. v0.1.52 adds structured Google keyword/URL/app custom segments, first-party seeded lookalikes, unified audience discovery and capabilities, grouped composition, interest search, named campaign targeting and explicit expansion controls. Existing Meta, website and mobile workflows remain compatible. Google custom segments require integrations catalog v0.54.3 or newer.",
+      "version": "0.1.53",
+      "description": "Manage Meta, Google, X, and Reddit advertising through shared campaign, creative, audience and analytics tools. v0.1.53 preserves verified audience provenance across refreshes, with generic source identities, interaction, evidence and verification time, source filtering and UI verification for all providers. Google rule-based lists use neutral labels instead of assuming website visitors. Existing audience, Demand Gen, website and mobile capabilities remain compatible. Google custom segments retain their existing integrations catalog v0.54.3 requirement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.52/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.52/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.53/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.53/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2247,7 +2247,7 @@
       ],
       "official": true,
       "category": "marketing",
-      "updated_at": "2026-10-27T11:05:28Z"
+      "updated_at": "2026-10-27T14:54:40Z"
     },
     {
       "name": "seo",
