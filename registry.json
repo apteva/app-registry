@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-27T12:38:37.295981Z",
+  "updated_at": "2026-10-27T13:06:45Z",
   "apps": [
     {
       "name": "mobile",
@@ -2442,12 +2442,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.12.58",
-      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.58 removes repeated startup waits after short AI SIP queue starvation while preserving initial and long-idle buffering, ordered speech, scoped cancellation and backlog limits. Adds recorded-speech timing gates, ten-minute replay, UDP recovery tests and live Core/Server/SIP comparison support. Includes optional pickup warning and generic delivery telemetry from previous releases.",
+      "version": "0.12.59",
+      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.59 adds opt-in adaptive AI-reply buffering, bounded 0–3% playback-speed correction and correlated timing diagnostics across SIP and carrier streams. Scoped profiles and TTL experiments affect new calls; fixed buffering remains the default. Includes recorded-speech, long-drift, cancellation and live transport comparison tests.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.58/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.58/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.58/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.59/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.59/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.59/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
@@ -2458,7 +2458,7 @@
       ],
       "official": true,
       "category": "channels",
-      "updated_at": "2026-10-27T11:57:01.036519Z"
+      "updated_at": "2026-10-27T13:06:45Z"
     },
     {
       "name": "testimonials",
