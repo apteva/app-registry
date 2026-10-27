@@ -2483,12 +2483,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.7.14",
-      "description": "Isolated test environments with continuous microphone simulation, transport diagnostics, and coordinated voice finalization before runtime deletion.",
+      "version": "0.7.15",
+      "description": "Isolated environments with reliable voice finalization evidence, bounded silent connections, and unpaused simulated callers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.14/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.14/mcp/environments/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.15/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.7.15/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
@@ -2503,12 +2503,12 @@
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.9.6",
-      "description": "Behavioral evaluation with durable active cancellation, atomic retry guards, and preserved per-attempt execution and cleanup evidence.",
+      "version": "0.9.7",
+      "description": "Behavioral evaluation with unpaused voice targets, durable cancellation, and preserved attempt and cleanup evidence.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.6/mcp/evals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.6/mcp/evals/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.7/mcp/evals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.7/mcp/evals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "evals",
