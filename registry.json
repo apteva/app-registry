@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-27T08:57:57.599621Z",
+  "updated_at": "2026-10-27T09:09:24.082501Z",
   "apps": [
     {
       "name": "mobile",
@@ -1197,11 +1197,11 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.19.3",
+      "version": "0.20.0",
       "description": "Schedule, review, approve, and publish across native social platforms and Zernio. Generic publishing destinations support Pinterest board discovery, creation, defaults and per-post selection on direct and provider connections. Includes board and Pin reporting, preserved scheduling history, validated media delivery and optional memberships.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.19.3/mcp/social/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.20.0/mcp/social/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/social/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
