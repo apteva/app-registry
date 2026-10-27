@@ -1386,11 +1386,11 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.17.0",
+      "version": "0.17.1",
       "description": "Portfolio management and paper or broker-backed execution, with an authenticated agent paper desk, independent approvals, durable exits, experiment scorecards and exact USD crypto data. Automated strategies and research are provided by the separate Strategies app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/trading/v0.17.0/mcp/trading/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/trading/v0.17.1/mcp/trading/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1407,11 +1407,11 @@
     {
       "name": "strategies",
       "display_name": "Strategies",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Versioned automated strategies, event backtests, agent simulations, validation suites, scorecards and strategy performance. Uses Trading as a required integration for portfolios, market data and execution; project agents may use Trading directly.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/strategies",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/strategies/v0.1.0/mcp/strategies/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/strategies/v0.1.1/mcp/strategies/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/strategies/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
