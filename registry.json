@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-27T17:08:18.972597Z",
+  "updated_at": "2026-10-27T20:49:12Z",
   "apps": [
     {
       "name": "mobile",
@@ -2442,12 +2442,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.12.59",
-      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.59 adds opt-in adaptive AI-reply buffering, bounded 0–3% playback-speed correction and correlated timing diagnostics across SIP and carrier streams. Scoped profiles and TTL experiments affect new calls; fixed buffering remains the default. Includes recorded-speech, long-drift, cancellation and live transport comparison tests.",
+      "version": "0.12.60",
+      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.60 adds optional bounded delay-distribution buffering for SIP and browser WebRTC receive paths, guarded automatic WebRTC timeline recovery, SIP starvation recovery without another startup reserve, and precise timing diagnostics. New-session policies are configurable without redeploying; existing defaults, capacity and age limits remain. Retains optional adaptive AI-reply playout from 0.12.59.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.59/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.59/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.59/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.60/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.60/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.60/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
@@ -2458,7 +2458,7 @@
       ],
       "official": true,
       "category": "channels",
-      "updated_at": "2026-10-27T13:06:45Z"
+      "updated_at": "2026-10-27T20:49:12Z"
     },
     {
       "name": "testimonials",
