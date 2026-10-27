@@ -987,12 +987,12 @@
     {
       "name": "content-catalog",
       "display_name": "Content Catalog",
-      "version": "0.6.9",
+      "version": "0.6.10",
       "description": "Coordinate brands, sessions, assets, hosting and publication with provider-neutral audiences, account/group filters, historical evidence and guarded lineage.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/content-catalog",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.9/mcp/content-catalog/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.9/mcp/content-catalog/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.10/mcp/content-catalog/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/content-catalog/v0.6.10/mcp/content-catalog/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -1003,7 +1003,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-14T07:39:48.472778Z"
+      "updated_at": "2026-10-27T07:06:23.389569Z"
     },
     {
       "name": "podcast",
