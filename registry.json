@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-26T19:50:22.489159Z",
+  "updated_at": "2026-10-27T07:52:20Z",
   "apps": [
     {
       "name": "mobile",
@@ -1386,11 +1386,11 @@
     {
       "name": "trading",
       "display_name": "Trading",
-      "version": "0.15.0",
-      "description": "Multi-portfolio trading desk with per-strategy P&L attribution, generic event-driven trade programs, a visual rule editor, OHLC/multi-timeframe EMA/SMA/RSI/ATR indicators, persistent state, fixed monetary risk, protected long/short linear-contract simulation and OCO/trailing exits. Includes sourced CSV bid/ask and candle import, portable replay artifacts, scorecards and validation suites. Real-agent acceptance scenarios cover strategy creation, backtesting, evaluation and versioned revision. Rule programs currently support research simulation; broker/live rule assignment is disabled.",
+      "version": "0.16.0",
+      "description": "Portfolio management and paper or broker-backed execution for humans, project agents and connected apps. Owns orders, fills, positions, balances, market data, risk limits and portfolio performance. Automated strategies and research are provided by the separate Strategies app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/trading",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/trading/v0.16.0/mcp/trading/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/trading/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1400,6 +1400,26 @@
         "crypto",
         "polymarket",
         "binance"
+      ],
+      "official": true,
+      "category": "finance"
+    },
+    {
+      "name": "strategies",
+      "display_name": "Strategies",
+      "version": "0.1.0",
+      "description": "Versioned automated strategies, event backtests, agent simulations, validation suites, scorecards and strategy performance. Uses Trading as a required integration for portfolios, market data and execution; project agents may use Trading directly.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/strategies",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/strategies/v0.1.0/mcp/strategies/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/strategies/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "strategies",
+        "research",
+        "backtesting",
+        "trading",
+        "finance"
       ],
       "official": true,
       "category": "finance"
