@@ -1341,8 +1341,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.30.5",
-      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.5 keeps Apple violence and graphic-content answers independent, sends health/wellness as a boolean and preserves exact Apple declaration overrides.",
+      "version": "0.30.6",
+      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.6 audits all 30 Apple age-rating attributes, validates advanced answers before provider calls and verifies each requested answer against Apple readback.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
