@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-27T20:49:12Z",
+  "updated_at": "2026-10-28T07:41:57Z",
   "apps": [
     {
       "name": "mobile",
@@ -2442,12 +2442,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.12.60",
-      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.60 adds optional bounded delay-distribution buffering for SIP and browser WebRTC receive paths, guarded automatic WebRTC timeline recovery, SIP starvation recovery without another startup reserve, and precise timing diagnostics. New-session policies are configurable without redeploying; existing defaults, capacity and age limits remain. Retains optional adaptive AI-reply playout from 0.12.59.",
+      "version": "0.12.61",
+      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.12.61 fixes outgoing WebRTC partial-frame padding that could create queue overflow under small arrival variations. Complete frames retain their tick; final tails, stale-audio protection, bounded queues and pacing are preserved. Retains configurable receive timing and automatic recovery from 0.12.60.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.60/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.60/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.60/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.12.61/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.61/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.12.61/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
@@ -2458,7 +2458,7 @@
       ],
       "official": true,
       "category": "channels",
-      "updated_at": "2026-10-27T20:49:12Z"
+      "updated_at": "2026-10-28T07:41:57Z"
     },
     {
       "name": "testimonials",
