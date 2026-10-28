@@ -962,12 +962,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.15.4",
-      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.4 pins an executor with authenticated generation-scoped admission status for current Server deployments. Includes video-presentation preservation during audio normalization. Server manages the optional executor; Media has no Instances dependency.",
+      "version": "0.15.5",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.5 resolves cached-video pose and model paths after decoding inside the executor workspace and retains sanitized FFmpeg failure details. Server manages the optional executor; Media has no Instances dependency.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.15.4/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.4/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.4/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.15.5/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.5/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.5/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
