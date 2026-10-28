@@ -1664,12 +1664,12 @@
     {
       "name": "checkout",
       "display_name": "Checkout",
-      "version": "0.3.0",
-      "description": "Independent cart and checkout orchestration that turns customer intent into a durable Billing invoice. v0.3.0 adds validated Information, Shipping, and Payment transitions, buyer and shipping snapshots, one-time recovery tokens, durable bootstrap and restart tools, abandonment expiry, and retry-safe payment resumption.",
+      "version": "0.4.0",
+      "description": "Reusable checkout with opt-in order bumps, Catalog price rules, durable buyer sessions, inline Stripe payments, per-item fulfillment receipts and refunds, and conversion reporting.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/checkout",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/checkout/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/checkout/v0.4.0/mcp/checkout",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/checkout/v0.4.0/mcp/checkout/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/checkout/v0.4.0/mcp/checkout/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "checkout",
@@ -1680,7 +1680,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-07-26T14:28:02Z"
+      "updated_at": "2026-10-28T13:05:58Z"
     },
     {
       "name": "commerce",
@@ -1739,12 +1739,12 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.14.4",
-      "description": "Community and course storefront for Apteva with learning tracks, milestone evidence reviews, private assignment uploads, quizzes, and configurable graduation requirements.",
+      "version": "0.16.0",
+      "description": "Community and course storefront with optional Checkout order bumps, one payment for courses and add-ons, independent course delivery and refunds, membership renewal pricing, and verified member accounts.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/community",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/community/v0.14.4/mcp/community/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/community/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/community/v0.16.0/mcp/community",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/community/v0.16.0/mcp/community/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/community/v0.16.0/mcp/community/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "community",
@@ -1754,7 +1754,8 @@
         "dms"
       ],
       "official": true,
-      "category": "productivity"
+      "category": "productivity",
+      "updated_at": "2026-10-28T13:05:58Z"
     },
     {
       "name": "bills",
