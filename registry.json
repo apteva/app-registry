@@ -1341,8 +1341,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.30.3",
-      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.3 stops background polling of completed mobile releases and reconciles finished workflows locally while preserving pending rollouts, reviews and explicit refresh.",
+      "version": "0.30.4",
+      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.4 reconciles saved Google Play completion hidden by sync errors, preserving stale-check warnings and quota cooldown while keeping uncertain releases and partial rollouts pending.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
