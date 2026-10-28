@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-28T10:45:55Z",
+  "updated_at": "2026-10-28T10:49:52.018208Z",
   "apps": [
     {
       "name": "mobile",
@@ -1931,12 +1931,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.15.0",
-      "description": "Compute-host inventory, lifecycle, firewalls and bounded monitoring across cloud providers. v0.15.0 exposes a generic Caddy proxy adapter for Server-owned deployment ingress, with explicit reviewed adoption, ownership, durable recovery and rollback. Fresh proxies and existing-proxy adoption use one Server-controlled deployment workflow. Requires the matching Server ingress-provider controller changes before public native deployments; existing proxies are not adopted automatically. Existing inventory, monitoring, SSH, firewall and private deployment APIs remain available.",
+      "version": "0.15.1",
+      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.15.1 fixes native target inspection on Debian hosts with distro-versioned SONAMEs while retaining SSH, systemd, gateway, required-library and malformed-input checks. Existing inventory, monitoring, firewall, ingress and private deployment APIs remain available.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.15.0/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.0/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.0/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.15.1/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.1/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.1/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -1954,7 +1954,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-27T08:57:57.599621Z"
+      "updated_at": "2026-10-28T10:49:52.018208Z"
     },
     {
       "name": "compute",
