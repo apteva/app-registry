@@ -445,12 +445,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.16.25",
-      "description": "Create and run company procedures. Processes ensures its coordination tools are attached before dispatch; executors also need apps required by their steps. Terminal runs durably stop workers and wake timers with retry and restart recovery, preserve receipts and history, and notify the coordinator.",
+      "version": "0.17.0",
+      "description": "Create and run company procedures. Processes ensures its coordination tools are attached before dispatch; executors also need apps required by their steps. Rate finished runs and steps with scores, reason tags and rubrics; low scores and failed runs open a review queue, and quality is tracked per procedure version and executor.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.16.25/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.25/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.16.25/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.17.0/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.17.0/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.17.0/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -460,7 +460,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-22T06:35:45Z"
+      "updated_at": "2026-10-29T12:00:00Z"
     },
     {
       "name": "fetch",
