@@ -1341,8 +1341,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.30.6",
-      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.6 audits all 30 Apple age-rating attributes, validates advanced answers before provider calls and verifies each requested answer against Apple readback.",
+      "version": "0.30.7",
+      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.7 omits an empty Apple marketing URL and uploads 6.9-inch iPhone screenshots as APP_IPHONE_67, the type App Store Connect accepts.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
