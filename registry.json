@@ -2443,12 +2443,12 @@
     {
       "name": "telephony",
       "display_name": "Telephony",
-      "version": "0.16.0",
-      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.16.0 lets pauses absorb provider drift and stalls on direct SIP, so the AI voice plays without holes or zero padding; 0.15.1 continues the voice at underruns; 0.15.0 smooths the AI voice on direct SIP when the realtime provider streams at or slightly below real time: pitch-preserving drift compensation removes most underrun gaps without touching healthy audio or adding start delay. 0.14.1 keeps direct SIP media alive while neither side speaks and restores auth provider aliases; 0.14.0 adds an optional AI context lookup via a Functions-app function; 0.13.0 brings smooth AI voice, SIP receive recovery, inbound SIP carrier matching and routing reliability fixes.",
+      "version": "0.16.1",
+      "description": "Voice calls, IVR routing, browser softphone, recordings and native SIP. Version 0.16.1 starts AI replies as fast as the model sends them; 0.16.0 lets pauses absorb provider drift and stalls on direct SIP, so the AI voice plays without holes or zero padding; 0.15.1 continues the voice at underruns; 0.15.0 smooths the AI voice on direct SIP when the realtime provider streams at or slightly below real time: pitch-preserving drift compensation removes most underrun gaps without touching healthy audio or adding start delay. 0.14.1 keeps direct SIP media alive while neither side speaks and restores auth provider aliases; 0.14.0 adds an optional AI context lookup via a Functions-app function; 0.13.0 brings smooth AI voice, SIP receive recovery, inbound SIP carrier matching and routing reliability fixes.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/telephony/v0.16.0/mcp/telephony",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.16.0/mcp/telephony/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.16.0/mcp/telephony/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/telephony/v0.16.1/mcp/telephony",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.16.1/mcp/telephony/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/telephony/v0.16.1/mcp/telephony/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "voice",
@@ -2459,7 +2459,7 @@
       ],
       "official": true,
       "category": "channels",
-      "updated_at": "2026-10-29T13:09:50Z"
+      "updated_at": "2026-10-29T13:52:29Z"
     },
     {
       "name": "testimonials",
