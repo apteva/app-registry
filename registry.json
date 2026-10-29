@@ -797,12 +797,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.5.2",
-      "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches and exact integers. AptevaDB alpha.8 adds bounded streaming/spill aggregation, cold mapped-memory reclamation and resource diagnostics, alongside index-only counts and resumable realtime watches. Native format remains 10; older formats require a backup before upgrade.",
+      "version": "0.5.3",
+      "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches and exact integers. Calling apps keep private namespaces and can use project databases an operator explicitly grants them. AptevaDB alpha.10 adds faster native scans and aggregation, bounded spill and a checkpoint-hang fix, alongside index-only counts and resumable realtime watches. Native format remains 10; older formats require a backup before upgrade.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.5.2/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.5.2/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.5.2/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.5.3/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.5.3/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.5.3/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
@@ -815,7 +815,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-10-28T07:11:42Z"
+      "updated_at": "2026-10-29T08:27:55Z"
     },
     {
       "name": "storage",
