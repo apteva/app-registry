@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-29T08:21:55Z",
+  "updated_at": "2026-10-29T11:08:10Z",
   "apps": [
     {
       "name": "mobile",
@@ -306,12 +306,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.10.2",
-      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.10 supports aggregate_pipeline version 3: fixed dependent SQL stages execute as separate statements in one Tables read-snapshot transaction, with scalar/JSON stage references, per-stage and cumulative limits, verified identity bindings, merged projection metadata, and final-only output. Requires Tables 0.2.16+. Existing version 1 queries and version 2 relational stages remain compatible. Authorization-safe read sharing, resolver batching, bounded upstream snapshots, admission queues, cancellation, and request-health Logs/dashboard filters for errors, slow/large/queued queries, shared executions, resolver timings and snapshots remain available. Tables supports batch snapshots; request-wide snapshots require a backend with reusable handles. v0.10.1 fixes typed integer stage-budget validation after JSON decoding, including 2 MiB budgets. v0.10.2 allows up to 64 fixed declared Tables sources across resolver versions 1, 2 and 3, preserving authorization and execution budgets without adding reads or concurrency.",
+      "version": "0.10.3",
+      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.10 supports aggregate_pipeline version 3: fixed dependent SQL stages execute as separate statements in one Tables read-snapshot transaction, with scalar/JSON stage references, per-stage and cumulative limits, verified identity bindings, merged projection metadata, and final-only output. Requires Tables 0.2.16+. Existing version 1 queries and version 2 relational stages remain compatible. Authorization-safe read sharing, resolver batching, bounded upstream snapshots, admission queues, cancellation, and request-health Logs/dashboard filters for errors, slow/large/queued queries, shared executions, resolver timings and snapshots remain available. Tables supports batch snapshots; request-wide snapshots require a backend with reusable handles. v0.10.1 fixes typed integer stage-budget validation after JSON decoding, including 2 MiB budgets. v0.10.2 allows up to 64 fixed declared Tables sources across resolver versions 1, 2 and 3, preserving authorization and execution budgets without adding reads or concurrency. v0.10.3 makes Database sources work on real installs: they read project databases an operator grants with db_access_grant (Database 0.5.3+), forward writes, restrict resolvers to record operations, keep server-side filters and caps, page with search, and use the fast projection path. Subscriptions on Database reads follow the native change feed (AptevaDB capture): one shared watcher per database, one re-run per identical query and caller, retries on failure.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/graphql/v0.10.2/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.2/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.2/mcp/graphql/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/graphql/v0.10.3/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.3/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.10.3/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
@@ -325,7 +325,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-11T10:54:42Z"
+      "updated_at": "2026-10-29T11:08:10Z"
     },
     {
       "name": "saas",
