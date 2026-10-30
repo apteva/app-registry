@@ -445,12 +445,12 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.17.0",
-      "description": "Create and run company procedures. Processes ensures its coordination tools are attached before dispatch; executors also need apps required by their steps. Rate finished runs and steps with scores, reason tags and rubrics; low scores and failed runs open a review queue, and quality is tracked per procedure version and executor.",
+      "version": "0.17.2",
+      "description": "Create and run company procedures. Processes ensures its coordination tools are attached before dispatch; executors also need apps required by their steps. External reviewers rate finished runs and steps with scores, reason tags and rubrics; low scores and failed runs open a review queue, and quality is tracked per procedure version and executor.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/processes/v0.17.0/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.17.0/mcp/processes/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.17.0/mcp/processes/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/processes/v0.17.2/mcp/processes",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.17.2/mcp/processes/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.17.2/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "productivity",
@@ -460,7 +460,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-29T12:00:00Z"
+      "updated_at": "2026-10-30T12:00:00Z"
     },
     {
       "name": "fetch",
