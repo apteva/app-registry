@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-30T07:13:08Z",
+  "updated_at": "2026-10-30T08:15:01Z",
   "apps": [
     {
       "name": "mobile",
@@ -2606,12 +2606,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.24.59",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.59 docks queued follow-ups above the composer in compact single-line rows with ellipsis, attachment indicators, inline editing, removal, and immediate steering. Preserves new-message drafts, server-side FIFO delivery, voice transcript fixes, and notification links and severity titles. Pins App SDK v0.108.0.",
+      "version": "0.24.60",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.24.60 keeps compact and single-line composers on one row in narrow docks such as the dashboard Helper: empty drafts stay one line tall and the microphone sits after the attachment menu. Preserves v0.24.59 compact queued follow-ups, voice transcript fixes, and notification links. Pins App SDK v0.108.0.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.59/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.59/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.60/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.24.60/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
