@@ -2382,11 +2382,11 @@
     {
       "name": "analytics",
       "display_name": "Analytics",
-      "version": "0.17.10",
-      "description": "Project-scoped event analytics with reusable configurable Trend and Ranking home widgets, persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards, goals, and GA-style outbound-link measurement.",
+      "version": "0.18.0",
+      "description": "Project-scoped event analytics with reusable configurable Trend and Ranking home widgets, persisted calculated metrics, validated formulas, weighted sources, grouped metric tables, global evaluation, dashboards, goals, GA-style outbound-link measurement, and UTM acquisition attribution joined to signed-in users and lifecycle events.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/analytics",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.17.10/mcp/analytics/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/analytics/v0.18.0/mcp/analytics/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/analytics/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
