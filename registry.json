@@ -70,12 +70,12 @@
     {
       "name": "agent-worlds",
       "display_name": "Agent Worlds",
-      "version": "0.7.2",
-      "description": "Live, themeable maps of agents and the apps they use: System Graph, Operations, an isometric Pixel Village and Space Station over one shared model. Agents walk to the station that matches each tool call, with a pacing director that keeps busy agents readable and close to live. Includes a configurable dashboard widget that shows any view. Pan/zoom, replay and export. Requires the generic telemetry observation API.",
+      "version": "0.8.0",
+      "description": "Live, themeable maps of agents and the apps they use: System Graph, Operations, an isometric Pixel Village and Space Station over one shared model. Agents walk to the station that matches each tool call, with a pacing director that keeps busy agents readable and close to live. Click an agent or building for a floating, customisable details panel that can hold other apps' agent widgets such as Conversations. Includes a configurable dashboard widget that shows any view. Pan/zoom, replay and export. Requires the generic telemetry observation API.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/agent-worlds/v0.7.2/mcp/agent-worlds",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.7.2/mcp/agent-worlds/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.7.2/mcp/agent-worlds/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/agent-worlds/v0.8.0/mcp/agent-worlds",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.8.0/mcp/agent-worlds/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/agent-worlds/v0.8.0/mcp/agent-worlds/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "agents",
@@ -85,7 +85,7 @@
       ],
       "official": true,
       "category": "observability",
-      "updated_at": "2026-10-31T14:30:00Z"
+      "updated_at": "2026-10-31T15:10:00Z"
     },
     {
       "name": "bench",
