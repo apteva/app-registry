@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-10-30T08:15:01Z",
+  "updated_at": "2026-10-31T10:32:22Z",
   "apps": [
     {
       "name": "mobile",
@@ -2226,12 +2226,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.54",
-      "description": "Manage Meta, Google, X, and Reddit advertising through shared campaign, creative, audience and analytics tools. v0.1.54 fixes Meta conversion totals so engagement such as post saves is no longer counted, with explicit conversion_events selection; creates Meta Pixels under the owning Business and shares them with the ad account; and adds Pixel readiness checks (association, per-event and per-domain receipt, installation, diagnostics) and test-event verification. Business Pixel, stats and diagnostics tools require integrations catalog v0.54.7 or newer; Google custom segments retain their v0.54.3 requirement.",
+      "version": "0.1.55",
+      "description": "Manage Meta, Google, X, and Reddit advertising through shared campaign, creative, audience and analytics tools. v0.1.55 shares one persisted rate-limit cooldown per provider account across every project binding, sends nothing while it runs, stops millisecond retries, backs off failed hierarchy loads, reuses one ad set and ad snapshot across projects, and keeps passive dashboard refreshes cached. Business Pixel, stats and diagnostics tools require integrations catalog v0.54.7 or newer; Google custom segments retain their v0.54.3 requirement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.54/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.54/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.55/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.55/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2248,7 +2248,7 @@
       ],
       "official": true,
       "category": "marketing",
-      "updated_at": "2026-10-29T12:01:41Z"
+      "updated_at": "2026-10-31T10:32:22Z"
     },
     {
       "name": "seo",
