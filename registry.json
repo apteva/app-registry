@@ -7,12 +7,12 @@
     {
       "name": "mobile",
       "display_name": "Mobile",
-      "version": "0.2.0",
-      "description": "Physical Android and iOS automation for Apteva agents and apps. Discover phones, reserve exclusive sessions, navigate websites, install and control apps, inspect screenshots and UI source, and run deterministic smoke tests with saved evidence. Android ADB and Appium/XCUITest backends, authenticated remote runners, and a native Apteva panel. Record screens to video with markers (audio with scrcpy or iOS USB capture), export App Store previews, Play promo and social clips with validated presets, and install builds from the App Store, Play Store or TestFlight. Live view uses screenshot polling.",
+      "version": "0.3.0",
+      "description": "Physical Android and iOS automation for Apteva agents and apps. Discover phones, reserve exclusive sessions, navigate websites, install and control apps, inspect screenshots and UI source, and run deterministic smoke tests with saved evidence. Android ADB and Appium backends, native iOS control on a Mac with Xcode (iPhones, iPads and Simulators, no Appium), authenticated remote runners, and a native Apteva panel. Record screens to video with markers (audio with scrcpy or iOS USB capture), export App Store previews, Play promo and social clips with validated presets, and install builds from the App Store, Play Store or TestFlight. Live view uses screenshot polling.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/mobile/v0.2.0/mcp/mobile",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.2.0/mcp/mobile/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.2.0/mcp/mobile/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/mobile/v0.3.0/mcp/mobile",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.3.0/mcp/mobile/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.3.0/mcp/mobile/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "mobile",
@@ -26,7 +26,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-11-01T09:20:00Z"
+      "updated_at": "2026-11-01T12:00:00Z"
     },
     {
       "name": "sportsbook",
