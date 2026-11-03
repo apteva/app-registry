@@ -1934,12 +1934,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.15.1",
-      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.15.1 fixes native target inspection on Debian hosts with distro-versioned SONAMEs while retaining SSH, systemd, gateway, required-library and malformed-input checks. Existing inventory, monitoring, firewall, ingress and private deployment APIs remain available.",
+      "version": "0.16.0",
+      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.16.0 reports confirmed native process exits (exit code or signal, exit time and last PID) so Server can recover crashed deployments, and cuts monitoring CPU and disk writes with buffered WAL history, throttled incident detail and slower sampling while unwatched. Existing inventory, monitoring, firewall, ingress and private deployment APIs remain available.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.15.1/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.1/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.15.1/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.16.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.16.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.16.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
