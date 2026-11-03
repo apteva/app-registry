@@ -799,12 +799,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.6.4",
+      "version": "0.6.5",
       "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches and exact integers. Dashboard aggregates add distinct counts, per-metric filters, many-to-one lookups and timezone date buckets, and read batches answer several queries from one snapshot. AptevaDB alpha.13 runs them natively and reads aggregates through compound indexes, including scope lists, and indexes populated collections natively. Calling apps keep private namespaces and can use project databases an operator explicitly grants them. Native format remains 10.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.6.4/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.6.4/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.6.4/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.6.5/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.6.5/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.6.5/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
