@@ -1343,8 +1343,8 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.30.9",
-      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.9 slows checks for assigned TestFlight builds waiting on Apple, fails only builds no group accepted within 48 hours and clears stale sync errors.",
+      "version": "0.30.10",
+      "description": "Build and release services, mobile apps and arbitrary artifacts with generic pipelines and retained attestations. v0.30.10 saves tester audiences only after the provider accepts them, warns when an internal TestFlight group is empty and slows checks during processing and App Store review.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/deploy/apteva.yaml",
