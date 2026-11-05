@@ -720,12 +720,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.7.97",
-      "description": "Hosted browser controls with bounded rendered DOM extraction up to 5 MB, live form-state snapshots, read-only extraction, guarded actions, cleanup and accounting.",
+      "version": "0.7.100",
+      "description": "Hosted browser controls with private upload staging on workers without a user cache, SHA-256 verification for prepared uploads, and rendered DOM extraction up to 5 MB.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.97/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.97/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.97/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.7.100/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.100/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.7.100/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -734,7 +734,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-10-26T08:47:32Z"
+      "updated_at": "2026-11-05T13:00:32Z"
     },
     {
       "name": "screenshots",
