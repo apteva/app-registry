@@ -799,12 +799,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches and exact integers. Dashboard aggregates add distinct counts, per-metric filters, many-to-one lookups and timezone date buckets, and read batches answer several queries from one snapshot. AptevaDB alpha.13 runs them natively and reads aggregates through compound indexes, including scope lists, and indexes populated collections natively. Filters include multi-field text search (like_contains_ascii), evaluated natively on every adapter. Calling apps keep private namespaces and can use project databases an operator explicitly grants them. Native format remains 10. Filters can test related records with exists and not_exists. Scoped counts can read index entries alone, and count can report what it actually did.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.11.0/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.11.0/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.11.0/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.11.1/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.11.1/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.11.1/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
