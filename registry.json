@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-05T13:57:50Z",
+  "updated_at": "2026-11-06T08:41:40Z",
   "apps": [
     {
       "name": "mobile",
@@ -2424,12 +2424,12 @@
     {
       "name": "calls",
       "display_name": "Calls",
-      "version": "0.2.2",
-      "description": "Secure realtime audio/video rooms using authenticated WebRTC mesh signaling, expiring join links, unified human/agent/service participants, chat, transcripts, presence, and lifecycle events.",
+      "version": "0.3.0",
+      "description": "Secure WebRTC audio and video rooms with screen sharing, chat, and expiring invites. Includes a headless browser client for embedding calls in custom UIs. The dashboard and hosted invite page use the same client.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/calls",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calls/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/calls/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/calls/v0.3.0/mcp/calls",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/calls/v0.3.0/mcp/calls/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/calls/v0.3.0/mcp/calls/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "calls",
@@ -2440,7 +2440,8 @@
         "agents"
       ],
       "official": true,
-      "category": "media"
+      "category": "media",
+      "updated_at": "2026-11-06T08:41:40Z"
     },
     {
       "name": "telephony",
