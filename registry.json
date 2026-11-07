@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-06T14:24:10Z",
+  "updated_at": "2026-11-07T07:33:45Z",
   "apps": [
     {
       "name": "mobile",
@@ -2646,6 +2646,27 @@
       "official": true,
       "category": "tools",
       "updated_at": "2026-10-22T10:38:09Z"
+    },
+    {
+      "name": "proposals",
+      "display_name": "Proposals",
+      "version": "0.1.0",
+      "description": "Interactive client proposals with categorized scope, required items, optional add-ons, live pricing, private links, and revision history. Clients can include, defer, or decline items, accept their selected scope, or request changes. Includes a dashboard editor, MCP tools, optional CRM and Messaging integrations, and durable lifecycle events.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/proposals/v0.1.0/mcp/proposals",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/proposals/v0.1.0/mcp/proposals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/proposals/v0.1.0/mcp/proposals/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "proposals",
+        "quotes",
+        "sales",
+        "scope",
+        "clients"
+      ],
+      "official": true,
+      "category": "productivity",
+      "updated_at": "2026-11-07T07:33:45Z"
     }
   ]
 }
