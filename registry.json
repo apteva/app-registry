@@ -1829,11 +1829,11 @@
     {
       "name": "mqtt",
       "display_name": "MQTT Broker",
-      "version": "0.3.0",
-      "description": "Embedded MQTT 3.1.1/5.0 broker and LAN message bus for IoT devices. v0.3.0 adds explicit credential lifecycle tools, retained-message administration, authenticated client connect/disconnect events, a stable filtered device event, bounded packet/client/queue controls, stricter ACL and topic validation, durable traffic metrics, and an expanded operations dashboard. Home Assistant discovery remains built in.",
+      "version": "0.4.0",
+      "description": "Embedded MQTT 3.1.1/5.0 broker with ownership-scoped credentials, topic permissions, retained state, management APIs and events. Version 0.4.0 adds persistent client-ID ownership, explicit deny-by-default ACLs and secure credential bootstrap. Breaking upgrade: clients require scoped usernames and topic roots; migrated credentials require review and re-enablement. TLS and durable delivery remain subsequent stages.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.4.0/mcp/mqtt/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1844,7 +1844,8 @@
         "infrastructure"
       ],
       "official": true,
-      "category": "infrastructure"
+      "category": "infrastructure",
+      "updated_at": "2026-11-07T16:10:30Z"
     },
     {
       "name": "devices",
