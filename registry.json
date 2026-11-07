@@ -799,12 +799,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.12.2",
-      "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches and exact integers. Dashboard aggregates add distinct counts, per-metric filters, many-to-one lookups and timezone date buckets, and read batches answer several queries from one snapshot. AptevaDB alpha.13 runs them natively and reads aggregates through compound indexes, including scope lists, and indexes populated collections natively. Filters include multi-field text search (like_contains_ascii), evaluated natively on every adapter. Calling apps keep private namespaces and can use project databases an operator explicitly grants them. Native format remains 10. Filters can test related records with exists and not_exists. Scoped counts can read index entries alone, and count can report what it actually did.",
+      "version": "0.13.0",
+      "description": "Independent project-scoped databases with SQLite, Pebble and experimental embedded AptevaDB backends. Typed collections, compound indexes, atomic batches, exact integers, relational reads, aggregation and native realtime. v0.13.0 adds db_query: named scan, compute, join and aggregate relations in one read snapshot, including joining calculated aggregate results back to individual records. Checked numeric expressions, exact rational intermediates, explicit rounding, cardinality validation and shared work, row and memory limits keep dependent calculations generic and bounded. Calling apps retain private namespaces and need an explicit read or write grant for project databases. Native format remains 10.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.12.2/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.12.2/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.12.2/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.13.0/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.13.0/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.13.0/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
@@ -817,7 +817,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-11-06T10:09:34Z"
+      "updated_at": "2026-11-07T08:05:03Z"
     },
     {
       "name": "storage",
