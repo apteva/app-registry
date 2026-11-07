@@ -234,12 +234,12 @@
     {
       "name": "design",
       "display_name": "Design Studio",
-      "version": "0.4.0",
-      "description": "Agent-native parametric 2D/3D CAD for exact solids, revision-linked PCB enclosures, reusable component documents, nested assemblies, printable open-hardware products, validation, per-part STEP/STL/3MF exports, GLB previews, and traceable manufacturing packages.",
+      "version": "0.5.0",
+      "description": "Manufacturer STEP import, exact solid clearance and collision checks, purchased-component assemblies, mechanical keepouts, multi-board enclosure templates, CAD inspection, print-only part exports, and reproducible release evidence.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/design",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.4.0/mcp/design/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.4.0/mcp/design/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.5.0/mcp/design/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.5.0/mcp/design/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "design",
