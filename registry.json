@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-07T08:48:02Z",
+  "updated_at": "2026-11-07T09:00:48Z",
   "apps": [
     {
       "name": "mobile",
@@ -2650,12 +2650,12 @@
     {
       "name": "proposals",
       "display_name": "Proposals",
-      "version": "0.2.2",
-      "description": "Interactive client proposals with categorized scope, live pricing, private links, and revision history. Clients can include, defer, or decline optional items, accept the selected scope, or request changes. Private client backlogs hold ideas, estimates, and internal notes for selective copying into drafts. Includes a searchable CRM contact picker when CRM is linked. v0.2.2 fixes public proposal loading behind tunnel welcome pages. Includes a themed dashboard, MCP tools, optional CRM and Messaging integrations, and durable lifecycle events.",
+      "version": "0.3.0",
+      "description": "Interactive client proposals with categorized scope, live pricing, private links, and revision history. Visual buttons let clients include, defer, or decline individual items or whole multi-select groups. Choose English (default) or French per proposal. Private client backlogs hold ideas and estimates for selective copying into drafts, with searchable CRM contact selection when linked. Includes a themed dashboard, MCP tools, optional CRM and Messaging integrations, and durable lifecycle events.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/proposals/v0.2.2/mcp/proposals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/proposals/v0.2.2/mcp/proposals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/proposals/v0.2.2/mcp/proposals/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/proposals/v0.3.0/mcp/proposals",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/proposals/v0.3.0/mcp/proposals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/proposals/v0.3.0/mcp/proposals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "proposals",
@@ -2666,7 +2666,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-11-07T08:48:02Z"
+      "updated_at": "2026-11-07T09:00:48Z"
     }
   ]
 }
