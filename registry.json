@@ -681,11 +681,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.26",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.25 fixes lost email subjects in contacts_send_message replies: both send and reply paths inherit the conversation subject before dispatch and idempotency calculation, preserve explicit subjects and reply headers, avoid duplicate Re: prefixes, and reject unresolved blank subjects. Retains attribute discovery, typed writes, drafts, stable inbox selection, speaker labels, sent template snapshots and unsubscribe. Previously delivered mail is not rewritten or resent. v0.9.26 normalizes display-name email recipients and tracks individual soft-bounce contributions so confirmed Messaging automatic-response corrections undo only the affected event. Preserves other bounces, complaints, unsubscribe state and manual suppressions. Additive migration; install before Messaging 0.13.61.",
+      "version": "0.9.27",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.27 replies to the selected or latest inbound email using Messaging send_message(reply_to_message_id), preserving automatic addressing, RFC/Gmail threading and supported ticket identifiers. Pins the activity across routing, dispatch and deduplication; saved reply drafts retain their selected message. Rejects foreign, missing or mismatched Messaging anchors. Explicit sender/subject overrides and legacy history use the selected RFC ID and top-level references. Requires Messaging 0.15.0+. Preserves phone-channel switches, drafts, delivery reconciliation, unsubscribe, attributes and stable inbox selection. No migrations or historical-message repair.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.26/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.27/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
