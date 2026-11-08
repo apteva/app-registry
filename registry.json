@@ -308,12 +308,12 @@
     {
       "name": "graphql",
       "display_name": "GraphQL",
-      "version": "0.23.0",
-      "description": "Standalone multi-API GraphQL runtime with typed schemas, aggregation, and realtime. v0.10 supports aggregate_pipeline version 3: fixed dependent SQL stages execute as separate statements in one Tables read-snapshot transaction, with scalar/JSON stage references, per-stage and cumulative limits, verified identity bindings, merged projection metadata, and final-only output. Requires Tables 0.2.16+. Existing version 1 queries and version 2 relational stages remain compatible. Authorization-safe read sharing, resolver batching, bounded upstream snapshots, admission queues, cancellation, and request-health Logs/dashboard filters for errors, slow/large/queued queries, shared executions, resolver timings and snapshots remain available. Tables supports batch snapshots; request-wide snapshots require a backend with reusable handles. v0.10.1 fixes typed integer stage-budget validation after JSON decoding, including 2 MiB budgets. v0.10.2 allows up to 64 fixed declared Tables sources across resolver versions 1, 2 and 3, preserving authorization and execution budgets without adding reads or concurrency. v0.10.3 makes Database sources work on real installs: they read project databases an operator grants with db_access_grant (Database 0.5.3+), forward writes, restrict resolvers to record operations, keep server-side filters and caps, page with search, and use the fast projection path. Subscriptions on Database reads follow the native change feed (AptevaDB capture): one shared watcher per database, one re-run per identical query and caller, retries on failure. v0.11.0 adds database_pipeline: a report answered from Database (0.6.0+) in one read snapshot, with an identity-based access phase, up to 100 fixed aggregate/find/count/get steps, and combine fields computed with module expressions (new safe_divide); truncation, budgets and timeouts fail the whole field, and subscriptions watch every collection the plan reads. v0.11.1 returns Database error codes (version_conflict, invalid_argument, ...) as errors[].extensions.code, always ANDs the resolver guard with client filters, keeps maxAffected bounds (key edits default to 1), and requires Database 0.6.5+ for guarded key edits. v0.11.2 forwards configured lookups and buckets on plain Database resolvers and validates database_pipeline configuration strictly (unknown keys and mistyped values fail on publish); result may be a single reference so list fields return rows directly. v0.12.0 chains access values (filters on earlier values, union/intersect, orderBy+limit for latest records, array flattening, single_record, per-value permissions; one read batch per level, max 4), pages find steps with Database cursors (hasMore, nextCursor, count_of totals in the same snapshot), and masks fields by verified permission with the in op, $identity.permissions and combine keep. v0.13.0 adds optional access values (an empty scope matches nothing instead of refusing; empty in is a contradiction, never dropped), expr access values over verified params and earlier scopes (if/and/or/not/in/length/comparisons), derived values that do not consume read levels, and in lists over 100 values split into chunks. v0.14.0 adds distinct access reads: distinct: true runs the read as a Database aggregate grouped on its field, so max bounds distinct values (thousands of sales in one centre are one centre) and more than max fails closed. v0.15.0 adds like_contains_ascii text search over several server-configured text fields (client supplies only the value; a search can only narrow, never inside or or access reads) and checks operators, search arguments and Database support at publish; requires Database 0.7.0+. Conditional {when, filter} query filters make client filters optional while permission filters stay unconditional, with an exact_string_list param type. database_pipeline can compile permissions over related records into one mandatory Database predicate: exists and not_exists filters with trusted values bound in, access_when selection from verified values, publish-time planning, and totals, subscriptions and cursors that follow the related records. Requires Database 0.8.0 for relational filters. v0.18.0 records how long each stage of a database_pipeline call took on the request log: access reads, filter resolution, the Database batch split into client stages and server wait, the page and count with their resolved filter hash, and response serialisation. It only measures, so filters, totals, cursors and subscriptions are unchanged. Database statistics appear once a Database with count diagnostics is installed; versions up to 0.8.0 refuse the option and the batch is resent without it. Pipeline filters can nest exists and not_exists with Database 0.10.0. Access values can keep identifiers exactly as stored with type exact_string_list. Pipelines can search linked records with contains_ascii, a literal substring filter that keeps % and _ as ordinary characters (Database 0.11.0+), and a filter can hold 24 relationships on Database 0.11.1. GraphQL 0.23.0 adapts Database 0.14.0 canonical find and aggregate reads, including scoped named intermediate pipelines in one snapshot, with compatible legacy relational plans, publish validation, viewer-bound cursors and complete realtime source watches.",
+      "version": "0.24.0",
+      "description": "Standalone multi-API GraphQL and realtime runtime with atomic schema, resolver and security releases, verified identity, project-scoped sources, pagination and bounded execution. Supports Database canonical find/aggregate reads and dependent pipelines; GraphQL 0.24.0 adds bounded relation/match summaries with Database 0.15.0 so pages, totals and parent-level averages share the same snapshot and rules. Keeps trusted eligibility, permission rechecks, complete realtime dependencies and existing resolver compatibility.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/graphql/v0.23.0/mcp/graphql",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.23.0/mcp/graphql/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.23.0/mcp/graphql/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/graphql/v0.24.0/mcp/graphql",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.24.0/mcp/graphql/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/graphql/v0.24.0/mcp/graphql/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "graphql",
@@ -327,7 +327,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-07T09:41:26Z"
+      "updated_at": "2026-11-08T10:26:19Z"
     },
     {
       "name": "saas",
@@ -799,12 +799,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.14.0",
-      "description": "Local database with SQLite, Pebble and experimental AptevaDB adapters. Nine core data operations include find and aggregate with joins, related reads and typed named pipelines in one bounded read snapshot; calculated aggregates can join back to facts before final aggregation. Checked numeric expressions, signed pagination, indexes and realtime, with compatibility for existing query and relational callers.",
+      "version": "0.15.0",
+      "description": "Project-scoped local databases with SQLite, Pebble and experimental AptevaDB adapters. Nine core record operations include find and aggregate with joins, typed dependent pipelines and bounded related contexts in one read snapshot. Related-parent aggregation uses the same eligibility, deduplication, ordering and cap-before-match rules as find, counting each parent once. Checked arithmetic, exact integers, signed pagination, indexes, realtime and explicit app grants; existing query and relational callers remain compatible.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.14.0/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.14.0/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.14.0/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.15.0/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.15.0/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.15.0/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
@@ -817,7 +817,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-11-07T09:22:43Z"
+      "updated_at": "2026-11-08T10:26:19Z"
     },
     {
       "name": "storage",
