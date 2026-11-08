@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-08T13:30:47Z",
+  "updated_at": "2026-11-08T13:33:46Z",
   "apps": [
     {
       "name": "mobile",
@@ -1829,11 +1829,11 @@
     {
       "name": "mqtt",
       "display_name": "MQTT Broker",
-      "version": "0.7.0",
-      "description": "Ownership-scoped MQTT 3.1.1/5.0 broker with TLS, durable acceptance, recoverable sessions and acknowledged application consumption. Version 0.7.0 adds persistent connection, message and MQTT traffic counters; transactional per-scope connection, message, byte, payload and retained-storage quotas; trusted default policies and scope overrides; and scoped HTTP/MCP usage reporting. Quota windows survive restart and retries. Retained capacity rejects growth instead of evicting accepted messages; quota-delayed wills remain recoverable. All logic stays inside the MQTT app.",
+      "version": "0.8.0",
+      "description": "Ownership-scoped MQTT 3.1.1/5.0 broker with TLS, durable acceptance, session recovery, application consumers and persistent per-scope usage quotas. Version 0.8.0 adds complete retained-message pagination through HTTP/MCP: full binary-safe payloads, MQTT properties, message IDs, expiry, signed scope/filter-bound cursors, and journal reconciliation watermarks. The panel loads more records, inspects full values and downloads payloads. Legacy preview arrays remain compatible. All source changes are contained in the MQTT app.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.7.0/mcp/mqtt/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.8.0/mcp/mqtt/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1845,7 +1845,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-08T12:50:02Z"
+      "updated_at": "2026-11-08T13:33:46Z"
     },
     {
       "name": "devices",
