@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-07T19:59:03Z",
+  "updated_at": "2026-11-08T09:58:29Z",
   "apps": [
     {
       "name": "mobile",
@@ -1762,11 +1762,11 @@
     {
       "name": "bills",
       "display_name": "Bills",
-      "version": "0.2.5",
-      "description": "Supplier bills, approvals and recorded payments, with source obligations, credits, refunds and reversals. v0.2.5 renders filled PDF invoice fields and releases render buffers after each page. Codex extraction uses GPT-6 Luna with low thinking through the existing integration. Extraction failures create no bill; uploaded documents remain available for retry. Supports partial payments, durable retry keys and supporting documents. Creating a bill never pays it.",
+      "version": "0.2.6",
+      "description": "Supplier bills, approvals and recorded payments, with source obligations, credits, refunds and reversals. Agent project grants allow a global Bills install to work in chosen or all editable projects; seven read-only tools support combined all-project queries. Includes PDF and image OCR, partial payments, durable retry keys and supporting documents. Creating a bill never pays it.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/bills",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bills/v0.2.5/mcp/bills/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/bills/v0.2.6/mcp/bills/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/bills/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
