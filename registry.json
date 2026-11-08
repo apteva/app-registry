@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-08T11:41:34Z",
+  "updated_at": "2026-11-08T12:06:31Z",
   "apps": [
     {
       "name": "mobile",
@@ -1829,11 +1829,11 @@
     {
       "name": "mqtt",
       "display_name": "MQTT Broker",
-      "version": "0.5.0",
-      "description": "Ownership-scoped MQTT 3.1.1/5.0 broker with TLS by default, certificate file hot reload or automatic ACME renewal, and validated public enrollment endpoints. Version 0.5.0 rejects ingress overload before publish acknowledgments, with shared scope rate limits and HTTP retry guidance. Upgrade requires TLS configuration or explicit restricted local plaintext mode. Durable acceptance, sessions and consumption remain future work.",
+      "version": "0.6.0",
+      "description": "Ownership-scoped MQTT 3.1.1/5.0 broker with TLS, renewable certificates and validated public endpoints. Version 0.6.0 atomically commits accepted messages, retained changes and QoS delivery obligations before acknowledgments; restores persistent subscriptions and QoS 1/2 in-flight state; and provides generic application consumers with persisted cursors, leased batches, acknowledgment, retry, replay, complete payloads and stable message IDs. Full queues reject acceptance explicitly; storage faults remove endpoint readiness. Persistent transport usage quotas remain separate work.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.5.0/mcp/mqtt/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.6.0/mcp/mqtt/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1845,7 +1845,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-08T11:25:15Z"
+      "updated_at": "2026-11-08T12:06:31Z"
     },
     {
       "name": "devices",
