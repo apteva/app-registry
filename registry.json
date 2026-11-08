@@ -1850,8 +1850,8 @@
     {
       "name": "devices",
       "display_name": "Devices",
-      "version": "0.1.1",
-      "description": "Provision and control Arduino, ESP8266/ESP32, Raspberry Pi, and other MQTT-capable hardware. Devices provides per-device credentials and exact-topic ACLs, native capability discovery, allowlisted GPIO operations, variables and firmware functions, live state and telemetry, correlated commands, setup examples, and a project dashboard. Requires MQTT 0.3.0 or newer.",
+      "version": "0.2.0",
+      "description": "Project-scoped devices with recoverable enrollment and credentials, generic structured data and capabilities, application receipts, deduplicated state and telemetry, asynchronous commands, durable events and usage measurements, configurable operational limits, and native GPIO adapters. Requires MQTT 0.4.0 or newer; existing clients need scoped username/topic migration.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/devices",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/devices/apteva.yaml",
