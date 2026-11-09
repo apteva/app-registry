@@ -1850,8 +1850,8 @@
     {
       "name": "devices",
       "display_name": "Devices",
-      "version": "0.3.0",
-      "description": "Project-scoped device control plane with recoverable enrollment, generic state and telemetry, reliable commands, durable events, and usage measurements. v0.3.0 adds authenticated device-scoped HTTPS ingestion, exact usage summaries and resource counts, live revision-checked operational policy, and durable MQTT ingestion. Requires MQTT 0.6.0 or newer; SaaS supplies customer mapping and commercial policy.",
+      "version": "0.3.1",
+      "description": "Project-scoped device control plane with recoverable enrollment, generic state and telemetry, reliable commands, durable events, and usage measurements. v0.3.0 adds authenticated device-scoped HTTPS ingestion, exact usage summaries and resource counts, live revision-checked operational policy, and durable MQTT ingestion. Startup recovery follows retained-message pages across the fleet. Requires MQTT 0.8.0 or newer; SaaS supplies customer mapping and commercial policy.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/devices",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/devices/apteva.yaml",
