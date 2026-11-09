@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-08T13:33:46Z",
+  "updated_at": "2026-11-09T07:19:20Z",
   "apps": [
     {
       "name": "mobile",
@@ -1829,11 +1829,11 @@
     {
       "name": "mqtt",
       "display_name": "MQTT Broker",
-      "version": "0.8.0",
-      "description": "Ownership-scoped MQTT 3.1.1/5.0 broker with TLS, durable acceptance, session recovery, application consumers and persistent per-scope usage quotas. Version 0.8.0 adds complete retained-message pagination through HTTP/MCP: full binary-safe payloads, MQTT properties, message IDs, expiry, signed scope/filter-bound cursors, and journal reconciliation watermarks. The panel loads more records, inspects full values and downloads payloads. Legacy preview arrays remain compatible. All source changes are contained in the MQTT app.",
+      "version": "0.8.1",
+      "description": "Ownership-scoped MQTT 3.1.1/5.0 broker with TLS, durable acceptance, session recovery, application consumers, persistent per-scope usage quotas and complete retained-message pagination. Version 0.8.1 checks readiness on the selected listener for both local and TLS installs. Requires Apteva 0.87.4 or later.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/mqtt",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.8.0/mcp/mqtt/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mqtt/v0.8.1/mcp/mqtt/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/mqtt/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1845,7 +1845,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-08T13:33:46Z"
+      "updated_at": "2026-11-09T07:19:20Z"
     },
     {
       "name": "devices",
