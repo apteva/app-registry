@@ -2340,12 +2340,12 @@
     {
       "name": "games",
       "display_name": "Games",
-      "version": "0.7.1",
-      "description": "Game backend and studio with guided Games → Code → Deploy setup, reusable build recipes, runner selection, pinned dependencies, actionable readiness checks and selected-build artifacts, tests and logs.",
+      "version": "0.8.0",
+      "description": "Game backend and studio with guided deployments, versioned game assets, and per-game App Store acquisition, sales, and gameplay metrics.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/games/v0.7.1/mcp/games",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.1/mcp/games/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.7.1/mcp/games/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/games/v0.8.0/mcp/games",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/games/v0.8.0/mcp/games/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/games/v0.8.0/mcp/games/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "games",
@@ -2359,7 +2359,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-10-09T07:07:34Z"
+      "updated_at": "2026-11-09T08:36:11Z"
     },
     {
       "name": "market-intel",
