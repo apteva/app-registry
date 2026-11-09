@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-09T07:19:20Z",
+  "updated_at": "2026-11-09T22:04:32Z",
   "apps": [
     {
       "name": "mobile",
@@ -799,12 +799,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.15.2",
-      "description": "Project-scoped local databases with SQLite, Pebble and experimental AptevaDB adapters. Nine core record operations include find and aggregate with joins, typed dependent pipelines and bounded related contexts in one read snapshot. Related-parent aggregation uses the same eligibility, deduplication, ordering and cap-before-match rules as find, counting each parent once. Checked arithmetic, exact integers, signed pagination, indexes, realtime and explicit app grants; existing query and relational callers remain compatible. Selective scoped identifier lookups preserve join hints and use bounded index selection. Bounded pages use streaming scans, projected decoding and shared scan/page memory accounting.",
+      "version": "0.15.3",
+      "description": "Project-scoped local databases with SQLite, Pebble and experimental AptevaDB adapters. Nine core record operations include find and aggregate with joins, typed dependent pipelines and bounded related contexts in one read snapshot. Related-parent aggregation uses the same eligibility, deduplication, ordering and cap-before-match rules as find, counting each parent once. Checked arithmetic, exact integers, signed pagination, indexes, realtime and explicit app grants; existing query and relational callers remain compatible. Selective scoped identifier lookups preserve join hints and use bounded index selection. Bounded pages use streaming scans, projected decoding and shared scan/page memory accounting. AptevaDB reserves capacity for bounded indexed reads and shares matching scans across compatible batch aggregates.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.15.2/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.15.2/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.15.2/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.15.3/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.15.3/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.15.3/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
@@ -817,7 +817,7 @@
       ],
       "official": true,
       "category": "storage",
-      "updated_at": "2026-11-08T13:30:47Z"
+      "updated_at": "2026-11-09T22:04:32Z"
     },
     {
       "name": "storage",
