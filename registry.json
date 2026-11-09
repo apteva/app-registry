@@ -883,12 +883,12 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.18.0",
-      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm workers, runtime preparation, streaming, public Function URLs, trusted authenticated invocations, live logs and performance diagnostics. v1.18.0 adds bounded incremental space reclamation, separate summary and success/failure detail retention, and storage metrics/alerts in the panel, HTTP API and MCP. Defaults retain summaries and failure details for 30 days and successful details for 7 days. Existing databases need a planned offline conversion for incremental reclamation; migration 010 builds retention indexes with all runtimes and producers stopped. See STORAGE_MANAGEMENT.md before upgrading. Requires Apteva 0.50.2+; custom Page widgets require 0.82.1+. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
+      "version": "1.19.0",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm worker reuse, streaming, public Function URLs, trusted authenticated invocations, and performance diagnostics. v1.19.0 reuses healthy workers across authenticated and ordinary requests for newly created functions. Existing functions keep their previous isolation policy until explicitly changed. Proactive prewarming is off by default and configurable per function. Requires Apteva 0.50.2+; custom Page widgets require 0.82.1+. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.18.0/mcp/functions/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.18.0/mcp/functions/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.19.0/mcp/functions/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.19.0/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "functions",
@@ -899,7 +899,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-25T08:55:06Z"
+      "updated_at": "2026-11-09T18:09:22Z"
     },
     {
       "name": "workflows",
