@@ -2318,12 +2318,12 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.12.1",
-      "description": "Organization-scoped authentication with EdDSA sessions, refresh rotation, recovery, RBAC and role-bound platform tokens. v0.12.1 distinguishes retryable failures from uncertain refresh outcomes for generic persistent Web SDK sessions, and reports logout lookup failures accurately. Existing Auth sessions remain valid.",
+      "version": "0.13.0",
+      "description": "Organization-scoped authentication with EdDSA sessions, refresh rotation, recovery, RBAC and role-bound platform tokens. v0.13.0 adds private bearer-session verification for bound apps, with live permissions, verified expiry, and separate service errors. Existing sessions remain valid.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/auth/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/auth/v0.13.0/mcp/auth/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/auth/v0.13.0/mcp/auth/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "auth",
@@ -2335,7 +2335,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-10T14:38:13Z"
+      "updated_at": "2026-11-09T19:16:01Z"
     },
     {
       "name": "games",
