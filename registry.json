@@ -799,12 +799,12 @@
     {
       "name": "database",
       "display_name": "Database",
-      "version": "0.16.0",
-      "description": "Project-scoped local databases with SQLite, Pebble and experimental AptevaDB adapters. Nine core record operations include find and aggregate with joins, typed dependent pipelines and bounded related contexts in one read snapshot. Related-parent aggregation uses the same eligibility, deduplication, ordering and cap-before-match rules as find, counting each parent once. Checked arithmetic, exact integers, signed pagination, indexes, realtime and explicit app grants; existing query and relational callers remain compatible. Selective scoped identifier lookups preserve join hints and use bounded index selection. Bounded pages use streaming scans, projected decoding and shared scan/page memory accounting. AptevaDB reserves capacity for bounded indexed reads and chooses whether compatible batch aggregates share a scan. Read batch diagnostics include admission wait and the chosen scan path. AptevaDB also supports read-only computed collections with filtered projections and composite-key rollups maintained by source writes.",
+      "version": "0.17.0",
+      "description": "Project-scoped local databases with SQLite, Pebble and experimental AptevaDB adapters. Nine core record operations include find and aggregate with joins, typed dependent pipelines and bounded related contexts in one read snapshot. Related-parent aggregation uses the same eligibility, deduplication, ordering and cap-before-match rules as find, counting each parent once. Checked arithmetic, exact integers, signed pagination, indexes, realtime and explicit app grants; existing query and relational callers remain compatible. Selective scoped identifier lookups preserve join hints and use bounded index selection. Bounded pages use streaming scans, projected decoding and shared scan/page memory accounting. AptevaDB reserves capacity for bounded indexed reads and chooses whether compatible batch aggregates share a scan. Read batch diagnostics include admission wait and the chosen scan path. AptevaDB also supports read-only computed collections with filtered projections and composite-key rollups maintained by source writes. Online rollups can combine multiple sources and merge exact distinct counts across selected buckets.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/database/v0.16.0/mcp/database",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.16.0/mcp/database/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.16.0/mcp/database/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/database/v0.17.0/mcp/database",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/database/v0.17.0/mcp/database/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/database/v0.17.0/mcp/database/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "database",
