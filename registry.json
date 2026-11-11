@@ -966,12 +966,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.15.5",
-      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.5 resolves cached-video pose and model paths after decoding inside the executor workspace and retains sanitized FFmpeg failure details. Server manages the optional executor; Media has no Instances dependency.",
+      "version": "0.15.6",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.6 preserves Deepgram word timestamps through parsing, storage and retrieval, with validated audio identity and source mapping. Transcript views offer word counts, readiness, bounded pages, time windows and phrase matches. Safe upgrades retain the previous completed transcript on failure. Requires the updated existing Deepgram listen integration catalog.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.15.5/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.5/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.5/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.15.6/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.6/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.6/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -986,7 +986,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-10-28T09:56:54.609991Z"
+      "updated_at": "2026-11-11T17:09:34.675554Z"
     },
     {
       "name": "content-catalog",
