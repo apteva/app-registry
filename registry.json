@@ -285,12 +285,12 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.11.0",
-      "description": "Generic API gateway with project-scoped routing, CORS, DNS, AppBus invalidations, immutable configurations, stages, and attributed API credentials with exact route scopes and optional usage plans. v0.11.0 lets bound apps verify bearer tokens through MCP tools or HTTP endpoints. Gateway applies the same principal checks to both transports and honors the request deadline. Authenticated Function routes require Functions 1.14.1+ and configured trusted callers.",
+      "version": "0.12.0",
+      "description": "Generic API gateway with project-scoped routing, CORS, DNS, AppBus invalidations, immutable configurations, stages, and attributed API credentials. v0.12.0 adds opt-in any_of authentication so one route accepts either a bearer session or a scoped API key. Credential carriers select one verifier; ambiguous requests fail closed. HTTP and MCP authorizers, verified claims, expiration, revocation, and API-key usage plans remain supported. Authenticated Function routes require Functions 1.14.1+ and configured trusted callers.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/api/v0.11.0/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.11.0/mcp/api/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/api/v0.11.0/mcp/api/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/api/v0.12.0/mcp/api",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.12.0/mcp/api/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/api/v0.12.0/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "api",
@@ -305,7 +305,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-09T19:14:12Z"
+      "updated_at": "2026-11-11T12:57:38Z"
     },
     {
       "name": "graphql",
