@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-10T07:33:54Z",
+  "updated_at": "2026-11-11T08:34:57Z",
   "apps": [
     {
       "name": "mobile",
@@ -154,21 +154,23 @@
     {
       "name": "tests",
       "display_name": "Tests",
-      "version": "0.2.0",
-      "description": "Versioned multi-step scenarios, isolated environment runs, OpenAPI coverage, and candidate-specific release verdicts.",
+      "version": "0.3.0",
+      "description": "Browser and backend scenarios in isolated runtimes, structured assertions, masked failure screenshots, durable history and candidate-specific release verdicts. Optional Computer integration for local Chromium UI tests.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/tests",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.2.0/mcp/tests/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.2.0/mcp/tests/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/tests/v0.3.0/mcp/tests",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.3.0/mcp/tests/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.3.0/mcp/tests/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "tests",
         "checks",
         "quality",
-        "functions"
+        "functions",
+        "browser"
       ],
       "official": true,
-      "category": "tools"
+      "category": "tools",
+      "updated_at": "2026-11-11T08:34:57Z"
     },
     {
       "name": "neural",
@@ -720,12 +722,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.8.0",
-      "description": "Browser and physical mobile automation through shared session tools, reusable device contexts and backend capabilities. Mobile startup retries preparation and reports authorization or setup steps. Includes prepared upload staging and bounded 5 MB DOM extraction.",
+      "version": "0.9.0",
+      "description": "Browser and physical mobile automation with reusable contexts and backend capabilities. Adds an isolated local Chromium test protocol for Tests, fresh profiles, deterministic inputs, masked screenshots and an enforced runtime network boundary.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.8.0/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.8.0/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.8.0/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.9.0/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.9.0/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.9.0/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -734,7 +736,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-11-07T19:59:03Z"
+      "updated_at": "2026-11-11T08:34:57Z"
     },
     {
       "name": "screenshots",
@@ -2488,12 +2490,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.8.0",
-      "description": "Disposable test environments with deterministic fixtures, runtime app endpoints, and voice simulation.",
+      "version": "0.9.0",
+      "description": "Disposable test environments with deterministic fixtures, persisted named frontend/API/Auth targets, runtime URL seed references and voice simulation.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.8.0/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.8.0/mcp/environments/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/environments/v0.9.0/mcp/environments",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.9.0/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.9.0/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
@@ -2503,7 +2505,8 @@
         "mocks"
       ],
       "official": true,
-      "category": "developer"
+      "category": "developer",
+      "updated_at": "2026-11-11T08:34:57Z"
     },
     {
       "name": "evals",
