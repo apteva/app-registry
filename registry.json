@@ -52,12 +52,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.3.2",
-      "description": "Reusable browser actors with exact whole-number extraction, validated thousands grouping and fail-closed count limits. Bounded immutable discovery, guarded actions, saved contexts and structured datasets.",
+      "version": "0.5.0",
+      "description": "Reusable browser and Mobile actors with compact run receipts, guarded actions, saved contexts, concurrent queues and structured datasets. Bounded immutable discovery and complete read coverage for duplicate checks.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.3.2/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.3.2/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.3.2/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.5.0/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.5.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.5.0/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -67,7 +67,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-11-02T10:24:58Z"
+      "updated_at": "2026-11-11T12:00:00Z"
     },
     {
       "name": "agent-worlds",
