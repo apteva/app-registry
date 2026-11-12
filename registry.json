@@ -1240,11 +1240,11 @@
     {
       "name": "messaging",
       "display_name": "Messaging",
-      "version": "0.15.0",
-      "description": "Send and receive email through SES or Gmail and SMS/WhatsApp through Twilio. v0.15.0 folds anchored replies into send_message with reply_to_message_id and removes the separate reply_message tool. Migrate reply_message(message_id, ...) calls to send_message(reply_to_message_id, ...). New sends retain channel/to and the existing reply_to email-address option. Reply mode derives addressing, subject and RFC/Gmail threading, preserves ticket subject tokens, tagged reply addresses and validated ticket headers, and rejects addressing/threading overrides. Explicit reply-all excludes own mailboxes; Bcc and original attachments are never inherited. Retains suppression, provider/template restrictions, anchor-scoped retry keys, template snapshots, Gmail sync and indexed reads. When used with CRM, install CRM 0.9.26 or newer first.",
+      "version": "0.16.0",
+      "description": "Send and receive email through SES/Gmail and SMS through multiple Twilio and Telnyx accounts. v0.16.0 adds account-pinned phone numbers, Telnyx profile setup, signed inbound SMS webhooks, durable inbox persistence and routing retries, account-scoped delivery tracking, and receive-only numbers that cannot send or trigger automatic routing. The provider picker shows account, inbound readiness, callback and last received message. Existing Twilio phone_provider and WhatsApp setups remain supported. Requires the Telnyx tools from integrations 0.55.0 in the host catalog. Retains send_message replies, immutable template snapshots and existing suppression safeguards. When used with CRM, install CRM 0.9.26 or newer first.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/messaging",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/messaging/v0.15.0/mcp/messaging/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/messaging/v0.16.0/mcp/messaging/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/messaging/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
