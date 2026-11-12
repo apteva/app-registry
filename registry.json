@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-12T06:54:31Z",
+  "updated_at": "2026-11-12T07:53:20Z",
   "apps": [
     {
       "name": "mobile",
@@ -154,12 +154,12 @@
     {
       "name": "tests",
       "display_name": "Tests",
-      "version": "0.3.0",
-      "description": "Browser and backend scenarios in isolated runtimes, structured assertions, masked failure screenshots, durable history and candidate-specific release verdicts. Optional Computer integration for local Chromium UI tests.",
+      "version": "0.3.1",
+      "description": "Browser and backend scenarios in isolated runtimes, structured assertions, masked evidence and candidate-specific release verdicts. Preserves explicit empty browser values across stored checks and execution; rejects missing, null and conflicting selection inputs.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/tests/v0.3.0/mcp/tests",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.3.0/mcp/tests/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.3.0/mcp/tests/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/tests/v0.3.1/mcp/tests",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.3.1/mcp/tests/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.3.1/mcp/tests/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "tests",
@@ -170,7 +170,7 @@
       ],
       "official": true,
       "category": "tools",
-      "updated_at": "2026-11-11T08:34:57Z"
+      "updated_at": "2026-11-12T07:53:20Z"
     },
     {
       "name": "neural",
