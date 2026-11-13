@@ -966,12 +966,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.15.7",
-      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.7 adds per-request transcription model/language settings saved with each attempt and retained on retries. Batches no longer need global configuration changes or Media restarts. Conflicting in-flight options are rejected; validated word timing and safe completed-transcript preservation remain.",
+      "version": "0.15.8",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.8 keeps capacity-constrained renders under the same ID and a persisted overall deadline, with queue and lease diagnostics. Sample-accurate audio redaction preserves source presentation extents without loudness normalization, retaining strict audio/video validation. Per-request transcription settings remain supported.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.15.7/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.7/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.7/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.15.8/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.8/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.8/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
@@ -986,7 +986,7 @@
       ],
       "official": true,
       "category": "media",
-      "updated_at": "2026-11-13T13:00:55.089251Z"
+      "updated_at": "2026-11-13T14:34:06.000691Z"
     },
     {
       "name": "content-catalog",
