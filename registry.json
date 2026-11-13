@@ -2613,12 +2613,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.25.4",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.25.4 keeps Inbox reports, alerts, approvals, questions and forms in the operator conversation that owns the work. Agents reuse relevant work topics instead of creating generic report conversations.",
+      "version": "0.25.5",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.25.5 renders installed apps’ declared message cards across dashboard chats, widgets and Inbox details, with scoped loading, readable fallbacks and retry.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.25.4/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.25.4/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.25.5/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.25.5/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
