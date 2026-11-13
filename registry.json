@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-13T14:07:42Z",
+  "updated_at": "2026-11-13T15:03:49Z",
   "apps": [
     {
       "name": "mobile",
@@ -722,12 +722,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.10.0",
-      "description": "Browser and physical mobile automation with reusable contexts and isolated browser testing. Persistent browser-session views support side-panel and floating placement, responsive sizing, install-scoped media routing, and inactive polling suspension while retaining the saved final frame.",
+      "version": "0.11.0",
+      "description": "Browser and physical mobile automation with persistent session views. Adds structured scroll-target and screenshot-argument recovery, opt-in bounded observations without duplicate target/image metadata, and early live-view handoff guidance validated with DeepSeek through OpenCode Go.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.10.0/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.10.0/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.10.0/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.11.0/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.11.0/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.11.0/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -736,7 +736,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-11-13T11:28:50Z"
+      "updated_at": "2026-11-13T15:03:49Z"
     },
     {
       "name": "screenshots",
