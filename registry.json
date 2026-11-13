@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-13T11:28:50Z",
+  "updated_at": "2026-11-13T13:12:31Z",
   "apps": [
     {
       "name": "mobile",
@@ -2613,12 +2613,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.26.0",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with attachments, durable retries, approvals, localization, Telegram routing, agent widgets, and queue-first follow-ups. v0.26.0 keeps app cards visible in resizable side panels or floating views and reuses one mounted view per resource as conversations continue.",
+      "version": "0.26.1",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.26.1 prevents reused provider tool-call IDs from blocking new replies, reports, alerts, approvals, questions and forms, while retaining scoped retry suppression and explicit idempotency keys.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.0/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.0/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.1/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.1/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
