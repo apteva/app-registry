@@ -488,8 +488,8 @@
     {
       "name": "todo",
       "display_name": "Todo",
-      "version": "0.4.14",
-      "description": "Personal todo list — human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools. v0.4.14 makes todo creation and tag updates atomic, preventing concurrent tag failures and partial writes; preserves hierarchy, timezone, and search discovery improvements.",
+      "version": "0.5.0",
+      "description": "Personal todo list — human-first counterpart to the agent mission board. Inbox / Today / Upcoming, lists (user-facing buckets), tags (cross-cutting context), priorities, due dates, snooze, and recurrence. Agent helps via natural-language quick-add, list, snooze, and complete tools. v0.5.0 adds a configurable Todo list Home widget for a list or group, with due-date or priority sorting, remaining counts, completion, quick-add, and links to the full Todo page.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/todo",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/todo/apteva.yaml",
