@@ -2,17 +2,17 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-14T11:49:19Z",
+  "updated_at": "2026-11-14T13:52:59Z",
   "apps": [
     {
       "name": "mobile",
       "display_name": "Mobile",
-      "version": "0.6.0",
-      "description": "Physical Android and iOS automation for Apteva agents and apps. Discover phones, reserve exclusive sessions, navigate websites, install and control apps, inspect screenshots and UI source, and run deterministic smoke tests with saved evidence. Android ADB and Appium backends, native iOS control on a Mac with Xcode (iPhones, iPads and Simulators, no Appium), authenticated remote runners, and a native Apteva panel. Record screens to video with markers (audio with scrcpy or iOS USB capture), export App Store previews, Play promo and social clips with validated presets, and install builds from the App Store, Play Store or TestFlight. Live view uses screenshot polling. Includes a shared persistent Keep awake option: Stay awake while charging for Android ADB, and Auto-Lock Never with timeout restoration for native iOS. Adds bounded Android UI observation during animations and verified text replacement/clearing; retains iOS/Android keep awake and recording fixes.",
+      "version": "0.7.0",
+      "description": "Physical Android and iOS automation for Apteva agents and apps. Discover phones, reserve exclusive sessions, navigate websites, install and control apps, inspect screenshots and UI source, and run deterministic smoke tests with saved evidence. Android ADB and Appium backends, native iOS control on a Mac with Xcode (iPhones, iPads and Simulators, no Appium), authenticated remote runners, and a native Apteva panel. Record screens to video with markers (audio with scrcpy or iOS USB capture), export App Store previews, Play promo and social clips with validated presets, and install builds from the App Store, Play Store or TestFlight. Live view uses screenshot polling. Includes a shared persistent Keep awake option: Stay awake while charging for Android ADB, and Auto-Lock Never with timeout restoration for native iOS. Adds bounded Android UI observation during animations and verified text replacement/clearing; retains iOS/Android keep awake and recording fixes. Adds guarded Android password entry through private stdin and accessibility ACTION_SET_TEXT, plus image-free source observation and recording exclusion. Retains recording, packaged UI, keep awake, and regular-field replacement.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/mobile/v0.6.0/mcp/mobile",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.6.0/mcp/mobile/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.6.0/mcp/mobile/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/mobile/v0.7.0/mcp/mobile",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.7.0/mcp/mobile/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/mobile/v0.7.0/mcp/mobile/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "mobile",
@@ -26,7 +26,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-11-14T11:49:19Z"
+      "updated_at": "2026-11-14T13:52:59Z"
     },
     {
       "name": "sportsbook",
@@ -52,12 +52,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.7.0",
-      "description": "Reusable browser and Mobile actors with per-operation iOS, Android and web variants. Runs pin the selected platform implementation and device before queueing, with confirmed upload receipts, guarded actions, saved contexts and structured datasets. Includes guarded iOS/Android platform variants and verified native profile-field workflows.",
+      "version": "0.8.0",
+      "description": "Reusable browser and Mobile actors with per-operation iOS, Android and web variants. Runs pin the selected platform implementation and device before queueing, with confirmed upload receipts, guarded actions, saved contexts and structured datasets. Includes guarded iOS/Android platform variants and verified native profile-field workflows. Adds private Android Instagram login using encrypted context-bound references, positive secure-input confirmation, guarded onboarding and verified account identity. Retains iOS workflows and upload receipt validation.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.7.0/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.7.0/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.7.0/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.8.0/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.8.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.8.0/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -67,7 +67,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-11-14T11:49:19Z"
+      "updated_at": "2026-11-14T13:52:59Z"
     },
     {
       "name": "agent-worlds",
@@ -722,12 +722,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.12.0",
-      "description": "Browser and physical mobile automation with persistent session views. Adds structured scroll-target and screenshot-argument recovery, opt-in bounded observations without duplicate target/image metadata, and early live-view handoff guidance validated with DeepSeek through OpenCode Go. Adds exact native app/screen/account guards for iOS and Android with verified field reads and Android replacement.",
+      "version": "0.13.0",
+      "description": "Browser and physical mobile automation with persistent session views. Adds structured scroll-target and screenshot-argument recovery, opt-in bounded observations without duplicate target/image metadata, and early live-view handoff guidance validated with DeepSeek through OpenCode Go. Adds exact native app/screen/account guards for iOS and Android with verified field reads and Android replacement. Adds guarded Android password entry using image-free observation and Mobile private stdin, with explicit verification and no input replay. Retains browser recovery, session views and regular-field read/replace support.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.12.0/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.12.0/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.12.0/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.13.0/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.13.0/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.13.0/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -736,7 +736,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-11-14T11:49:19Z"
+      "updated_at": "2026-11-14T13:52:59Z"
     },
     {
       "name": "screenshots",
