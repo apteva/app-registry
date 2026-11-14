@@ -1201,11 +1201,11 @@
     {
       "name": "social",
       "display_name": "Social",
-      "version": "0.24.12",
+      "version": "0.24.13",
       "description": "Schedule and publish across social platforms, manage comments, and compare account performance with profile, platform and date filters.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/social",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.24.12/mcp/social/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/social/v0.24.13/mcp/social/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/social/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
