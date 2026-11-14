@@ -2490,12 +2490,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.9.0",
-      "description": "Disposable test environments with deterministic fixtures, persisted named frontend/API/Auth targets, runtime URL seed references and voice simulation.",
+      "version": "0.10.0",
+      "description": "Isolated test environments with SQL-paginated compact summaries, bounded response sizes, deterministic fixtures, disposable runs, named runtime targets and voice simulation. Version 0.10.0 changes listing to a page object; upgrade Evals to 0.10.0 alongside Environments.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/environments/v0.9.0/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.9.0/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.9.0/mcp/environments/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/environments/v0.10.0/mcp/environments",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.10.0/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.10.0/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
@@ -2506,17 +2506,17 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-11-11T08:34:57Z"
+      "updated_at": "2026-11-14T07:45:28Z"
     },
     {
       "name": "evals",
       "display_name": "Evals",
-      "version": "0.9.7",
-      "description": "Behavioral evaluation with unpaused voice targets, durable cancellation, and preserved attempt and cleanup evidence.",
+      "version": "0.10.0",
+      "description": "Behavioral evaluation with paginated saved-environment selectors, on-demand carrier fixture details, unpaused voice targets, durable cancellation and preserved evidence. Version 0.10.0 requires Environments >=0.10.0 and supports its bounded summary listing contract.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/main/mcp/evals",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.7/mcp/evals/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.9.7/mcp/evals/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/evals/v0.10.0/mcp/evals",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/evals/v0.10.0/mcp/evals/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/evals/v0.10.0/mcp/evals/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "evals",
@@ -2527,7 +2527,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-09-21T14:51:02Z"
+      "updated_at": "2026-11-14T07:45:28Z"
     },
     {
       "name": "streaming",
