@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-14T09:52:21Z",
+  "updated_at": "2026-11-14T10:04:30Z",
   "apps": [
     {
       "name": "mobile",
@@ -52,12 +52,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.5.2",
-      "description": "Reusable browser and Mobile actors with confirmed upload receipts, guarded actions, saved contexts, concurrent queues and structured datasets. Missing or rejected uploads stop before publication with bounded sanitized diagnostics. Site attachment readiness remains separately verified.",
+      "version": "0.6.0",
+      "description": "Reusable browser and Mobile actors with per-operation iOS, Android and web variants. Runs pin the selected platform implementation and device before queueing, with confirmed upload receipts, guarded actions, saved contexts and structured datasets.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.5.2/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.5.2/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.5.2/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.6.0/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.6.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.6.0/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -67,7 +67,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-11-13T09:00:19Z"
+      "updated_at": "2026-11-14T10:04:30Z"
     },
     {
       "name": "agent-worlds",
