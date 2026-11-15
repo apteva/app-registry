@@ -1937,12 +1937,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.16.1",
-      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.16.1 records a tombstone when Server deletes a deployment this backend never prepared, so discarding a candidate that failed before prepare succeeds and a late prepare for it is refused. Keeps v0.16.0's confirmed native process exits and lower monitoring CPU. Existing inventory, monitoring, firewall, ingress and private deployment APIs remain available.",
+      "version": "0.17.1",
+      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.17.1 encrypts SSH credentials in a per-install AES-256-GCM vault, with a verified encrypted database snapshot and transactional migration preserving existing SSH identities, hosts, volumes and pending orders. Includes native host profiles and runtime recovery improvements.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.16.1/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.16.1/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.16.1/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.17.1/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.1/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.1/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -1960,7 +1960,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-10-28T10:49:52.018208Z"
+      "updated_at": "2026-11-15T23:15:45Z"
     },
     {
       "name": "compute",
