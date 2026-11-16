@@ -2,8 +2,30 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-16T09:38:44Z",
+  "updated_at": "2026-11-16T11:48:47Z",
   "apps": [
+    {
+      "name": "operations",
+      "display_name": "Operations",
+      "version": "0.1.0",
+      "description": "Generic operations core for any physical business: plumbers, cleaners, salons, clinics, restaurants, workshops. One work lifecycle (intake, quote, schedule, execute, bill, closed) with guards and required forms, resources (people, crews, rooms, tables, equipment, vehicles) with shifts, a scheduler that matches skills, zones and capacity to free resources and scores travel and wait, a pricing engine with flat, hourly, tiered and formula rates plus owner approval limits, validated forms and checklists, and recurring work that generates and books itself. Business packs set it up per trade; plumber, salon and restaurant ship built in. Optional CRM and Billing links.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/operations",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/operations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/operations/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "operations",
+        "scheduling",
+        "field-service",
+        "appointments",
+        "reservations",
+        "work-orders"
+      ],
+      "official": true,
+      "category": "productivity",
+      "updated_at": "2026-11-16T11:48:47Z"
+    },
     {
       "name": "places",
       "display_name": "Places",
