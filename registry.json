@@ -1764,12 +1764,12 @@
     {
       "name": "community",
       "display_name": "Community",
-      "version": "0.16.0",
-      "description": "Community and course storefront with optional Checkout order bumps, one payment for courses and add-ons, independent course delivery and refunds, membership renewal pricing, and verified member accounts.",
+      "version": "0.17.0",
+      "description": "Community and course storefront with interactive lessons (sandboxed simulations, code playgrounds and board scenes that save learner state and complete lessons on goals), optional Checkout order bumps, one payment for courses and add-ons, membership renewal pricing, and verified member accounts.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/community/v0.16.0/mcp/community",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/community/v0.16.0/mcp/community/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/community/v0.16.0/mcp/community/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/community/v0.17.0/mcp/community",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/community/v0.17.0/mcp/community/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/community/v0.17.0/mcp/community/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "community",
@@ -1780,7 +1780,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-10-28T13:05:58Z"
+      "updated_at": "2026-11-16T11:17:11Z"
     },
     {
       "name": "bills",
