@@ -7,8 +7,8 @@
     {
       "name": "operations",
       "display_name": "Operations",
-      "version": "0.2.0",
-      "description": "Generic operations core for any physical business: plumbers, cleaners, salons, clinics, restaurants, workshops. One work lifecycle (intake, quote, schedule, execute, bill, closed) with guards and required forms, resources (people, crews, rooms, tables, equipment, vehicles) with shifts, a scheduler that matches skills, zones and capacity to free resources and scores travel and wait, a pricing engine with flat, hourly, tiered and formula rates plus owner approval limits, validated forms and checklists, and recurring work that generates and books itself. Run several brands on shared staff and equipment, each with its own name, prices, policies and job numbers. Business packs set it up per trade; plumber, cleaning, salon and restaurant ship built in. Optional CRM and Billing links.",
+      "version": "0.3.1",
+      "description": "Generic operations core for any physical business: plumbers, cleaners, salons, clinics, restaurants, workshops. One work lifecycle (intake, quote, schedule, execute, bill, closed) with guards and required forms, resources (people, crews, rooms, tables, equipment, vehicles) with shifts, a scheduler that matches skills, zones and capacity to free resources and scores travel and wait, a pricing engine with flat, hourly, tiered and formula rates plus owner approval limits, validated forms and checklists, and recurring work that generates and books itself. Run several brands on shared staff and equipment, each with its own name, prices, policies and job numbers. Business packs set it up per trade; plumber, cleaning, salon and restaurant ship built in. A dashboard panel shows the board, the day agenda, resources and setup, and runs each job from quote to payment. Optional CRM and Billing links.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/operations",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/operations/apteva.yaml",
@@ -24,7 +24,7 @@
       ],
       "official": true,
       "category": "productivity",
-      "updated_at": "2026-11-16T14:02:26Z"
+      "updated_at": "2026-11-16T16:00:00Z"
     },
     {
       "name": "places",
