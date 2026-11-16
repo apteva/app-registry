@@ -2341,12 +2341,12 @@
     {
       "name": "auth",
       "display_name": "Auth",
-      "version": "0.13.0",
-      "description": "Organization-scoped authentication with EdDSA sessions, refresh rotation, recovery, RBAC and role-bound platform tokens. v0.13.0 adds private bearer-session verification for bound apps, with live permissions, verified expiry, and separate service errors. Existing sessions remain valid.",
+      "version": "0.14.0",
+      "description": "Organization-scoped authentication with EdDSA sessions, refresh rotation, recovery, RBAC, role-bound platform tokens and private bearer-session verification. v0.14.0 uses the platform-signed client IP for audit and rate limits, records who performed each audited action, stops marking unverified signups as verified, caps access tokens at one hour, encrypts signing keys at rest, and adds user containment and signup abuse limits. Existing sessions remain valid.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/auth",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/auth/v0.13.0/mcp/auth/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/auth/v0.13.0/mcp/auth/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/auth/v0.14.0/mcp/auth/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/auth/v0.14.0/mcp/auth/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "auth",
@@ -2358,7 +2358,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-11-09T19:16:01Z"
+      "updated_at": "2026-11-16T11:01:36Z"
     },
     {
       "name": "games",
