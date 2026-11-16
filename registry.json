@@ -2,8 +2,29 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-14T14:05:39Z",
+  "updated_at": "2026-11-16T09:38:44Z",
   "apps": [
+    {
+      "name": "places",
+      "display_name": "Places",
+      "version": "0.1.0",
+      "description": "Personal map of places to try and places you loved: restaurants, cafés, bars, hotels, museums, beaches, viewpoints and shops. Save a place from a name, a Google Maps link or coordinates and Places fills in address, location and contact details (Google Places when connected, OpenStreetMap otherwise). Tag places, group them into lists, log visits with who you went with, what you ordered or which room you had, and rate them. Agents can answer questions like where to eat nearby that you haven't tried yet. Imports Google Takeout saved places, exports GeoJSON and CSV.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/places",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/places/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/places/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "places",
+        "maps",
+        "restaurants",
+        "travel",
+        "personal"
+      ],
+      "official": true,
+      "category": "personal",
+      "updated_at": "2026-11-16T09:38:44Z"
+    },
     {
       "name": "mobile",
       "display_name": "Mobile",
