@@ -2656,12 +2656,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.26.2",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.26.2 opens web links in a new tab across chats and report sections, preserving the conversation and draft with safe link attributes.",
+      "version": "0.26.3",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.26.3 aligns numbered and bulleted list markers with the surrounding message text in every font.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.2/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.2/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.3/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.26.3/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
