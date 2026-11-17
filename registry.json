@@ -1388,12 +1388,12 @@
     {
       "name": "deploy",
       "display_name": "Deploy",
-      "version": "0.31.0",
+      "version": "0.32.0",
       "description": "Build and release services, mobile apps and arbitrary artifacts with retained attestations and optional candidate-specific Tests gates.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/deploy",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/deploy/v0.31.0/mcp/deploy/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/deploy/v0.31.0/mcp/deploy/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/deploy/v0.32.0/mcp/deploy/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/deploy/v0.32.0/mcp/deploy/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "deploy",
