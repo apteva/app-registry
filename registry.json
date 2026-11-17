@@ -867,11 +867,11 @@
     {
       "name": "storage",
       "display_name": "Storage",
-      "version": "0.13.0",
-      "description": "v0.13.0 adds files_read for agent image inspection, rendered PDF pages, DOCX body text and paginated UTF-8 text, using native MCP content through SDK v0.106.0. Reads preserve private visibility and existing app-to-app byte APIs. File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.9 releases pending-upload quota atomically on completion, repairs stale reservations on replay, startup, periodic sweeps and new upload admission, and logs and durably retries cleanup failures. Saved files and genuine unfinished uploads are preserved. Includes asynchronous whole-file SHA-256 verification and repair from v0.12.8, plus live upload progress, speed and ETA.",
+      "version": "0.14.0",
+      "description": "v0.14.0 adds an ordered file change feed (GET /files/changes, written in the same transaction as each file write, with delete tombstones) and id-cursor discovery listing, so inventory consumers stop re-listing whole projects. v0.13.0 adds files_read for agent image inspection, rendered PDF pages, DOCX body text and paginated UTF-8 text, using native MCP content through SDK v0.106.0. Reads preserve private visibility and existing app-to-app byte APIs. File storage with virtual folders, scoped sharing, and local or S3-compatible backends. Supports AWS S3, Cloudflare R2, Backblaze B2, Hetzner, Scaleway, and Vultr Object Storage. v0.12.9 releases pending-upload quota atomically on completion, repairs stale reservations on replay, startup, periodic sweeps and new upload admission, and logs and durably retries cleanup failures. Saved files and genuine unfinished uploads are preserved. Includes asynchronous whole-file SHA-256 verification and repair from v0.12.8, plus live upload progress, speed and ETA.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/storage",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.13.0/mcp/storage/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/storage/v0.14.0/mcp/storage/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/storage/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
@@ -1009,12 +1009,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.15.8",
-      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.15.8 keeps capacity-constrained renders under the same ID and a persisted overall deadline, with queue and lease diagnostics. Sample-accurate audio redaction preserves source presentation extents without loudness normalization, retaining strict audio/video validation. Per-request transcription settings remain supported.",
+      "version": "0.16.0",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.16.0 indexes incrementally: a durable queue fed by the Storage change feed replaces the full-inventory scan on every indexer run, with a bounded, persisted reconciliation sweep; media rows are deleted only on a tombstone or explicit 404. Works with older Storage via events. v0.15.8 keeps capacity-constrained renders under the same ID and a persisted overall deadline, with queue and lease diagnostics. Sample-accurate audio redaction preserves source presentation extents without loudness normalization, retaining strict audio/video validation. Per-request transcription settings remain supported.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.15.8/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.8/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.15.8/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.16.0/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.16.0/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.16.0/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
