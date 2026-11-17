@@ -197,12 +197,12 @@
     {
       "name": "tests",
       "display_name": "Tests",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "description": "Browser and backend scenarios against isolated runtimes or live deployments, project credentials and shared sign-in sessions, structured assertions, masked evidence and candidate-specific release verdicts. Version 0.5.0 adds suite targets and generated environments; generated environments need Environments 0.11.0.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/tests/v0.6.0/mcp/tests",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.6.0/mcp/tests/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.6.0/mcp/tests/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/tests/v0.7.0/mcp/tests",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.7.0/mcp/tests/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.7.0/mcp/tests/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "tests",
@@ -213,7 +213,7 @@
       ],
       "official": true,
       "category": "tools",
-      "updated_at": "2026-11-17T15:00:00Z"
+      "updated_at": "2026-11-17T18:00:00Z"
     },
     {
       "name": "neural",
