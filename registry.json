@@ -1980,12 +1980,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.17.1",
-      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.17.1 encrypts SSH credentials in a per-install AES-256-GCM vault, with a verified encrypted database snapshot and transactional migration preserving existing SSH identities, hosts, volumes and pending orders. Includes native host profiles and runtime recovery improvements.",
+      "version": "0.17.2",
+      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.17.2 stops rescanning incident history on every monitoring flush: retained incident detail bytes are tracked by database counters and only the oldest details are evicted when a budget is exceeded. Keeps v0.17.1 encrypted SSH credential storage, native host profiles and runtime recovery improvements.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.17.1/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.1/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.1/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.17.2/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.2/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.2/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -2003,7 +2003,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-15T23:15:45Z"
+      "updated_at": "2026-11-17T07:22:14Z"
     },
     {
       "name": "compute",
