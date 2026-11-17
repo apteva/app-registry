@@ -726,11 +726,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.27",
-      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.27 replies to the selected or latest inbound email using Messaging send_message(reply_to_message_id), preserving automatic addressing, RFC/Gmail threading and supported ticket identifiers. Pins the activity across routing, dispatch and deduplication; saved reply drafts retain their selected message. Rejects foreign, missing or mismatched Messaging anchors. Explicit sender/subject overrides and legacy history use the selected RFC ID and top-level references. Requires Messaging 0.15.0+. Preserves phone-channel switches, drafts, delivery reconciliation, unsubscribe, attributes and stable inbox selection. No migrations or historical-message repair.",
+      "version": "0.9.28",
+      "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.28 keeps one conversation per automated email sender: bounces, DMARC reports and service notifications join the sender's latest email conversation instead of opening one per message, and multipart/report delivery reports are always classified automated. Human threading unchanged. Keeps 0.9.27's selected inbound reply anchors (requires Messaging 0.15.0+). No migrations.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.27/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.28/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
