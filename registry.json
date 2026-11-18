@@ -1980,12 +1980,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.18.0",
-      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.18.0 manages Macs and machines behind a router: one registration command sets up Linux or macOS, reverse tunnels connect machines with no inbound access through a restricted SSH tunnel (no public port), and instances report online status with connected/disconnected events. Keeps v0.17.x encrypted SSH credentials and counter-based incident budgets.",
+      "version": "0.19.0",
+      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.19.0 adds public SSH for reverse-tunnel machines: Instances proxies a public port to the tunnel after making the machine key-only, with source, connection and rate limits. Removing a machine returns a cleanup command, host keys can be checked against printed fingerprints, and several tunnel fixes. Keeps v0.18.0 Mac support, reverse tunnels and online status.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.18.0/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.18.0/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.18.0/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.19.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.19.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.19.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -2003,7 +2003,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-18T08:38:25Z"
+      "updated_at": "2026-11-18T10:34:56Z"
     },
     {
       "name": "compute",
