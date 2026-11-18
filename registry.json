@@ -1646,8 +1646,8 @@
     {
       "name": "entitlements",
       "display_name": "Entitlements",
-      "version": "0.2.2",
-      "description": "Shared access-control and usage layer. Grants, revokes, checks, and meters access for SaaS plans, courses, memberships, digital downloads, paid content, manual grants, trials, promos, and usage quotas. v0.2.2 adds Entitlements's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.3.0",
+      "description": "Shared access-control and usage layer. Grants, revokes, checks, and meters access for SaaS plans, courses, memberships, digital downloads, paid content, manual grants, trials, promos, and usage quotas. v0.3.0 adds a generic prepaid credit ledger.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/entitlements",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/entitlements/apteva.yaml",
