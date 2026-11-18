@@ -1980,12 +1980,12 @@
     {
       "name": "instances",
       "display_name": "Instances",
-      "version": "0.17.2",
-      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.17.2 stops rescanning incident history on every monitoring flush: retained incident detail bytes are tracked by database counters and only the oldest details are evicted when a budget is exceeded. Keeps v0.17.1 encrypted SSH credential storage, native host profiles and runtime recovery improvements.",
+      "version": "0.18.0",
+      "description": "Compute-host inventory, lifecycle and Server-managed deployments. v0.18.0 manages Macs and machines behind a router: one registration command sets up Linux or macOS, reverse tunnels connect machines with no inbound access through a restricted SSH tunnel (no public port), and instances report online status with connected/disconnected events. Keeps v0.17.x encrypted SSH credentials and counter-based incident budgets.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/instances/v0.17.2/mcp/instances",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.2/mcp/instances/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.17.2/mcp/instances/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/instances/v0.18.0/mcp/instances",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/instances/v0.18.0/mcp/instances/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/instances/v0.18.0/mcp/instances/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "compute",
@@ -2003,7 +2003,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-17T07:22:14Z"
+      "updated_at": "2026-11-18T08:38:25Z"
     },
     {
       "name": "compute",
