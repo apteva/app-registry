@@ -2715,6 +2715,28 @@
       "official": true,
       "category": "productivity",
       "updated_at": "2026-11-07T09:10:01Z"
+    },
+    {
+      "name": "credits",
+      "display_name": "Credits",
+      "version": "0.1.0",
+      "description": "Prepaid credit wallets. One wallet per subject and unit (usd in micro-units, minutes, points, tokens); credit arrives in lots with their own expiry and spend priority; operations reserve a hold, then commit or release it; every change is an append-only ledger entry. Optional spending caps per wallet or scope. Paid top-ups go through Billing, and purchase credit exists only once the invoice is paid.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/credits",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/credits/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/credits/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "credits",
+        "wallet",
+        "prepaid",
+        "balance",
+        "usage",
+        "billing"
+      ],
+      "official": true,
+      "category": "finance",
+      "updated_at": "2026-11-18T15:30:00Z"
     }
   ]
 }
