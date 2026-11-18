@@ -377,8 +377,8 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.10.1",
-      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, usage, and integration-backed managed instance fulfillment for Apteva apps. v0.10.1 fixes managed grant revocation, fulfillment idempotency, delayed payment events, durable billing recovery, plan-change scheduling, usage freshness, account pagination, and fulfillment history cleanup performance.",
+      "version": "0.11.0",
+      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, usage, and integration-backed managed instance fulfillment for Apteva apps. v0.11.0 adds prepaid credit-pack checkouts: one-time metered Catalog prices, credits granted to the Entitlements ledger only after payment, plus credit balance and transaction tools.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/apteva.yaml",
