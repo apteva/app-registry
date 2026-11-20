@@ -2410,12 +2410,12 @@
     {
       "name": "market-intel",
       "display_name": "Market Intelligence",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Generic temporal intelligence platform with market and trading domain packs. Records source-attributed evidence, supports date-aware and point-in-time search, and exposes reproducible analysis and backtesting primitives. The market pack provides cross-source prediction-market, sports, macro, news, crypto, and signal intelligence.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.4.0/mcp/market-intel",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.0/mcp/market-intel/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.0/mcp/market-intel/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/market-intel/v0.4.1/mcp/market-intel",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.1/mcp/market-intel/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/market-intel/v0.4.1/mcp/market-intel/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "trading",
@@ -2426,6 +2426,27 @@
         "macro",
         "signals",
         "gateway"
+      ]
+    },
+    {
+      "name": "intelligence",
+      "display_name": "Intelligence",
+      "version": "0.5.0",
+      "description": "A continuously updated, source-attributed model of part of the world. Connectors ingest prediction markets, news (GDELT and bound news APIs) and BLS/FRED series as evidence with ingestion times; a typed world model keeps observed, reported and assumed relationships apart; forecasts on market and manual questions are recorded before outcomes, replayable, and scored against the market in a calibration ledger; scenarios propagate explicit shocks as labelled hypotheticals. Successor to Market Intelligence, whose market and signal tools it keeps.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/intelligence/v0.5.0/mcp/intelligence",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/intelligence/v0.5.0/mcp/intelligence/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/intelligence/v0.5.0/mcp/intelligence/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "intelligence",
+        "forecasting",
+        "world-model",
+        "scenarios",
+        "evidence",
+        "prediction-markets",
+        "macro",
+        "news"
       ]
     },
     {
