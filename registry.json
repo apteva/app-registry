@@ -1009,12 +1009,12 @@
     {
       "name": "media",
       "display_name": "Media",
-      "version": "0.16.1",
-      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.16.1 backs off retries of failed files (1 min doubling to 6 h) instead of retrying every indexer run. v0.16.0 indexes incrementally: a durable queue fed by the Storage change feed replaces the full-inventory scan on every indexer run, with a bounded, persisted reconciliation sweep; media rows are deleted only on a tombstone or explicit 404. Works with older Storage via events. v0.15.8 keeps capacity-constrained renders under the same ID and a persisted overall deadline, with queue and lease diagnostics. Sample-accurate audio redaction preserves source presentation extents without loudness normalization, retaining strict audio/video validation. Per-request transcription settings remain supported.",
+      "version": "0.17.0",
+      "description": "Media catalog, native Smart Crop, analysis and validated rendering. v0.17.0 adds local transcription with Parakeet TDT 0.6B v3 (int8, CPU) as an alternative to Deepgram: transcribe_engine=parakeet|auto or a per-request parakeet model, on the media executor or Media's host, with word timings and confidence; runtime and hash-pinned model are provisioned on first use. v0.16.1 backs off retries of failed files (1 min doubling to 6 h) instead of retrying every indexer run. v0.16.0 indexes incrementally: a durable queue fed by the Storage change feed replaces the full-inventory scan on every indexer run, with a bounded, persisted reconciliation sweep; media rows are deleted only on a tombstone or explicit 404. Works with older Storage via events. v0.15.8 keeps capacity-constrained renders under the same ID and a persisted overall deadline, with queue and lease diagnostics. Sample-accurate audio redaction preserves source presentation extents without loudness normalization, retaining strict audio/video validation. Per-request transcription settings remain supported.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/media/v0.16.1/mcp/media",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.16.1/mcp/media/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.16.1/mcp/media/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/media/v0.17.0/mcp/media",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/media/v0.17.0/mcp/media/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/media/v0.17.0/mcp/media/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "media",
