@@ -2555,12 +2555,12 @@
     {
       "name": "environments",
       "display_name": "Environments",
-      "version": "0.12.0",
-      "description": "Isolated test environments with simulated integrations (trigger provider events, assert on provider state and webhook deliveries), SQL-paginated compact summaries, bounded response sizes, deterministic fixtures, disposable runs, named runtime targets and voice simulation. Version 0.10.0 changes listing to a page object; upgrade Evals to 0.10.0 alongside Environments.",
+      "version": "0.13.0",
+      "description": "Isolated test environments with per-app settings for app copies, run agents that seeds can reference, simulated integrations (trigger provider events, assert on provider state and webhook deliveries), SQL-paginated compact summaries, bounded response sizes, deterministic fixtures, disposable runs, named runtime targets and voice simulation. Version 0.10.0 changes listing to a page object; upgrade Evals to 0.10.0 alongside Environments.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/environments/v0.12.0/mcp/environments",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.12.0/mcp/environments/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.12.0/mcp/environments/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/environments/v0.13.0/mcp/environments",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/environments/v0.13.0/mcp/environments/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/environments/v0.13.0/mcp/environments/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "environments",
@@ -2571,7 +2571,7 @@
       ],
       "official": true,
       "category": "developer",
-      "updated_at": "2026-11-19T12:00:00Z"
+      "updated_at": "2026-11-21T12:00:00Z"
     },
     {
       "name": "evals",
