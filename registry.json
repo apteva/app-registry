@@ -197,12 +197,12 @@
     {
       "name": "tests",
       "display_name": "Tests",
-      "version": "0.9.0",
-      "description": "Browser and backend scenarios against isolated runtimes or live deployments, project credentials and shared sign-in sessions, structured assertions, masked evidence and candidate-specific release verdicts. Version 0.8.0 adds code checks: the project's own tests on a candidate's exact source in Workspaces 0.8.0 test workspaces, with per-case history, quarantine and release-blocking verdicts (source from Deploy 0.33.0). Version 0.9.0 adds integration_trigger and integration_state steps against simulated providers (Environments 0.12.0). Generated environments need Environments 0.11.0.",
+      "version": "0.10.0",
+      "description": "Browser and backend scenarios against isolated runtimes or live deployments, project credentials and shared sign-in sessions, structured assertions, masked evidence and candidate-specific release verdicts. Version 0.8.0 adds code checks: the project's own tests on a candidate's exact source in Workspaces 0.8.0 test workspaces, with per-case history, quarantine and release-blocking verdicts (source from Deploy 0.33.0). Version 0.9.0 adds integration_trigger and integration_state steps against simulated providers (Environments 0.12.0). Version 0.10.0 runs apps the project has not installed (apps_by_name, Environments 0.14.0) and sets their settings (app_config, Environments 0.13.0), so a suite can test Telephony against a simulated Telnyx with no carrier key. Generated environments need Environments 0.11.0.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/tests/v0.9.0/mcp/tests",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.9.0/mcp/tests/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.9.0/mcp/tests/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/tests/v0.10.0/mcp/tests",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/tests/v0.10.0/mcp/tests/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/tests/v0.10.0/mcp/tests/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "tests",
