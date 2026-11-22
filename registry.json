@@ -377,8 +377,8 @@
     {
       "name": "saas",
       "display_name": "SaaS",
-      "version": "0.12.0",
-      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, usage, and integration-backed managed instance fulfillment for Apteva apps. v0.12.0 adds prepaid plans: accounts run on a Credits wallet instead of a subscription, plan meters price usage from Catalog metered prices, an admission hook holds and settles credit per request, and account API keys are issued through LLM.",
+      "version": "0.12.1",
+      "description": "Shared SaaS product orchestration, checkout, access, lifecycle, usage, and integration-backed managed instance fulfillment for Apteva apps. v0.12.0 adds prepaid plans: accounts run on a Credits wallet instead of a subscription, plan meters price usage from Catalog metered prices, an admission hook holds and settles credit per request, and account API keys are issued through LLM. v0.12.1 cancels the linked subscription when an account is cancelled, retries failed cancels, and never bills a renewal for a cancelled account.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/saas",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/saas/apteva.yaml",
