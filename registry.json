@@ -2,7 +2,7 @@
   "schema": "apteva-registry/v1",
   "name": "Apteva Apps",
   "description": "Curated registry of Apteva Apps. Each entry points at a manifest URL the platform can fetch + install.",
-  "updated_at": "2026-11-20T08:37:05Z",
+  "updated_at": "2026-11-22T09:30:00Z",
   "apps": [
     {
       "name": "operations",
@@ -2758,6 +2758,27 @@
       "official": true,
       "category": "finance",
       "updated_at": "2026-11-18T15:30:00Z"
+    },
+    {
+      "name": "security-scanner",
+      "display_name": "Security Scanner",
+      "version": "0.1.0",
+      "description": "Network exposure scanning for systems you own or are authorised to test: host discovery, TCP port scans, DNS/NTP/SNMP checks, service and version fingerprinting, CVE matching (NVD, CISA KEV, EPSS) and exposure rules, with findings summarised by severity. Scans only targets on a project allowlist that people edit in the panel; detection only, rate limited.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/security-scanner/v0.1.0/mcp/security-scanner",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/security-scanner/v0.1.0/mcp/security-scanner/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/security-scanner/v0.1.0/mcp/security-scanner/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "security",
+        "scanning",
+        "vulnerabilities",
+        "ports",
+        "network"
+      ],
+      "official": true,
+      "category": "infrastructure",
+      "updated_at": "2026-11-22T09:30:00Z"
     }
   ]
 }
