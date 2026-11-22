@@ -1691,8 +1691,8 @@
     {
       "name": "subscriptions",
       "display_name": "Subscriptions",
-      "version": "0.9.1",
-      "description": "Recurring-commerce lifecycle for SaaS, physical subscriptions, memberships, and services, including metered usage, discounts, item-change history, trial conversion, renewals, and money-bearing events. v0.9.1 hardens scheduled cancellation, concurrent updates, cycle idempotency, monetary and HTTP validation, durable lifecycle delivery, global scheduling, and indexed pagination while preserving existing tools and UI.",
+      "version": "0.9.2",
+      "description": "Recurring-commerce lifecycle for SaaS, physical subscriptions, memberships, and services, including metered usage, discounts, item-change history, trial conversion, renewals, and money-bearing events. v0.9.1 hardens scheduled cancellation, concurrent updates, cycle idempotency, monetary and HTTP validation, durable lifecycle delivery, global scheduling, and indexed pagination while preserving existing tools and UI. v0.9.2 restores paid SaaS checkouts by allowing the first checkout cycle on an unpaid past_due subscription.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/subscriptions",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/subscriptions/apteva.yaml",
