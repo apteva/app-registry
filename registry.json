@@ -928,12 +928,12 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.20.0",
-      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm worker reuse, streaming, public Function URLs, trusted authenticated invocations, and performance diagnostics. v1.20.0 keeps functions, versions and invocation history with unchanged ids when a runtime is restored from a snapshot; invocation policies follow the callers' restored installations. v1.19.0 reuses healthy workers across authenticated and ordinary requests for newly created functions. Existing functions keep their previous isolation policy until explicitly changed. Proactive prewarming is off by default and configurable per function. Requires Apteva 0.50.2+; custom Page widgets require 0.82.1+. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
+      "version": "1.21.0",
+      "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm worker reuse, streaming, public Function URLs, trusted authenticated invocations, and performance diagnostics. v1.21.0 lets Node functions pin a cross-app call to one installation with context.call(app, tool, input, { install_id }) when a project has several installs of the same app. v1.20.0 keeps functions, versions and invocation history with unchanged ids when a runtime is restored from a snapshot; invocation policies follow the callers' restored installations. v1.19.0 reuses healthy workers across authenticated and ordinary requests for newly created functions. Existing functions keep their previous isolation policy until explicitly changed. Proactive prewarming is off by default and configurable per function. Requires Apteva 0.50.2+; custom Page widgets require 0.82.1+. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.20.0/mcp/functions/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.20.0/mcp/functions/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.21.0/mcp/functions/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.21.0/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "functions",
@@ -944,7 +944,7 @@
       ],
       "official": true,
       "category": "infrastructure",
-      "updated_at": "2026-11-21T12:00:00Z"
+      "updated_at": "2026-11-22T20:00:00Z"
     },
     {
       "name": "workflows",
