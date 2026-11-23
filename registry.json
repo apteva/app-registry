@@ -2678,12 +2678,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.27.5",
-      "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.27 lets an agent's main thread answer its first operator chat, has chat threads pace themselves and report back to main, stops deleted conversations' threads, and puts idle chat threads to sleep. v0.27.4 lets agents without a project, such as the Apteva Helper, reply in conversations they were added to, and clears Thinking when a turn ends without a reply. v0.27.5 tells agents not to repeat numbers inside numbered lists.",
+      "version": "0.27.6",
+      "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.27 lets an agent's main thread answer its first operator chat, has chat threads pace themselves and report back to main, stops deleted conversations' threads, and puts idle chat threads to sleep. v0.27.4 lets agents without a project, such as the Apteva Helper, reply in conversations they were added to, and clears Thinking when a turn ends without a reply. v0.27.6 shows list items' own numbers as written (\"• 01. Define\" no longer becomes \"• 1.\") and tells agents not to repeat numbers inside numbered lists.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.27.5/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.27.5/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.27.6/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.27.6/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
