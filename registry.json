@@ -328,12 +328,12 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "description": "Generic API gateway with project-scoped routing, CORS, DNS, AppBus invalidations, immutable configurations, stages, and attributed API credentials. v0.13.0 keeps APIs, routes, keys, configurations and stages when a runtime is restored from a snapshot. v0.12.0 adds opt-in any_of authentication so one route accepts either a bearer session or a scoped API key. Credential carriers select one verifier; ambiguous requests fail closed. HTTP and MCP authorizers, verified claims, expiration, revocation, and API-key usage plans remain supported. Authenticated Function routes require Functions 1.14.1+ and configured trusted callers.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/api/v0.13.0/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.14.0/mcp/api/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/api/v0.14.0/mcp/api/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.15.0/mcp/api/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/api/v0.15.0/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "api",
@@ -928,12 +928,12 @@
     {
       "name": "functions",
       "display_name": "Functions",
-      "version": "1.22.0",
+      "version": "1.23.0",
       "description": "Lambda-style serverless Node.js and Go functions with immutable deployments, warm worker reuse, streaming, public Function URLs, trusted authenticated invocations, and performance diagnostics. v1.21.0 lets Node functions pin a cross-app call to one installation with context.call(app, tool, input, { install_id }) when a project has several installs of the same app. v1.20.0 keeps functions, versions and invocation history with unchanged ids when a runtime is restored from a snapshot; invocation policies follow the callers' restored installations. v1.19.0 reuses healthy workers across authenticated and ordinary requests for newly created functions. Existing functions keep their previous isolation policy until explicitly changed. Proactive prewarming is off by default and configurable per function. Requires Apteva 0.50.2+; custom Page widgets require 0.82.1+. Linux requires delegated cgroup v2 and Landlock ABI 6 (Linux 6.12+).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/functions",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.22.0/mcp/functions/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.22.0/mcp/functions/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/functions/v1.23.0/mcp/functions/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/functions/v1.23.0/mcp/functions/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "functions",
@@ -949,7 +949,7 @@
     {
       "name": "workflows",
       "display_name": "Workflows",
-      "version": "0.5.0",
+      "version": "0.5.2",
       "description": "Deterministic, on-demand pipelines. A workflow is a YAML/JSON graph of typed steps (http, function, app, integration, emit, branch) with goto-style branching and per-step retry. Triggered by HTTP, manual invocation, or another app's events (the sidecar opens one multiplexed SSE subscription per (source, project) lane); integration steps reach any in-project connection (Pushover, Slack, Resend, ...) by id without operator pre-binding. Per-step audit log so every run is inspectable, retryable, replayable. Strict separation from agents: workflows never call LLMs — if a step needs judgment it sends an event to an agent and the workflow ends. v0.4.9 adds strict pre-run event predicates plus short-circuit and/or conditions for event filters and branches.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workflows",
