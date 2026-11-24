@@ -2678,12 +2678,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.29.0",
+      "version": "0.29.1",
       "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.27 lets an agent's main thread answer its first operator chat, has chat threads pace themselves and report back to main, stops deleted conversations' threads, and puts idle chat threads to sleep. v0.27.4 lets agents without a project, such as the Apteva Helper, reply in conversations they were added to, and clears Thinking when a turn ends without a reply. v0.27.6 shows list items' own numbers as written (\"• 01. Define\" no longer becomes \"• 1.\"), v0.27.7 asks agents for plain numbered lists instead of repeating numbers, and v0.27.8 keeps chats with the Apteva Helper off its shared main thread. v0.28 redesigns the composer: the draft always takes the full width on top, with + and the microphone beneath it on the left and send on the right, on phones, in the Helper dock and in narrow chats. v0.29 shows in Details which model answered each agent's last reply, and from which thread.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.29.0/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.29.0/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.29.1/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.29.1/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
