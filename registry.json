@@ -492,11 +492,11 @@
     {
       "name": "processes",
       "display_name": "Processes",
-      "version": "0.23.4",
+      "version": "0.23.5",
       "description": "Create and run company procedures. Processes ensures its coordination tools are attached before dispatch; executors also need apps required by their steps. Assignments can choose which provider their workers run on. External reviewers rate finished runs and steps with scores, reason tags and rubrics; low scores and failed runs open a review queue, and quality is tracked per procedure version and executor. v0.20 simplifies the agent protocol: each step worker gets one brief with its instructions and earlier results and reports once with an outcome, and status changes are one tool per procedure, assignment and trigger; v0.20.1 shows steps as running while their worker works; v0.20.2 has the last step's agent write the run summary again. v0.21 lets agents find which app event can start an assignment, with suggested parameter mappings. v0.21.1 ranks by app and event names rather than procedure prose. v0.22 redesigns the dashboard widget: run details open in a modal with the run summary, steps and live thoughts and tool calls; v0.22.2 shows each row's state once as a status badge. v0.23 adds a timed action list in details; v0.23.1 shows the latest tool call with its app icon and a live thinking timer on running rows; v0.23.2 names the current step and segments the progress bar by step.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/processes/v0.21.1/mcp/processes",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.23.4/mcp/processes/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/processes/v0.23.5/mcp/processes/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/processes/v0.21.1/mcp/processes/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
