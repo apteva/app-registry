@@ -2431,12 +2431,12 @@
     {
       "name": "intelligence",
       "display_name": "Intelligence",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "description": "A continuously updated, source-attributed model of part of the world. Connectors ingest prediction markets, news (GDELT and bound news APIs) and BLS/FRED series through catalog integrations as evidence with ingestion times; a typed world model keeps observed, reported and inferred relationships apart; forecasts on market and manual questions are recorded before outcomes, replayable, and scored against the market in a calibration ledger; scenarios propagate explicit shocks as labelled hypotheticals. Evaluation compares statistical and AI-assisted forecasts with simple baselines on frozen historical datasets (time-ordered, leakage-controlled, with intervals), keeps live prospective results apart, and tracks a follow-up plan for unresolved questions.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/intelligence/v0.6.0/mcp/intelligence",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/intelligence/v0.6.0/mcp/intelligence/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/intelligence/v0.6.0/mcp/intelligence/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/intelligence/v0.6.1/mcp/intelligence",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/intelligence/v0.6.1/mcp/intelligence/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/intelligence/v0.6.1/mcp/intelligence/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "intelligence",
