@@ -304,12 +304,12 @@
     {
       "name": "pcb",
       "display_name": "PCB Studio",
-      "version": "0.11.1",
+      "version": "0.11.2",
       "description": "Native, agent-first electronics design for Apteva with no external ECAD, routing, simulation, or illustration engine. v0.11 adds JLCPCB assembly files with LCSC part matching, a parts library with KiCad footprint import, mask/paste layers, PTH/NPTH drills with slots, true pad shapes, inner layers, panelization, 45-degree routing with rip-up, I2C address conflict checks, design templates, and ESP32 firmware functions. v0.10 added automatic placement, schematic capture with ERC and KiCad schematic import, fab rule profiles, pick-and-place output, stock-checked sourcing, a behavioral firmware runtime, bring-up capture, fab order tracking and a Release workspace. v0.5 added a semantic Wiring workspace for Arduino and breadboard tutorials, named part/pin connectivity, compatibility validation, physical GPIO simulation, and detailed SVG, PNG, tutorial JSON, and tutorial ZIP exports. The deterministic board editor, autorouter, simulation lab, Gerber/Excellon writers, and independent fabrication gate remain built in.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/pcb",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.11.1/mcp/pcb/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.11.1/mcp/pcb/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.11.2/mcp/pcb/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/pcb/v0.11.2/mcp/pcb/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "pcb",
