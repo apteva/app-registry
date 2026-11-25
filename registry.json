@@ -2678,12 +2678,12 @@
     {
       "name": "conversations",
       "display_name": "Conversations",
-      "version": "0.34.3",
+      "version": "0.34.4",
       "description": "Shared dashboard, exported chat, and native mobile conversations with persistent app views and durable Inbox cards. v0.27 lets an agent's main thread answer its first operator chat, has chat threads pace themselves and report back to main, stops deleted conversations' threads, and puts idle chat threads to sleep. v0.27.4 lets agents without a project, such as the Apteva Helper, reply in conversations they were added to, and clears Thinking when a turn ends without a reply. v0.27.6 shows list items' own numbers as written (\"• 01. Define\" no longer becomes \"• 1.\"), v0.27.7 asks agents for plain numbered lists instead of repeating numbers, and v0.27.8 keeps chats with the Apteva Helper off its shared main thread. v0.28 redesigns the composer: the draft always takes the full width on top, with + and the microphone beneath it on the left and send on the right, on phones, in the Helper dock and in narrow chats. v0.29 shows in Details which model answered each agent's last reply, and from which thread. v0.30 gives code blocks a header with the language, a wrap toggle and a Copy button, wraps prose blocks and collapses long ones behind \"Show all\". v0.31 has agents do work requested in a conversation themselves, in the same turn, instead of spawning helper threads for it. v0.32 shows \"Compacting conversation memory…\" with a timer while an agent compacts a long conversation, and keeps a marker afterwards, instead of a bare \"Thinking…\". v0.33 has the agent's main thread answer replies in conversations it created for its own reports, and keeps conversation threads from taking over the agent's schedules and recurring jobs.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/conversations",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.34.3/mcp/conversations/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.34.3/mcp/conversations/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.34.4/mcp/conversations/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/conversations/v0.34.4/mcp/conversations/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "chat",
