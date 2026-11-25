@@ -279,12 +279,12 @@
     {
       "name": "design",
       "display_name": "Design Studio",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "description": "Manufacturer STEP import, exact solid clearance and collision checks, purchased-component assemblies, mechanical keepouts, multi-board enclosure templates, CAD inspection, print-only part exports, and reproducible release evidence, and optional print-service quotes and approved orders (Craftcloud, Slant 3D, Shapeways, Treatstock, Sculpteo).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/design",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.10.0/mcp/design/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.10.0/mcp/design/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/design/v0.11.0/mcp/design/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/design/v0.11.0/mcp/design/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "design",
