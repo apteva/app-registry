@@ -95,12 +95,12 @@
     {
       "name": "actors",
       "display_name": "Actors",
-      "version": "0.9.0",
-      "description": "Reusable browser and Mobile actors with per-operation iOS, Android and web variants. Runs pin the selected platform implementation and device before queueing, with confirmed upload receipts, guarded actions, saved contexts and structured datasets. Includes guarded iOS/Android platform variants and verified native profile-field workflows. Adds private Android Instagram login using encrypted context-bound references, positive secure-input confirmation, guarded onboarding and verified account identity. Retains iOS workflows and upload receipt validation. Paginated reads accept next_cursor back as cursor. Android selection steps (native_select, native_scroll_to, native_checked guards) need Computer 0.15.0 and Mobile 0.8.0.",
+      "version": "0.10.0",
+      "description": "Reusable browser and Mobile actors with per-operation iOS, Android and web variants. Runs pin the selected platform implementation and device before queueing, with confirmed upload receipts, guarded actions, saved contexts and structured datasets. Includes guarded iOS/Android platform variants and verified native profile-field workflows. Adds private Android Instagram login using encrypted context-bound references, positive secure-input confirmation, guarded onboarding and verified account identity. Retains iOS workflows and upload receipt validation. Paginated reads accept next_cursor back as cursor. Android selection steps (native_select, native_scroll_to, native_checked guards) need Computer 0.15.0 and Mobile 0.8.0. A read_video_frames step saves frames of a page video at exact times or a fixed interval (Computer 0.16.0), and actors_run_frames returns them to agents as images.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/actors/v0.9.0/mcp/actors",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.9.0/mcp/actors/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.9.0/mcp/actors/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/actors/v0.10.0/mcp/actors",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/actors/v0.10.0/mcp/actors/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/actors/v0.10.0/mcp/actors/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "automation",
@@ -110,7 +110,7 @@
       ],
       "official": true,
       "category": "workflow",
-      "updated_at": "2026-11-17T12:00:00Z"
+      "updated_at": "2026-11-26T12:00:00Z"
     },
     {
       "name": "agent-worlds",
