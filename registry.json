@@ -765,12 +765,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.15.0",
-      "description": "Browser and physical mobile automation with persistent session views. Adds Android selection with Mobile 0.8.0: native_select sets a checkbox, radio or switch to an exact state and confirms it without replaying input, native_scroll_to scrolls a named list until a target is visible, native_checked guards taps on selection state, and ROW >> PART targets a part inside one row. Retains element reads, page diagnostics, masked screenshots, guarded native iOS and Android input, browser recovery and session views.",
+      "version": "0.16.0",
+      "description": "Browser and physical mobile automation with persistent session views. Adds video_frames: copies frames from a page video at exact times (at_seconds or every_seconds) and returns them as images the agent sees, even when a popup covers the player; picks the playing video, restores playback, waits out slow downloads and lists frames still loading for retry. Retains Android selection with Mobile 0.8.0, element reads, page diagnostics, masked screenshots, guarded native iOS and Android input, browser recovery and session views.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.15.0/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.15.0/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.15.0/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.16.0/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.16.0/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.16.0/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -779,7 +779,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-11-18T06:55:49Z"
+      "updated_at": "2026-11-26T10:13:53Z"
     },
     {
       "name": "screenshots",
