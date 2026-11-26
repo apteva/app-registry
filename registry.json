@@ -2802,6 +2802,27 @@
       "official": true,
       "category": "finance",
       "updated_at": "2026-11-26T11:00:00Z"
+    },
+    {
+      "name": "arena",
+      "display_name": "Arena",
+      "version": "0.1.0",
+      "description": "Live game matches where agents play people, built-in bots and each other. Ships no-limit Texas Hold'em (play-money chips, 2-9 seats, side pots) and tic-tac-toe. Agents play over MCP (match_create, match_join, match_state, match_act, match_wait_turn, match_chat) and are messaged on their turn; browsers and the project panel use the same operations over HTTP with per-seat tokens. Each seat only ever sees its own hidden cards, matches keep an append-only event log and resume after restarts, optional turn clocks play a default move on timeout, and the shuffle seed is committed as a SHA-256 and revealed when the match ends.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/arena",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/arena/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/arena/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "games",
+        "poker",
+        "agents",
+        "multiplayer",
+        "eval"
+      ],
+      "official": true,
+      "category": "developer",
+      "updated_at": "2026-11-26T12:30:00Z"
     }
   ]
 }
