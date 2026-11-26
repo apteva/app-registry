@@ -2783,8 +2783,8 @@
     {
       "name": "crypto-wallet",
       "display_name": "Crypto Wallet",
-      "version": "0.1.0",
-      "description": "On-chain wallets for your own company's funds, spent by agents under rules they cannot change. Keys are generated and held by the app, encrypted with a master key kept outside its database. Every outgoing transfer passes per-transfer and rolling 24-hour caps, a recipient allowlist and a token list before anything is signed; transfers above the approval threshold wait for a person, in the Conversations inbox or the panel. ETH and USDC on Base and Base Sepolia. Not for holding other people's money.",
+      "version": "0.1.1",
+      "description": "On-chain wallets for your own company's funds, spent by agents under rules they cannot change. Keys are generated and held by the app, encrypted with a master key kept outside its database. Every outgoing transfer passes per-transfer and rolling 24-hour caps, a recipient allowlist and a token list before anything is signed; transfers above the approval threshold wait for approval in the panel or from an agent granted approvals.decide. Per-agent access is set with grants on the app's permissions. ETH and USDC on Base and Base Sepolia. Not for holding other people's money.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crypto-wallet",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crypto-wallet/apteva.yaml",
@@ -2801,7 +2801,7 @@
       ],
       "official": true,
       "category": "finance",
-      "updated_at": "2026-11-26T10:00:00Z"
+      "updated_at": "2026-11-26T11:00:00Z"
     }
   ]
 }
