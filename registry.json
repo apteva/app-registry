@@ -2779,6 +2779,29 @@
       "official": true,
       "category": "infrastructure",
       "updated_at": "2026-11-22T11:00:00Z"
+    },
+    {
+      "name": "crypto-wallet",
+      "display_name": "Crypto Wallet",
+      "version": "0.1.0",
+      "description": "On-chain wallets for your own company's funds, spent by agents under rules they cannot change. Keys are generated and held by the app, encrypted with a master key kept outside its database. Every outgoing transfer passes per-transfer and rolling 24-hour caps, a recipient allowlist and a token list before anything is signed; transfers above the approval threshold wait for a person, in the Conversations inbox or the panel. ETH and USDC on Base and Base Sepolia. Not for holding other people's money.",
+      "author": "Apteva",
+      "repo": "https://github.com/apteva/apps/tree/main/mcp/crypto-wallet",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crypto-wallet/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crypto-wallet/ui/icon.svg",
+      "icon_style": "monochrome",
+      "tags": [
+        "crypto",
+        "wallet",
+        "usdc",
+        "base",
+        "ethereum",
+        "payments",
+        "treasury"
+      ],
+      "official": true,
+      "category": "finance",
+      "updated_at": "2026-11-26T10:00:00Z"
     }
   ]
 }
