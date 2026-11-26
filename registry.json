@@ -726,11 +726,11 @@
     {
       "name": "crm",
       "display_name": "CRM",
-      "version": "0.9.33",
+      "version": "0.10.0",
       "description": "Contacts, messaging inbox, lists, segments, and sales opportunities for Apteva agents and human teams. v0.9.32 adds email routing fields to conversation.message.received (to_address, receiving_domain, from_address, is_reply, is_auto_generated and more) so triggers can route by receiving address. v0.9.31 marks the Gmail threads of a closed email conversation as read instead of archiving them (needs Messaging 0.17.2). v0.9.30 archives the Gmail threads of an email conversation when it is closed (needs Messaging 0.17.0; best effort, the close always succeeds). v0.9.29 matches full names in contact search (\"Jordan Lee\" finds first_name Jordan + last_name Lee, either order). v0.9.28 keeps one conversation per automated email sender: bounces, DMARC reports and service notifications join the sender's latest email conversation instead of opening one per message, and multipart/report delivery reports are always classified automated. Human threading unchanged. Keeps 0.9.27's selected inbound reply anchors (requires Messaging 0.15.0+). No migrations.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/crm",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.9.33/mcp/crm/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/crm/v0.10.0/mcp/crm/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/crm/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
