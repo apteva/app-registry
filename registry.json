@@ -328,12 +328,12 @@
     {
       "name": "api",
       "display_name": "API Gateway",
-      "version": "0.16.0",
-      "description": "Generic API gateway with project-scoped routing, CORS, DNS, AppBus invalidations, immutable configurations, stages, and attributed API credentials. v0.16.0 adds WebSocket pass-through on app routes: key, scope, rate-limit and origin checks at connect, single-use tickets for browsers, per-route connection limits, instant close on key revocation, and one audit row per connection. v0.13.0 keeps APIs, routes, keys, configurations and stages when a runtime is restored from a snapshot. v0.12.0 adds opt-in any_of authentication so one route accepts either a bearer session or a scoped API key. Credential carriers select one verifier; ambiguous requests fail closed. HTTP and MCP authorizers, verified claims, expiration, revocation, and API-key usage plans remain supported. Authenticated Function routes require Functions 1.14.1+ and configured trusted callers.",
+      "version": "0.16.1",
+      "description": "Generic API gateway with project-scoped routing, CORS, DNS, AppBus invalidations, immutable configurations, stages, and attributed API credentials. v0.16.1 keeps still-screen viewers connected and shares one byte budget across both directions. v0.16.0 adds WebSocket pass-through on app routes: key, scope, rate-limit and origin checks at connect, single-use tickets for browsers, per-route connection limits, instant close on key revocation, and one audit row per connection. v0.13.0 keeps APIs, routes, keys, configurations and stages when a runtime is restored from a snapshot. v0.12.0 adds opt-in any_of authentication so one route accepts either a bearer session or a scoped API key. Credential carriers select one verifier; ambiguous requests fail closed. HTTP and MCP authorizers, verified claims, expiration, revocation, and API-key usage plans remain supported. Authenticated Function routes require Functions 1.14.1+ and configured trusted callers.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/api/v0.16.0/mcp/api",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.16.0/mcp/api/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/api/v0.16.0/mcp/api/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/api/v0.16.1/mcp/api",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/api/v0.16.1/mcp/api/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/api/v0.16.1/mcp/api/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "api",
