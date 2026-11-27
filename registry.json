@@ -550,8 +550,8 @@
     {
       "name": "notes",
       "display_name": "Notes",
-      "version": "0.1.1",
-      "description": "Simple searchable notes for Apteva agents and human teams. Capture customer ideas, meeting notes, research snippets, decisions, and follow-ups with lightweight kinds, tags, source metadata, and a practical project page. v0.1.1 adds Notes's adaptive themed icon and updates the app to the current Apteva app SDK.",
+      "version": "0.2.0",
+      "description": "Simple searchable notes for Apteva agents and human teams. Capture customer ideas, meeting notes, research snippets, decisions, and follow-ups with lightweight kinds, tags, source metadata, and a practical project page. v0.2.0 redesigns the page like Apple Notes: folders, a date-grouped list, an autosaving editor, and a phone-friendly list-to-note view.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/notes",
       "manifest_url": "https://raw.githubusercontent.com/apteva/apps/main/mcp/notes/apteva.yaml",
