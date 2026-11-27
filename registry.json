@@ -550,7 +550,7 @@
     {
       "name": "notes",
       "display_name": "Notes",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "Simple searchable notes for Apteva agents and human teams. Capture customer ideas, meeting notes, research snippets, decisions, and follow-ups in your own folders, with lightweight kinds, tags, and source metadata. Apple Notes style page: a date-grouped list, an autosaving full-width editor, and a phone-friendly list-to-note view. v0.3.0 adds folders you create yourself (agents can file notes by folder name).",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/notes",
