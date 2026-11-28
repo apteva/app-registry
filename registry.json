@@ -765,12 +765,12 @@
     {
       "name": "computer",
       "display_name": "Computer",
-      "version": "0.16.2",
-      "description": "Browser and physical mobile automation with persistent session views. upload_file failures now report how far the file got (upload_phase, site_upload_dispatched false/unknown/true) so a retry can check for an existing draft first. Retains video_frames (frames from a page video at exact times, returned as images), Android selection with Mobile 0.8.0, element reads, page diagnostics, masked screenshots, guarded native iOS and Android input, browser recovery and session views.",
+      "version": "0.17.0",
+      "description": "Browser and physical mobile automation with persistent session views. Android native_read_list reads the rows of a named list across screens (items, clickable or text, with limits and partial edge rows); native_replace accepts Unicode up to 4096 bytes with Mobile 0.11.0, and typing is confirmed on the focused field. Retains upload_file phase reporting, video_frames, Android selection with Mobile 0.8.0, element reads, page diagnostics, masked screenshots, guarded native iOS and Android input, browser recovery and session views.",
       "author": "Apteva",
-      "repo": "https://github.com/apteva/apps/tree/computer/v0.16.2/mcp/computer",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.16.2/mcp/computer/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.16.2/mcp/computer/ui/icon.svg",
+      "repo": "https://github.com/apteva/apps/tree/computer/v0.17.0/mcp/computer",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/computer/v0.17.0/mcp/computer/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/computer/v0.17.0/mcp/computer/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "browser",
@@ -779,7 +779,7 @@
       ],
       "official": true,
       "category": "ui",
-      "updated_at": "2026-11-26T11:07:20Z"
+      "updated_at": "2026-11-28T09:51:06Z"
     },
     {
       "name": "screenshots",
