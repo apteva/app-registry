@@ -2275,12 +2275,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.56",
-      "description": "Manage Meta, Google, X, Reddit and TikTok advertising through shared campaign, creative, audience and analytics tools. v0.1.56 adds TikTok Ads: advertiser discovery, campaigns, ad groups and ads with embedded creatives, image and video upload, delivery activation, daily reports, identities, and lookalike audiences. TikTok customer lists and member sync are not supported yet. TikTok requires platform v0.100.35 or newer. Business Pixel, stats and diagnostics tools require integrations catalog v0.54.7 or newer; Google custom segments retain their v0.54.3 requirement.",
+      "version": "0.1.57",
+      "description": "Manage Meta, Google, X, Reddit and TikTok advertising through shared campaign, creative, audience and analytics tools. v0.1.57 syncs leads from Meta instant forms and Google lead-form assets into Ads, with ad attribution, and into CRM as a contact and opportunity when CRM is installed; lead.received fires per new lead. v0.1.56 added TikTok Ads: advertiser discovery, campaigns, ad groups and ads with embedded creatives, image and video upload, delivery activation, daily reports, identities, and lookalike audiences. TikTok customer lists and member sync are not supported yet. TikTok requires platform v0.100.35 or newer. Business Pixel, stats and diagnostics tools require integrations catalog v0.54.7 or newer; Google custom segments retain their v0.54.3 requirement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.56/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.56/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.57/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.57/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2294,7 +2294,8 @@
         "x",
         "twitter",
         "reddit",
-        "tiktok"
+        "tiktok",
+        "leads"
       ],
       "official": true,
       "category": "marketing",
