@@ -2275,12 +2275,12 @@
     {
       "name": "ads",
       "display_name": "Ads",
-      "version": "0.1.55",
-      "description": "Manage Meta, Google, X, and Reddit advertising through shared campaign, creative, audience and analytics tools. v0.1.55 shares one persisted rate-limit cooldown per provider account across every project binding, sends nothing while it runs, stops millisecond retries, backs off failed hierarchy loads, reuses one ad set and ad snapshot across projects, and keeps passive dashboard refreshes cached. Business Pixel, stats and diagnostics tools require integrations catalog v0.54.7 or newer; Google custom segments retain their v0.54.3 requirement.",
+      "version": "0.1.56",
+      "description": "Manage Meta, Google, X, Reddit and TikTok advertising through shared campaign, creative, audience and analytics tools. v0.1.56 adds TikTok Ads: advertiser discovery, campaigns, ad groups and ads with embedded creatives, image and video upload, delivery activation, daily reports, identities, and lookalike audiences. TikTok customer lists and member sync are not supported yet. TikTok requires platform v0.100.35 or newer. Business Pixel, stats and diagnostics tools require integrations catalog v0.54.7 or newer; Google custom segments retain their v0.54.3 requirement.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/ads",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.55/mcp/ads/apteva.yaml",
-      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.55/mcp/ads/ui/icon.svg",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.56/mcp/ads/apteva.yaml",
+      "icon": "https://raw.githubusercontent.com/apteva/apps/ads/v0.1.56/mcp/ads/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
         "advertising",
@@ -2293,7 +2293,8 @@
         "google",
         "x",
         "twitter",
-        "reddit"
+        "reddit",
+        "tiktok"
       ],
       "official": true,
       "category": "marketing",
