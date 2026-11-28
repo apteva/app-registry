@@ -2050,11 +2050,11 @@
     {
       "name": "workspaces",
       "display_name": "Workspaces",
-      "version": "0.12.3",
+      "version": "0.12.4",
       "description": "Persistent development environments agents can use as their computer: lifecycle, TTL, commands, logs and source transfer, plus agent file tools (line-window read, write, list, exact-string edits with SHA-256 preconditions, archive import), a blocking command wait with cursor-based output, and HTTP previews agents can start and stop on mapped loopback ports. Apps can also create locked-down test workspaces: one hardened container with builder and runner users, per-command network, a source digest computed outside the container, results export and per-project dependency caches. Dashboard widgets: a Home overview with a compact activity feed, and an agent/thread workspace widget. Workspaces can run on Instances hosts (instance_id): commands there run one at a time and previews are reached through an Instances tunnel. Containers is optional: without it, workspaces run as sandboxed folders on the Apteva machine (local driver, on by default: Seatbelt, bubblewrap, or inside a container a separate user per workspace); with Containers 0.8.0 they run as Docker containers, and test workspaces need it. Instances is optional, for remote previews. Workspace volumes persist across commands.",
       "author": "Apteva",
       "repo": "https://github.com/apteva/apps/tree/main/mcp/workspaces",
-      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/workspaces/v0.12.3/mcp/workspaces/apteva.yaml",
+      "manifest_url": "https://raw.githubusercontent.com/apteva/apps/workspaces/v0.12.4/mcp/workspaces/apteva.yaml",
       "icon": "https://raw.githubusercontent.com/apteva/apps/main/mcp/workspaces/ui/icon.svg",
       "icon_style": "monochrome",
       "tags": [
